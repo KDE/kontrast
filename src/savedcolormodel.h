@@ -57,6 +57,8 @@ public:
      */
     virtual int rowCount(const QModelIndex &parent) const override;
     
+    Q_INVOKABLE void addColorCombination(QColor textColor, QColor backgroundColor);
+    
 private:
     QList<ColorCombination> m_colorCombinations;
 };

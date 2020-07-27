@@ -16,7 +16,7 @@ Kirigami.ScrollablePage {
     id: root
     title: i18n("Saved colors")
     ListView {
-        model: SavedColors
+        model: Kontrast.savedColors
         
         delegate: Kirigami.AbstractListItem {
             background: Rectangle {

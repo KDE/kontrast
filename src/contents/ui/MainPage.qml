@@ -30,7 +30,7 @@ Kirigami.ScrollablePage {
         }
         
         Text {
-            font.pointSize: mainPage.isMobile ? 15 : 20
+            font.pointSize: mainPage.isMobile ? 12 : 18
             font.bold: true
             Layout.fillWidth: true
             wrapMode: Text.WordWrap
@@ -178,6 +178,11 @@ Kirigami.ScrollablePage {
             QQC2.Button {
                 text: i18n("Random")
                 onClicked: Kontrast.random()
+            }
+            
+            QQC2.Button {
+                text: i18n("Random")
+                onClicked: Kontrast.savedColors.addColorCombination(Kontrast.textColor, Kontrast.backgroundColor);
             }
         }
     }

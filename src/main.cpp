@@ -22,12 +22,10 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
     
     QScopedPointer<Kontrast> kontrast(new Kontrast(aboutData));
     kontrast.get()->random();
-    QScopedPointer<SavedColorModel> savedColors(new SavedColorModel);
 
     QQmlApplicationEngine engine;
     
     qmlRegisterSingletonInstance("org.kde.kontrast.private", 1, 0, "Kontrast", kontrast.get());
-    qmlRegisterSingletonInstance("org.kde.kontrast.private", 1, 0, "SavedColors", savedColors.get());
 
     engine.rootContext()->setContextObject(new KLocalizedContext(&engine));
     engine.load(QUrl(QStringLiteral("qrc:///main.qml")));
