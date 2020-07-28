@@ -16,7 +16,7 @@ Kirigami.ScrollablePage {
     id: mainPage
     property bool isMobile: Window.width <= Kirigami.Units.gridUnit * 30
     
-    title: i18n("kontrast")
+    title: i18n("Kontrast %1", Kontrast.contrast.toFixed(2))
     background: Rectangle {
         color: Kontrast.backgroundColor
     }
@@ -37,14 +37,21 @@ Kirigami.ScrollablePage {
         Text {
             font.pointSize: 45
             font.bold: true
-            text: "Aa " + Kontrast.contrast.toFixed(2)
+            text: i18n("Contrast ratio: %1", Kontrast.contrast.toFixed(2))
+            
             color: Kontrast.textColor
             Layout.fillWidth: true
+        }
+        Text {
+            font.pointSize: mainPage.isMobile ? 12 : 18
+            font.bold: true
+            color: Kontrast.textColor
+            Layout.fillWidth: true
+            text: (Kontrast.contrast > 7 ? i18n("Perfect for normal and large text") : Kontrast.contrast > 4.5 ? i18n("Perfect for large text and good for normal text") : Kontrast.contrast > 3.0 ? i18n("Good for large text and bad for normal text") : i18n("Bad for large and normal text"))
         }
         
         Text {
             font.pointSize: mainPage.isMobile ? 12 : 18
-            font.bold: true
             Layout.fillWidth: true
             wrapMode: Text.WordWrap
             text: i18n("Contrast is the difference in luminance or color that makes an object (or its representation in an image or display) distinguishable. In visual perception of the real world, contrast is determined by the difference in the color and brightness of the object and other objects within the same field of view.")
@@ -211,7 +218,7 @@ Kirigami.ScrollablePage {
         RowLayout {
             Layout.topMargin: Kirigami.Units.gridUnit * 2
             QQC2.Button {
-                text: i18n("Reverse")
+                text: i18n("Inverse")
                 onClicked: Kontrast.reverse()
                 icon.name: "reverse"
             }
@@ -231,10 +238,7 @@ Kirigami.ScrollablePage {
             }
         }
         
-        Text { text: i_mouse.x + " " + i_mouse.y }
-        
-        
-        ShaderEffect {
+  /*      ShaderEffect {
             id: colorWheel
             height: 300
             width: 300
@@ -357,7 +361,7 @@ void main()
         gl_FragColor = u_background;
     }
 }";*/
-            MouseArea {
+           /* MouseArea {
                 anchors.fill: parent
                 onClicked: {
                     colorWheel.grabToImage(function(result) {
@@ -366,7 +370,6 @@ void main()
                         const mouse1Y = -2 * (mouseY - 0.5 * colorWheel.width) / colorWheel.height;
                         
                         const mouseLenght = Math.sqrt(Math.pow(mouse1X, 2) + Math.pow(mouse1Y, 2));
-                        console.log(mouseLenght);
                         if (mouseLenght > 0.75 && mouseLenght < 1.0) {
                             colorWheel.i_mouse.x = mouseX;
                             colorWheel.i_mouse.y = mouseY;
@@ -377,6 +380,6 @@ void main()
                     });
                 }
             }
-        }
+        }*/
     }
 }
