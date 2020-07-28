@@ -225,7 +225,9 @@ Kirigami.ScrollablePage {
             QQC2.Button {
                 text: i18n("Save color")
                 icon.name: "favorite"
-                onClicked: Kontrast.savedColors.addColor(Kontrast.textColor, Kontrast.backgroundColor);
+                onClicked: if (!ColorStore.addColor("Lorem Ipsum", Kontrast.textColor, Kontrast.backgroundColor)) {
+                    applicationWindow().showPassiveNotification(i18n("Failed to save color"))
+                }
             }
         }
     }

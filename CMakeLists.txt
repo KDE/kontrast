@@ -18,7 +18,7 @@ include(ECMGenerateHeaders)
 include(ECMPoQmTools)
 
 ################# Find dependencies #################
-find_package(Qt5 REQUIRED COMPONENTS Core Gui Qml QuickControls2 Svg)
+find_package(Qt5 REQUIRED COMPONENTS Core Gui Qml QuickControls2 Svg Sql)
 find_package(KF5 REQUIRED COMPONENTS Kirigami2 I18n CoreAddons)
 
 ################# Enable C++11 features for clang and gcc #################

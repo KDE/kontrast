@@ -1,5 +1,6 @@
 /*
  * SPDX-FileCopyrightText: (C) 2020 Carl Schwan <carl@carlschwan.eu>
+ * SPDX-FileCopyrightText: (C) 2020 Carson Black <uhhadd@gmail.com>
  * 
  * SPDX-LicenseRef: AGPL-3.0-or-later
  */
@@ -8,6 +9,8 @@
 
 #include <QAbstractListModel>
 #include <QColor>
+#include <QSqlDatabase>
+#include <QSqlQuery>
 
 struct ColorCombination {
     QColor textColor;
@@ -37,32 +40,28 @@ public:
     SavedColorModel(QObject *parent = nullptr);
 
     virtual ~SavedColorModel() override = default;
-    
+
     QHash<int, QByteArray> roleNames() const override;
 
-    /**
-     * Value of the saved colors.
-     * 
-     * @param index The index of the data.
-     * @param role The item role, can be TextColor or BackgroundColor
-     * @return The color for the given role.
-     */
     virtual QVariant data(const QModelIndex &index, int role) const override;
-
-    /**
-     * @brief Length of the saved colors.
-     *
-     * @param parent 
-     * @return The lenght of the saved colors.
-     */
     virtual int rowCount(const QModelIndex &parent) const override;
-    
-    Q_INVOKABLE void addColor(QColor textColor, QColor backgroundColor);
-    Q_INVOKABLE void removeColor(int index);
-    
+
+    Q_INVOKABLE bool addColor(const QString& name, const QColor& foreground, const QColor& background);
+    Q_INVOKABLE bool removeColor(int index);
+
+    void fetchMore(const QModelIndex &parent) override;
+    bool canFetchMore(const QModelIndex &parent) const override;
+    bool setData(const QModelIndex &item, const QVariant &value, int role = Qt::EditRole) override;
+
 private:
+    void prefetch(int count, bool reset = false);
     void saveColors();
-    
-    QList<QVariant> m_textColor;
-    QList<QVariant> m_backgroundColor;
+    void refresh();
+
+    mutable QSqlQuery m_query;
+    static const int fetch_size = 255;
+    int m_rowCount = 0;
+    int m_bottom = 0;
+    bool m_atEnd = false;
+    QSqlDatabase m_db;
 };

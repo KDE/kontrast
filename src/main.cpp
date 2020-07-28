@@ -7,11 +7,13 @@
 #include <KAboutData>
 #include <KLocalizedString>
 #include <kontrast.h>
+#include "savedcolormodel.h"
 
 Q_DECL_EXPORT int main(int argc, char *argv[])
 {
     QGuiApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
     QApplication app(argc, argv);
+    app.setApplicationName("kontrast");
     
     KAboutData aboutData("kontrast", i18n("Kontrast"), "1.0",
                          i18n("A contrast checked application"),
@@ -26,6 +28,7 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
     QQmlApplicationEngine engine;
     
     qmlRegisterSingletonInstance("org.kde.kontrast.private", 1, 0, "Kontrast", kontrast.get());
+    qmlRegisterSingletonInstance("org.kde.kontrast.private", 1, 0, "ColorStore", new SavedColorModel(qApp));
 
     engine.rootContext()->setContextObject(new KLocalizedContext(&engine));
     engine.load(QUrl(QStringLiteral("qrc:///main.qml")));
