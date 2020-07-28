@@ -8,6 +8,7 @@
 
 #include <QObject>
 #include <QColor>
+#include <QImage>
 #include <KAboutData>
 
 /**
@@ -75,6 +76,8 @@ public:
     
     Q_INVOKABLE void random();
     Q_INVOKABLE void reverse();
+    
+    Q_INVOKABLE QColor pixelAt(const QImage &image, int x, int y) const;
     
 Q_SIGNALS:
     void textColorChanged();

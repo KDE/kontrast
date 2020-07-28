@@ -203,3 +203,8 @@ KAboutData Kontrast::about() const
 {
     return m_about;
 }
+
+QColor Kontrast::pixelAt(const QImage &image, int x, int y) const
+{
+    return image.pixelColor(x, y);
+}

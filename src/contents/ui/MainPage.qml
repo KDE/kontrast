@@ -231,29 +231,107 @@ Kirigami.ScrollablePage {
             }
         }
         
+        Text { text: i_mouse.x + " " + i_mouse.y }
+        
         
         ShaderEffect {
+            id: colorWheel
             height: 300
             width: 300
-            property point u_resolution: Qt.point(width, height)
-            fragmentShader: "#ifdef GL_ES
+            property point i_resolution: Qt.point(width, height)
+            property color i_background: Kontrast.backgroundColor
+            property point i_mouse: Qt.point(-1, -1)
+            property point i_mouse2: Qt.point(-1, -1)
+            property real i_hue: Math.PI * Kontrast.textHue / 180.0
+            property color i_color: Kontrast.textColor
+            
+            fragmentShader: "
+                #define M_PI 3.1415926535897932384626433832795
+                varying highp vec2 qt_TexCoord0;
+                uniform vec2 i_resolution;
+                uniform vec2 i_mouse;
+                uniform vec2 i_mouse2;
+                uniform vec4 i_background;
+                uniform vec4 i_color;
+                uniform float i_hue;
+
+                //    0  1  2  3  4  5 
+                // R  1  1  0  0  0  1
+                // G  0  1  1  1  0  0
+                // B  0  0  0  1  1  1
+                vec3 getHueColor(vec2 pos)
+                {
+                    float theta = 3.0 + 3.0 * atan(pos.x, pos.y) / M_PI;
+                    return clamp(abs(mod(theta + vec3(0.0, 4.0, 2.0), 6.0) - 3.0) - 1.0, 0.0, 1.0);
+                }
+                
+                void main()
+                {
+                    vec2 mouse = vec2(2., -2.) * (i_mouse.xy - 0.5 * i_resolution.xy) / i_resolution.y;
+                    vec2 uv = vec2(2., -2.) * (qt_TexCoord0 - 0.5);
+                    
+                    float l = length(uv);
+                    float m = length(mouse);
+                    
+                    gl_FragColor = i_background;
+                    
+                    if (l >= 0.75 && l <= 1.0) {
+                        l = 1.0 - abs((l - 0.875) * 8.0);
+                        l = clamp(l * i_resolution.y * 0.0625, 0.0, 1.0);
+                        
+                        gl_FragColor = vec4(l * getHueColor(uv), l);
+                    } else if (l < 0.75) {
+                        if (abs(i_mouse2.x / i_resolution.x - qt_TexCoord0.x) == 0.01 && abs(i_mouse2.y / i_resolution.y - qt_TexCoord0.y) == 0.01) {
+                            gl_FragColor = vec4(1.0, 1.0, 1.0, 1.0);
+                        } else {
+                            vec3 pickedHueColor;
+                            
+                            if (m < 0.75 || m > 1.0) {
+                                mouse = vec2(0.0, -1.0);
+                                pickedHueColor = vec3(1.0, 0.0, 0.0);
+                            } else {
+                                pickedHueColor = getHueColor(mouse);
+                            }
+                            
+                            uv = uv / 0.75;
+                            mouse = normalize(mouse);
+                            
+                            float sat = 1.5 - (dot(uv, mouse) + 0.5); // [0.0,1.5]
+                            
+                            if (sat < 1.5) {
+                                float h = sat / sqrt(3.0);
+                                vec2 om = vec2(cross(vec3(mouse, 0.0), vec3(0.0, 0.0, 1.0)));
+                                float lum = dot(uv, om);
+                                
+                                if (abs(lum) <= h) {
+                                    l = clamp((h - abs(lum)) * i_resolution.y * 0.5, 0.0, 1.0) * clamp((1.5 - sat) / 1.5 * i_resolution.y * 0.5, 0.0, 1.0); // Fake antialiasing
+                                    gl_FragColor = vec4(l * mix(pickedHueColor, vec3(0.5 * (lum + h) / h), sat / 1.5), l);
+                                }
+                            }
+                        }
+                    }
+                }";
+
+            
+            /*fragmentShader: "#ifdef GL_ES
 precision mediump float;
 #endif
 
 #define TWO_PI 6.28318530718
+const float M_PI = 3.14159265359;
 
 uniform vec2 u_resolution;
+uniform vec4 u_background;
+uniform float t_lightness;
+uniform float t_hue;
+uniform float t_saturation;
+varying highp vec2 qt_TexCoord0;
+uniform lowp float qt_Opacity;
 
-//  Function from Inigo Quiles
-//  https://www.shadertoy.com/view/MsS3Wc
-vec3 hsb2rgb(in vec3 c)
+vec3 hsl2rgb(in vec3 c)
 {
-    vec3 rgb = clamp(abs(mod(c.x*6.0+vec3(0.0,4.0,2.0),
-                             6.0)-3.0)-1.0,
-                     0.0,
-                     1.0 );
-    rgb = rgb*rgb*(3.0-2.0*rgb);
-    return c.z * mix( vec3(1.0), rgb, c.y);
+    vec3 rgb = clamp(abs(mod(c.x * 6.0 + vec3(0.0, 4.0, 2.0), 6.0) - 3.0) -1.0, 0.0, 1.0);
+    return c.z + c.y * (rgb - 0.5) * (1.0 -abs(2.0 * c.z - 1.0));
 }
 
 void main()
@@ -276,9 +354,29 @@ void main()
         color = hsb2rgb(vec3((angle/TWO_PI)+0.5,radius,1.0));
         gl_FragColor = vec4(color,1.0);
     } else {
-        gl_FragColor = vec4(vec3(1.), 0.);
+        gl_FragColor = u_background;
     }
-}";
+}";*/
+            MouseArea {
+                anchors.fill: parent
+                onClicked: {
+                    colorWheel.grabToImage(function(result) {
+                        Kontrast.textColor = Kontrast.pixelAt(result.image, mouseX, mouseY);
+                        const mouse1X = 2 * (mouseX - 0.5 * colorWheel.width) / colorWheel.height;
+                        const mouse1Y = -2 * (mouseY - 0.5 * colorWheel.width) / colorWheel.height;
+                        
+                        const mouseLenght = Math.sqrt(Math.pow(mouse1X, 2) + Math.pow(mouse1Y, 2));
+                        console.log(mouseLenght);
+                        if (mouseLenght > 0.75 && mouseLenght < 1.0) {
+                            colorWheel.i_mouse.x = mouseX;
+                            colorWheel.i_mouse.y = mouseY;
+                        } else {
+                            colorWheel.i_mouse2.x = mouseX;
+                            colorWheel.i_mouse2.y = mouseY;
+                        }
+                    });
+                }
+            }
         }
     }
 }
