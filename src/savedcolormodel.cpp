@@ -7,15 +7,22 @@
 #include "savedcolormodel.h"
 
 #include <QColor>
+#include <KSharedConfig>
+#include <KConfigGroup>
 #include <QDebug>
 
 SavedColorModel::SavedColorModel(QObject *parent)
     : QAbstractListModel(parent)
 {
-    m_colorCombinations.append(ColorCombination(QColor("black"), QColor("white")));
-    m_colorCombinations.append(ColorCombination(QColor("red"), QColor("red")));
-    m_colorCombinations.append(ColorCombination(QColor("white"), QColor("red")));
-    m_colorCombinations.append(ColorCombination(QColor("yellow"), QColor("red")));
+    m_textColor.append(QColor("black"));
+    m_backgroundColor.append(QColor("white"));
+    KSharedConfigPtr config = KSharedConfig::openConfig("data", KConfig::SimpleConfig, QStandardPaths::AppDataLocation);
+    KConfigGroup generalGroup(config, "General");
+    
+    if (generalGroup.exists()) {
+        m_textColor = generalGroup.readEntry("backgroundColors", QVariantList());
+        m_backgroundColor =  generalGroup.readEntry("textColors", QVariantList());
+    }
 }
 
 QHash<int, QByteArray> SavedColorModel::roleNames() const
@@ -28,16 +35,10 @@ QHash<int, QByteArray> SavedColorModel::roleNames() const
 
 QVariant SavedColorModel::data(const QModelIndex &index, int role) const
 {
-    qDebug() << "called" << role;
-    /*if (!index.isValid()) {
-        return QVariant();
-    }*/
-    
     if (role == TextColor) {
-        return m_colorCombinations[index.row()].textColor;
+        return m_textColor[index.row()];
     } else if (role == BackgroundColor) {
-        qDebug() << m_colorCombinations[index.row()].backgroundColor;
-        return m_colorCombinations[index.row()].backgroundColor;
+        return m_backgroundColor[index.row()];
     }
     
     return QVariant();
@@ -46,13 +47,36 @@ QVariant SavedColorModel::data(const QModelIndex &index, int role) const
 int SavedColorModel::rowCount(const QModelIndex& parent) const
 {
     Q_UNUSED(parent);
-    qDebug() << "count called with " << m_colorCombinations.count();
-    return m_colorCombinations.count();
+    qDebug() << m_textColor.count();
+    return m_textColor.count();
 }
 
-void SavedColorModel::addColorCombination(QColor textColor, QColor backgroundColor)
+void SavedColorModel::addColor(QColor textColor, QColor backgroundColor)
 {
-    beginInsertRows(QModelIndex(), m_colorCombinations.count(), 0);
-    m_colorCombinations.append(ColorCombination(textColor, backgroundColor));
+    beginInsertRows(QModelIndex(), 0, 0);
+    m_textColor.prepend(textColor);
+    m_backgroundColor.prepend(backgroundColor);
     endInsertRows();
+    saveColors();
+}
+
+void SavedColorModel::removeColor(int index)
+{
+    beginRemoveRows(QModelIndex(), index, index);
+    m_textColor.removeAt(index);
+    m_backgroundColor.removeAt(index);
+    endRemoveRows();
+    saveColors();
+}
+
+
+void SavedColorModel::saveColors()
+{
+    KSharedConfigPtr config = KSharedConfig::openConfig("data", KConfig::SimpleConfig, QStandardPaths::AppDataLocation);
+    
+    KConfigGroup generalGroup(config, "General");
+    
+    generalGroup.writeEntry("backgroundColors", m_textColor);
+    generalGroup.writeEntry("textColors", m_backgroundColor);
+    config->sync();
 }

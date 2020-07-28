@@ -181,8 +181,9 @@ Kirigami.ScrollablePage {
             }
             
             QQC2.Button {
-                text: i18n("Random")
-                onClicked: Kontrast.savedColors.addColorCombination(Kontrast.textColor, Kontrast.backgroundColor);
+                text: i18n("Save color")
+                icon.name: "favorite"
+                onClicked: Kontrast.savedColors.addColor(Kontrast.textColor, Kontrast.backgroundColor);
             }
         }
     }

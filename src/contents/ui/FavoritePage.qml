@@ -17,11 +17,12 @@ Kirigami.ScrollablePage {
     title: i18n("Saved colors")
     ListView {
         model: Kontrast.savedColors
+        spacing: Kirigami.Units.smallSpacing
         
         delegate: Kirigami.AbstractListItem {
             background: Rectangle {
                 anchors.fill: parent
-                color: backgroundColor
+                color: model.backgroundColor
             }
             
             ColumnLayout {
@@ -29,27 +30,35 @@ Kirigami.ScrollablePage {
                     Layout.fillWidth: true
                     font.pointSize: 30
                     text: "Lorem Impsum"
-                    color: textColor
+                    color: model.textColor
                 }
                 Text {
                     Layout.fillWidth: true
                     font.pointSize: 20
                     text: "Lorem Impsum reroie joirej je roje oijre oijeo"
                     wrapMode: Text.WordWrap
-                    color: textColor
+                    color: model.textColor
                 }
                 
                 RowLayout {
                     Layout.fillWidth: true
                     Text {
                         Layout.fillWidth: true
-                        text: i18n("Text: %1", textColor)
-                        color: textColor
+                        text: i18n("Text: %1", model.textColor)
+                        color: model.textColor
                     }
                     Text {
                         Layout.fillWidth: true
-                        text: i18n("Background: %1", backgroundColor)
-                        color: textColor
+                        text: i18n("Background: %1", model.backgroundColor)
+                        color: model.textColor
+                    }
+                }
+                
+                QQC2.Button {
+                    text: i18n("Remove")
+                    onClicked: {
+                        console.log(model.index)
+                        Kontrast.savedColors.removeColor(model.index)
                     }
                 }
             }
