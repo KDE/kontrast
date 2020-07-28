@@ -17,11 +17,11 @@ Kirigami.ScrollablePage {
     id: root
     title: i18n("Saved colors")
     ListView {
+        model: ColorStore
         QtExtra.Clipboard {
             id: clipboard
         }
         
-        model: Kontrast.savedColors
         spacing: Kirigami.Units.smallSpacing
         
         delegate: Kirigami.AbstractListItem {
@@ -92,8 +92,7 @@ Kirigami.ScrollablePage {
                 QQC2.Button {
                     text: i18n("Remove")
                     onClicked: {
-                        console.log(model.index)
-                        Kontrast.savedColors.removeColor(model.index)
+                        ColorStore.removeColor(model.index)
                     }
                 }
             }

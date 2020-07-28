@@ -13,7 +13,6 @@
 Kontrast::Kontrast(KAboutData about, QObject *parent)
     : QObject(parent)
     , m_about(about)
-    , m_savedColors(new SavedColorModel)
 {
     setObjectName("Kontrast");
 }
@@ -203,9 +202,4 @@ QColor Kontrast::displayTextColor() const
 KAboutData Kontrast::about() const
 {
     return m_about;
-}
-
-SavedColorModel *Kontrast::savedColors() const
-{
-    return m_savedColors;
 }

@@ -9,7 +9,6 @@
 #include <QObject>
 #include <QColor>
 #include <KAboutData>
-#include "savedcolormodel.h"
 
 /**
  * @brief Main class that expose all the value to the QML.
@@ -39,8 +38,6 @@ class Kontrast : public QObject
     Q_PROPERTY(QColor displayTextColor READ displayTextColor NOTIFY contrastChanged);
     
     Q_PROPERTY(KAboutData about READ about);
-    
-    Q_PROPERTY(SavedColorModel *savedColors READ savedColors);
 
 public:
     Kontrast(KAboutData about, QObject *parent = nullptr);
@@ -76,8 +73,6 @@ public:
     
     KAboutData about() const;
     
-    SavedColorModel *savedColors() const;
-    
     Q_INVOKABLE void random();
     Q_INVOKABLE void reverse();
     
@@ -90,5 +85,4 @@ private:
     QColor m_textColor;
     QColor m_backgroundColor;
     KAboutData m_about;
-    SavedColorModel *m_savedColors;
 };
