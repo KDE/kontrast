@@ -236,7 +236,6 @@ Kirigami.ScrollablePage {
             height: 300
             width: 300
             property point u_resolution: Qt.point(width, height)
-            property real u_time: 1.0
             fragmentShader: "#ifdef GL_ES
 precision mediump float;
 #endif
@@ -244,7 +243,6 @@ precision mediump float;
 #define TWO_PI 6.28318530718
 
 uniform vec2 u_resolution;
-uniform float u_time;
 
 //  Function from Inigo Quiles
 //  https://www.shadertoy.com/view/MsS3Wc
@@ -267,12 +265,19 @@ void main()
     vec2 toCenter = vec2(0.5)-st;
     float angle = atan(toCenter.y,toCenter.x);
     float radius = length(toCenter)*2.0;
-
-    // Map the angle (-PI to PI) to the Hue (from 0 to 1)
-    // and the Saturation to the radius
-    color = hsb2rgb(vec3((angle/TWO_PI)+0.5,radius,1.0));
-
-    gl_FragColor = vec4(color,1.0);
+    
+    vec2 center = vec2(u_resolution.x/2., u_resolution.y/2.);
+    float radius2 = u_resolution.x/2.;
+    vec2 position = gl_FragCoord.xy - center;
+    
+    if (length(position) <= radius2) {
+        // Map the angle (-PI to PI) to the Hue (from 0 to 1)
+        // and the Saturation to the radius
+        color = hsb2rgb(vec3((angle/TWO_PI)+0.5,radius,1.0));
+        gl_FragColor = vec4(color,1.0);
+    } else {
+        gl_FragColor = vec4(vec3(1.), 0.);
+    }
 }";
         }
     }
