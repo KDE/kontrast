@@ -14,7 +14,6 @@ import QtQuick.Layouts 1.14
 Kirigami.ApplicationWindow {
     id: root
 
-    title: i18n("kontrast")
     
     Kirigami.PagePool {
         id: mainPagePool
