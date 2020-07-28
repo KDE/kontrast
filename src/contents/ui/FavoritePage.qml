@@ -16,6 +16,7 @@ import org.kde.kquickcontrolsaddons 2.0 as QtExtra
 Kirigami.ScrollablePage {
     id: root
     title: i18n("Saved colors")
+    property bool isMobile: Window.width <= Kirigami.Units.gridUnit * 30
     ListView {
         model: ColorStore
         QtExtra.Clipboard {

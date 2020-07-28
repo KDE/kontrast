@@ -13,7 +13,7 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
 {
     QGuiApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
     QApplication app(argc, argv);
-    app.setApplicationName("kontrast");
+    app.setApplicationName("Kontrast");
     
     KAboutData aboutData("kontrast", i18n("Kontrast"), "1.0",
                          i18n("A contrast checked application"),

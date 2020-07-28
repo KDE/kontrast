@@ -35,7 +35,7 @@ Kirigami.ScrollablePage {
             }
         }
         Text {
-            font.pointSize: 45
+            font.pointSize: mainPage.isMobile ? 20 : 40
             font.bold: true
             text: i18n("Contrast ratio: %1", Kontrast.contrast.toFixed(2))
             
@@ -102,14 +102,14 @@ Kirigami.ScrollablePage {
                 QQC2.Slider {
                     from: 0
                     value: Kontrast.textHue
-                    to: 360
+                    to: 359
                     onMoved: Kontrast.textHue = value
                     Layout.fillWidth: true
                 }
                 
                 Text {
                     Layout.topMargin: Kirigami.Units.largeSpacing
-                    text: i18n("Saturation %1", (Kontrast.textSaturation / 255))
+                    text: i18n("Saturation %1", (Kontrast.textSaturation / 255).toFixed(2))
                     color: Kontrast.displayTextColor
                 }
                 
@@ -123,7 +123,7 @@ Kirigami.ScrollablePage {
                 
                 Text {
                     Layout.topMargin: Kirigami.Units.largeSpacing
-                    text: i18n("Lightness %1", (Kontrast.textLightness / 255))
+                    text: i18n("Lightness %1", (Kontrast.textLightness / 255).toFixed(2))
                     color: Kontrast.displayTextColor
                 }
                 
@@ -180,14 +180,14 @@ Kirigami.ScrollablePage {
                 QQC2.Slider {
                     from: 0
                     value: Kontrast.backgroundHue
-                    to: 360
+                    to: 359
                     onMoved: Kontrast.backgroundHue = value
                     Layout.fillWidth: true
                 }
                 
                 Text {
                     Layout.topMargin: Kirigami.Units.largeSpacing
-                    text: i18n("Saturation %1", (Kontrast.backgroundSaturation / 255))
+                    text: i18n("Saturation %1", (Kontrast.backgroundSaturation / 255).toFixed(2))
                     color: Kontrast.displayTextColor
                 }
                 
@@ -201,7 +201,7 @@ Kirigami.ScrollablePage {
                 
                 Text {
                     Layout.topMargin: Kirigami.Units.largeSpacing
-                    text: i18n("Saturation %1", (Kontrast.backgroundLightness / 255))
+                    text: i18n("Saturation %1", (Kontrast.backgroundLightness / 255).toFixed(2))
                     color: Kontrast.displayTextColor
                 }
                 
