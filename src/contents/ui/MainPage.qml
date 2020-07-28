@@ -218,19 +218,19 @@ Kirigami.ScrollablePage {
         RowLayout {
             Layout.topMargin: Kirigami.Units.gridUnit * 2
             QQC2.Button {
-                text: i18n("Inverse")
+                text: i18n("Invert")
                 onClicked: Kontrast.reverse()
                 icon.name: "reverse"
             }
             
             QQC2.Button {
-                text: i18n("Random")
+                text: i18n("Randomize")
                 onClicked: Kontrast.random()
                 icon.name: "randomize"
             }
             
             QQC2.Button {
-                text: i18n("Save color")
+                text: i18n("Mark as favorite")
                 icon.name: "favorite"
                 onClicked: if (!ColorStore.addColor("Lorem Ipsum", Kontrast.textColor, Kontrast.backgroundColor)) {
                     applicationWindow().showPassiveNotification(i18n("Failed to save color"))
