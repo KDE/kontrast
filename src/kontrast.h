@@ -81,7 +81,7 @@ public:
     Q_INVOKABLE void random();
     Q_INVOKABLE void reverse();
     
-signals:
+Q_SIGNALS:
     void textColorChanged();
     void backgroundColorChanged();
     void contrastChanged();

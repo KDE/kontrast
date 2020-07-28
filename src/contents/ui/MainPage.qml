@@ -10,6 +10,7 @@ import QtQuick.Controls 2.14 as QQC2
 import QtQuick.Window 2.14
 import QtQuick.Layouts 1.14
 import org.kde.kontrast.private 1.0
+import QtQuick.Dialogs 1.0
 
 Kirigami.ScrollablePage {
     id: mainPage
@@ -21,6 +22,18 @@ Kirigami.ScrollablePage {
     }
     
     ColumnLayout {
+        ColorDialog {
+            id: colorDialog
+            property var target: "textColor";
+            title: "Please choose a color"
+            onAccepted: {
+                if (target === "textColor") {
+                    Kontrast.textColor = colorDialog.color;
+                } else {
+                    Kontrast.backgroundColor = colorDialog.color;
+                }
+            }
+        }
         Text {
             font.pointSize: 45
             font.bold: true
@@ -52,11 +65,25 @@ Kirigami.ScrollablePage {
                     color: Kontrast.displayTextColor
                 }
                 
-                TextEdit {
+                QQC2.TextField {
                     text: Kontrast.textColor
                     font.pointSize: 35
                     color: Kontrast.textColor
-                    Layout.fillWidth: true
+                    background: Rectangle { color: Kontrast.backgroundColor }
+                    onEditingFinished: Kontrast.textColor = text
+                    
+                    QQC2.Button {
+                        icon.name: "color-picker"
+                        anchors {
+                            left: parent.right
+                            verticalCenter: parent.verticalCenter
+                        }
+                        onClicked: {
+                            colorDialog.color = Kontrast.textColor
+                            colorDialog.target = "textColor";
+                            colorDialog.visible = true;
+                        }
+                    }
                 }
                 
                 Text {
@@ -117,11 +144,24 @@ Kirigami.ScrollablePage {
                     color: Kontrast.displayTextColor
                 }
             
-                TextEdit {
+                QQC2.TextField {
                     text: Kontrast.backgroundColor
                     font.pointSize: 35
                     color: Kontrast.textColor
-                    Layout.fillWidth: true
+                    background: Rectangle { color: Kontrast.backgroundColor }
+                    onEditingFinished: Kontrast.backgroundColor = text
+                    QQC2.Button {
+                        icon.name: "color-picker"
+                        anchors {
+                            left: parent.right
+                            verticalCenter: parent.verticalCenter
+                        }
+                        onClicked: {
+                            colorDialog.color = Kontrast.backgroundColor;
+                            colorDialog.target = "backgroundColor";
+                            colorDialog.visible = true;
+                        }
+                    }
                 }
                 
                 Text {
@@ -173,11 +213,13 @@ Kirigami.ScrollablePage {
             QQC2.Button {
                 text: i18n("Reverse")
                 onClicked: Kontrast.reverse()
+                icon.name: "reverse"
             }
             
             QQC2.Button {
                 text: i18n("Random")
                 onClicked: Kontrast.random()
+                icon.name: "randomize"
             }
             
             QQC2.Button {
@@ -187,4 +229,5 @@ Kirigami.ScrollablePage {
             }
         }
     }
+    
 }

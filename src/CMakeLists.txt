@@ -13,7 +13,8 @@ target_link_libraries(kontrast
     Qt5::QuickControls2
     Qt5::Svg
     KF5::I18n
-    KF5::CoreAddons)
+    KF5::CoreAddons
+    KF5::ConfigCore)
     
 target_compile_features(kontrast PRIVATE cxx_std_17)
         

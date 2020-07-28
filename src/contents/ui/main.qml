@@ -32,13 +32,13 @@ Kirigami.ApplicationWindow {
             },
             Kirigami.PagePoolAction {
                 text: i18n("Saved Colors")
-                icon.name: "star"
+                icon.name: "favorite"
                 pagePool: mainPagePool
                 page: "FavoritePage.qml"
             },
             Kirigami.PagePoolAction {
                 text: i18n("About")
-                icon.name: "about"
+                icon.name: "help-about-symbolic"
                 pagePool: mainPagePool
                 page: "AboutPage.qml"
             }
