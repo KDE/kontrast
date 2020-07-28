@@ -16,7 +16,7 @@ Kirigami.ScrollablePage {
     id: mainPage
     property bool isMobile: Window.width <= Kirigami.Units.gridUnit * 30
     
-    title: i18n("Kontrast %1", Kontrast.contrast.toFixed(2))
+    title: i18n("Contrast Checker")
     background: Rectangle {
         color: Kontrast.backgroundColor
     }

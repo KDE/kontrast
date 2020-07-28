@@ -25,7 +25,7 @@ Kirigami.ApplicationWindow {
         titleIcon: "applications-graphics"
         actions: [
             Kirigami.PagePoolAction {
-                text: i18n("Home")
+                text: i18n("Contrast Checker")
                 icon.name: "go-home"
                 pagePool: mainPagePool
                 page: "MainPage.qml"
