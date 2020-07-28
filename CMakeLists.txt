@@ -19,7 +19,7 @@ include(ECMPoQmTools)
 
 ################# Find dependencies #################
 find_package(Qt5 REQUIRED COMPONENTS Core Gui Qml QuickControls2 Svg Sql)
-find_package(KF5 REQUIRED COMPONENTS Kirigami2 I18n CoreAddons)
+find_package(KF5 REQUIRED COMPONENTS Kirigami2 I18n CoreAddons Config Declarative)
 
 ################# Enable C++11 features for clang and gcc #################
 set(CMAKE_CXX_STANDARD 11)
