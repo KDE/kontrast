@@ -17,7 +17,7 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
     
     KAboutData aboutData("kontrast", i18n("Kontrast"), "1.0",
                          i18n("A contrast checker application"),
-                         KAboutLicense::GPL);
+                         KAboutLicense::GPL_V3);
     
     aboutData.addAuthor(i18n("Carl Schwan"), i18n("Maintainer and creator"), "carl@carlschwan.eu", "https://carlschwan.eu");
     aboutData.addCredit(i18n("Wikipedia"), i18n("Text on the main page CC-BY-SA-4.0"));
