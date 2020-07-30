@@ -32,18 +32,20 @@ Kirigami.ScrollablePage {
             }
             
             RowLayout {
+                height: layout.height
                 ColumnLayout {
-                    Text {
+                    id: layout
+                    Layout.fillHeight: true
+                    Kirigami.Heading {
                         Layout.fillWidth: true
-                        font.pointSize: 22
+                        level: 3
                         text: "Lorem Impsum"
                         color: model.textColor
                     }
 
                     Text {
                         Layout.fillWidth: true
-                        font.pointSize: 16
-                        text: "Lorem Impsum reroie joirej je roje oijre oijeo"
+                        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque et dolor velit. Morbi elementum libero non vehicula porta. Suspendisse potenti. Suspendisse eu sapien lectus."
                         wrapMode: Text.WordWrap
                         color: model.textColor
                     }
