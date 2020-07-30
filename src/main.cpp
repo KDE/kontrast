@@ -1,3 +1,8 @@
+/*
+ * SPDX-FileCopyrightText: (C) 2020 Carl Schwan <carl@carlschwan.eu>
+ * 
+ * SPDX-LicenseRef: GPL-3.0-or-later
+ */
 #include <QApplication>
 #include <QQmlApplicationEngine>
 #include <QtQml>

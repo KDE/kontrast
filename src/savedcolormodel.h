@@ -2,7 +2,7 @@
  * SPDX-FileCopyrightText: (C) 2020 Carl Schwan <carl@carlschwan.eu>
  * SPDX-FileCopyrightText: (C) 2020 Carson Black <uhhadd@gmail.com>
  * 
- * SPDX-LicenseRef: AGPL-3.0-or-later
+ * SPDX-LicenseRef: GPL-3.0-or-later
  */
 
 #pragma once

@@ -1,7 +1,7 @@
 /*
  * SPDX-FileCopyrightText: (C) 2020 Carl Schwan <carl@carlschwan.eu>
  * 
- * SPDX-LicenseRef: AGPL-3.0-or-later
+ * SPDX-LicenseRef: GPL-3.0-or-later
  */
 
 #include "savedcolormodel.h"
