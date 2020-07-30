@@ -16,9 +16,13 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
     app.setApplicationName("Kontrast");
     
     KAboutData aboutData("kontrast", i18n("Kontrast"), "1.0",
-                         i18n("A contrast checked application"),
+                         i18n("A contrast checker application"),
                          KAboutLicense::GPL);
     
+    aboutData.addAuthor(i18n("Carl Schwan"), i18n("Maintainer and creator"), "carl@carlschwan.eu", "https://carlschwan.eu");
+    aboutData.addCredit(i18n("Wikipedia"), i18n("Text on the main page CC-BY-SA-4.0"));
+    aboutData.addAuthor(i18n("Carson Black"), i18n("SQLite backend for favorite colors"));
+
     KAboutData::setApplicationData(aboutData);
     QApplication::setWindowIcon(QIcon::fromTheme(QStringLiteral("kontrast")));
     
