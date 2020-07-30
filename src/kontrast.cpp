@@ -8,7 +8,6 @@
 
 #include <QtMath>
 #include <QRandomGenerator> 
-#include <QDebug>
 
 Kontrast::Kontrast(KAboutData about, QObject *parent)
     : QObject(parent)
@@ -170,7 +169,6 @@ void Kontrast::random()
     do {
         m_textColor = QColor::fromRgb(QRandomGenerator::global()->generate());
         m_backgroundColor = QColor::fromRgb(QRandomGenerator::global()->generate());
-        qDebug() << m_textColor << m_backgroundColor;
     } while (contrast() < 3.5);
     Q_EMIT backgroundColorChanged();
     Q_EMIT textColorChanged();
