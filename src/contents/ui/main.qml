@@ -30,7 +30,7 @@ Kirigami.ApplicationWindow {
                 page: "MainPage.qml"
             },
             Kirigami.PagePoolAction {
-                text: i18n("Saved Colors")
+                text: i18n("Favorite Colors")
                 icon.name: "favorite"
                 pagePool: mainPagePool
                 page: "FavoritePage.qml"
