@@ -11,17 +11,18 @@
 
 Q_DECL_EXPORT int main(int argc, char *argv[])
 {
+    KLocalizedString::setApplicationDomain("kontrast");
     QGuiApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
     QApplication app(argc, argv);
     app.setApplicationName("Kontrast");
     
-    KAboutData aboutData("kontrast", i18n("Kontrast"), "1.0",
-                         i18n("A contrast checker application"),
+    KAboutData aboutData("kontrast", xi18nc("@title", "Kontrast"), "1.0",
+                         xi18nc("@title", "A contrast checker application"),
                          KAboutLicense::GPL_V3);
     
-    aboutData.addAuthor(i18n("Carl Schwan"), i18n("Maintainer and creator"), "carl@carlschwan.eu", "https://carlschwan.eu");
-    aboutData.addCredit(i18n("Wikipedia"), i18n("Text on the main page CC-BY-SA-4.0"));
-    aboutData.addAuthor(i18n("Carson Black"), i18n("SQLite backend for favorite colors"));
+    aboutData.addAuthor(xi18nc("@info:credit", "Carl Schwan"), xi18nc("@info:credit", "Maintainer and creator"), "carl@carlschwan.eu", "https://carlschwan.eu");
+    aboutData.addCredit(xi18nc("@info:credit", "Wikipedia"), xi18nc("@info:credit", "Text on the main page CC-BY-SA-4.0"));
+    aboutData.addAuthor(xi18nc("@info:credit", "Carson Black"), xi18nc("@info:credit", "SQLite backend for favorite colors"));
 
     KAboutData::setApplicationData(aboutData);
     QApplication::setWindowIcon(QIcon::fromTheme(QStringLiteral("kontrast")));
