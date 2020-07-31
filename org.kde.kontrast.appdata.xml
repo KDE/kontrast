@@ -1,9 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
 <!--
 SPDX-FileCopyrightText: (C) 2020 Carl Schwan <carl@carlschwan.eu>
 
 SPDX-LicenseRef: CC0-1.0
 -->
-<?xml version="1.0" encoding="utf-8"?>
 <component type="desktop-application">
   <id>org.kde.kontrast</id>
   <name>Kontrast</name>
@@ -13,7 +13,7 @@ SPDX-LicenseRef: CC0-1.0
   <description>
     <p>Kontrast is a color contrast checker and tell you if your color combinations are accessible for people with color defiencies.</p>
   </description>
-  <launchable type="desktop-id">org.kde.kontrast.desktop</launchable
+  <launchable type="desktop-id">org.kde.kontrast.desktop</launchable>
   <provides>
     <binary>kontrast</binary>
   </provides>
