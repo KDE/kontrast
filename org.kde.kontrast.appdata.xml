@@ -7,11 +7,26 @@ SPDX-LicenseRef: CC0-1.0
 <component type="desktop-application">
   <id>org.kde.kontrast</id>
   <name>Kontrast</name>
+  <name xml:lang="es">Kontrast</name>
+  <name xml:lang="nl">Kontrast</name>
+  <name xml:lang="sv">Kontrast</name>
+  <name xml:lang="uk">Kontrast</name>
+  <name xml:lang="x-test">xxKontrastxx</name>
   <summary>A Color Contrast Checker</summary>
+  <summary xml:lang="es">Verificador de contraste de color</summary>
+  <summary xml:lang="nl">Een controleprogramma op contrast</summary>
+  <summary xml:lang="sv">Ett kontrollverktyg för färgkontrast</summary>
+  <summary xml:lang="uk">Засіб для перевірки контрастності кольорів</summary>
+  <summary xml:lang="x-test">xxA Color Contrast Checkerxx</summary>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPl-3.0-or-later</project_license>
   <description>
     <p>Kontrast is a color contrast checker and tell you if your color combinations are accessible for people with color defiencies.</p>
+    <p xml:lang="es">Kontrast es un verificador de contraste de color que le dice si sus combinaciones de colores son accesibles para personas con deficiencias de percepción de colores.</p>
+    <p xml:lang="nl">Kontrast is een controleprogramma op kleurcontrast en vertelt u of uw kleurcombinaties toegankelijk zijn voor mensen met kleurenblindheid.</p>
+    <p xml:lang="sv">Kontrast är ett kontrollverktyg för färgkontrast och talar om för dig om dina färgkombinationer är tillgängliga för personer med färgblindhet.</p>
+    <p xml:lang="uk">Kontrast — засіб для перевірки контрастності кольорів. Програма повідомить вам, чи є поєднання кольорів достатньо контрастним для людей із вадами розрізнення кольорів.</p>
+    <p xml:lang="x-test">xxKontrast is a color contrast checker and tell you if your color combinations are accessible for people with color defiencies.xx</p>
   </description>
   <launchable type="desktop-id">org.kde.kontrast.desktop</launchable>
   <provides>
