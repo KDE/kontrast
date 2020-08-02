@@ -32,12 +32,12 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
     KAboutData::setApplicationData(aboutData);
     QApplication::setWindowIcon(QIcon::fromTheme(QStringLiteral("kontrast")));
     
-    QScopedPointer<Kontrast> kontrast(new Kontrast(aboutData));
-    kontrast.get()->random();
+    Kontrast kontrast(aboutData);
+    kontrast.random();
 
     QQmlApplicationEngine engine;
     
-    qmlRegisterSingletonInstance("org.kde.kontrast.private", 1, 0, "Kontrast", kontrast.get());
+    qmlRegisterSingletonInstance("org.kde.kontrast.private", 1, 0, "Kontrast", &kontrast);
     qmlRegisterSingletonInstance("org.kde.kontrast.private", 1, 0, "ColorStore", new SavedColorModel(qApp));
 
     engine.rootContext()->setContextObject(new KLocalizedContext(&engine));
