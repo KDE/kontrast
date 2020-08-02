@@ -25,7 +25,7 @@ Kirigami.ScrollablePage {
         ColorDialog {
             id: colorDialog
             property var target: "textColor";
-            title: "Please choose a color"
+            title: i18n("Please choose a color")
             onAccepted: {
                 if (target === "textColor") {
                     Kontrast.textColor = colorDialog.color;
