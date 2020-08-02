@@ -22,6 +22,7 @@ Kirigami.ApplicationWindow {
     globalDrawer: Kirigami.GlobalDrawer {
         title: i18n("kontrast")
         titleIcon: "applications-graphics"
+        isMenu: true
         actions: [
             Kirigami.PagePoolAction {
                 text: i18n("Contrast Checker")
