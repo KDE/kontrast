@@ -1,8 +1,8 @@
-qt5_add_resources(kontrast_SRCS resources.qrc)
 add_executable(kontrast
     main.cpp
     kontrast.cpp
     savedcolormodel.cpp
+    resources.qrc
     ${kontrast_SRCS})
     
 target_link_libraries(kontrast
@@ -17,6 +17,4 @@ target_link_libraries(kontrast
     KF5::CoreAddons
     KF5::ConfigCore)
     
-target_compile_features(kontrast PRIVATE cxx_std_17)
-        
 install(TARGETS kontrast ${KF5_INSTALL_TARGETS_DEFAULT_ARGS})
