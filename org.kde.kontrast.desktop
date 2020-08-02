@@ -4,11 +4,13 @@
 [Desktop Entry]
 Name=Kontrast
 Name[es]=Kontrast
+Name[nl]=Kontrast
 Name[sv]=Kontrast
 Name[uk]=Kontrast
 Name[x-test]=xxKontrastxx
 Comment=Contrast Checker
 Comment[es]=Verificador de contraste
+Comment[nl]=Controleprogramma op contrast
 Comment[sv]=Kontrastkontroll
 Comment[uk]=Засіб для перевірки контрастності
 Comment[x-test]=xxContrast Checkerxx
