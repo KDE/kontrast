@@ -25,9 +25,6 @@ include(KDEClangFormat)
 find_package(Qt5 ${QT_MIN_VERSION} REQUIRED COMPONENTS Core Gui Qml QuickControls2 Svg Sql)
 find_package(KF5 ${KF5_MIN_VERSION} REQUIRED COMPONENTS Kirigami2 I18n CoreAddons Declarative)
 
-################# Enable C++11 features for clang and gcc #################
-set(CMAKE_CXX_STANDARD 17)
-
 ################# build and install #################
 add_subdirectory(src)
 
