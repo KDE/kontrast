@@ -38,6 +38,7 @@ add_definitions(-DQT_DISABLE_DEPRECATED_BEFORE=0x050d00)
 
 install(PROGRAMS org.kde.kontrast.desktop DESTINATION ${KDE_INSTALL_APPDIR})
 install(FILES org.kde.kontrast.appdata.xml DESTINATION ${KDE_INSTALL_METAINFODIR})
+install(FILES org.kde.kontrast.svg DESTINATION ${KDE_INSTALL_FULL_ICONDIR}/hicolor/scalable/apps)
 
 feature_summary(WHAT ALL INCLUDE_QUIET_PACKAGES FATAL_ON_MISSING_REQUIRED_PACKAGES)
 
