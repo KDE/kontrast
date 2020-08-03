@@ -14,7 +14,6 @@ target_link_libraries(kontrast
     Qt5::Svg
     Qt5::Sql
     KF5::I18n
-    KF5::CoreAddons
-    KF5::ConfigCore)
+    KF5::CoreAddons)
     
 install(TARGETS kontrast ${KF5_INSTALL_TARGETS_DEFAULT_ARGS})
