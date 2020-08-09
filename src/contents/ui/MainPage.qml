@@ -75,9 +75,11 @@ Kirigami.ScrollablePage {
                 QQC2.TextField {
                     text: Kontrast.textColor
                     font.pointSize: 35
-                    color: Kontrast.textColor
+                    color: Kontrast.displayTextColor
                     background: Rectangle { color: Kontrast.backgroundColor }
                     onEditingFinished: Kontrast.textColor = text
+                    Layout.preferredWidth: contentWidth + Kirigami.Units.gridUnit
+                    maximumLength: 7
                     
                     QQC2.Button {
                         icon.name: "color-picker"
@@ -154,9 +156,11 @@ Kirigami.ScrollablePage {
                 QQC2.TextField {
                     text: Kontrast.backgroundColor
                     font.pointSize: 35
-                    color: Kontrast.textColor
+                    color: Kontrast.displayTextColor
                     background: Rectangle { color: Kontrast.backgroundColor }
                     onEditingFinished: Kontrast.backgroundColor = text
+                    Layout.preferredWidth: contentWidth + Kirigami.Units.gridUnit
+                    maximumLength: 7
                     QQC2.Button {
                         icon.name: "color-picker"
                         anchors {
