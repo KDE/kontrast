@@ -4,6 +4,7 @@
  * SPDX-LicenseRef: GPL-3.0-or-later
  */
 #include <QApplication>
+#include <QCommandLineParser>
 #include <QQmlApplicationEngine>
 #include <QtQml>
 #include <QUrl>
@@ -30,8 +31,13 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
     aboutData.addAuthor(xi18nc("@info:credit", "Carson Black"), xi18nc("@info:credit", "SQLite backend for favorite colors"));
 
     KAboutData::setApplicationData(aboutData);
-    QApplication::setWindowIcon(QIcon::fromTheme(QStringLiteral("kontrast")));
-    
+    QApplication::setWindowIcon(QIcon::fromTheme(QStringLiteral("org.kde.kontrast")));
+
+    QCommandLineParser parser;
+    aboutData.setupCommandLine(&parser);
+    parser.process(app);
+    aboutData.processCommandLine(&parser);
+
     Kontrast kontrast(aboutData);
     kontrast.random();
 
