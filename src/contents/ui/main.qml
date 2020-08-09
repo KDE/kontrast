@@ -37,6 +37,12 @@ Kirigami.ApplicationWindow {
                 page: "FavoritePage.qml"
             },
             Kirigami.PagePoolAction {
+                text: i18n("Help")
+                icon.name: "help-symbolic"
+                pagePool: mainPagePool
+                page: "HelpPage.qml"
+            },
+            Kirigami.PagePoolAction {
                 text: i18n("About")
                 icon.name: "help-about-symbolic"
                 pagePool: mainPagePool
