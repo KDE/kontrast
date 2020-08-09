@@ -6,7 +6,7 @@ Kontrast is a color contrast checker and tell you if your color combinations are
 
 ![Kontrast main page on desktop](https://cdn.kde.org/screenshots/kontrast/kontrast.png)
 
-![Kontrast main page on mobile device](https://cdn.kde.org/screenshots/kontrast/kontrast_mobile.png)
+![Kontrast main page on mobile device](https://cdn.kde.org/screenshots/kontrast/kontrat_mobile.png)
 
 ## Contributing
 
