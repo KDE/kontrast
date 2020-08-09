@@ -15,6 +15,7 @@ SPDX-LicenseRef: CC0-1.0
   <name xml:lang="nl">Kontrast</name>
   <name xml:lang="pt">Kontrast</name>
   <name xml:lang="sk">Kontrast</name>
+  <name xml:lang="sl">Kontrast</name>
   <name xml:lang="sv">Kontrast</name>
   <name xml:lang="uk">Kontrast</name>
   <name xml:lang="x-test">xxKontrastxx</name>
@@ -27,6 +28,7 @@ SPDX-LicenseRef: CC0-1.0
   <summary xml:lang="nl">Een controleprogramma op contrast</summary>
   <summary xml:lang="pt">Um Módulo de Verificação de Contraste de Cores</summary>
   <summary xml:lang="sk">Kontrolovač farebného kontrastu</summary>
+  <summary xml:lang="sl">Kontrolor kontrasta</summary>
   <summary xml:lang="sv">Ett kontrollverktyg för färgkontrast</summary>
   <summary xml:lang="uk">Засіб для перевірки контрастності кольорів</summary>
   <summary xml:lang="x-test">xxA Color Contrast Checkerxx</summary>
@@ -41,6 +43,7 @@ SPDX-LicenseRef: CC0-1.0
     <p xml:lang="it">Kontrast è un controllore del contrasto dei colori che ti dice se le tue combinazioni di colori sono accessibili alle persone con deficienze cromatiche.</p>
     <p xml:lang="nl">Kontrast is een controleprogramma op kleurcontrast en vertelt u of uw kleurcombinaties toegankelijk zijn voor mensen met kleurenblindheid.</p>
     <p xml:lang="pt">O Kontrast é uma aplicação de verificação de contraste de cores e diz-lhe se as suas combinações de cores são acessíveis para pessoas com necessidades especiais a nível de processamento das cores.</p>
+    <p xml:lang="sl">Kontrast je kontrolor kontrasta in vam pove ali so barvne kombinacije ustrezne za ljudi z motnjami vida barv.</p>
     <p xml:lang="sv">Kontrast är ett kontrollverktyg för färgkontrast och talar om för dig om dina färgkombinationer är tillgängliga för personer med färgblindhet.</p>
     <p xml:lang="uk">Kontrast — засіб для перевірки контрастності кольорів. Програма повідомить вам, чи є поєднання кольорів достатньо контрастним для людей із вадами розрізнення кольорів.</p>
     <p xml:lang="x-test">xxKontrast is a color contrast checker and tell you if your color combinations are accessible for people with color defiencies.xx</p>
