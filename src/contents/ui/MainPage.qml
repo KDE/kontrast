@@ -43,7 +43,7 @@ Kirigami.ScrollablePage {
             Layout.fillWidth: true
         }
         Text {
-            font.pointSize: mainPage.isMobile ? 12 : 18
+            font.pointSize: mainPage.isMobile ? 13 : 18
             font.bold: true
             color: Kontrast.textColor
             Layout.fillWidth: true
@@ -51,7 +51,7 @@ Kirigami.ScrollablePage {
         }
         
         Text {
-            font.pointSize: mainPage.isMobile ? 12 : 18
+            font.pointSize: mainPage.isMobile ? 12 : 14
             Layout.fillWidth: true
             wrapMode: Text.WordWrap
             text: i18n("Contrast is the difference in luminance or color that makes an object (or its representation in an image or display) distinguishable. In visual perception of the real world, contrast is determined by the difference in the color and brightness of the object and other objects within the same field of view.")
