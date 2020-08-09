@@ -9,6 +9,7 @@ import org.kde.kirigami 2.6 as Kirigami
 import QtQuick.Layouts 1.14
 
 Kirigami.ScrollablePage {
+    title: i18n("Help")
     ColumnLayout {
         width: parent.width
         Kirigami.Heading {
