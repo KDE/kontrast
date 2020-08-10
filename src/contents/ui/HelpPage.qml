@@ -25,7 +25,7 @@ Kirigami.ScrollablePage {
         Text {
             Layout.fillWidth: true
             wrapMode: Text.WordWrap
-            text: i18n("A contrast value of 21 indicates a perfect contrast (ussually black on white), and a value of 0 indicate that the two colors are the same.")
+            text: i18n("A contrast value of 21 indicates a perfect contrast (usually black on white), and a value of 0 indicate that the two colors are the same.")
         }
         Text {
             Layout.fillWidth: true
