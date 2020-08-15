@@ -13,7 +13,7 @@
 #include <QStandardPaths>
 #include <QSqlError>
 
-const QString DRIVER("QSQLITE");
+const QString DRIVER(QStringLiteral("QSQLITE"));
 
 SavedColorModel::SavedColorModel(QObject *parent)
     : QAbstractListModel(parent)
@@ -21,7 +21,7 @@ SavedColorModel::SavedColorModel(QObject *parent)
     Q_ASSERT(QSqlDatabase::isDriverAvailable(DRIVER));
     Q_ASSERT(QDir().mkpath(QDir::cleanPath(QStandardPaths::writableLocation(QStandardPaths::DataLocation))));
     m_db = QSqlDatabase::addDatabase(DRIVER);
-    const auto path = QDir::cleanPath(QStandardPaths::writableLocation(QStandardPaths::DataLocation) + "/" + qApp->applicationName());
+    const auto path = QDir::cleanPath(QStandardPaths::writableLocation(QStandardPaths::DataLocation) + QStringLiteral("/") + qApp->applicationName());
     m_db.setDatabaseName(path);
     if (!m_db.open()) {
         qCritical() << m_db.lastError() << "while opening database at" << path;
@@ -41,7 +41,7 @@ SavedColorModel::SavedColorModel(QObject *parent)
         qCritical() << query.lastError() << "while creating table";
     }
     m_query = QSqlQuery(m_db);
-    ok = m_query.prepare("SELECT * FROM SavedColorModel");
+    ok = m_query.prepare(QStringLiteral("SELECT * FROM SavedColorModel"));
     if (!ok) {
         qCritical() << m_query.lastError() << "while preparing query";
     }
@@ -120,11 +120,11 @@ QVariant SavedColorModel::data(const QModelIndex &index, int role) const
 
     switch (role) {
     case Qt::DisplayRole:
-        return m_query.value("Name");
+        return m_query.value(QStringLiteral("Name"));
     case TextColor:
-        return m_query.value("ForegroundColor");
+        return m_query.value(QStringLiteral("ForegroundColor"));
     case BackgroundColor:
-        return m_query.value("BackgroundColor");
+        return m_query.value(QStringLiteral("BackgroundColor"));
     }
 
     return QVariant();
@@ -144,19 +144,19 @@ auto SavedColorModel::setData(const QModelIndex &idx, const QVariant &value, int
 
     switch (role) {
     case Qt::DisplayRole:
-        mutated = statement.arg("Name"); break;
+        mutated = statement.arg(QStringLiteral("Name")); break;
     case TextColor:
-        mutated = statement.arg("ForegroundColor"); break;
+        mutated = statement.arg(QStringLiteral("ForegroundColor")); break;
     case BackgroundColor:
-        mutated = statement.arg("BackgroundColor"); break;
+        mutated = statement.arg(QStringLiteral("BackgroundColor")); break;
     default:
         return false;
     }
 
     QSqlQuery query;
     query.prepare(mutated);
-    query.bindValue(":value", value);
-    query.bindValue(":id", m_query.value("ID"));
+    query.bindValue(QStringLiteral(":value"), value);
+    query.bindValue(QStringLiteral(":id"), m_query.value(QStringLiteral("ID")));
 
     auto ok = query.exec();
     if (!ok) {
@@ -183,9 +183,9 @@ bool SavedColorModel::addColor(const QString& name, const QColor& foreground, co
     )RJIENRLWEY");
     QSqlQuery query;
     query.prepare(statement);
-    query.bindValue(":name", name);
-    query.bindValue(":foreground", foreground);
-    query.bindValue(":background", background);
+    query.bindValue(QStringLiteral(":name"), name);
+    query.bindValue(QStringLiteral(":foreground"), foreground);
+    query.bindValue(QStringLiteral(":background"), background);
 
     auto ok = query.exec();
     if (!ok) {
@@ -204,7 +204,7 @@ bool SavedColorModel::removeColor(int index)
     )RJIENRLWEY");
     QSqlQuery query;
     query.prepare(statement);
-    query.bindValue(":id", index);
+    query.bindValue(QStringLiteral(":id"), index);
 
     auto ok = query.exec();
     if (!ok) {

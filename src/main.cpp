@@ -17,18 +17,17 @@
 
 Q_DECL_EXPORT int main(int argc, char *argv[])
 {
-    KLocalizedString::setApplicationDomain("kontrast");
     QGuiApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
     QApplication app(argc, argv);
-    app.setApplicationName("Kontrast");
+    KLocalizedString::setApplicationDomain("kontrast");
     
-    KAboutData aboutData("kontrast", xi18nc("@title", "Kontrast"), "1.0",
-                         xi18nc("@title", "A contrast checker application"),
+    KAboutData aboutData(QStringLiteral("kontrast"), i18nc("@title", "Kontrast"), QStringLiteral("1.0"),
+                         i18nc("@title", "A contrast checker application"),
                          KAboutLicense::GPL_V3);
     
-    aboutData.addAuthor(xi18nc("@info:credit", "Carl Schwan"), xi18nc("@info:credit", "Maintainer and creator"), "carl@carlschwan.eu", "https://carlschwan.eu");
-    aboutData.addCredit(xi18nc("@info:credit", "Wikipedia"), xi18nc("@info:credit", "Text on the main page CC-BY-SA-4.0"));
-    aboutData.addAuthor(xi18nc("@info:credit", "Carson Black"), xi18nc("@info:credit", "SQLite backend for favorite colors"));
+    aboutData.addAuthor(i18nc("@info:credit", "Carl Schwan"), i18nc("@info:credit", "Maintainer and creator"), QStringLiteral("carl@carlschwan.eu"), QStringLiteral("https://carlschwan.eu"));
+    aboutData.addCredit(i18nc("@info:credit", "Wikipedia"), i18nc("@info:credit", "Text on the main page CC-BY-SA-4.0"));
+    aboutData.addAuthor(i18nc("@info:credit", "Carson Black"), i18nc("@info:credit", "SQLite backend for favorite colors"));
 
     KAboutData::setApplicationData(aboutData);
     QApplication::setWindowIcon(QIcon::fromTheme(QStringLiteral("org.kde.kontrast")));

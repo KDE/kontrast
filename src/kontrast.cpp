@@ -13,7 +13,7 @@ Kontrast::Kontrast(KAboutData about, QObject *parent)
     : QObject(parent)
     , m_about(about)
 {
-    setObjectName("Kontrast");
+    setObjectName(QStringLiteral("Kontrast"));
 }
 
 QColor Kontrast::textColor() const
