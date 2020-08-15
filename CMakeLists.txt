@@ -21,8 +21,14 @@ include(ECMGenerateHeaders)
 include(ECMPoQmTools)
 include(KDEClangFormat)
 
+ecm_setup_version(${PROJECT_VERSION}
+    VARIABLE_PREFIX KONTRAST
+    SOVERSION ${PROJECT_VERSION_MAJOR}
+    VERSION_HEADER "${CMAKE_CURRENT_BINARY_DIR}/config-kontrast.h"
+)
+
 ################# Find dependencies #################
-find_package(Qt5 ${QT_MIN_VERSION} REQUIRED COMPONENTS Core Gui Qml QuickControls2 Svg Sql)
+find_package(Qt5 ${QT_MIN_VERSION} REQUIRED COMPONENTS Core Gui Qml QuickControls2 Widgets Sql)
 find_package(KF5 ${KF5_MIN_VERSION} REQUIRED COMPONENTS Kirigami2 I18n CoreAddons Declarative)
 
 ################# build and install #################
