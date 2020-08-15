@@ -11,7 +11,7 @@ target_link_libraries(kontrast
     Qt5::Quick
     Qt5::QuickControls2
     Qt5::Sql
-    Qt5::Widgets
+    Qt5::Svg
     KF5::I18n
     KF5::CoreAddons)
     
