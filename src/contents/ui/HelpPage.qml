@@ -30,12 +30,12 @@ Kirigami.ScrollablePage {
         Text {
             Layout.fillWidth: true
             wrapMode: Text.WordWrap
-            text: i18n("For normal text, the contrast ratio should be at least of 4.5 to conform to the WSGA AA standard and a contrast ratio of 7 or more is required to conform with the WSGA AAA standard.")
+            text: i18n("For normal text, the contrast ratio should be at least of 4.5 to conform to the WCAG AA standard and a contrast ratio of 7 or more is required to conform with the WCAG AAA standard.")
         }
         Text {
             Layout.fillWidth: true
             wrapMode: Text.WordWrap
-            text: i18n("For large text, the contrast ratio should be at least of 3 to conform to the WSGA AA standard and a contrast ratio of 4.5 or more is required to conform with the WSGA AAA standard.")
+            text: i18n("For large text, the contrast ratio should be at least of 3 to conform to the WCAG AA standard and a contrast ratio of 4.5 or more is required to conform with the WCAG AAA standard.")
         }
     }
 }
