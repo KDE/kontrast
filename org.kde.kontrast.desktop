@@ -3,7 +3,21 @@
 # SPDX-LicenseRef: CC0-1.0
 [Desktop Entry]
 Name=Kontrast
+Name[ca]=Kontrast
+Name[ca@valencia]=Kontrast
+Name[es]=Kontrast
+Name[fr]=Kontrast
+Name[sv]=Kontrast
+Name[uk]=Kontrast
+Name[x-test]=xxKontrastxx
 Comment=Contrast Checker
+Comment[ca]=Comprovador del contrast
+Comment[ca@valencia]=Comprovador del contrast
+Comment[es]=Verificador de contraste
+Comment[fr]=Vérificateur de contraste
+Comment[sv]=Kontrastkontroll
+Comment[uk]=Засіб для перевірки контрастності
+Comment[x-test]=xxContrast Checkerxx
 Version=1.0
 Exec=kontrast
 MimeType=application/x-kontrast;
