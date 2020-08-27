@@ -14,6 +14,7 @@
 #include <KLocalizedString>
 #include <kontrast.h>
 #include "savedcolormodel.h"
+#include "config-kontrast.h"
 
 Q_DECL_EXPORT int main(int argc, char *argv[])
 {
@@ -21,7 +22,7 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
     QApplication app(argc, argv);
     KLocalizedString::setApplicationDomain("kontrast");
     
-    KAboutData aboutData(QStringLiteral("kontrast"), i18nc("@title", "Kontrast"), QStringLiteral("1.0"),
+    KAboutData aboutData(QStringLiteral("kontrast"), i18nc("@title", "Kontrast"), QStringLiteral(KONTRAST_VERSION_STRING),
                          i18nc("@title", "A contrast checker application"),
                          KAboutLicense::GPL_V3);
     
