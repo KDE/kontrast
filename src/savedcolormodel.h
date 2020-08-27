@@ -11,6 +11,7 @@
 #include <QColor>
 #include <QSqlDatabase>
 #include <QSqlQuery>
+#include <QSqlTableModel>
 
 struct ColorCombination {
     QColor textColor;
@@ -26,7 +27,7 @@ struct ColorCombination {
 /**
  * @brief Store all the user's favorite color combinations.
  */
-class SavedColorModel : public QAbstractListModel
+class SavedColorModel : public  QSqlTableModel
 {
     Q_OBJECT
 
@@ -42,26 +43,11 @@ public:
     virtual ~SavedColorModel() override = default;
 
     QHash<int, QByteArray> roleNames() const override;
-
-    virtual QVariant data(const QModelIndex &index, int role) const override;
-    virtual int rowCount(const QModelIndex &parent) const override;
+    QVariant data(const QModelIndex &index, int role) const override;
 
     Q_INVOKABLE bool addColor(const QString& name, const QColor& foreground, const QColor& background);
     Q_INVOKABLE bool removeColor(int index);
 
-    void fetchMore(const QModelIndex &parent) override;
-    bool canFetchMore(const QModelIndex &parent) const override;
-    bool setData(const QModelIndex &item, const QVariant &value, int role = Qt::EditRole) override;
-
 private:
-    void prefetch(int count, bool reset = false);
-    void saveColors();
-    void refresh();
-
-    mutable QSqlQuery m_query;
-    static const int fetch_size = 255;
-    int m_rowCount = 0;
-    int m_bottom = 0;
-    bool m_atEnd = false;
     QSqlDatabase m_db;
 };

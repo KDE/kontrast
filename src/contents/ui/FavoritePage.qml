@@ -28,9 +28,9 @@ Kirigami.ScrollablePage {
         delegate: Kirigami.AbstractListItem {
             background: Rectangle {
                 anchors.fill: parent
-                color: model.backgroundColor
+                color: model.BackgroundColor
             }
-            
+
             RowLayout {
                 height: layout.height
                 ColumnLayout {
@@ -40,19 +40,19 @@ Kirigami.ScrollablePage {
                         Layout.fillWidth: true
                         level: 3
                         text: "Lorem Impsum"
-                        color: model.textColor
+                        color: model.ForegroundColor
                     }
 
                     Text {
                         Layout.fillWidth: true
                         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque et dolor velit. Morbi elementum libero non vehicula porta. Suspendisse potenti. Suspendisse eu sapien lectus."
                         wrapMode: Text.WordWrap
-                        color: model.textColor
+                        color: model.ForegroundColor
                     }
 
                     Text {
-                        text: i18n("Text: %1", model.textColor)
-                        color: model.textColor
+                        text: i18n("Text: %1", model.ForegroundColor)
+                        color: model.ForegroundColor
                         MouseArea {
                             anchors.fill: parent
                             onClicked: copyText();
@@ -62,17 +62,17 @@ Kirigami.ScrollablePage {
                             height: parent.height
                             width: parent.height
                             source: "edit-copy"
-                            color: model.textColor
+                            color: model.ForegroundColor
                             MouseArea {
                                 anchors.fill: parent
-                                onClicked: copyTex();
+                                onClicked: copyTex(model.ForegroundColor);
                             }
                         }
                     }
 
                     Text {
-                        text: i18n("Background: %1", model.backgroundColor)
-                        color: model.textColor
+                        text: i18n("Background: %1", model.BackgroundColor)
+                        color: model.ForegroundColor
 
                         MouseArea {
                             anchors.fill: parent
@@ -83,10 +83,10 @@ Kirigami.ScrollablePage {
                             height: parent.height
                             width: parent.height
                             source: "edit-copy"
-                            color: model.textColor
+                            color: model.ForegroundColor
                             MouseArea {
                                 anchors.fill: parent
-                                onClicked: copyBackground();
+                                onClicked: copyBackground(model.BackgroundColor);
                             }
                         }
                     }
@@ -102,16 +102,16 @@ Kirigami.ScrollablePage {
         }
     }
     
-    function copyBackground() {
-        clipboard.content = Kontrast.backgroundColor;
+    function copyBackground(colorText) {
+        clipboard.content = colorText;
         inlineMessage.text = i18n("Background color copied to clipboard");
         inlineMessage.visible = true;
         timer.interval = Kirigami.Units.longDuration
         timer.running = true;
     }
     
-    function copyText() {
-        clipboard.content = Kontrast.textColor;
+    function copyText(colorText) {
+        clipboard.content = colorText;
         inlineMessage.text = i18n("Text color copied to clipboard");
         inlineMessage.visible = true;
         timer.interval = Kirigami.Units.longDuration
