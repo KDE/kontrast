@@ -45,4 +45,23 @@ SPDX-LicenseRef: CC0-1.0
     <binary>kontrast</binary>
   </provides>
   <project_group>KDE</project_group>
+  <releases>
+    <release version="1.0.0" date="2020-08-27">
+      <description>
+        <p>This is the initial release of Kontrast</p>
+      </description>
+    </release>
+  </releases>
+  <developer_name>Carl Schwan</developer_name>
+  <screenshots>
+    <screenshot>
+      <caption>Main view of Kontrast</caption>
+      <image type="source" width="1074" height="833">https://cdn.kde.org/screenshots/kontrast/kontrast.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Main view of Kontrast on mobile</caption>
+      <image type="source" width="534" height="833">https://cdn.kde.org/screenshots/kontrast/kontrast_mobile.png</image>
+    </screenshot>
+  </screenshots>
+  <content_rating type="oars-1.0" />
 </component>
