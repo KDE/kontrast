@@ -5,6 +5,7 @@
 Name=Kontrast
 Name[ca]=Kontrast
 Name[ca@valencia]=Kontrast
+Name[el]=Kontrast
 Name[es]=Kontrast
 Name[fr]=Kontrast
 Name[nl]=Kontrast
@@ -14,6 +15,7 @@ Name[x-test]=xxKontrastxx
 Comment=Contrast Checker
 Comment[ca]=Comprovador del contrast
 Comment[ca@valencia]=Comprovador del contrast
+Comment[el]=Έλεγχος αντίθεσης
 Comment[es]=Verificador de contraste
 Comment[fr]=Vérificateur de contraste
 Comment[nl]=Controleprogramma op contrast
