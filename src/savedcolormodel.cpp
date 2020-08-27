@@ -8,6 +8,7 @@
 
 #include <QCoreApplication>
 #include <QColor>
+#include <QDebug>
 #include <QDir>
 #include <QStandardPaths>
 #include <QSqlRecord>
