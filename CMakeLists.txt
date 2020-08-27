@@ -24,7 +24,7 @@ include(KDEClangFormat)
 ecm_setup_version(${PROJECT_VERSION}
     VARIABLE_PREFIX KONTRAST
     SOVERSION ${PROJECT_VERSION_MAJOR}
-    VERSION_HEADER "${CMAKE_CURRENT_BINARY_DIR}/config-kontrast.h"
+    VERSION_HEADER "${CMAKE_CURRENT_BINARY_DIR}/src/config-kontrast.h"
 )
 
 ################# Find dependencies #################
