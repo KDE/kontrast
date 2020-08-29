@@ -68,13 +68,31 @@ SPDX-LicenseRef: CC0-1.0
     </release>
   </releases>
   <developer_name>Carl Schwan</developer_name>
+  <developer_name xml:lang="ca">Carl Schwan</developer_name>
+  <developer_name xml:lang="ca-valencia">Carl Schwan</developer_name>
+  <developer_name xml:lang="es">Carl Schwan</developer_name>
+  <developer_name xml:lang="pt-BR">Carl Schwan</developer_name>
+  <developer_name xml:lang="uk">Carl Schwan</developer_name>
+  <developer_name xml:lang="x-test">xxCarl Schwanxx</developer_name>
   <screenshots>
     <screenshot>
       <caption>Main view of Kontrast</caption>
+      <caption xml:lang="ca">Vista principal del Kontrast</caption>
+      <caption xml:lang="ca-valencia">Vista principal del Kontrast</caption>
+      <caption xml:lang="es">Vista principal de Kontrast</caption>
+      <caption xml:lang="pt-BR">Visão principal do Kontrast</caption>
+      <caption xml:lang="uk">Головне вікно Kontrast</caption>
+      <caption xml:lang="x-test">xxMain view of Kontrastxx</caption>
       <image type="source" width="1074" height="833">https://cdn.kde.org/screenshots/kontrast/kontrast.png</image>
     </screenshot>
     <screenshot>
       <caption>Main view of Kontrast on mobile</caption>
+      <caption xml:lang="ca">Vista principal del Kontrast al mòbil</caption>
+      <caption xml:lang="ca-valencia">Vista principal del Kontrast al mòbil</caption>
+      <caption xml:lang="es">Vista principal de Kontrast para móvil</caption>
+      <caption xml:lang="pt-BR">Visão principal do Kontrast no celular</caption>
+      <caption xml:lang="uk">Головне вікно Kontrast на мобільному</caption>
+      <caption xml:lang="x-test">xxMain view of Kontrast on mobilexx</caption>
       <image type="source" width="534" height="833">https://cdn.kde.org/screenshots/kontrast/kontrast_mobile.png</image>
     </screenshot>
   </screenshots>
