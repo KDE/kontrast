@@ -9,6 +9,7 @@ SPDX-LicenseRef: CC0-1.0
   <name>Kontrast</name>
   <name xml:lang="ca">Kontrast</name>
   <name xml:lang="ca-valencia">Kontrast</name>
+  <name xml:lang="da">Kontrast</name>
   <name xml:lang="el">Kontrast</name>
   <name xml:lang="es">Kontrast</name>
   <name xml:lang="eu">Kontrast</name>
@@ -27,6 +28,7 @@ SPDX-LicenseRef: CC0-1.0
   <summary>A Color Contrast Checker</summary>
   <summary xml:lang="ca">Un comprovador del contrast del color</summary>
   <summary xml:lang="ca-valencia">Un comprovador del contrast del color</summary>
+  <summary xml:lang="da">Tjek af farvekontrast</summary>
   <summary xml:lang="el">Ένα πρόγραμμα ελέγχου της χρωματικής αντίθεσης</summary>
   <summary xml:lang="es">Verificador de contraste de color</summary>
   <summary xml:lang="eu">Koloreen arteko kontratea egiaztatzeko tresna</summary>
@@ -48,6 +50,7 @@ SPDX-LicenseRef: CC0-1.0
     <p>Kontrast is a color contrast checker and tell you if your color combinations are accessible for people with color defiencies.</p>
     <p xml:lang="ca">El Kontrast és un comprovador del contrast del color i indica si les vostres combinacions de color són accessibles per a persones amb deficiències de color.</p>
     <p xml:lang="ca-valencia">El Kontrast és un comprovador del contrast del color i indica si les vostres combinacions de color són accessibles per a persones amb deficiències de color.</p>
+    <p xml:lang="da">Kontrast er et program til at tjekke farvekontraster og fortælle dig om dine farvekombinationer er tilgængelige for personer med farveudfordringer.</p>
     <p xml:lang="el">Το Kontrast είναι ένα πρόγραμμα ελέγχου της χρωματικής αντίθεσης και σας λέει αν οι χρωματικοί συνδυασμοί σας είναι προσβάσιμοι για άτομα με αχρωματοψία.</p>
     <p xml:lang="es">Kontrast es un verificador de contraste de color que le dice si sus combinaciones de colores son accesibles para personas con deficiencias de percepción de colores.</p>
     <p xml:lang="eu">Kontrast koloreen arteko kontrastea egiaztatzen duen tresna bat da eta zure kolore-konbinazioak koloretako ikusmenaren akatsa duen jendearentzako irisgarria den esaten dizu.</p>
