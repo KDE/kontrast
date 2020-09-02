@@ -35,7 +35,7 @@ SPDX-LicenseRef: CC0-1.0
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPl-3.0-or-later</project_license>
   <description>
-    <p>Kontrast is a color contrast checker and tell you if your color combinations are accessible for people with color defiencies.</p>
+    <p>Kontrast is a color contrast checker and tells you if your color combinations are accessible for people with color deficiencies.</p>
     <p xml:lang="ca">El Kontrast és un comprovador del contrast del color i indica si les vostres combinacions de color són accessibles per a persones amb deficiències de color.</p>
     <p xml:lang="ca-valencia">El Kontrast és un comprovador del contrast del color i indica si les vostres combinacions de color són accessibles per a persones amb deficiències de color.</p>
     <p xml:lang="el">Το Kontrast είναι ένα πρόγραμμα ελέγχου της χρωματικής αντίθεσης και σας λέει αν οι χρωματικοί συνδυασμοί σας είναι προσβάσιμοι για άτομα με αχρωματοψία.</p>
