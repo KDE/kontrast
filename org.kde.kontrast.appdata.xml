@@ -52,6 +52,7 @@ SPDX-LicenseRef: CC0-1.0
     <binary>kontrast</binary>
   </provides>
   <project_group>KDE</project_group>
+  <url type="homepage">https://invent.kde.org/accessibility/kontrast</url>
   <releases>
     <release version="1.0.1" date="2020-08-27">
       <description>
@@ -114,7 +115,7 @@ SPDX-LicenseRef: CC0-1.0
       <caption xml:lang="sv">Huvudvy i Kontrast på mobil</caption>
       <caption xml:lang="uk">Головне вікно Kontrast на мобільному</caption>
       <caption xml:lang="x-test">xxMain view of Kontrast on mobilexx</caption>
-      <image type="source" width="534" height="833">https://cdn.kde.org/screenshots/kontrast/kontrat_mobile.png</image>
+      <image type="source" width="535" height="833">https://cdn.kde.org/screenshots/kontrast/kontrat_mobile.png</image>
     </screenshot>
   </screenshots>
   <content_rating type="oars-1.0"/>
