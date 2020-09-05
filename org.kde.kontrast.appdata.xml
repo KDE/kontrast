@@ -36,7 +36,7 @@ SPDX-LicenseRef: CC0-1.0
   <summary xml:lang="uk">Засіб для перевірки контрастності кольорів</summary>
   <summary xml:lang="x-test">xxA Color Contrast Checkerxx</summary>
   <metadata_license>CC0-1.0</metadata_license>
-  <project_license>GPl-3.0-or-later</project_license>
+  <project_license>GPL-3.0-or-later</project_license>
   <description>
     <p>Kontrast is a color contrast checker and tells you if your color combinations are accessible for people with color deficiencies.</p>
     <p xml:lang="ca">El Kontrast és un comprovador del contrast del color i indica si les vostres combinacions de color són accessibles per a persones amb deficiències de color.</p>
@@ -57,22 +57,22 @@ SPDX-LicenseRef: CC0-1.0
       <description>
         <p>Fix critical error: saved colors were not displayed.</p>
         <p>Fix minor error: desktop file didn't contain a main category.</p>
-        <artifacts>
-          <artifact type="source">
-            <location>https://download.kde.org/stable/kontrast/kontrast-1.0.1.tar.xz</location>
-          </artifact>
-        </artifacts>
       </description>
+      <artifacts>
+        <artifact type="source">
+          <location>https://download.kde.org/stable/kontrast/kontrast-1.0.1.tar.xz</location>
+        </artifact>
+      </artifacts>
     </release>
     <release version="1.0.0" date="2020-08-27">
       <description>
         <p>This is the initial release of Kontrast</p>
-        <artifacts>
-          <artifact type="source">
-            <location>https://download.kde.org/stable/kontrast/kontrast-1.0.0.tar.xz</location>
-          </artifact>
-        </artifacts>
       </description>
+      <artifacts>
+        <artifact type="source">
+          <location>https://download.kde.org/stable/kontrast/kontrast-1.0.0.tar.xz</location>
+        </artifact>
+      </artifacts>
     </release>
   </releases>
   <developer_name>Carl Schwan</developer_name>
@@ -114,7 +114,7 @@ SPDX-LicenseRef: CC0-1.0
       <caption xml:lang="sv">Huvudvy i Kontrast på mobil</caption>
       <caption xml:lang="uk">Головне вікно Kontrast на мобільному</caption>
       <caption xml:lang="x-test">xxMain view of Kontrast on mobilexx</caption>
-      <image type="source" width="534" height="833">https://cdn.kde.org/screenshots/kontrast/kontrast_mobile.png</image>
+      <image type="source" width="534" height="833">https://cdn.kde.org/screenshots/kontrast/kontrat_mobile.png</image>
     </screenshot>
   </screenshots>
   <content_rating type="oars-1.0"/>
