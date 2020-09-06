@@ -22,7 +22,6 @@ SPDX-LicenseRef: CC0-1.0
   <name xml:lang="pt">Kontrast</name>
   <name xml:lang="pt-BR">Kontrast</name>
   <name xml:lang="sk">Kontrast</name>
-  <name xml:lang="sl">Kontrast</name>
   <name xml:lang="sv">Kontrast</name>
   <name xml:lang="uk">Kontrast</name>
   <name xml:lang="x-test">xxKontrastxx</name>
@@ -41,14 +40,13 @@ SPDX-LicenseRef: CC0-1.0
   <summary xml:lang="pt">Um Módulo de Verificação de Contraste de Cores</summary>
   <summary xml:lang="pt-BR">Um verificador de contraste de cores</summary>
   <summary xml:lang="sk">Kontrolovač farebného kontrastu</summary>
-  <summary xml:lang="sl">Kontrolor kontrasta</summary>
   <summary xml:lang="sv">Ett kontrollverktyg för färgkontrast</summary>
   <summary xml:lang="uk">Засіб для перевірки контрастності кольорів</summary>
   <summary xml:lang="x-test">xxA Color Contrast Checkerxx</summary>
   <metadata_license>CC0-1.0</metadata_license>
-  <project_license>GPl-3.0-or-later</project_license>
+  <project_license>GPL-3.0-or-later</project_license>
   <description>
-    <p>Kontrast is a color contrast checker and tell you if your color combinations are accessible for people with color defiencies.</p>
+    <p>Kontrast is a color contrast checker and tells you if your color combinations are accessible for people with color deficiencies.</p>
     <p xml:lang="ca">El Kontrast és un comprovador del contrast del color i indica si les vostres combinacions de color són accessibles per a persones amb deficiències de color.</p>
     <p xml:lang="ca-valencia">El Kontrast és un comprovador del contrast del color i indica si les vostres combinacions de color són accessibles per a persones amb deficiències de color.</p>
     <p xml:lang="da">Kontrast er et program til at tjekke farvekontraster og fortælle dig om dine farvekombinationer er tilgængelige for personer med farveudfordringer.</p>
@@ -65,11 +63,78 @@ SPDX-LicenseRef: CC0-1.0
     <p xml:lang="sl">Kontrast je kontrolor kontrasta in vam pove ali so barvne kombinacije ustrezne za ljudi z motnjami vida barv.</p>
     <p xml:lang="sv">Kontrast är ett kontrollverktyg för färgkontrast och talar om för dig om dina färgkombinationer är tillgängliga för personer med färgblindhet.</p>
     <p xml:lang="uk">Kontrast — засіб для перевірки контрастності кольорів. Програма повідомить вам, чи є поєднання кольорів достатньо контрастним для людей із вадами розрізнення кольорів.</p>
-    <p xml:lang="x-test">xxKontrast is a color contrast checker and tell you if your color combinations are accessible for people with color defiencies.xx</p>
+    <p xml:lang="x-test">xxKontrast is a color contrast checker and tells you if your color combinations are accessible for people with color deficiencies.xx</p>
   </description>
   <launchable type="desktop-id">org.kde.kontrast.desktop</launchable>
   <provides>
     <binary>kontrast</binary>
   </provides>
   <project_group>KDE</project_group>
+  <url type="homepage">https://invent.kde.org/accessibility/kontrast</url>
+  <releases>
+    <release version="1.0.1" date="2020-08-27">
+      <description>
+        <p>Fix critical error: saved colors were not displayed.</p>
+        <p>Fix minor error: desktop file didn't contain a main category.</p>
+      </description>
+      <artifacts>
+        <artifact type="source">
+          <location>https://download.kde.org/stable/kontrast/kontrast-1.0.1.tar.xz</location>
+        </artifact>
+      </artifacts>
+    </release>
+    <release version="1.0.0" date="2020-08-27">
+      <description>
+        <p>This is the initial release of Kontrast</p>
+      </description>
+      <artifacts>
+        <artifact type="source">
+          <location>https://download.kde.org/stable/kontrast/kontrast-1.0.0.tar.xz</location>
+        </artifact>
+      </artifacts>
+    </release>
+  </releases>
+  <developer_name>Carl Schwan</developer_name>
+  <developer_name xml:lang="ca">Carl Schwan</developer_name>
+  <developer_name xml:lang="ca-valencia">Carl Schwan</developer_name>
+  <developer_name xml:lang="cs">Carl Schwan</developer_name>
+  <developer_name xml:lang="es">Carl Schwan</developer_name>
+  <developer_name xml:lang="fr">Carl Schwan</developer_name>
+  <developer_name xml:lang="it">Carl Schwan</developer_name>
+  <developer_name xml:lang="nl">Carl Schwan</developer_name>
+  <developer_name xml:lang="pt-BR">Carl Schwan</developer_name>
+  <developer_name xml:lang="sv">Carl Schwan</developer_name>
+  <developer_name xml:lang="uk">Carl Schwan</developer_name>
+  <developer_name xml:lang="x-test">xxCarl Schwanxx</developer_name>
+  <screenshots>
+    <screenshot>
+      <caption>Main view of Kontrast</caption>
+      <caption xml:lang="ca">Vista principal del Kontrast</caption>
+      <caption xml:lang="ca-valencia">Vista principal del Kontrast</caption>
+      <caption xml:lang="es">Vista principal de Kontrast</caption>
+      <caption xml:lang="fr">Affichage principal de Kontrast</caption>
+      <caption xml:lang="it">Vista principale di Kontrast</caption>
+      <caption xml:lang="nl">Hoofdweergave van Kontrast</caption>
+      <caption xml:lang="pt-BR">Visão principal do Kontrast</caption>
+      <caption xml:lang="sv">Huvudvyn i Kontrast</caption>
+      <caption xml:lang="uk">Головне вікно Kontrast</caption>
+      <caption xml:lang="x-test">xxMain view of Kontrastxx</caption>
+      <image type="source" width="1074" height="833">https://cdn.kde.org/screenshots/kontrast/kontrast.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Main view of Kontrast on mobile</caption>
+      <caption xml:lang="ca">Vista principal del Kontrast al mòbil</caption>
+      <caption xml:lang="ca-valencia">Vista principal del Kontrast al mòbil</caption>
+      <caption xml:lang="es">Vista principal de Kontrast para móvil</caption>
+      <caption xml:lang="fr">Affichage principal de Kontrast sur plate-forme mobile</caption>
+      <caption xml:lang="it">Vista principale di Kontrast nei dispositivi mobili</caption>
+      <caption xml:lang="nl">Hoofdweergave van Kontrast op mobiel</caption>
+      <caption xml:lang="pt-BR">Visão principal do Kontrast no celular</caption>
+      <caption xml:lang="sv">Huvudvy i Kontrast på mobil</caption>
+      <caption xml:lang="uk">Головне вікно Kontrast на мобільному</caption>
+      <caption xml:lang="x-test">xxMain view of Kontrast on mobilexx</caption>
+      <image type="source" width="535" height="833">https://cdn.kde.org/screenshots/kontrast/kontrat_mobile.png</image>
+    </screenshot>
+  </screenshots>
+  <content_rating type="oars-1.0"/>
 </component>

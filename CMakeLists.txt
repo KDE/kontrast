@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.8)
 
-project(kontrast VERSION "1.0.0")
+project(kontrast VERSION "1.0.1")
 
 set(QT_MIN_VERSION "5.14.0")
 set(KF5_MIN_VERSION "5.70.0")
@@ -24,7 +24,7 @@ include(KDEClangFormat)
 ecm_setup_version(${PROJECT_VERSION}
     VARIABLE_PREFIX KONTRAST
     SOVERSION ${PROJECT_VERSION_MAJOR}
-    VERSION_HEADER "${CMAKE_CURRENT_BINARY_DIR}/config-kontrast.h"
+    VERSION_HEADER "${CMAKE_CURRENT_BINARY_DIR}/src/config-kontrast.h"
 )
 
 ################# Find dependencies #################

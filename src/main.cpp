@@ -9,11 +9,17 @@
 #include <QtQml>
 #include <QUrl>
 #include <QIcon>
+#include <QSqlDatabase>
+#include <QSqlError>
+#include <QSqlQuery>
 #include <KLocalizedContext>
 #include <KAboutData>
 #include <KLocalizedString>
 #include <kontrast.h>
 #include "savedcolormodel.h"
+#include "config-kontrast.h"
+
+const QString DRIVER(QStringLiteral("QSQLITE"));
 
 Q_DECL_EXPORT int main(int argc, char *argv[])
 {
@@ -21,7 +27,7 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
     QApplication app(argc, argv);
     KLocalizedString::setApplicationDomain("kontrast");
     
-    KAboutData aboutData(QStringLiteral("kontrast"), i18nc("@title", "Kontrast"), QStringLiteral("1.0"),
+    KAboutData aboutData(QStringLiteral("kontrast"), i18nc("@title", "Kontrast"), QStringLiteral(KONTRAST_VERSION_STRING),
                          i18nc("@title", "A contrast checker application"),
                          KAboutLicense::GPL_V3);
     
@@ -31,6 +37,15 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
 
     KAboutData::setApplicationData(aboutData);
     QApplication::setWindowIcon(QIcon::fromTheme(QStringLiteral("org.kde.kontrast")));
+
+    Q_ASSERT(QSqlDatabase::isDriverAvailable(DRIVER));
+    Q_ASSERT(QDir().mkpath(QDir::cleanPath(QStandardPaths::writableLocation(QStandardPaths::DataLocation))));
+    QSqlDatabase db = QSqlDatabase::addDatabase(DRIVER);
+    const auto path = QDir::cleanPath(QStandardPaths::writableLocation(QStandardPaths::DataLocation) + QStringLiteral("/") + qApp->applicationName());
+    db.setDatabaseName(path);
+    if (!db.open()) {
+        qCritical() << db.lastError() << "while opening database at" << path;
+    }
 
     QCommandLineParser parser;
     aboutData.setupCommandLine(&parser);
