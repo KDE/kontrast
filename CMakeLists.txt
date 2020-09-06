@@ -45,6 +45,19 @@ install(FILES org.kde.kontrast.svg DESTINATION ${KDE_INSTALL_FULL_ICONDIR}/hicol
 
 feature_summary(WHAT ALL INCLUDE_QUIET_PACKAGES FATAL_ON_MISSING_REQUIRED_PACKAGES)
 
+if(ANDROID)
+    kirigami_package_breeze_icons(ICONS
+        go-home
+        favorite
+        help-symbolic
+        help-about-symbolic
+        applications-graphics
+        color-picker
+        reverse
+        randomize
+    )
+endif()
+
 file(GLOB_RECURSE ALL_CLANG_FORMAT_SOURCE_FILES src/*.cpp src/*.h)
 kde_clang_format(${ALL_CLANG_FORMAT_SOURCE_FILES})
         
