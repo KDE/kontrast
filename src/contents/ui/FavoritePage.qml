@@ -65,7 +65,7 @@ Kirigami.ScrollablePage {
                             color: model.ForegroundColor
                             MouseArea {
                                 anchors.fill: parent
-                                onClicked: copyTex(model.ForegroundColor);
+                                onClicked: copyText(model.ForegroundColor);
                             }
                         }
                     }
