@@ -55,7 +55,14 @@ SPDX-LicenseRef: CC0-1.0
   </provides>
   <project_group>KDE</project_group>
   <url type="homepage">https://invent.kde.org/accessibility/kontrast</url>
+  <url type="donation">https://liberapay.com/Carl/</url>
   <releases>
+    <release version="1.0.2" date="2020-09-06">
+      <description>
+        <p>Fix malformed AppStream file</p>
+        <p>Fix unable to copy text color in favorite page</p>
+      </description>
+    </release>
     <release version="1.0.1" date="2020-08-27">
       <description>
         <p>Fix critical error: saved colors were not displayed.</p>
