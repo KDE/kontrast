@@ -40,7 +40,9 @@ SPDX-LicenseRef: CC0-1.0
   <description>
     <p>Kontrast is a color contrast checker and tells you if your color combinations are accessible for people with color deficiencies.</p>
     <p xml:lang="ca">El Kontrast és un comprovador del contrast del color i indica si les vostres combinacions de color són accessibles per a persones amb deficiències de color.</p>
+    <p xml:lang="ca-valencia">El Kontrast és un comprovador del contrast del color i indica si les vostres combinacions de color són accessibles per a persones amb deficiències de color.</p>
     <p xml:lang="es">Kontrast es un verificador de contraste de color que le dice si sus combinaciones de colores son accesibles para personas con deficiencias de percepción de colores.</p>
+    <p xml:lang="fr">Kontrast est un vérificateur de contraste de couleurs. Il vous indique si votre combinaison de couleurs est acceptable pour des personnes ayant des déficiences avec les couleurs.</p>
     <p xml:lang="nl">Kontrast is een controleprogramma op kleurcontrast en vertelt u of uw kleurcombinaties toegankelijk zijn voor mensen met kleurenblindheid.</p>
     <p xml:lang="pt-BR">O Kontrast é um verificador de contraste de cores que te diz se as combinações de cores que você usa são acessíveis para pessoas com daltonismo.</p>
     <p xml:lang="sv">Kontrast är ett kontrollverktyg för färgkontrast och talar om för dig om dina färgkombinationer är tillgängliga för personer med färgblindhet.</p>
