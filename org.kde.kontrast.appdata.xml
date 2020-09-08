@@ -49,6 +49,7 @@ SPDX-LicenseRef: CC0-1.0
   <project_license>GPL-3.0-or-later</project_license>
   <description>
     <p>Kontrast is a color contrast checker and tells you if your color combinations are accessible for people with color deficiencies.</p>
+    <p xml:lang="x-test">xxKontrast is a color contrast checker and tells you if your color combinations are accessible for people with color deficiencies.xx</p>
   </description>
   <launchable type="desktop-id">org.kde.kontrast.desktop</launchable>
   <provides>
@@ -80,13 +81,16 @@ SPDX-LicenseRef: CC0-1.0
     </release>
   </releases>
   <developer_name>Carl Schwan</developer_name>
+  <developer_name xml:lang="x-test">xxCarl Schwanxx</developer_name>
   <screenshots>
     <screenshot>
       <caption>Main view of Kontrast</caption>
+      <caption xml:lang="x-test">xxMain view of Kontrastxx</caption>
       <image type="source" width="1074" height="833">https://cdn.kde.org/screenshots/kontrast/kontrast.png</image>
     </screenshot>
     <screenshot>
       <caption>Main view of Kontrast on mobile</caption>
+      <caption xml:lang="x-test">xxMain view of Kontrast on mobilexx</caption>
       <image type="source" width="535" height="833">https://cdn.kde.org/screenshots/kontrast/kontrat_mobile.png</image>
     </screenshot>
   </screenshots>
