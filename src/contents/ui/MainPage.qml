@@ -83,6 +83,7 @@ Kirigami.ScrollablePage {
                     
                     QQC2.Button {
                         icon.name: "color-picker"
+                        visible: !Kirigami.Settings.isMobile
                         anchors {
                             left: parent.right
                             verticalCenter: parent.verticalCenter
@@ -163,6 +164,7 @@ Kirigami.ScrollablePage {
                     maximumLength: 7
                     QQC2.Button {
                         icon.name: "color-picker"
+                        visible: !Kirigami.Settings.isMobile
                         anchors {
                             left: parent.right
                             verticalCenter: parent.verticalCenter
