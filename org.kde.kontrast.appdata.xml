@@ -10,6 +10,7 @@ SPDX-LicenseRef: CC0-1.0
   <name xml:lang="ca">Kontrast</name>
   <name xml:lang="ca-valencia">Kontrast</name>
   <name xml:lang="cs">Kontrast</name>
+  <name xml:lang="da">Kontrast</name>
   <name xml:lang="el">Kontrast</name>
   <name xml:lang="es">Kontrast</name>
   <name xml:lang="fi">Kontrast</name>
@@ -25,6 +26,7 @@ SPDX-LicenseRef: CC0-1.0
   <summary>A Color Contrast Checker</summary>
   <summary xml:lang="ca">Un comprovador del contrast del color</summary>
   <summary xml:lang="ca-valencia">Un comprovador del contrast del color</summary>
+  <summary xml:lang="da">Tjek af farvekontrast</summary>
   <summary xml:lang="el">Ένα πρόγραμμα ελέγχου της χρωματικής αντίθεσης</summary>
   <summary xml:lang="es">Verificador de contraste de color</summary>
   <summary xml:lang="fi">Värikontrastin tarkistus</summary>
