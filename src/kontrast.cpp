@@ -34,7 +34,7 @@ void Kontrast::setTextColor(const QColor textColor)
 
 int Kontrast::textHue() const
 {
-    return m_textColor.hslHue();
+    return qBound(0, m_textColor.hslHue(), 359);
 }
 
 void Kontrast::setTextHue(int hue)
@@ -95,7 +95,7 @@ void Kontrast::setBackgroundColor(const QColor backgroundColor)
 
 int Kontrast::backgroundHue() const
 {
-    return m_backgroundColor.hslHue();
+    return qBound(0, m_backgroundColor.hslHue(), 359);
 }
 
 void Kontrast::setBackgroundHue(int hue)
