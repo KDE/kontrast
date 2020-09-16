@@ -192,9 +192,9 @@ QColor Kontrast::displayTextColor() const
     }
     
     if (luminosity(m_backgroundColor) > 0.5) {
-        return QColor("black");
+        return Qt::black;
     }
-    return QColor("white");
+    return Qt::white;
 }
 
 KAboutData Kontrast::about() const
