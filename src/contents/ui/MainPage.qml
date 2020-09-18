@@ -10,7 +10,6 @@ import QtQuick.Controls 2.14 as QQC2
 import QtQuick.Window 2.14
 import QtQuick.Layouts 1.14
 import org.kde.kontrast.private 1.0
-import QtQuick.Dialogs 1.0
 
 Kirigami.ScrollablePage {
     id: mainPage
@@ -20,20 +19,21 @@ Kirigami.ScrollablePage {
     background: Rectangle {
         color: Kontrast.backgroundColor
     }
-    
-    ColumnLayout {
-        ColorDialog {
-            id: colorDialog
-            property var target: "textColor";
-            title: i18n("Please choose a color")
-            onAccepted: {
-                if (target === "textColor") {
-                    Kontrast.textColor = colorDialog.color;
-                } else {
-                    Kontrast.backgroundColor = colorDialog.color;
-                }
+
+    Connections {
+        id: grabbedColorConnection
+        property string type: "text"
+        target: Kontrast
+        function onGrabbedColorChanged() {
+            if (type === "text") {
+                Kontrast.textColor = Kontrast.grabbedColor;
+            } else {
+                Kontrast.backgroundColor = Kontrast.grabbedColor;
             }
         }
+    } 
+    
+    ColumnLayout {
         Text {
             font.pointSize: mainPage.isMobile ? 20 : 40
             font.bold: true
@@ -89,9 +89,8 @@ Kirigami.ScrollablePage {
                             verticalCenter: parent.verticalCenter
                         }
                         onClicked: {
-                            colorDialog.color = Kontrast.textColor
-                            colorDialog.target = "textColor";
-                            colorDialog.visible = true;
+                            grabbedColorConnection.type = "text";
+                            Kontrast.grabColor();
                         }
                     }
                 }
@@ -170,9 +169,8 @@ Kirigami.ScrollablePage {
                             verticalCenter: parent.verticalCenter
                         }
                         onClicked: {
-                            colorDialog.color = Kontrast.backgroundColor;
-                            colorDialog.target = "backgroundColor";
-                            colorDialog.visible = true;
+                            grabbedColorConnection.type = "background";
+                            Kontrast.grabColor();
                         }
                     }
                 }

@@ -40,9 +40,17 @@ class Kontrast : public QObject
     
     Q_PROPERTY(KAboutData about READ about);
 
+    Q_PROPERTY(QColor grabbedColor READ grabbedColor NOTIFY grabbedColorChanged);
+
 public:
     Kontrast(KAboutData about, QObject *parent = nullptr);
     virtual ~Kontrast() override = default;
+
+    struct ColorRGB {
+        double red;
+        double green;
+        double blue;
+    };
     
     QColor textColor() const;
     void setTextColor(const QColor textColor);
@@ -73,19 +81,28 @@ public:
     QColor displayTextColor() const;
     
     KAboutData about() const;
+
+    QColor grabbedColor() const;
     
     Q_INVOKABLE void random();
     Q_INVOKABLE void reverse();
-    
+    Q_INVOKABLE void grabColor();
     Q_INVOKABLE QColor pixelAt(const QImage &image, int x, int y) const;
+
+private Q_SLOTS:
+    void gotColorResponse(uint response, const QVariantMap &results);
     
 Q_SIGNALS:
     void textColorChanged();
     void backgroundColorChanged();
     void contrastChanged();
+    void grabbedColorChanged();
 
 private:
     QColor m_textColor;
     QColor m_backgroundColor;
+    QColor m_grabbedColor;
     KAboutData m_about;
 };
+
+Q_DECLARE_METATYPE(Kontrast::ColorRGB)

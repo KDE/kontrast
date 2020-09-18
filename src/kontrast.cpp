@@ -1,19 +1,52 @@
 /*
  * SPDX-FileCopyrightText: (C) 2020 Carl Schwan <carl@carlschwan.eu>
- * 
+ *
  * SPDX-LicenseRef: GPL-3.0-or-later
  */
 
 #include "kontrast.h"
 
 #include <QtMath>
-#include <QRandomGenerator> 
+#include <QRandomGenerator>
+#include <QDBusMessage>
+#include <QDBusMetaType>
+#include <QDBusPendingCall>
+#include <QDBusPendingCallWatcher>
+#include <QDBusPendingReply>
+#include <QDBusObjectPath>
+#include <QDBusConnection>
+#include <QDebug>
+
+
+QDBusArgument &operator <<(QDBusArgument &arg, const Kontrast::ColorRGB &color)
+{
+    arg.beginStructure();
+    arg << color.red << color.green << color.blue;
+    arg.endStructure();
+    return arg;
+}
+
+const QDBusArgument &operator >>(const QDBusArgument &arg, Kontrast::ColorRGB &color)
+{
+    double red, green, blue;
+    arg.beginStructure();
+    arg >> red >> green >> blue;
+    color.red = red;
+    color.green = green;
+    color.blue = blue;
+    arg.endStructure();
+
+    return arg;
+}
+
 
 Kontrast::Kontrast(KAboutData about, QObject *parent)
     : QObject(parent)
     , m_about(about)
 {
     setObjectName(QStringLiteral("Kontrast"));
+
+    qDBusRegisterMetaType<ColorRGB>();
 }
 
 QColor Kontrast::textColor() const
@@ -26,7 +59,7 @@ void Kontrast::setTextColor(const QColor textColor)
     if (textColor == m_textColor) {
         return;
     }
-    
+
     m_textColor = textColor;
     Q_EMIT textColorChanged();
     Q_EMIT contrastChanged();
@@ -87,7 +120,7 @@ void Kontrast::setBackgroundColor(const QColor backgroundColor)
     if (backgroundColor == m_backgroundColor) {
         return;
     }
-    
+
     m_backgroundColor = backgroundColor;
     Q_EMIT backgroundColorChanged();
     Q_EMIT contrastChanged();
@@ -144,11 +177,11 @@ qreal luminosity(const QColor color)
     const qreal red = color.redF();
     const qreal green = color.greenF();
     const qreal blue = color.blueF();
-    
+
     const qreal redLum = (red <= 0.03928) ? red / 12.92 : qPow(((red + 0.055) /  1.055), 2.4);
     const qreal greenLum = (green <= 0.03928) ? green / 12.92 : qPow(((green + 0.055) /  1.055), 2.4);
     const qreal blueLum = (blue <= 0.03928) ? blue / 12.92 : qPow(((blue + 0.055) /  1.055), 2.4);
-    
+
     return 0.2126 * redLum + 0.7152 * greenLum + 0.0722 * blueLum;
 }
 
@@ -156,11 +189,11 @@ qreal Kontrast::contrast() const
 {
     const qreal lum1 = luminosity(m_textColor);
     const qreal lum2 = luminosity(m_backgroundColor);
-    
+
     if (lum1 > lum2) {
         return (lum1 + 0.05) / (lum2 + 0.05);
     }
-    
+
     return (lum2 + 0.05) / (lum1 + 0.05);
 }
 
@@ -190,7 +223,7 @@ QColor Kontrast::displayTextColor() const
     if (contrast() > 3.0) {
         return m_textColor;
     }
-    
+
     if (luminosity(m_backgroundColor) > 0.5) {
         return Qt::black;
     }
@@ -205,4 +238,47 @@ KAboutData Kontrast::about() const
 QColor Kontrast::pixelAt(const QImage &image, int x, int y) const
 {
     return image.pixelColor(x, y);
+}
+
+void Kontrast::grabColor()
+{
+    QDBusMessage message = QDBusMessage::createMethodCall(QLatin1String("org.freedesktop.portal.Desktop"),
+                                                          QLatin1String("/org/freedesktop/portal/desktop"),
+                                                          QLatin1String("org.freedesktop.portal.Screenshot"),
+                                                          QLatin1String("PickColor"));
+    message << QLatin1String("x11:") << QVariantMap{};
+    QDBusPendingCall pendingCall = QDBusConnection::sessionBus().asyncCall(message);
+    QDBusPendingCallWatcher *watcher = new QDBusPendingCallWatcher(pendingCall);
+    connect(watcher, &QDBusPendingCallWatcher::finished, [this] (QDBusPendingCallWatcher *watcher) {
+        QDBusPendingReply<QDBusObjectPath> reply = *watcher;
+        if (reply.isError()) {
+            qWarning() << "Couldn't get reply";
+            qWarning() << "Error: " << reply.error().message();
+        } else {
+            QDBusConnection::sessionBus().connect(QString(),
+                                                  reply.value().path(),
+                                                  QLatin1String("org.freedesktop.portal.Request"),
+                                                  QLatin1String("Response"),
+                                                  this,
+                                                  SLOT(gotColorResponse(uint, QVariantMap)));
+        }
+    });
+}
+
+QColor Kontrast::grabbedColor() const
+{
+    return m_grabbedColor;
+}
+
+void Kontrast::gotColorResponse(uint response, const QVariantMap& results)
+{
+    if (!response) {
+        if (results.contains(QLatin1String("color"))) {
+            auto color = qdbus_cast<ColorRGB>(results.value(QLatin1String("color")));
+            m_grabbedColor = QColor(color.red * 256, color.green * 256, color.blue * 256);
+            emit grabbedColorChanged();
+        }
+    } else {
+        qWarning() << "Failed to take screenshot";
+    }
 }

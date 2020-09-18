@@ -6,6 +6,7 @@ add_executable(kontrast
     
 target_link_libraries(kontrast
     Qt5::Core
+    Qt5::DBus
     Qt5::Gui
     Qt5::Qml
     Qt5::Quick
