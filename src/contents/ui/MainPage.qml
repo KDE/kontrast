@@ -34,8 +34,8 @@ Kirigami.ScrollablePage {
     }
 
     ColumnLayout {
-        Text {
-            font.pointSize: mainPage.isMobile ? 20 : 40
+        Kirigami.Heading {
+            level: 1
             font.bold: true
             text: i18n("Contrast ratio: %1", Kontrast.contrast.toFixed(2))
 
@@ -43,8 +43,8 @@ Kirigami.ScrollablePage {
             wrapMode: Text.WordWrap
             Layout.fillWidth: true
         }
-        Text {
-            font.pointSize: mainPage.isMobile ? 13 : 18
+        Kiriami.Heading {
+            level: 2
             font.bold: true
             color: Kontrast.textColor
             Layout.fillWidth: true
@@ -52,8 +52,8 @@ Kirigami.ScrollablePage {
             text: (Kontrast.contrast > 7 ? i18n("Perfect for normal and large text") : Kontrast.contrast > 4.5 ? i18n("Perfect for large text and good for normal text") : Kontrast.contrast > 3.0 ? i18n("Good for large text and bad for normal text") : i18n("Bad for large and normal text"))
         }
 
-        Text {
-            font.pointSize: mainPage.isMobile ? 12 : 14
+        Kirigami.Heading {
+            level: 2
             Layout.fillWidth: true
             wrapMode: Text.WordWrap
             text: i18n("Contrast is the difference in luminance or color that makes an object (or its representation in an image or display) distinguishable. In visual perception of the real world, contrast is determined by the difference in the color and brightness of the object and other objects within the same field of view.")
