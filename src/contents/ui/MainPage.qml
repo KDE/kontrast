@@ -43,8 +43,8 @@ Kirigami.ScrollablePage {
             wrapMode: Text.WordWrap
             Layout.fillWidth: true
         }
-        Kiriami.Heading {
-            level: 2
+        Kirigami.Heading {
+            level: 3
             font.bold: true
             color: Kontrast.textColor
             Layout.fillWidth: true
@@ -53,7 +53,7 @@ Kirigami.ScrollablePage {
         }
 
         Kirigami.Heading {
-            level: 2
+            level: 3
             Layout.fillWidth: true
             wrapMode: Text.WordWrap
             text: i18n("Contrast is the difference in luminance or color that makes an object (or its representation in an image or display) distinguishable. In visual perception of the real world, contrast is determined by the difference in the color and brightness of the object and other objects within the same field of view.")
