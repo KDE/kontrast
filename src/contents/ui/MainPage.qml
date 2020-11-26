@@ -14,6 +14,7 @@ import org.kde.kontrast.private 1.0
 Kirigami.ScrollablePage {
     id: mainPage
     property bool isMobile: Window.width <= Kirigami.Units.gridUnit * 30
+    Kirigami.ColumnView.preventStealing: true
 
     title: i18n("Contrast Checker")
     background: Rectangle {
