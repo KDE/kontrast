@@ -83,6 +83,7 @@ SPDX-LicenseRef: CC0-1.0
   <url type="homepage">https://kde.org/applications/en/kontrast</url>
   <url type="donation">https://liberapay.com/Carl/</url>
   <releases>
+    <release version="1.0.2" date="2020-12-10"/>
     <release version="1.0.2" date="2020-09-06">
       <description>
         <p>Fix malformed AppStream file</p>
