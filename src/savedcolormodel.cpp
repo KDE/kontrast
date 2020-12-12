@@ -26,7 +26,7 @@ SavedColorModel::SavedColorModel(QObject *parent)
                 BackgroundColor BLOB NOT NULL
             )
         )RJIENRLWEY");
-        auto query = QSqlQuery();
+        auto query = QSqlQuery(statement);
         if (!query.exec()) {
             qCritical() << query.lastError() << "while creating table";
         }
@@ -46,7 +46,7 @@ QVariant SavedColorModel::data(const QModelIndex &index, int role) const
     if (role == Qt::UserRole + 0 + 1) { // ID
         parentColumn = 0;
     } else if (role == Qt::UserRole + 1 + 1) { // Name
-        parentColumn = 0;
+        parentColumn = 1;
     } else if (role == Qt::UserRole + 2 + 1) { // ForegroundColor
         parentColumn = 2;
     } else { // BackgroundColor
