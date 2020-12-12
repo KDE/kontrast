@@ -18,6 +18,7 @@ Kirigami.ScrollablePage {
     title: i18n("Favorite colors")
     property bool isMobile: Window.width <= Kirigami.Units.gridUnit * 30
     ListView {
+        id: listview
         model: ColorStore
         QtExtra.Clipboard {
             id: clipboard
@@ -31,69 +32,66 @@ Kirigami.ScrollablePage {
                 color: model.BackgroundColor
             }
 
-            RowLayout {
-                height: layout.height
-                ColumnLayout {
-                    id: layout
-                    Layout.fillHeight: true
-                    Kirigami.Heading {
-                        Layout.fillWidth: true
-                        level: 3
-                        text: "Lorem Impsum"
-                        color: model.ForegroundColor
-                    }
+            ColumnLayout {
+                id: layout
+                Kirigami.Heading {
+                    Layout.fillWidth: true
+                    level: 3
+                    text: "Lorem Impsum"
+                    color: model.ForegroundColor
+                }
 
-                    Text {
-                        Layout.fillWidth: true
-                        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque et dolor velit. Morbi elementum libero non vehicula porta. Suspendisse potenti. Suspendisse eu sapien lectus."
-                        wrapMode: Text.WordWrap
-                        color: model.ForegroundColor
-                    }
+                Text {
+                    Layout.fillWidth: true
+                    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque et dolor velit. Morbi elementum libero non vehicula porta. Suspendisse potenti. Suspendisse eu sapien lectus."
+                    wrapMode: Text.WordWrap
+                    color: model.ForegroundColor
+                }
 
-                    Text {
-                        text: i18n("Text: %1", model.ForegroundColor)
+                Text {
+                    text: i18n("Text: %1", model.ForegroundColor)
+                    color: model.ForegroundColor
+                    MouseArea {
+                        anchors.fill: parent
+                        onClicked: copyText();
+                    }
+                    Kirigami.Icon {
+                        anchors.left: parent.right
+                        height: parent.height
+                        width: parent.height
+                        source: "edit-copy"
                         color: model.ForegroundColor
                         MouseArea {
                             anchors.fill: parent
-                            onClicked: copyText();
-                        }
-                        Kirigami.Icon {
-                            anchors.left: parent.right
-                            height: parent.height
-                            width: parent.height
-                            source: "edit-copy"
-                            color: model.ForegroundColor
-                            MouseArea {
-                                anchors.fill: parent
-                                onClicked: copyText(model.ForegroundColor);
-                            }
-                        }
-                    }
-
-                    Text {
-                        text: i18n("Background: %1", model.BackgroundColor)
-                        color: model.ForegroundColor
-
-                        MouseArea {
-                            anchors.fill: parent
-                            onClicked: copyBackground();
-                        }
-                        Kirigami.Icon {
-                            anchors.left: parent.right
-                            height: parent.height
-                            width: parent.height
-                            source: "edit-copy"
-                            color: model.ForegroundColor
-                            MouseArea {
-                                anchors.fill: parent
-                                onClicked: copyBackground(model.BackgroundColor);
-                            }
+                            onClicked: copyText(model.ForegroundColor);
                         }
                     }
                 }
-                
+
+                Text {
+                    text: i18n("Background: %1", model.BackgroundColor)
+                    color: model.ForegroundColor
+
+                    MouseArea {
+                        anchors.fill: parent
+                        onClicked: copyBackground();
+                    }
+                    Kirigami.Icon {
+                        anchors.left: parent.right
+                        height: parent.height
+                        width: parent.height
+                        source: "edit-copy"
+                        color: model.ForegroundColor
+                        MouseArea {
+                            anchors.fill: parent
+                            onClicked: copyBackground(model.BackgroundColor);
+                        }
+                    }
+                }
+
                 QQC2.Button {
                     text: i18n("Remove")
+                    Layout.topMargin: Kirigami.Units.largeSpacing
                     onClicked: {
                         ColorStore.removeColor(model.index)
                     }
