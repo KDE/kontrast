@@ -85,6 +85,7 @@ SPDX-LicenseRef: CC0-1.0
   <url type="homepage">https://kde.org/applications/en/kontrast</url>
   <url type="donation">https://liberapay.com/Carl/</url>
   <releases>
+    <release version="20.12.1" date="2021-01-07"/>
     <release version="20.12.0" date="2020-12-10">
       <description>
         <p>Add wayland support for choosing colors from screen.</p>
@@ -105,16 +106,6 @@ SPDX-LicenseRef: CC0-1.0
       <artifacts>
         <artifact type="source">
           <location>https://download.kde.org/stable/kontrast/kontrast-1.0.1.tar.xz</location>
-        </artifact>
-      </artifacts>
-    </release>
-    <release version="1.0.0" date="2020-08-27">
-      <description>
-        <p>This is the initial release of Kontrast</p>
-      </description>
-      <artifacts>
-        <artifact type="source">
-          <location>https://download.kde.org/stable/kontrast/kontrast-1.0.0.tar.xz</location>
         </artifact>
       </artifacts>
     </release>
