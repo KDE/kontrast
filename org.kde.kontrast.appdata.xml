@@ -11,6 +11,7 @@ SPDX-LicenseRef: CC0-1.0
   <name xml:lang="ca-valencia">Kontrast</name>
   <name xml:lang="cs">Kontrast</name>
   <name xml:lang="da">Kontrast</name>
+  <name xml:lang="de">Kontrast</name>
   <name xml:lang="el">Kontrast</name>
   <name xml:lang="en-GB">Kontrast</name>
   <name xml:lang="es">Kontrast</name>
@@ -36,6 +37,7 @@ SPDX-LicenseRef: CC0-1.0
   <summary xml:lang="ca">Un comprovador del contrast del color</summary>
   <summary xml:lang="ca-valencia">Un comprovador del contrast del color</summary>
   <summary xml:lang="da">Tjek af farvekontrast</summary>
+  <summary xml:lang="de">Eine Anwendung zur Kontrastüberprüfung von Farben</summary>
   <summary xml:lang="el">Ένα πρόγραμμα ελέγχου της χρωματικής αντίθεσης</summary>
   <summary xml:lang="en-GB">A Colour Contrast Checker</summary>
   <summary xml:lang="es">Verificador de contraste de color</summary>
@@ -64,6 +66,7 @@ SPDX-LicenseRef: CC0-1.0
     <p xml:lang="ca">El Kontrast és un comprovador del contrast del color i indica si les vostres combinacions de color són suficientment distingibles per a ser llegibles i accessibles.</p>
     <p xml:lang="ca-valencia">El Kontrast és un comprovador del contrast del color i indica si les vostres combinacions de color són suficientment distingibles per a ser llegibles i accessibles.</p>
     <p xml:lang="da">Kontrast er et program til at tjekke farvekontraster og fortæller dig om dine farvekombinationer er forskellige nok til at være læsbare og tilgængelige.</p>
+    <p xml:lang="de">Kontrast isr eine Anwendung zur Kontrastüberprüfung von Farben und ermittelt, ob Ihre Farbkombinationen gut zu erkennen sind, um lesbar und zugänglich zu sein.</p>
     <p xml:lang="el">Το Kontrast είναι ένα πρόγραμμα ελέγχου της χρωματικής αντίθεσης και σας λέει αν οι χρωματικοί συνδυασμοί σας είναι επαρκώς διακριτοί για να είναι ευανάγνωστοι και προσβάσιμοι.</p>
     <p xml:lang="en-GB">Kontrast is a colour contrast checker and tells you if your colour combinations are distinct enough to be readable and accessible.</p>
     <p xml:lang="es">Kontrast es un verificador de contraste de color que le indica si sus combinaciones de colores son lo suficientemente distintas como para ser legibles y accesibles.</p>
@@ -100,6 +103,7 @@ SPDX-LicenseRef: CC0-1.0
   <developer_name xml:lang="ca-valencia">Carl Schwan</developer_name>
   <developer_name xml:lang="cs">Carl Schwan</developer_name>
   <developer_name xml:lang="da">Carl Schwan</developer_name>
+  <developer_name xml:lang="de">Carl Schwan</developer_name>
   <developer_name xml:lang="el">Carl Schwan</developer_name>
   <developer_name xml:lang="en-GB">Carl Schwan</developer_name>
   <developer_name xml:lang="es">Carl Schwan</developer_name>
@@ -124,6 +128,7 @@ SPDX-LicenseRef: CC0-1.0
       <caption xml:lang="ca">Vista principal del Kontrast</caption>
       <caption xml:lang="ca-valencia">Vista principal del Kontrast</caption>
       <caption xml:lang="da">Kontrasts hovedvisning</caption>
+      <caption xml:lang="de">Hauptansicht von Kontrast</caption>
       <caption xml:lang="el">Κύρια προβολή του Kontrast</caption>
       <caption xml:lang="en-GB">Main view of Kontrast</caption>
       <caption xml:lang="es">Vista principal de Kontrast</caption>
@@ -148,6 +153,7 @@ SPDX-LicenseRef: CC0-1.0
       <caption xml:lang="ca">Vista principal del Kontrast al mòbil</caption>
       <caption xml:lang="ca-valencia">Vista principal del Kontrast al mòbil</caption>
       <caption xml:lang="da">Kontrasts hovedvisning på mobile enheder</caption>
+      <caption xml:lang="de">Hauptansicht von Kontrast auf Mobilgeräten</caption>
       <caption xml:lang="el">Κύρια προβολή του Kontrast σε κινητό</caption>
       <caption xml:lang="en-GB">Main view of Kontrast on mobile</caption>
       <caption xml:lang="es">Vista principal de Kontrast para móvil</caption>
