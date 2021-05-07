@@ -93,10 +93,10 @@ SPDX-LicenseRef: CC0-1.0
   <url type="homepage">https://kde.org/applications/en/kontrast</url>
   <url type="donation">https://liberapay.com/Carl/</url>
   <releases>
+    <release version="21.04.1" date="2021-05-13"/>
     <release version="21.04.0" date="2021-04-22"/>
     <release version="20.12.3" date="2021-03-04"/>
     <release version="20.12.2" date="2021-02-04"/>
-    <release version="20.12.1" date="2021-01-07"/>
   </releases>
   <developer_name>Carl Schwan</developer_name>
   <developer_name xml:lang="ca">Carl Schwan</developer_name>
