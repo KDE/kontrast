@@ -2,6 +2,8 @@
 
 Kontrast is a color contrast checker and tell you if your color combinations are accessible for people with color vision defiencies.
 
+<a href='https://flathub.org/apps/details/org.kde.kontrast'><img width='190px' alt='Download on Flathub' src='https://flathub.org/assets/badges/flathub-badge-i-en.png'/></a>
+
 ## Screenshots
 
 ![Kontrast main page on desktop](https://cdn.kde.org/screenshots/kontrast/kontrast.png)
