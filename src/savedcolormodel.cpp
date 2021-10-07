@@ -1,18 +1,18 @@
 /*
  * SPDX-FileCopyrightText: (C) 2020 Carl Schwan <carl@carlschwan.eu>
- * 
+ *
  * SPDX-LicenseRef: GPL-3.0-or-later
  */
 
 #include "savedcolormodel.h"
 
-#include <QCoreApplication>
 #include <QColor>
+#include <QCoreApplication>
 #include <QDebug>
 #include <QDir>
-#include <QStandardPaths>
-#include <QSqlRecord>
 #include <QSqlError>
+#include <QSqlRecord>
+#include <QStandardPaths>
 
 SavedColorModel::SavedColorModel(QObject *parent)
     : QSqlTableModel(parent)
@@ -59,13 +59,13 @@ QVariant SavedColorModel::data(const QModelIndex &index, int role) const
 QHash<int, QByteArray> SavedColorModel::roleNames() const
 {
     QHash<int, QByteArray> roles;
-    for (int i = 0; i < this->record().count(); i ++) {
+    for (int i = 0; i < this->record().count(); i++) {
         roles.insert(Qt::UserRole + i + 1, record().fieldName(i).toUtf8());
     }
     return roles;
 }
 
-bool SavedColorModel::addColor(const QString& name, const QColor& foreground, const QColor& background)
+bool SavedColorModel::addColor(const QString &name, const QColor &foreground, const QColor &background)
 {
     QSqlRecord newRecord = this->record();
     newRecord.setValue(QStringLiteral("Name"), name);
