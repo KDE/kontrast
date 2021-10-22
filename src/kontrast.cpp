@@ -6,6 +6,11 @@
 
 #include "kontrast.h"
 
+#include <QDebug>
+#include <QRandomGenerator>
+#include <QtMath>
+
+#ifdef QT_DBUS_LIB
 #include <QDBusConnection>
 #include <QDBusMessage>
 #include <QDBusMetaType>
@@ -13,9 +18,6 @@
 #include <QDBusPendingCall>
 #include <QDBusPendingCallWatcher>
 #include <QDBusPendingReply>
-#include <QDebug>
-#include <QRandomGenerator>
-#include <QtMath>
 
 QDBusArgument &operator<<(QDBusArgument &arg, const Kontrast::ColorRGB &color)
 {
@@ -37,6 +39,7 @@ const QDBusArgument &operator>>(const QDBusArgument &arg, Kontrast::ColorRGB &co
 
     return arg;
 }
+#endif
 
 Kontrast::Kontrast(KAboutData about, QObject *parent)
     : QObject(parent)
@@ -44,7 +47,9 @@ Kontrast::Kontrast(KAboutData about, QObject *parent)
 {
     setObjectName(QStringLiteral("Kontrast"));
 
+#ifdef QT_DBUS_LIB
     qDBusRegisterMetaType<ColorRGB>();
+#endif
 }
 
 QColor Kontrast::textColor() const
@@ -240,6 +245,7 @@ QColor Kontrast::pixelAt(const QImage &image, int x, int y) const
 
 void Kontrast::grabColor()
 {
+#ifdef QT_DBUS_LIB
     QDBusMessage message = QDBusMessage::createMethodCall(QLatin1String("org.freedesktop.portal.Desktop"),
                                                           QLatin1String("/org/freedesktop/portal/desktop"),
                                                           QLatin1String("org.freedesktop.portal.Screenshot"),
@@ -261,6 +267,7 @@ void Kontrast::grabColor()
                                                   SLOT(gotColorResponse(uint, QVariantMap)));
         }
     });
+#endif
 }
 
 QColor Kontrast::grabbedColor() const
@@ -270,6 +277,7 @@ QColor Kontrast::grabbedColor() const
 
 void Kontrast::gotColorResponse(uint response, const QVariantMap &results)
 {
+#ifdef QT_DBUS_LIB
     if (!response) {
         if (results.contains(QLatin1String("color"))) {
             auto color = qdbus_cast<ColorRGB>(results.value(QLatin1String("color")));
@@ -279,4 +287,8 @@ void Kontrast::gotColorResponse(uint response, const QVariantMap &results)
     } else {
         qWarning() << "Failed to take screenshot";
     }
+#else
+    Q_UNUSED(response);
+    Q_UNUSED(results);
+#endif
 }

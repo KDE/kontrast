@@ -6,7 +6,6 @@ add_executable(kontrast
     
 target_link_libraries(kontrast
     Qt5::Core
-    Qt5::DBus
     Qt5::Gui
     Qt5::Qml
     Qt5::Quick
@@ -16,4 +15,8 @@ target_link_libraries(kontrast
     KF5::I18n
     KF5::CoreAddons)
     
+if(TARGET Qt5::DBus)
+    target_link_libraries(kontrast Qt5::DBus)
+endif()
+
 install(TARGETS kontrast ${KDE_INSTALL_TARGETS_DEFAULT_ARGS})
