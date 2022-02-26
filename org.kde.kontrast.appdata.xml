@@ -85,6 +85,7 @@ SPDX-LicenseRef: CC0-1.0
     <p xml:lang="pl">Kontrast jest programem do sprawdzania kontrastu barw, który mówi jakie połączenia barw są wystarczająco różne, aby były czytelne i nie sprawiały trudności z dostępnością.</p>
     <p xml:lang="pt">O Kontrast é uma aplicação de verificação de contraste de cores e diz-lhe se as suas combinações de cores são legíveis e acessíveis.</p>
     <p xml:lang="pt-BR">O Kontrast é um verificador de contraste de cores que te diz se as combinações de cores que você usa são distintas o suficiente para serem legíveis e acessíveis.</p>
+    <p xml:lang="ru">Kontrast — это программа для проверки цветового контраста, которая позволяет узнать, являются ли выбранные сочетания цветов достаточно хорошо читаемыми.</p>
     <p xml:lang="sl">Kontrast je kontrolnik barvnega kontrasta in vam pove, ali so vaše barvne kombinacije dovolj različne, da so berljive in dostopne.</p>
     <p xml:lang="sv">Kontrast är ett kontrollverktyg för färgkontrast och talar om för dig om dina färgkombinationer är distinkta nog för att vara läsbara och handikappvänliga.</p>
     <p xml:lang="uk">Kontrast — засіб для перевірки контрастності кольорів. Програма повідомить вам, чи є поєднання кольорів достатньо контрастним для читання і доступності.</p>
@@ -154,6 +155,7 @@ SPDX-LicenseRef: CC0-1.0
       <caption xml:lang="pl">Główny widok Kontrastu</caption>
       <caption xml:lang="pt">Janela principal do Kontrast</caption>
       <caption xml:lang="pt-BR">Visão principal do Kontrast</caption>
+      <caption xml:lang="ru">Главное окно Kontrast</caption>
       <caption xml:lang="sl">Glavni pogled kontrasta</caption>
       <caption xml:lang="sv">Huvudvy i Kontrast</caption>
       <caption xml:lang="uk">Головне вікно Kontrast</caption>
@@ -182,6 +184,7 @@ SPDX-LicenseRef: CC0-1.0
       <caption xml:lang="pl">Główny widok Kontrastu na urządzeniach przenośnych</caption>
       <caption xml:lang="pt">Janela principal do Kontrast no telemóvel</caption>
       <caption xml:lang="pt-BR">Visão principal do Kontrast no celular</caption>
+      <caption xml:lang="ru">Главное окно Kontrast на мобильном устройстве</caption>
       <caption xml:lang="sl">Glavni pogled kontrasta na mobilni napravi</caption>
       <caption xml:lang="sv">Huvudvy i Kontrast på mobil</caption>
       <caption xml:lang="uk">Головне вікно Kontrast на мобільному</caption>
