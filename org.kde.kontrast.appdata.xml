@@ -68,7 +68,7 @@ SPDX-LicenseRef: CC0-1.0
   <description>
     <p>Kontrast is a color contrast checker and tells you if your color combinations are distinct enough to be readable and accessible.</p>
     <p xml:lang="ca">El Kontrast és un comprovador del contrast del color i indica si les vostres combinacions de color són prou distingibles per a ser llegibles i accessibles.</p>
-    <p xml:lang="ca-valencia">El Kontrast és un comprovador del contrast del color i indica si les vostres combinacions de color són prou distingibles per a ser llegibles i accessibles.</p>
+    <p xml:lang="ca-valencia">Kontrast és un comprovador del contrast del color i indica si les vostres combinacions de color són prou distingibles per a ser llegibles i accessibles.</p>
     <p xml:lang="da">Kontrast er et program til at tjekke farvekontraster og fortæller dig om dine farvekombinationer er forskellige nok til at være læsbare og tilgængelige.</p>
     <p xml:lang="de">Kontrast ist eine Anwendung zur Kontrastüberprüfung von Farben und ermittelt, ob Ihre Farbkombinationen gut zu erkennen sind, um lesbar und zugänglich zu sein.</p>
     <p xml:lang="el">Το Kontrast είναι ένα πρόγραμμα ελέγχου της χρωματικής αντίθεσης και σας λέει αν οι χρωματικοί συνδυασμοί σας είναι επαρκώς διακριτοί για να είναι ευανάγνωστοι και προσβάσιμοι.</p>
@@ -138,7 +138,7 @@ SPDX-LicenseRef: CC0-1.0
     <screenshot>
       <caption>Main view of Kontrast</caption>
       <caption xml:lang="ca">Vista principal del Kontrast</caption>
-      <caption xml:lang="ca-valencia">Vista principal del Kontrast</caption>
+      <caption xml:lang="ca-valencia">Vista principal de Kontrast</caption>
       <caption xml:lang="da">Kontrasts hovedvisning</caption>
       <caption xml:lang="de">Hauptansicht von Kontrast</caption>
       <caption xml:lang="el">Κύρια προβολή του Kontrast</caption>
@@ -167,7 +167,7 @@ SPDX-LicenseRef: CC0-1.0
     <screenshot>
       <caption>Main view of Kontrast on mobile</caption>
       <caption xml:lang="ca">Vista principal del Kontrast al mòbil</caption>
-      <caption xml:lang="ca-valencia">Vista principal del Kontrast al mòbil</caption>
+      <caption xml:lang="ca-valencia">Vista principal de Kontrast al mòbil</caption>
       <caption xml:lang="da">Kontrasts hovedvisning på mobile enheder</caption>
       <caption xml:lang="de">Hauptansicht von Kontrast auf Mobilgeräten</caption>
       <caption xml:lang="el">Κύρια προβολή του Kontrast σε κινητό</caption>
