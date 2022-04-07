@@ -8,7 +8,11 @@
 #include <KAboutData>
 #include <KLocalizedContext>
 #include <KLocalizedString>
+#ifndef Q_OS_ANDROID
 #include <QApplication>
+#else
+#include <QGuiApplication>
+#endif
 #include <QCommandLineParser>
 #include <QIcon>
 #include <QQmlApplicationEngine>
@@ -24,7 +28,11 @@ const QString DRIVER(QStringLiteral("QSQLITE"));
 Q_DECL_EXPORT int main(int argc, char *argv[])
 {
     QGuiApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
+#ifndef Q_OS_ANDROID
     QApplication app(argc, argv);
+#else
+    QGuiApplication app(argc, argv);
+#endif
     KLocalizedString::setApplicationDomain("kontrast");
 
     KAboutData aboutData(QStringLiteral("kontrast"),
@@ -41,7 +49,7 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
     aboutData.addAuthor(i18nc("@info:credit", "Carson Black"), i18nc("@info:credit", "SQLite backend for favorite colors"));
 
     KAboutData::setApplicationData(aboutData);
-    QApplication::setWindowIcon(QIcon::fromTheme(QStringLiteral("org.kde.kontrast")));
+    QGuiApplication::setWindowIcon(QIcon::fromTheme(QStringLiteral("org.kde.kontrast")));
 
     Q_ASSERT(QSqlDatabase::isDriverAvailable(DRIVER));
     Q_ASSERT(QDir().mkpath(QDir::cleanPath(QStandardPaths::writableLocation(QStandardPaths::DataLocation))));
