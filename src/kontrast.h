@@ -34,13 +34,13 @@ class Kontrast : public QObject
 
     Q_PROPERTY(int backgroundLightness READ backgroundLightness WRITE setBackgroundLightness NOTIFY backgroundColorChanged)
 
-    Q_PROPERTY(qreal contrast READ contrast NOTIFY contrastChanged);
+    Q_PROPERTY(qreal contrast READ contrast NOTIFY contrastChanged)
 
-    Q_PROPERTY(QColor displayTextColor READ displayTextColor NOTIFY contrastChanged);
+    Q_PROPERTY(QColor displayTextColor READ displayTextColor NOTIFY contrastChanged)
 
-    Q_PROPERTY(KAboutData about READ about);
+    Q_PROPERTY(KAboutData about READ about)
 
-    Q_PROPERTY(QColor grabbedColor READ grabbedColor NOTIFY grabbedColorChanged);
+    Q_PROPERTY(QColor grabbedColor READ grabbedColor NOTIFY grabbedColorChanged)
 
 public:
     Kontrast(KAboutData about, QObject *parent = nullptr);
