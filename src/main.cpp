@@ -27,7 +27,9 @@ const QString DRIVER(QStringLiteral("QSQLITE"));
 
 Q_DECL_EXPORT int main(int argc, char *argv[])
 {
+#if QT_VERSION < QT_VERSION_CHECK(6, 0, 0)
     QGuiApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
+#endif
 #ifndef Q_OS_ANDROID
     QApplication app(argc, argv);
 #else
@@ -52,9 +54,9 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
     QGuiApplication::setWindowIcon(QIcon::fromTheme(QStringLiteral("org.kde.kontrast")));
 
     Q_ASSERT(QSqlDatabase::isDriverAvailable(DRIVER));
-    Q_ASSERT(QDir().mkpath(QDir::cleanPath(QStandardPaths::writableLocation(QStandardPaths::DataLocation))));
+    Q_ASSERT(QDir().mkpath(QDir::cleanPath(QStandardPaths::writableLocation(QStandardPaths::AppLocalDataLocation))));
     QSqlDatabase db = QSqlDatabase::addDatabase(DRIVER);
-    const auto path = QDir::cleanPath(QStandardPaths::writableLocation(QStandardPaths::DataLocation) + QStringLiteral("/") + qApp->applicationName());
+    const auto path = QDir::cleanPath(QStandardPaths::writableLocation(QStandardPaths::AppLocalDataLocation) + QStringLiteral("/") + qApp->applicationName());
     db.setDatabaseName(path);
     if (!db.open()) {
         qCritical() << db.lastError() << "while opening database at" << path;

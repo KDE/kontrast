@@ -282,7 +282,7 @@ void Kontrast::gotColorResponse(uint response, const QVariantMap &results)
         if (results.contains(QLatin1String("color"))) {
             auto color = qdbus_cast<ColorRGB>(results.value(QLatin1String("color")));
             m_grabbedColor = QColor(color.red * 256, color.green * 256, color.blue * 256);
-            emit grabbedColorChanged();
+            Q_EMIT grabbedColorChanged();
         }
     } else {
         qWarning() << "Failed to take screenshot";
