@@ -8,8 +8,8 @@ set (RELEASE_SERVICE_VERSION "${RELEASE_SERVICE_VERSION_MAJOR}.${RELEASE_SERVICE
 
 project(kontrast VERSION ${RELEASE_SERVICE_VERSION})
 
-set(QT_MIN_VERSION "5.14.0")
-set(KF5_MIN_VERSION "5.70.0")
+set(QT_MIN_VERSION "5.15.0")
+set(KF5_MIN_VERSION "5.90.0")
 
 include(FeatureSummary)
 
@@ -35,11 +35,11 @@ ecm_setup_version(${PROJECT_VERSION}
 )
 
 ################# Find dependencies #################
-find_package(Qt5 ${QT_MIN_VERSION} REQUIRED COMPONENTS Core Gui Qml QuickControls2 Svg Sql)
+find_package(Qt${QT_MAJOR_VERSION} ${QT_MIN_VERSION} REQUIRED COMPONENTS Core Gui Qml QuickControls2 Svg Sql )
 find_package(KF5 ${KF5_MIN_VERSION} REQUIRED COMPONENTS Kirigami2 I18n CoreAddons)
 
 if(NOT ANDROID)
-    find_package(Qt5 ${QT_MIN_VERSION} REQUIRED COMPONENTS DBus)
+    find_package(Qt${QT_MAJOR_VERSION} ${QT_MIN_VERSION} REQUIRED COMPONENTS DBus Widgets)
 endif()
 
 ################# build and install #################
