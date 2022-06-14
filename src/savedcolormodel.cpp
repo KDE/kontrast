@@ -6,7 +6,6 @@
 
 #include "savedcolormodel.h"
 
-#include <QColor>
 #include <QCoreApplication>
 #include <QDebug>
 #include <QDir>
