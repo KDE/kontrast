@@ -1,3 +1,7 @@
+<!--
+SPDX-FileCopyrightText: 2022 Carl Schwan <carl@carlschwan.eu>
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
 # Kontrast
 
 Kontrast is a color contrast checker and tell you if your color combinations are accessible for people with color vision defiencies.
