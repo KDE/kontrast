@@ -233,6 +233,22 @@ Kirigami.ScrollablePage {
         }
 
         Flow {
+            Text {
+                Layout.topMargin: Kirigami.Units.largeSpacing
+                text: i18n("Font Size %1", Kontrast.fontSize)
+                color: Kontrast.displayTextColor
+            }
+
+            Layout.topMargin: Kirigami.Units.gridUnit * 2
+            QQC2.Slider {
+                from: 1
+                value: Kontrast.fontSize
+                to: 72
+                onMoved: Kontrast.fontSize = value
+            }
+        }
+
+        Flow {
             Layout.fillWidth: true
             Layout.topMargin: Kirigami.Units.gridUnit * 2
             QQC2.Button {
