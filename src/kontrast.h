@@ -1,7 +1,7 @@
 /*
  * SPDX-FileCopyrightText: (C) 2020 Carl Schwan <carl@carlschwan.eu>
  *
- * SPDX-License-Identifier: GPL-3.0-or-later
+ * SPDX-LicenseRef: GPL-3.0-or-later
  */
 
 #pragma once
@@ -64,6 +64,9 @@ public:
     int textLightness() const;
     void setTextLightness(int lightness);
 
+    int fontSize() const;
+    void setFontSize(int fontSize);
+
     QColor backgroundColor() const;
     void setBackgroundColor(const QColor backgroundColor);
 
@@ -102,6 +105,7 @@ private:
     QColor m_textColor;
     QColor m_backgroundColor;
     QColor m_grabbedColor;
+    int m_fontSize;
     KAboutData m_about;
 };
 

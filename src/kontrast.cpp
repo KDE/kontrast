@@ -1,7 +1,7 @@
 /*
  * SPDX-FileCopyrightText: (C) 2020 Carl Schwan <carl@carlschwan.eu>
  *
- * SPDX-License-Identifier: GPL-3.0-or-later
+ * SPDX-LicenseRef: GPL-3.0-or-later
  */
 
 #include "kontrast.h"
@@ -111,6 +111,16 @@ void Kontrast::setTextSaturation(int saturation)
     m_textColor.setHsl(m_textColor.hslHue(), saturation, m_textColor.lightness());
     Q_EMIT textColorChanged();
     Q_EMIT contrastChanged();
+}
+
+int Kontrast::fontSize() const
+{
+    return m_fontSize;
+}
+
+void Kontrast::setFontSize(int fontSize)
+{
+    m_fontSize = fontSize;
 }
 
 QColor Kontrast::backgroundColor() const
