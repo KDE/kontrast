@@ -1,0 +1,7 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: NeoChat
+Upstream-Contact: Carl Schwan <carlschwan@kde.org>
+
+Files: android/res/**/*.png android/**/*.xml
+Copyright: 2020 Carl Schwan <carlschwan@kde.org>
+License: GPL-3.0-or-later

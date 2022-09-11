@@ -5,6 +5,10 @@
   <!ENTITY % addindex "IGNORE">
   <!ENTITY % English "INCLUDE">
 ]>
+<!--
+SPDX-FileCopyrightText: 2022 Vlad Rakhmanin <vladimir.rakhmanin@ucdconnect.ie>
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
 
 <book id="kmyapplication" lang="&language;">
 
