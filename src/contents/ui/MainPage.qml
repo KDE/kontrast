@@ -1,7 +1,7 @@
 /**
  * SPDX-FileCopyrightText: (C) 2020 Carl Schwan <carl@carlschwan.eu>
  *
- * SPDX-License-Identifier: GPL-3.0-or-later
+ * SPDX-LicenseRef: GPL-3.0-or-later
  */
 
 import QtQuick 2.1
@@ -39,6 +39,15 @@ Kirigami.ScrollablePage {
             level: 1
             font.bold: true
             text: i18n("Contrast ratio: %1", Kontrast.contrast.toFixed(2))
+
+            color: Kontrast.textColor
+            wrapMode: Text.WordWrap
+            Layout.fillWidth: true
+        }
+        Kirigami.Heading {
+            level: 1
+            font.bold: true
+            text: i18n("Font size: %1", Kontrast.fontSize)
 
             color: Kontrast.textColor
             wrapMode: Text.WordWrap

@@ -26,6 +26,8 @@ class Kontrast : public QObject
 
     Q_PROPERTY(int textLightness READ textLightness WRITE setTextLightness NOTIFY textColorChanged)
 
+    Q_PROPERTY(int fontSize READ fontSize WRITE setFontSize NOTIFY fontSizeChanged)
+
     Q_PROPERTY(QColor backgroundColor READ backgroundColor WRITE setBackgroundColor NOTIFY backgroundColorChanged)
 
     Q_PROPERTY(int backgroundHue READ backgroundHue WRITE setBackgroundHue NOTIFY backgroundColorChanged)
@@ -100,12 +102,13 @@ Q_SIGNALS:
     void backgroundColorChanged();
     void contrastChanged();
     void grabbedColorChanged();
+    void fontSizeChanged();
 
 private:
     QColor m_textColor;
     QColor m_backgroundColor;
     QColor m_grabbedColor;
-    int m_fontSize;
+    int m_fontSize = 24;
     KAboutData m_about;
 };
 

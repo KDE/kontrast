@@ -120,7 +120,11 @@ int Kontrast::fontSize() const
 
 void Kontrast::setFontSize(int fontSize)
 {
+    if (m_fontSize == fontSize) {
+        return;
+    }
     m_fontSize = fontSize;
+    Q_EMIT fontSizeChanged();
 }
 
 QColor Kontrast::backgroundColor() const
