@@ -232,9 +232,9 @@ Kirigami.ScrollablePage {
             }
         }
 
-        Flow {
+        ColumnLayout {
             Text {
-                Layout.topMargin: Kirigami.Units.largeSpacing
+                Layout.topMargin: Kirigami.Units.smallSpacing
                 text: i18n("Font Size %1", Kontrast.fontSize)
                 color: Kontrast.displayTextColor
             }
