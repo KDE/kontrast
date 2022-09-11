@@ -47,7 +47,7 @@ Kirigami.ScrollablePage {
         Kirigami.Heading {
             level: 1
             font.bold: true
-            text: i18n("Font size: %1", Kontrast.fontSize)
+            text: i18n("%1", Kontrast.fontSizeLabel)
 
             color: Kontrast.textColor
             wrapMode: Text.WordWrap
@@ -243,7 +243,7 @@ Kirigami.ScrollablePage {
             QQC2.Slider {
                 from: 1
                 value: Kontrast.fontSize
-                to: 72
+                to: 24
                 onMoved: Kontrast.fontSize = value
             }
         }

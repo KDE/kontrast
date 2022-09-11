@@ -9,6 +9,7 @@
 #include <KAboutData>
 #include <QColor>
 #include <QImage>
+#include <QMetaEnum>
 #include <QObject>
 
 /**
@@ -34,6 +35,8 @@ class Kontrast : public QObject
 
     Q_PROPERTY(int backgroundSaturation READ backgroundSaturation WRITE setBackgroundSaturation NOTIFY backgroundColorChanged)
 
+    Q_PROPERTY(QString fontSizeLabel READ getFontSizeQualityLabel NOTIFY fontSizeChanged)
+
     Q_PROPERTY(int backgroundLightness READ backgroundLightness WRITE setBackgroundLightness NOTIFY backgroundColorChanged)
 
     Q_PROPERTY(qreal contrast READ contrast NOTIFY contrastChanged)
@@ -47,6 +50,16 @@ class Kontrast : public QObject
 public:
     Kontrast(KAboutData about, QObject *parent = nullptr);
     virtual ~Kontrast() override = default;
+
+    enum Quality { Bad, Good, Perfect };
+
+    Q_ENUM(Quality)
+
+    struct ContrastQualities {
+        Quality small;
+        Quality medium;
+        Quality large;
+    };
 
     struct ColorRGB {
         double red;
@@ -89,6 +102,8 @@ public:
 
     QColor grabbedColor() const;
 
+    QString getFontSizeQualityLabel();
+
     Q_INVOKABLE void random();
     Q_INVOKABLE void reverse();
     Q_INVOKABLE void grabColor();
@@ -110,6 +125,9 @@ private:
     QColor m_grabbedColor;
     int m_fontSize;
     KAboutData m_about;
+
+    ContrastQualities getContrastQualities();
+    static QString getStringFromEnum(Quality quality);
 };
 
 Q_DECLARE_METATYPE(Kontrast::ColorRGB)

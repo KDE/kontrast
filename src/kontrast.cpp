@@ -9,8 +9,10 @@
 #include <QDebug>
 #include <QRandomGenerator>
 #include <QtMath>
+#include <iostream>
 
 #ifdef QT_DBUS_LIB
+#include <KLocalizedString>
 #include <QDBusConnection>
 #include <QDBusMessage>
 #include <QDBusMetaType>
@@ -66,6 +68,7 @@ void Kontrast::setTextColor(const QColor textColor)
     m_textColor = textColor;
     Q_EMIT textColorChanged();
     Q_EMIT contrastChanged();
+    Q_EMIT fontSizeChanged();
 }
 
 int Kontrast::textHue() const
@@ -81,6 +84,7 @@ void Kontrast::setTextHue(int hue)
     m_textColor.setHsl(hue, m_textColor.hslSaturation(), m_textColor.lightness());
     Q_EMIT textColorChanged();
     Q_EMIT contrastChanged();
+    Q_EMIT fontSizeChanged();
 }
 
 int Kontrast::textLightness() const
@@ -96,6 +100,7 @@ void Kontrast::setTextLightness(int lightness)
     m_textColor.setHsl(m_textColor.hslHue(), m_textColor.hslSaturation(), lightness);
     Q_EMIT textColorChanged();
     Q_EMIT contrastChanged();
+    Q_EMIT fontSizeChanged();
 }
 
 int Kontrast::textSaturation() const
@@ -111,6 +116,7 @@ void Kontrast::setTextSaturation(int saturation)
     m_textColor.setHsl(m_textColor.hslHue(), saturation, m_textColor.lightness());
     Q_EMIT textColorChanged();
     Q_EMIT contrastChanged();
+    Q_EMIT fontSizeChanged();
 }
 
 int Kontrast::fontSize() const
@@ -141,6 +147,7 @@ void Kontrast::setBackgroundColor(const QColor backgroundColor)
     m_backgroundColor = backgroundColor;
     Q_EMIT backgroundColorChanged();
     Q_EMIT contrastChanged();
+    Q_EMIT fontSizeChanged();
 }
 
 int Kontrast::backgroundHue() const
@@ -156,6 +163,7 @@ void Kontrast::setBackgroundHue(int hue)
     m_backgroundColor.setHsl(hue, m_backgroundColor.hslSaturation(), m_backgroundColor.lightness());
     Q_EMIT backgroundColorChanged();
     Q_EMIT contrastChanged();
+    Q_EMIT fontSizeChanged();
 }
 
 int Kontrast::backgroundLightness() const
@@ -171,6 +179,7 @@ void Kontrast::setBackgroundLightness(int lightness)
     m_backgroundColor.setHsl(m_backgroundColor.hslHue(), m_backgroundColor.hslSaturation(), lightness);
     Q_EMIT backgroundColorChanged();
     Q_EMIT contrastChanged();
+    Q_EMIT fontSizeChanged();
 }
 
 int Kontrast::backgroundSaturation() const
@@ -186,6 +195,7 @@ void Kontrast::setBackgroundSaturation(int saturation)
     m_backgroundColor.setHsl(m_backgroundColor.hslHue(), saturation, m_backgroundColor.lightness());
     Q_EMIT backgroundColorChanged();
     Q_EMIT contrastChanged();
+    Q_EMIT fontSizeChanged();
 }
 
 qreal luminosity(const QColor color)
@@ -224,6 +234,7 @@ void Kontrast::random()
     Q_EMIT backgroundColorChanged();
     Q_EMIT textColorChanged();
     Q_EMIT contrastChanged();
+    Q_EMIT fontSizeChanged();
 }
 
 void Kontrast::reverse()
@@ -234,6 +245,7 @@ void Kontrast::reverse()
     Q_EMIT backgroundColorChanged();
     Q_EMIT textColorChanged();
     Q_EMIT contrastChanged();
+    Q_EMIT fontSizeChanged();
 }
 
 QColor Kontrast::displayTextColor() const
@@ -306,4 +318,37 @@ void Kontrast::gotColorResponse(uint response, const QVariantMap &results)
     Q_UNUSED(response);
     Q_UNUSED(results);
 #endif
+}
+
+Kontrast::ContrastQualities Kontrast::getContrastQualities()
+{
+    qreal contrast = Kontrast::contrast();
+
+    if (contrast > 7.0) {
+        return ContrastQualities{Perfect, Perfect, Perfect};
+    } else if (contrast > 4.5) {
+        return ContrastQualities{Good, Good, Perfect};
+    } else if (contrast > 3.0) {
+        return ContrastQualities{Bad, Bad, Good};
+    } else {
+        return ContrastQualities{Bad, Bad, Bad};
+    }
+}
+
+QString Kontrast::getFontSizeQualityLabel()
+{
+    auto currentQualities = getContrastQualities();
+
+    if (m_fontSize >= 18) {
+        return i18n("Font size %1px is %2 with the current contrast", m_fontSize, getStringFromEnum(currentQualities.large).toLower());
+    } else if (m_fontSize > 13) {
+        return i18n("Font size %1px is %2 with the current contrast", m_fontSize, getStringFromEnum(currentQualities.medium).toLower());
+    } else {
+        return i18n("Font size %1px is %2 with the current contrast", m_fontSize, getStringFromEnum(currentQualities.small).toLower());
+    }
+}
+
+QString Kontrast::getStringFromEnum(Quality quality)
+{
+    return i18n(QMetaEnum::fromType<Quality>().valueToKey(quality));
 }
