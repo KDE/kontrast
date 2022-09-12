@@ -127,7 +127,6 @@ private:
     KAboutData m_about;
 
     ContrastQualities getContrastQualities();
-    static QString getStringFromEnum(Quality quality);
 };
 
 Q_DECLARE_METATYPE(Kontrast::ColorRGB)
