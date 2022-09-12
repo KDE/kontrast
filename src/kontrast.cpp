@@ -44,6 +44,7 @@ const QDBusArgument &operator>>(const QDBusArgument &arg, Kontrast::ColorRGB &co
 
 Kontrast::Kontrast(KAboutData about, QObject *parent)
     : QObject(parent)
+    , m_fontSize(12)
     , m_about(about)
 {
     setObjectName(QStringLiteral("Kontrast"));

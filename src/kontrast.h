@@ -123,7 +123,7 @@ private:
     QColor m_textColor;
     QColor m_backgroundColor;
     QColor m_grabbedColor;
-    int m_fontSize = 12;
+    int m_fontSize;
     KAboutData m_about;
 
     ContrastQualities getContrastQualities();
