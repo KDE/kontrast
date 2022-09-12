@@ -346,26 +346,35 @@ QString Kontrast::getFontSizeQualityLabel()
     } else {
         currentQuality = currentQualities.small;
     }
-    
+
+    QString fontSizeQualityLabel;
     switch (currentQuality) {
     case Bad:
-        return i18n("Font size %1px is bad with the current contrast", m_fontSize);
+        fontSizeQualityLabel = i18n("Font size %1px is bad with the current contrast", m_fontSize);
+        break;
     case Good:
-        return i18n("Font size %1px is good with the current contrast", m_fontSize);
+        fontSizeQualityLabel = i18n("Font size %1px is good with the current contrast", m_fontSize);
+        break;
     case Perfect:
-        return i18n("Font size %1px is perfect with the current contrast", m_fontSize);
+        fontSizeQualityLabel = i18n("Font size %1px is perfect with the current contrast", m_fontSize);
+        break;
     }
-    }
+    return fontSizeQualityLabel;
 }
 
 QString Kontrast::getStringFromEnum(Quality quality)
 {
+    QString qualityDescription;
     switch (quality) {
     case Bad:
-        return i18nc("A bad quality", "bad");
+        qualityDescription = i18nc("A bad quality", "bad");
+        break;
     case Good:
-        return i18nc("A good quality", "good");
+        qualityDescription = i18nc("A good quality", "good");
+        break;
     case Perfect:
-        return i18nc("A perfect quality", "perfect");
+        qualityDescription = i18nc("A perfect quality", "perfect");
+        break;
     }
+    return qualityDescription;
 }
