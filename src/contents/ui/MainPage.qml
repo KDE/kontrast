@@ -1,5 +1,6 @@
 /**
  * SPDX-FileCopyrightText: (C) 2020 Carl Schwan <carl@carlschwan.eu>
+ * SPDX-FileCopyrightText: (C) 2022 Vlad Rakhmanin <vladimir.rakhmanin@ucdconnect.ie>
  *
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
