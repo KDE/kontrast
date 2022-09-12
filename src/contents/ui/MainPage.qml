@@ -1,7 +1,7 @@
 /**
  * SPDX-FileCopyrightText: (C) 2020 Carl Schwan <carl@carlschwan.eu>
  *
- * SPDX-LicenseRef: GPL-3.0-or-later
+ * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
 import QtQuick 2.1
@@ -45,7 +45,6 @@ Kirigami.ScrollablePage {
             Layout.fillWidth: true
         }
         Kirigami.Heading {
-            level: 1
             font.bold: true
             text: i18n("%1", Kontrast.fontSizeLabel)
 

@@ -1,7 +1,7 @@
 /*
  * SPDX-FileCopyrightText: (C) 2020 Carl Schwan <carl@carlschwan.eu>
  *
- * SPDX-LicenseRef: GPL-3.0-or-later
+ * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
 #include "kontrast.h"
@@ -9,7 +9,6 @@
 #include <QDebug>
 #include <QRandomGenerator>
 #include <QtMath>
-#include <iostream>
 
 #ifdef QT_DBUS_LIB
 #include <KLocalizedString>
@@ -322,7 +321,7 @@ void Kontrast::gotColorResponse(uint response, const QVariantMap &results)
 
 Kontrast::ContrastQualities Kontrast::getContrastQualities()
 {
-    qreal contrast = Kontrast::contrast();
+    const qreal contrast = Kontrast::contrast();
 
     if (contrast > 7.0) {
         return ContrastQualities{Perfect, Perfect, Perfect};
@@ -337,18 +336,36 @@ Kontrast::ContrastQualities Kontrast::getContrastQualities()
 
 QString Kontrast::getFontSizeQualityLabel()
 {
-    auto currentQualities = getContrastQualities();
+    const auto currentQualities = getContrastQualities();
 
+    Quality currentQuality; 
     if (m_fontSize >= 18) {
-        return i18n("Font size %1px is %2 with the current contrast", m_fontSize, getStringFromEnum(currentQualities.large).toLower());
+        currentQuality = currentQualities.large;
     } else if (m_fontSize > 13) {
-        return i18n("Font size %1px is %2 with the current contrast", m_fontSize, getStringFromEnum(currentQualities.medium).toLower());
+        currentQuality = currentQualities.medium;
     } else {
-        return i18n("Font size %1px is %2 with the current contrast", m_fontSize, getStringFromEnum(currentQualities.small).toLower());
+        currentQuality = currentQualities.small;
+    }
+    
+    switch (currentQuality) {
+    case Bad:
+        return i18n("Font size %1px is bad with the current contrast", m_fontSize);
+    case Good:
+        return i18n("Font size %1px is good with the current contrast", m_fontSize);
+    case Perfect:
+        return i18n("Font size %1px is perfect with the current contrast", m_fontSize);
+    }
     }
 }
 
 QString Kontrast::getStringFromEnum(Quality quality)
 {
-    return i18n(QMetaEnum::fromType<Quality>().valueToKey(quality));
+    switch (quality) {
+    case Bad:
+        return i18nc("A bad quality", "bad");
+    case Good:
+        return i18nc("A good quality", "good");
+    case Perfect:
+        return i18nc("A perfect quality", "perfect");
+    }
 }
