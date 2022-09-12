@@ -225,7 +225,6 @@ qreal Kontrast::contrast() const
 
 void Kontrast::random()
 {
-    m_fontSize = 12;
     do {
         m_textColor = QColor::fromRgb(QRandomGenerator::global()->generate());
         m_backgroundColor = QColor::fromRgb(QRandomGenerator::global()->generate());
