@@ -360,20 +360,3 @@ QString Kontrast::getFontSizeQualityLabel()
     }
     return fontSizeQualityLabel;
 }
-
-QString Kontrast::getStringFromEnum(Quality quality)
-{
-    QString qualityDescription;
-    switch (quality) {
-    case Bad:
-        qualityDescription = i18nc("A bad quality", "bad");
-        break;
-    case Good:
-        qualityDescription = i18nc("A good quality", "good");
-        break;
-    case Perfect:
-        qualityDescription = i18nc("A perfect quality", "perfect");
-        break;
-    }
-    return qualityDescription;
-}
