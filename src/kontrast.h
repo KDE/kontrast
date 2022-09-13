@@ -10,7 +10,6 @@
 #include <KAboutData>
 #include <QColor>
 #include <QImage>
-#include <QMetaEnum>
 #include <QObject>
 
 /**
