@@ -235,7 +235,7 @@ Kirigami.ScrollablePage {
         ColumnLayout {
             Text {
                 Layout.topMargin: Kirigami.Units.smallSpacing
-                text: i18n("Font Size %1", Kontrast.fontSize)
+                text: i18n("Font Size %1px", Kontrast.fontSize)
                 color: Kontrast.displayTextColor
             }
 
