@@ -11,8 +11,9 @@
 #include <QRandomGenerator>
 #include <QtMath>
 
-#ifdef QT_DBUS_LIB
 #include <KLocalizedString>
+
+#ifdef QT_DBUS_LIB
 #include <QDBusConnection>
 #include <QDBusMessage>
 #include <QDBusMetaType>
