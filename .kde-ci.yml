@@ -8,6 +8,9 @@ Dependencies:
     'frameworks/kirigami': '@stable'
     'frameworks/ki18n': '@stable'
     'frameworks/kcoreaddons': '@stable'
+
+- 'on': ['Linux', 'FreeBSD', 'Windows']
+  'require':
     'frameworks/kdoctools': '@stable'
 
 Options:

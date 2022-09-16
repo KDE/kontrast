@@ -39,10 +39,11 @@ ecm_setup_version(${PROJECT_VERSION}
 
 ################# Find dependencies #################
 find_package(Qt${QT_MAJOR_VERSION} ${QT_MIN_VERSION} REQUIRED COMPONENTS Core Gui Qml QuickControls2 Svg Sql)
-find_package(KF5 ${KF5_MIN_VERSION} REQUIRED COMPONENTS Kirigami2 I18n CoreAddons DocTools)
+find_package(KF5 ${KF5_MIN_VERSION} REQUIRED COMPONENTS Kirigami2 I18n CoreAddons)
 
 if(NOT ANDROID)
     find_package(Qt${QT_MAJOR_VERSION} ${QT_MIN_VERSION} REQUIRED COMPONENTS DBus Widgets)
+    find_package(KF5DocTools ${KF5_MIN_VERSION} REQUIRED)
 endif()
 
 ################# build and install #################
@@ -52,7 +53,10 @@ add_definitions(-DQT_NO_NARROWING_CONVERSIONS_IN_CONNECT)
 add_definitions(-DQT_DISABLE_DEPRECATED_BEFORE=0x050d00)
 
 add_subdirectory(src)
-add_subdirectory(doc)
+
+if(NOT ANDROID)
+    add_subdirectory(doc)
+endif()
 
 install(PROGRAMS org.kde.kontrast.desktop DESTINATION ${KDE_INSTALL_APPDIR})
 install(FILES org.kde.kontrast.appdata.xml DESTINATION ${KDE_INSTALL_METAINFODIR})
