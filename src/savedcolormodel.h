@@ -5,10 +5,8 @@
 
 #pragma once
 
-#include <QAbstractListModel>
 #include <QColor>
 #include <QSqlDatabase>
-#include <QSqlQuery>
 #include <QSqlTableModel>
 
 struct ColorCombination {

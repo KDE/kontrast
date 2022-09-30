@@ -14,13 +14,14 @@
 #include <QGuiApplication>
 #endif
 #include <QCommandLineParser>
+#include <QDir>
 #include <QIcon>
 #include <QQmlApplicationEngine>
+#include <QQmlContext>
 #include <QSqlDatabase>
 #include <QSqlError>
-#include <QSqlQuery>
+#include <QStandardPaths>
 #include <QUrl>
-#include <QtQml>
 #include <kontrast.h>
 
 const QString DRIVER(QStringLiteral("QSQLITE"));
