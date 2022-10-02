@@ -1,0 +1,297 @@
+# Translation of kontrast to Norwegian Nynorsk
+#
+# Karl Ove Hufthammer <karl@huftis.org>, 2020.
+msgid ""
+msgstr ""
+"Project-Id-Version: kontrast\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-09-17 00:40+0000\n"
+"PO-Revision-Date: 2020-09-09 19:29+0200\n"
+"Last-Translator: Karl Ove Hufthammer <karl@huftis.org>\n"
+"Language-Team: Norwegian Nynorsk <l10n-no@lister.huftis.org>\n"
+"Language: nn\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 20.08.0\n"
+"X-Environment: kde\n"
+"X-Accelerator-Marker: &\n"
+"X-Text-Markup: kde4\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Karl Ove Hufthammer"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "karl@huftis.org"
+
+#: contents/ui/FavoritePage.qml:18
+#, kde-format
+msgid "Favorite colors"
+msgstr "Favorittfargar"
+
+#: contents/ui/FavoritePage.qml:52
+#, kde-format
+msgid "Text: %1"
+msgstr "Tekst: %1"
+
+#: contents/ui/FavoritePage.qml:72
+#, kde-format
+msgid "Background: %1"
+msgstr "Bakgrunn: %1"
+
+#: contents/ui/FavoritePage.qml:93
+#, kde-format
+msgid "Remove"
+msgstr "Fjern"
+
+#: contents/ui/FavoritePage.qml:105
+#, kde-format
+msgid "Background color copied to clipboard"
+msgstr "Bakgrunnsfarge kopiert til utklippstavla"
+
+#: contents/ui/FavoritePage.qml:113
+#, kde-format
+msgid "Text color copied to clipboard"
+msgstr "Tekstfarge kopiert til utklippstavla"
+
+#: contents/ui/FavoritePage.qml:122
+#, kde-format
+msgid "Color copied to clipboard"
+msgstr "Farge kopiert til utklippstavla"
+
+#: contents/ui/HelpPage.qml:13 contents/ui/main.qml:40
+#, kde-format
+msgid "Help"
+msgstr "Hjelp"
+
+#: contents/ui/HelpPage.qml:19
+#, kde-format
+msgid "Contrast"
+msgstr "Kontrast"
+
+# Sjå seinare tekst, som er omtrent lik (og bør vera heilt lik).
+#: contents/ui/HelpPage.qml:24
+#, kde-format
+msgid ""
+"Contrast is the difference in color between two objects that allows them to "
+"be distinguished. In visual perception of the real world, contrast is "
+"determined by the difference in the color and brightness of the object and "
+"other objects within the same field of view."
+msgstr ""
+"Kontrast er forskjellen i farge og lysstyrke mellom to objekt (eller "
+"representasjonar av objekta), og som gjer at dei kan skiljast. Kontrasten "
+"avheng av forskjellen i farge og lysstyrke mellom eit objekt og dei andre "
+"objekta i same synsfelt."
+
+#: contents/ui/HelpPage.qml:29
+#, kde-format
+msgid ""
+"A contrast value of 21 indicates a perfect contrast (usually black on "
+"white), and a value of 0 indicate that the two colors are the same."
+msgstr ""
+"Ein kontrastverdi på 21 svarar til perfekt kontrast (vanlegvis svart på "
+"kvitt), og ein verdi på 0 vil seia at fargane er heilt like."
+
+#: contents/ui/HelpPage.qml:34
+#, kde-format
+msgid ""
+"For normal text, the contrast ratio should be at least of 4.5 to conform to "
+"the WCAG AA standard and a contrast ratio of 7 or more is required to "
+"conform with the WCAG AAA standard."
+msgstr ""
+"Vanleg tekst må ha ein kontrastverdi på minst 4,5 for å vera i samsvar med "
+"WCAG AA-standarden, eller på minst 7 for å vera i samsvar med WCAG AAA-"
+"standarden."
+
+#: contents/ui/HelpPage.qml:39
+#, kde-format
+msgid ""
+"For large text, the contrast ratio should be at least of 3 to conform to the "
+"WCAG AA standard and a contrast ratio of 4.5 or more is required to conform "
+"with the WCAG AAA standard."
+msgstr ""
+"Stor tekst må ha ein kontrastverdi på minst 3 for å vera i samsvar med "
+"WCAG AA-standarden, eller på minst 4,5 for å vera i samsvar med WCAG AAA-"
+"standarden."
+
+#: contents/ui/main.qml:23
+#, kde-format
+msgid "kontrast"
+msgstr "kontrast"
+
+#: contents/ui/main.qml:28 contents/ui/MainPage.qml:20
+#, kde-format
+msgid "Contrast Checker"
+msgstr "Kontrastsjekkar"
+
+#: contents/ui/main.qml:34
+#, kde-format
+msgid "Favorite Colors"
+msgstr "Favorittfargar"
+
+#: contents/ui/main.qml:46
+#, kde-format
+msgid "About"
+msgstr "Om"
+
+#: contents/ui/MainPage.qml:42
+#, kde-format
+msgid "Contrast ratio: %1"
+msgstr "Kontrast: %1"
+
+#: contents/ui/MainPage.qml:50
+#, kde-format
+msgid "%1"
+msgstr ""
+
+#: contents/ui/MainPage.qml:62
+#, kde-format
+msgid "Perfect for normal and large text"
+msgstr "Perfekt for vanleg og stor tekst"
+
+#: contents/ui/MainPage.qml:62
+#, kde-format
+msgid "Perfect for large text and good for normal text"
+msgstr "Perfekt for stor tekst og bra for vanleg tekst"
+
+#: contents/ui/MainPage.qml:62
+#, kde-format
+msgid "Good for large text and bad for normal text"
+msgstr "Bra for stor tekst og dårleg for vanleg tekst"
+
+#: contents/ui/MainPage.qml:62
+#, kde-format
+msgid "Bad for large and normal text"
+msgstr "Dårleg for stor og vanleg tekst"
+
+#: contents/ui/MainPage.qml:69
+#, kde-format
+msgid ""
+"Contrast is the difference in luminance or color that makes an object (or "
+"its representation in an image or display) distinguishable. In visual "
+"perception of the real world, contrast is determined by the difference in "
+"the color and brightness of the object and other objects within the same "
+"field of view."
+msgstr ""
+"Kontrast er forskjellen i farge og lysstyrke mellom to objekt (eller "
+"representasjonar av objekta), og som gjer at dei kan skiljast. Kontrasten "
+"avheng av forskjellen i farge og lysstyrke mellom eit objekt og dei andre "
+"objekta i same synsfelt."
+
+#: contents/ui/MainPage.qml:84
+#, kde-format
+msgid "Text"
+msgstr "Tekst"
+
+#: contents/ui/MainPage.qml:113 contents/ui/MainPage.qml:193
+#, kde-format
+msgid "Hue %1°"
+msgstr "Kulør %1°"
+
+#: contents/ui/MainPage.qml:127 contents/ui/MainPage.qml:207
+#, kde-format
+msgid "Saturation %1"
+msgstr "Metting %1"
+
+#: contents/ui/MainPage.qml:141 contents/ui/MainPage.qml:221
+#, kde-format
+msgid "Lightness %1"
+msgstr "Lysstyrke %1"
+
+#: contents/ui/MainPage.qml:165
+#, kde-format
+msgid "Background"
+msgstr "Bakgrunn"
+
+#: contents/ui/MainPage.qml:238
+#, kde-format
+msgid "Font Size %1px"
+msgstr ""
+
+#: contents/ui/MainPage.qml:255
+#, kde-format
+msgid "Invert"
+msgstr "Omvend"
+
+#: contents/ui/MainPage.qml:261
+#, kde-format
+msgid "Randomize"
+msgstr "Tilfeldig"
+
+#: contents/ui/MainPage.qml:267
+#, kde-format
+msgid "Mark as favorite"
+msgstr "Merk som favoritt"
+
+#: contents/ui/MainPage.qml:270
+#, kde-format
+msgid "Failed to save color"
+msgstr "Klarte ikkje lagra farge"
+
+#: kontrast.cpp:355
+#, kde-format
+msgid "Font size %1px is bad with the current contrast"
+msgstr ""
+
+#: kontrast.cpp:358
+#, kde-format
+msgid "Font size %1px is good with the current contrast"
+msgstr ""
+
+#: kontrast.cpp:361
+#, kde-format
+msgid "Font size %1px is perfect with the current contrast"
+msgstr ""
+
+#: main.cpp:41
+#, kde-format
+msgctxt "@title"
+msgid "Kontrast"
+msgstr "Kontrast"
+
+#: main.cpp:43
+#, kde-format
+msgctxt "@title"
+msgid "A contrast checker application"
+msgstr "Verktøy for å sjekka fargekontrast"
+
+#: main.cpp:46
+#, kde-format
+msgctxt "@info:credit"
+msgid "Carl Schwan"
+msgstr "Carl Schwan"
+
+#: main.cpp:47
+#, kde-format
+msgctxt "@info:credit"
+msgid "Maintainer and creator"
+msgstr "Utviklar og vedlikehaldar"
+
+#: main.cpp:50
+#, kde-format
+msgctxt "@info:credit"
+msgid "Wikipedia"
+msgstr "Wikipedia"
+
+#: main.cpp:50
+#, kde-format
+msgctxt "@info:credit"
+msgid "Text on the main page CC-BY-SA-4.0"
+msgstr "Tekst på hovudsida CC-BY-SA-4.0"
+
+#: main.cpp:51
+#, kde-format
+msgctxt "@info:credit"
+msgid "Carson Black"
+msgstr "Carson Black"
+
+#: main.cpp:51
+#, kde-format
+msgctxt "@info:credit"
+msgid "SQLite backend for favorite colors"
+msgstr "SQLite-motor for favorittfargar"

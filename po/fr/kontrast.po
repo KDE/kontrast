@@ -1,0 +1,298 @@
+# Xavier Besnard <xavier.besnard@neuf.fr>, 2020, 2021, 2022.
+msgid ""
+msgstr ""
+"Project-Id-Version: kontrast\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-10-01 00:38+0000\n"
+"PO-Revision-Date: 2022-09-14 20:26+0200\n"
+"Last-Translator: Xavier Besnard <xavier.besnard@neuf.fr>\n"
+"Language-Team: French <kde-francophone@kde.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 22.08.1\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Xavier Besnard"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "xavier.besnard@neuf.fr"
+
+#: contents/ui/FavoritePage.qml:18
+#, kde-format
+msgid "Favorite colors"
+msgstr "Couleurs préférées"
+
+#: contents/ui/FavoritePage.qml:52
+#, kde-format
+msgid "Text: %1"
+msgstr "Texte : %1"
+
+#: contents/ui/FavoritePage.qml:72
+#, kde-format
+msgid "Background: %1"
+msgstr "Arrière-plan : %1"
+
+#: contents/ui/FavoritePage.qml:93
+#, kde-format
+msgid "Remove"
+msgstr "Supprimer"
+
+#: contents/ui/FavoritePage.qml:105
+#, kde-format
+msgid "Background color copied to clipboard"
+msgstr "Couleur d'arrière-plan copiée dans le presse-papier"
+
+#: contents/ui/FavoritePage.qml:113
+#, kde-format
+msgid "Text color copied to clipboard"
+msgstr "Couleur de texte copiée dans le presse-papier"
+
+#: contents/ui/FavoritePage.qml:122
+#, kde-format
+msgid "Color copied to clipboard"
+msgstr "Couleur copiée dans le presse-papier"
+
+#: contents/ui/HelpPage.qml:13 contents/ui/main.qml:40
+#, kde-format
+msgid "Help"
+msgstr "Aide"
+
+#: contents/ui/HelpPage.qml:19
+#, kde-format
+msgid "Contrast"
+msgstr "Contrast"
+
+#: contents/ui/HelpPage.qml:24
+#, kde-format
+msgid ""
+"Contrast is the difference in color between two objects that allows them to "
+"be distinguished. In visual perception of the real world, contrast is "
+"determined by the difference in the color and brightness of the object and "
+"other objects within the same field of view."
+msgstr ""
+"Le contraste est la différence de couleurs entre deux objets permettant de "
+"les distinguer. Dans la perception visuelle du monde réel, le contrast est "
+"déterminé par la différence entre la couleur et la luminosité des objets et "
+"d'autres objets dans le même champs de vision."
+
+#: contents/ui/HelpPage.qml:29
+#, kde-format
+msgid ""
+"A contrast value of 21 indicates a perfect contrast (usually black on "
+"white), and a value of 0 indicate that the two colors are the same."
+msgstr ""
+"Une valeur de contraste de 21 signifie que le contraste est parfait "
+"(généralement noir sur blanc) et une valeur de zéro signifie que les deux "
+"couleurs sont identiques."
+
+#: contents/ui/HelpPage.qml:34
+#, kde-format
+msgid ""
+"For normal text, the contrast ratio should be at least of 4.5 to conform to "
+"the WCAG AA standard and a contrast ratio of 7 or more is required to "
+"conform with the WCAG AAA standard."
+msgstr ""
+"Pour un texte normal, le taux de contraste devrait être au moins de 4.5, "
+"pour être conforme au standard « WCGA AA ». Un taux de contrast de 7 ou plus "
+"est nécessaire pour être conforme au standard « WCGA AA »."
+
+#: contents/ui/HelpPage.qml:39
+#, kde-format
+msgid ""
+"For large text, the contrast ratio should be at least of 3 to conform to the "
+"WCAG AA standard and a contrast ratio of 4.5 or more is required to conform "
+"with the WCAG AAA standard."
+msgstr ""
+"Pour un texte large, le taux de contraste devrait être au moins de 3, pour "
+"être conforme au standard « WCGA AA ». Un taux de contrast de 4.5 ou plus "
+"est nécessaire pour être conforme au standard « WCGA AA »."
+
+#: contents/ui/main.qml:23
+#, kde-format
+msgid "kontrast"
+msgstr "Kontrast"
+
+#: contents/ui/main.qml:28 contents/ui/MainPage.qml:20
+#, kde-format
+msgid "Contrast Checker"
+msgstr "Vérificateur de contraste"
+
+#: contents/ui/main.qml:34
+#, kde-format
+msgid "Favorite Colors"
+msgstr "Couleurs préférées"
+
+#: contents/ui/main.qml:46
+#, kde-format
+msgid "About"
+msgstr "À propos"
+
+#: contents/ui/MainPage.qml:42
+#, kde-format
+msgid "Contrast ratio: %1"
+msgstr "Niveau de contraste : %1"
+
+#: contents/ui/MainPage.qml:50
+#, kde-format
+msgid "%1"
+msgstr "%1"
+
+#: contents/ui/MainPage.qml:62
+#, kde-format
+msgid "Perfect for normal and large text"
+msgstr "Parfait pour un texte normal et large"
+
+#: contents/ui/MainPage.qml:62
+#, kde-format
+msgid "Perfect for large text and good for normal text"
+msgstr "Parfait pour un texte normal et bon pour un texte normal"
+
+#: contents/ui/MainPage.qml:62
+#, kde-format
+msgid "Good for large text and bad for normal text"
+msgstr "Bon pour un texte large et mauvais pour un texte normal"
+
+#: contents/ui/MainPage.qml:62
+#, kde-format
+msgid "Bad for large and normal text"
+msgstr "Mauvais pour un texte large et normal"
+
+#: contents/ui/MainPage.qml:69
+#, kde-format
+msgid ""
+"Contrast is the difference in luminance or color that makes an object (or "
+"its representation in an image or display) distinguishable. In visual "
+"perception of the real world, contrast is determined by the difference in "
+"the color and brightness of the object and other objects within the same "
+"field of view."
+msgstr ""
+"Le contraste est la différence entre la luminance et la couleur qui rend un "
+"objet (ou sa représentation dans une image ou un affichage). Dans la "
+"perception visuelle du monde réel, le contrast est déterminé par la "
+"différence entre la couleur et la luminosité des objets et d'autres objets "
+"dans le même champs de vision."
+
+#: contents/ui/MainPage.qml:84
+#, kde-format
+msgid "Text"
+msgstr "Texte"
+
+#: contents/ui/MainPage.qml:113 contents/ui/MainPage.qml:193
+#, kde-format
+msgid "Hue %1°"
+msgstr "Teinte %1°"
+
+#: contents/ui/MainPage.qml:127 contents/ui/MainPage.qml:207
+#, kde-format
+msgid "Saturation %1"
+msgstr "Saturation %1"
+
+#: contents/ui/MainPage.qml:141 contents/ui/MainPage.qml:221
+#, kde-format
+msgid "Lightness %1"
+msgstr "Luminosité %1"
+
+#: contents/ui/MainPage.qml:165
+#, kde-format
+msgid "Background"
+msgstr "Arrière-plan"
+
+#: contents/ui/MainPage.qml:238
+#, kde-format
+msgid "Font Size %1px"
+msgstr "Taille de la police %1 px"
+
+#: contents/ui/MainPage.qml:255
+#, kde-format
+msgid "Invert"
+msgstr "Inverser"
+
+#: contents/ui/MainPage.qml:261
+#, kde-format
+msgid "Randomize"
+msgstr "Aléatoire"
+
+#: contents/ui/MainPage.qml:267
+#, kde-format
+msgid "Mark as favorite"
+msgstr "Marquer comme préféré"
+
+#: contents/ui/MainPage.qml:270
+#, kde-format
+msgid "Failed to save color"
+msgstr "Impossible d'enregistrer la couleur"
+
+#: kontrast.cpp:355
+#, kde-format
+msgid "Font size %1px is bad with the current contrast"
+msgstr ""
+"La taille de la police %1 px est mal adaptée avec le contraste courant."
+
+#: kontrast.cpp:358
+#, kde-format
+msgid "Font size %1px is good with the current contrast"
+msgstr ""
+"La taille de la police %1 px est bien adaptée avec le contraste courant."
+
+#: kontrast.cpp:361
+#, kde-format
+msgid "Font size %1px is perfect with the current contrast"
+msgstr "La taille de la police %1 px est parfaite avec le contraste courant."
+
+#: main.cpp:42
+#, kde-format
+msgctxt "@title"
+msgid "Kontrast"
+msgstr "Kontrast"
+
+#: main.cpp:44
+#, kde-format
+msgctxt "@title"
+msgid "A contrast checker application"
+msgstr "Une application de vérification de contraste"
+
+#: main.cpp:47
+#, kde-format
+msgctxt "@info:credit"
+msgid "Carl Schwan"
+msgstr "Carl Schwan"
+
+#: main.cpp:48
+#, kde-format
+msgctxt "@info:credit"
+msgid "Maintainer and creator"
+msgstr "Mainteneur et créateur"
+
+#: main.cpp:51
+#, kde-format
+msgctxt "@info:credit"
+msgid "Wikipedia"
+msgstr "Wikipedia"
+
+#: main.cpp:51
+#, kde-format
+msgctxt "@info:credit"
+msgid "Text on the main page CC-BY-SA-4.0"
+msgstr "Texte sur la page principale « CC-BY-SA-4.0 »"
+
+#: main.cpp:52
+#, kde-format
+msgctxt "@info:credit"
+msgid "Carson Black"
+msgstr "Carson Black"
+
+#: main.cpp:52
+#, kde-format
+msgctxt "@info:credit"
+msgid "SQLite backend for favorite colors"
+msgstr "Moteur « SQLite » pour les couleurs préférées"
+
+#~ msgid "Please choose a color"
+#~ msgstr "Veuillez sélectionner une couleur"

@@ -1,0 +1,290 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kdeorg\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-10-01 00:38+0000\n"
+"PO-Revision-Date: 2022-09-20 01:57\n"
+"Last-Translator: \n"
+"Language-Team: Chinese Simplified\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: kdeorg\n"
+"X-Crowdin-Project-ID: 269464\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /kf5-trunk/messages/kontrast/kontrast.pot\n"
+"X-Crowdin-File-ID: 24428\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Tyson Tan"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "tysontan@tysontan.com"
+
+#: contents/ui/FavoritePage.qml:18
+#, kde-format
+msgid "Favorite colors"
+msgstr "常用颜色"
+
+#: contents/ui/FavoritePage.qml:52
+#, kde-format
+msgid "Text: %1"
+msgstr "文本颜色：%1"
+
+#: contents/ui/FavoritePage.qml:72
+#, kde-format
+msgid "Background: %1"
+msgstr "背景颜色：%1"
+
+#: contents/ui/FavoritePage.qml:93
+#, kde-format
+msgid "Remove"
+msgstr "移除"
+
+#: contents/ui/FavoritePage.qml:105
+#, kde-format
+msgid "Background color copied to clipboard"
+msgstr "背景颜色已复制到剪贴板"
+
+#: contents/ui/FavoritePage.qml:113
+#, kde-format
+msgid "Text color copied to clipboard"
+msgstr "文本颜色已被复制到剪贴板。"
+
+#: contents/ui/FavoritePage.qml:122
+#, kde-format
+msgid "Color copied to clipboard"
+msgstr "颜色已复制到剪贴板"
+
+#: contents/ui/HelpPage.qml:13 contents/ui/main.qml:40
+#, kde-format
+msgid "Help"
+msgstr "帮助"
+
+#: contents/ui/HelpPage.qml:19
+#, kde-format
+msgid "Contrast"
+msgstr "对比度"
+
+#: contents/ui/HelpPage.qml:24
+#, kde-format
+msgid ""
+"Contrast is the difference in color between two objects that allows them to "
+"be distinguished. In visual perception of the real world, contrast is "
+"determined by the difference in the color and brightness of the object and "
+"other objects within the same field of view."
+msgstr ""
+"对比度是两个物体的颜色差别程度，它决定了两者在视觉上被区分开来的难易程度。在"
+"现实世界中，视觉感知的对比度由同一视野中存在的物体与其他物体之间的颜色差异、"
+"亮度差异所决定。"
+
+#: contents/ui/HelpPage.qml:29
+#, kde-format
+msgid ""
+"A contrast value of 21 indicates a perfect contrast (usually black on "
+"white), and a value of 0 indicate that the two colors are the same."
+msgstr ""
+"对比度明暗比为 21 意味着完全反差 (这通常是黑白反差)，明暗比为 0 是意味着颜色"
+"一致。"
+
+#: contents/ui/HelpPage.qml:34
+#, kde-format
+msgid ""
+"For normal text, the contrast ratio should be at least of 4.5 to conform to "
+"the WCAG AA standard and a contrast ratio of 7 or more is required to "
+"conform with the WCAG AAA standard."
+msgstr ""
+"对于正常大小的文本，对比度的明暗比至少要达到 4.5 才能符合 WCAG AA 规范，明暗"
+"比达到 7 以上才能符合 WCAG AAA 规范。"
+
+#: contents/ui/HelpPage.qml:39
+#, kde-format
+msgid ""
+"For large text, the contrast ratio should be at least of 3 to conform to the "
+"WCAG AA standard and a contrast ratio of 4.5 or more is required to conform "
+"with the WCAG AAA standard."
+msgstr ""
+"对于大字体的文本，对比度的明暗比至少要达到 3 才能符合 WCAG AA 规范，明暗比达"
+"到 4.5 以上才能符合 WCAG AAA 规范。"
+
+#: contents/ui/main.qml:23
+#, kde-format
+msgid "kontrast"
+msgstr "kontrast"
+
+#: contents/ui/main.qml:28 contents/ui/MainPage.qml:20
+#, kde-format
+msgid "Contrast Checker"
+msgstr "对比度检查工具"
+
+#: contents/ui/main.qml:34
+#, kde-format
+msgid "Favorite Colors"
+msgstr "常用颜色"
+
+#: contents/ui/main.qml:46
+#, kde-format
+msgid "About"
+msgstr "关于"
+
+#: contents/ui/MainPage.qml:42
+#, kde-format
+msgid "Contrast ratio: %1"
+msgstr "对比度明暗比：%1"
+
+#: contents/ui/MainPage.qml:50
+#, kde-format
+msgid "%1"
+msgstr ""
+
+#: contents/ui/MainPage.qml:62
+#, kde-format
+msgid "Perfect for normal and large text"
+msgstr "效果极佳：正常大小文本、大字体文本"
+
+#: contents/ui/MainPage.qml:62
+#, kde-format
+msgid "Perfect for large text and good for normal text"
+msgstr "效果极佳：大字体文本；效果一般：正常大小文本"
+
+#: contents/ui/MainPage.qml:62
+#, kde-format
+msgid "Good for large text and bad for normal text"
+msgstr "效果一般：大字体文本；效果较差：正常大小文本"
+
+#: contents/ui/MainPage.qml:62
+#, kde-format
+msgid "Bad for large and normal text"
+msgstr "效果较差：大字体文本、正常大小文本"
+
+#: contents/ui/MainPage.qml:69
+#, kde-format
+msgid ""
+"Contrast is the difference in luminance or color that makes an object (or "
+"its representation in an image or display) distinguishable. In visual "
+"perception of the real world, contrast is determined by the difference in "
+"the color and brightness of the object and other objects within the same "
+"field of view."
+msgstr ""
+"对比度是两个物体 (或它们的图像/显示效果) 的亮度或颜色差别程度，它决定了两者在"
+"视觉上被区分开来的难易程度。在现实世界中，视觉感知的对比度由同一视野中存在的"
+"物体与其他物体之间的颜色差异、亮度差异所决定。"
+
+#: contents/ui/MainPage.qml:84
+#, kde-format
+msgid "Text"
+msgstr "文本颜色"
+
+#: contents/ui/MainPage.qml:113 contents/ui/MainPage.qml:193
+#, kde-format
+msgid "Hue %1°"
+msgstr "色相：%1°"
+
+#: contents/ui/MainPage.qml:127 contents/ui/MainPage.qml:207
+#, kde-format
+msgid "Saturation %1"
+msgstr "饱和度：%1"
+
+#: contents/ui/MainPage.qml:141 contents/ui/MainPage.qml:221
+#, kde-format
+msgid "Lightness %1"
+msgstr "亮度：%1"
+
+#: contents/ui/MainPage.qml:165
+#, kde-format
+msgid "Background"
+msgstr "背景颜色"
+
+#: contents/ui/MainPage.qml:238
+#, kde-format
+msgid "Font Size %1px"
+msgstr ""
+
+#: contents/ui/MainPage.qml:255
+#, kde-format
+msgid "Invert"
+msgstr "反转颜色"
+
+#: contents/ui/MainPage.qml:261
+#, kde-format
+msgid "Randomize"
+msgstr "随机颜色"
+
+#: contents/ui/MainPage.qml:267
+#, kde-format
+msgid "Mark as favorite"
+msgstr "加入常用颜色"
+
+#: contents/ui/MainPage.qml:270
+#, kde-format
+msgid "Failed to save color"
+msgstr "无法保存颜色"
+
+#: kontrast.cpp:355
+#, kde-format
+msgid "Font size %1px is bad with the current contrast"
+msgstr ""
+
+#: kontrast.cpp:358
+#, kde-format
+msgid "Font size %1px is good with the current contrast"
+msgstr ""
+
+#: kontrast.cpp:361
+#, kde-format
+msgid "Font size %1px is perfect with the current contrast"
+msgstr ""
+
+#: main.cpp:42
+#, kde-format
+msgctxt "@title"
+msgid "Kontrast"
+msgstr "Kontrast"
+
+#: main.cpp:44
+#, kde-format
+msgctxt "@title"
+msgid "A contrast checker application"
+msgstr "对比度检查应用程序"
+
+#: main.cpp:47
+#, kde-format
+msgctxt "@info:credit"
+msgid "Carl Schwan"
+msgstr "Carl Schwan"
+
+#: main.cpp:48
+#, kde-format
+msgctxt "@info:credit"
+msgid "Maintainer and creator"
+msgstr "项目维护者和创建者"
+
+#: main.cpp:51
+#, kde-format
+msgctxt "@info:credit"
+msgid "Wikipedia"
+msgstr "维基百科"
+
+#: main.cpp:51
+#, kde-format
+msgctxt "@info:credit"
+msgid "Text on the main page CC-BY-SA-4.0"
+msgstr "主页显示的文字 CC-BY-SA-4.0"
+
+#: main.cpp:52
+#, kde-format
+msgctxt "@info:credit"
+msgid "Carson Black"
+msgstr "Carson Black"
+
+#: main.cpp:52
+#, kde-format
+msgctxt "@info:credit"
+msgid "SQLite backend for favorite colors"
+msgstr "常用颜色的 SQLite 后端程序"

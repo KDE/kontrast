@@ -1,0 +1,302 @@
+# Translation for kontrast.po to Euskara/Basque (eu).
+# Copyright (C) 2020-2022, This file is copyright:
+# This file is distributed under the same license as the kontrast package.
+# KDE euskaratzeko proiektuko arduraduna <xalba@ni.eus>.
+#
+# Translators:
+# Iñigo Salvador Azurmendi <xalba@ni.eus>, 2020, 2021, 2022.
+msgid ""
+msgstr ""
+"Project-Id-Version: kontrast\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-10-01 00:38+0000\n"
+"PO-Revision-Date: 2022-09-14 07:00+0200\n"
+"Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
+"Language-Team: Basque <kde-i18n-eu@kde.org>\n"
+"Language: eu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 22.08.0\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Iñigo Salvador Azurmendi"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "xalba@ni.eus"
+
+#: contents/ui/FavoritePage.qml:18
+#, kde-format
+msgid "Favorite colors"
+msgstr "Gogoko koloreak"
+
+#: contents/ui/FavoritePage.qml:52
+#, kde-format
+msgid "Text: %1"
+msgstr "Testua: %1"
+
+#: contents/ui/FavoritePage.qml:72
+#, kde-format
+msgid "Background: %1"
+msgstr "Hondoa: %1"
+
+#: contents/ui/FavoritePage.qml:93
+#, kde-format
+msgid "Remove"
+msgstr "Kendu"
+
+#: contents/ui/FavoritePage.qml:105
+#, kde-format
+msgid "Background color copied to clipboard"
+msgstr "Hondoko kolorea arbelera kopiatu da"
+
+#: contents/ui/FavoritePage.qml:113
+#, kde-format
+msgid "Text color copied to clipboard"
+msgstr "Testuaren kolorea arbelera kopiatu da"
+
+#: contents/ui/FavoritePage.qml:122
+#, kde-format
+msgid "Color copied to clipboard"
+msgstr "Kolorea arbelera kopiatu da"
+
+#: contents/ui/HelpPage.qml:13 contents/ui/main.qml:40
+#, kde-format
+msgid "Help"
+msgstr "Laguntza"
+
+#: contents/ui/HelpPage.qml:19
+#, kde-format
+msgid "Contrast"
+msgstr "Kontrastea"
+
+#: contents/ui/HelpPage.qml:24
+#, kde-format
+msgid ""
+"Contrast is the difference in color between two objects that allows them to "
+"be distinguished. In visual perception of the real world, contrast is "
+"determined by the difference in the color and brightness of the object and "
+"other objects within the same field of view."
+msgstr ""
+"Kontrastea bi objekturen arteko kolore diferentzia da, haiek bereizgarriak "
+"izatea eragiten duena. Mundu errealaren ikusizko pertzepzioan, objektuaren "
+"eta ikus-eremu bereko beste objektu batzuen kolorearen eta distiraren arteko "
+"diferentziak zehazten du kontrastea."
+
+#: contents/ui/HelpPage.qml:29
+#, kde-format
+msgid ""
+"A contrast value of 21 indicates a perfect contrast (usually black on "
+"white), and a value of 0 indicate that the two colors are the same."
+msgstr ""
+"21 balioko kontraste batek kontraste perfektua adierazten du (zuriak "
+"beltzean izan ohi duena), eta 0 balioak bi koloreak bera direla adierazten "
+"du."
+
+#: contents/ui/HelpPage.qml:34
+#, kde-format
+msgid ""
+"For normal text, the contrast ratio should be at least of 4.5 to conform to "
+"the WCAG AA standard and a contrast ratio of 7 or more is required to "
+"conform with the WCAG AAA standard."
+msgstr ""
+"Testu arrunterako, kontraste-proportzioa gutxienez 4,5ekoa izan beharko "
+"litzateke WCAG AA estandarrarekin bat etortzeko eta 7 edo gehiagoko "
+"kontraste-proportzioa behar da WCAG AAA estandarrarekin bat etortzeko."
+
+#: contents/ui/HelpPage.qml:39
+#, kde-format
+msgid ""
+"For large text, the contrast ratio should be at least of 3 to conform to the "
+"WCAG AA standard and a contrast ratio of 4.5 or more is required to conform "
+"with the WCAG AAA standard."
+msgstr ""
+"Testu handietarako, kontraste-proportzioak gutxienez 3koa izan beharko "
+"litzateke WCAG AA estandarrarekin bat etortzeko eta 4,5 edo gehiagoko "
+"kontraste-proportzioa behar da WCAG AAA estandarrarekin bat etortzeko."
+
+#: contents/ui/main.qml:23
+#, kde-format
+msgid "kontrast"
+msgstr "kontrast"
+
+#: contents/ui/main.qml:28 contents/ui/MainPage.qml:20
+#, kde-format
+msgid "Contrast Checker"
+msgstr "Kontrastea egiaztatzeko tresna"
+
+#: contents/ui/main.qml:34
+#, kde-format
+msgid "Favorite Colors"
+msgstr "Gogoko koloreak"
+
+#: contents/ui/main.qml:46
+#, kde-format
+msgid "About"
+msgstr "Honi buruz"
+
+#: contents/ui/MainPage.qml:42
+#, kde-format
+msgid "Contrast ratio: %1"
+msgstr "Kontraste proportzioa: %1"
+
+#: contents/ui/MainPage.qml:50
+#, kde-format
+msgid "%1"
+msgstr "%1"
+
+#: contents/ui/MainPage.qml:62
+#, kde-format
+msgid "Perfect for normal and large text"
+msgstr "Ezin hobea testu arrunt eta handiarentzat"
+
+#: contents/ui/MainPage.qml:62
+#, kde-format
+msgid "Perfect for large text and good for normal text"
+msgstr "Ezin hobea testu handiarentzat eta ona testu arruntarentzat"
+
+#: contents/ui/MainPage.qml:62
+#, kde-format
+msgid "Good for large text and bad for normal text"
+msgstr "Ona testu handiarentzat eta txarra testu arruntarentzat"
+
+#: contents/ui/MainPage.qml:62
+#, kde-format
+msgid "Bad for large and normal text"
+msgstr "Txarra testu handi eta arruntarentzat"
+
+#: contents/ui/MainPage.qml:69
+#, kde-format
+msgid ""
+"Contrast is the difference in luminance or color that makes an object (or "
+"its representation in an image or display) distinguishable. In visual "
+"perception of the real world, contrast is determined by the difference in "
+"the color and brightness of the object and other objects within the same "
+"field of view."
+msgstr ""
+"Kontrastea da, objektu bat (edo irudi edo bistaratzaile batean duen "
+"irudikapena)bereizgarria izatea eragiten duen luminantzia- edo kolore-"
+"diferentzia. Mundu errealaren ikusizko pertzepzioan, objektuaren eta ikus-"
+"eremu bereko beste objektu batzuen kolorearen eta distiraren arteko "
+"diferentziak zehazten du kontrastea."
+
+#: contents/ui/MainPage.qml:84
+#, kde-format
+msgid "Text"
+msgstr "Testua"
+
+#: contents/ui/MainPage.qml:113 contents/ui/MainPage.qml:193
+#, kde-format
+msgid "Hue %1°"
+msgstr "Tonua %1º"
+
+#: contents/ui/MainPage.qml:127 contents/ui/MainPage.qml:207
+#, kde-format
+msgid "Saturation %1"
+msgstr "Asetasuna %1"
+
+#: contents/ui/MainPage.qml:141 contents/ui/MainPage.qml:221
+#, kde-format
+msgid "Lightness %1"
+msgstr "Argitasuna %1"
+
+#: contents/ui/MainPage.qml:165
+#, kde-format
+msgid "Background"
+msgstr "Hondoa"
+
+#: contents/ui/MainPage.qml:238
+#, kde-format
+msgid "Font Size %1px"
+msgstr "Letra-tipoaren neurria %1px"
+
+#: contents/ui/MainPage.qml:255
+#, kde-format
+msgid "Invert"
+msgstr "Alderantzikatu"
+
+#: contents/ui/MainPage.qml:261
+#, kde-format
+msgid "Randomize"
+msgstr "Ausazkoa"
+
+#: contents/ui/MainPage.qml:267
+#, kde-format
+msgid "Mark as favorite"
+msgstr "Markatu gogoko gisa"
+
+#: contents/ui/MainPage.qml:270
+#, kde-format
+msgid "Failed to save color"
+msgstr "Kolorea gordetzea huts egin du"
+
+#: kontrast.cpp:355
+#, kde-format
+msgid "Font size %1px is bad with the current contrast"
+msgstr "%1px-eko letra-tipoaren neurria gaizki dator uneko kontrastearekin"
+
+#: kontrast.cpp:358
+#, kde-format
+msgid "Font size %1px is good with the current contrast"
+msgstr "%1px-eko letra-tipoaren neurria ondo dator uneko kontrastearekin"
+
+#: kontrast.cpp:361
+#, kde-format
+msgid "Font size %1px is perfect with the current contrast"
+msgstr "%1px-eko letra-tipoaren neurria perfektua da uneko kontrastearekin"
+
+#: main.cpp:42
+#, kde-format
+msgctxt "@title"
+msgid "Kontrast"
+msgstr "Kontrast"
+
+#: main.cpp:44
+#, kde-format
+msgctxt "@title"
+msgid "A contrast checker application"
+msgstr "Kontrastea egiaztatzeko tresna bat"
+
+#: main.cpp:47
+#, kde-format
+msgctxt "@info:credit"
+msgid "Carl Schwan"
+msgstr "Carl Schwan"
+
+#: main.cpp:48
+#, kde-format
+msgctxt "@info:credit"
+msgid "Maintainer and creator"
+msgstr "Mantentzailea eta sortzailea"
+
+#: main.cpp:51
+#, kde-format
+msgctxt "@info:credit"
+msgid "Wikipedia"
+msgstr "Wikipedia"
+
+#: main.cpp:51
+#, kde-format
+msgctxt "@info:credit"
+msgid "Text on the main page CC-BY-SA-4.0"
+msgstr "Orri nagusiko testua CC-BY-SA-4.0"
+
+#: main.cpp:52
+#, kde-format
+msgctxt "@info:credit"
+msgid "Carson Black"
+msgstr "Carson Black"
+
+#: main.cpp:52
+#, kde-format
+msgctxt "@info:credit"
+msgid "SQLite backend for favorite colors"
+msgstr "Gogoko koloretarako SQLite bizkarraldekoa"
+
+#~ msgid "Please choose a color"
+#~ msgstr "Hautatu kolore bat"
