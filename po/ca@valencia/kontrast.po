@@ -283,7 +283,7 @@ msgstr "Viquipèdia"
 #, kde-format
 msgctxt "@info:credit"
 msgid "Text on the main page CC-BY-SA-4.0"
-msgstr "Text a la pàgina principal CC-BY-SA-4.0"
+msgstr "Text en la pàgina principal CC-BY-SA-4.0"
 
 #: main.cpp:52
 #, kde-format
