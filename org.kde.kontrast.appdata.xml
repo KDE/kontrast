@@ -21,6 +21,7 @@ SPDX-LicenseRef: CC0-1.0
   <name xml:lang="hi">कंट्रास्ट (Kontrast)</name>
   <name xml:lang="id">Kontrast</name>
   <name xml:lang="it">Kontrast</name>
+  <name xml:lang="ka">Kontrast</name>
   <name xml:lang="ko">Kontrast</name>
   <name xml:lang="nl">Kontrast</name>
   <name xml:lang="nn">Kontrast</name>
@@ -50,6 +51,7 @@ SPDX-LicenseRef: CC0-1.0
   <summary xml:lang="hi">एक रंग कंट्रास्ट जांचक</summary>
   <summary xml:lang="id">Sebuah Pemeriksa Kontras Warna</summary>
   <summary xml:lang="it">Un controllo del contrasto</summary>
+  <summary xml:lang="ka">კონტრასტის შემოწმება</summary>
   <summary xml:lang="ko">색 대비 검사기</summary>
   <summary xml:lang="nl">Een controleprogramma op contrast</summary>
   <summary xml:lang="nn">Verktøy for å sjekka fargekontrast</summary>
@@ -124,6 +126,7 @@ SPDX-LicenseRef: CC0-1.0
   <developer_name xml:lang="fr">Carl Schwan</developer_name>
   <developer_name xml:lang="id">Carl Schwan</developer_name>
   <developer_name xml:lang="it">Carl Schwan</developer_name>
+  <developer_name xml:lang="ka">Carl Schwan</developer_name>
   <developer_name xml:lang="ko">Carl Schwan</developer_name>
   <developer_name xml:lang="nl">Carl Schwan</developer_name>
   <developer_name xml:lang="nn">Carl Schwan</developer_name>
@@ -154,6 +157,7 @@ SPDX-LicenseRef: CC0-1.0
       <caption xml:lang="fr">Affichage principal de Kontrast</caption>
       <caption xml:lang="id">Tampilan utama Kontrast</caption>
       <caption xml:lang="it">Vista principale di Kontrast</caption>
+      <caption xml:lang="ka">Kontrast-ის მთავარი ხედი</caption>
       <caption xml:lang="ko">Kontrast 주 보기</caption>
       <caption xml:lang="nl">Hoofdweergave van Kontrast</caption>
       <caption xml:lang="nn">Hovudvising i Kontrast</caption>
@@ -185,6 +189,7 @@ SPDX-LicenseRef: CC0-1.0
       <caption xml:lang="fr">Affichage principal de Kontrast sur plate-forme mobile</caption>
       <caption xml:lang="id">Tampilan utama Kontrast di ponsel</caption>
       <caption xml:lang="it">Vista principale di Kontrast nei dispositivi mobili</caption>
+      <caption xml:lang="ka">Kontrast-ის მთავარი ხედი მობილურზე</caption>
       <caption xml:lang="ko">모바일 환경에서의 Kontrast 주 보기</caption>
       <caption xml:lang="nl">Hoofdweergave van Kontrast op mobiel</caption>
       <caption xml:lang="nn">Hovudvising i mobilversjon av Kontrast</caption>
