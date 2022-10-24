@@ -56,6 +56,7 @@ add_subdirectory(src)
 
 if(NOT ANDROID)
     add_subdirectory(doc)
+    kdoctools_install(po)
 endif()
 
 install(PROGRAMS org.kde.kontrast.desktop DESTINATION ${KDE_INSTALL_APPDIR})
@@ -63,6 +64,7 @@ install(FILES org.kde.kontrast.appdata.xml DESTINATION ${KDE_INSTALL_METAINFODIR
 install(FILES org.kde.kontrast.svg DESTINATION ${KDE_INSTALL_FULL_ICONDIR}/hicolor/scalable/apps)
 
 ki18n_install(po)
+
 
 feature_summary(WHAT ALL INCLUDE_QUIET_PACKAGES FATAL_ON_MISSING_REQUIRED_PACKAGES)
 
