@@ -37,6 +37,7 @@ SPDX-LicenseRef: CC0-1.0
   <name xml:lang="uk">Kontrast</name>
   <name xml:lang="x-test">xxKontrastxx</name>
   <name xml:lang="zh-CN">Kontrast</name>
+  <name xml:lang="zh-TW">Kontrast</name>
   <summary>A Color Contrast Checker</summary>
   <summary xml:lang="ca">Un comprovador del contrast del color</summary>
   <summary xml:lang="ca-valencia">Un comprovador del contrast del color</summary>
@@ -67,6 +68,7 @@ SPDX-LicenseRef: CC0-1.0
   <summary xml:lang="uk">Засіб для перевірки контрастності кольорів</summary>
   <summary xml:lang="x-test">xxA Color Contrast Checkerxx</summary>
   <summary xml:lang="zh-CN">颜色对比度检查工具</summary>
+  <summary xml:lang="zh-TW">一個用來檢查顏色對比度的工具</summary>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-3.0-or-later</project_license>
   <description>
@@ -97,6 +99,7 @@ SPDX-LicenseRef: CC0-1.0
     <p xml:lang="uk">Kontrast — засіб для перевірки контрастності кольорів. Програма повідомить вам, чи є поєднання кольорів достатньо контрастним для читання і доступності.</p>
     <p xml:lang="x-test">xxKontrast is a color contrast checker and tells you if your color combinations are distinct enough to be readable and accessible.xx</p>
     <p xml:lang="zh-CN">Kontrast 是一款颜色对比度检查工具，它能检查您给出的一对颜色的反差程度是否具有足够的可读性，且不影响无障碍使用。</p>
+    <p xml:lang="zh-TW">Kontrast 是一個檢查顏色對比度的工具，它會讓您知道您所指定的顏色之間的差異是否足夠，以確保可讀性且使用上無障礙。</p>
   </description>
   <launchable type="desktop-id">org.kde.kontrast.desktop</launchable>
   <provides>
@@ -142,6 +145,7 @@ SPDX-LicenseRef: CC0-1.0
   <developer_name xml:lang="uk">Carl Schwan</developer_name>
   <developer_name xml:lang="x-test">xxCarl Schwanxx</developer_name>
   <developer_name xml:lang="zh-CN">Carl Schwan</developer_name>
+  <developer_name xml:lang="zh-TW">Carl Schwan</developer_name>
   <screenshots>
     <screenshot>
       <caption>Main view of Kontrast</caption>
@@ -173,6 +177,7 @@ SPDX-LicenseRef: CC0-1.0
       <caption xml:lang="uk">Головне вікно Kontrast</caption>
       <caption xml:lang="x-test">xxMain view of Kontrastxx</caption>
       <caption xml:lang="zh-CN">Kontrast 主视图</caption>
+      <caption xml:lang="zh-TW">Kontrast 的主頁面</caption>
       <image type="source" width="1074" height="833">https://cdn.kde.org/screenshots/kontrast/kontrast.png</image>
     </screenshot>
     <screenshot>
@@ -205,6 +210,7 @@ SPDX-LicenseRef: CC0-1.0
       <caption xml:lang="uk">Головне вікно Kontrast на мобільному</caption>
       <caption xml:lang="x-test">xxMain view of Kontrast on mobilexx</caption>
       <caption xml:lang="zh-CN">移动设备上的 Kontrast 主视图</caption>
+      <caption xml:lang="zh-TW">Kontrast 在手機上的主頁面</caption>
       <image type="source" width="535" height="833">https://cdn.kde.org/screenshots/kontrast/kontrat_mobile.png</image>
     </screenshot>
   </screenshots>
