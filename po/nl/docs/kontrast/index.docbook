@@ -1,0 +1,235 @@
+<?xml version="1.0" ?>
+<!DOCTYPE book PUBLIC "-//KDE//DTD DocBook XML V4.5-Based Variant V1.1//EN" "dtd/kdedbx45.dtd" [
+  <!ENTITY kmyapplication "<application
+>Kontrast</application
+>">
+  <!ENTITY i18n-translatable-entity "<application
+>Te vertalen entity</application
+>">
+  <!ENTITY % addindex "IGNORE">
+  <!ENTITY % Dutch "INCLUDE">
+]>
+<!--
+SPDX-FileCopyrightText: 2022 Vlad Rakhmanin <vladimir.rakhmanin@ucdconnect.ie>
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
+<book id="kmyapplication" lang="&language;">
+
+<!-- This header contains all of the meta-information for the document such
+as Authors, publish date, the abstract, and Keywords -->
+
+<bookinfo>
+<title
+>Het handboek van &kmyapplication;</title>
+
+<authorgroup>
+<author
+><personname
+> <firstname
+>Carl</firstname
+> <surname
+>Schwan</surname
+> </personname
+> <email
+>carl@carlschwan.eu</email
+> </author>
+&Freek.de.Kruijf; 
+</authorgroup>
+
+<copyright>
+<year
+>2022</year>
+<holder
+>Carl Schwan</holder>
+</copyright>
+
+<date
+>2022-09-08</date>
+
+<releaseinfo
+>Versie 22.08.0</releaseinfo>
+
+<abstract>
+<para
+>&kmyapplication; is een controleprogramma op kleurcontrast die gebruikers hun kleurcombinaties laat verifiëren of ze toegankelijk zijn voor mensen met kleurenblindheid. </para>
+</abstract>
+
+<keywordset>
+<keyword
+>KDE</keyword>
+<keyword
+>Toegankelijkheid</keyword>
+<keyword
+>Kontrast</keyword>
+</keywordset>
+
+</bookinfo>
+
+<chapter id="introduction">
+<title
+>Inleiding</title>
+
+<para
+>&kmyapplication; biedt de gebruiker het controleren van de contrastverhouding tussen kleuren en bepaalt of het resultaat geschikt is voor mensen met kleurenblindheid. Gebruikers kunnen kleuren op een aantal manieren selecteren, bijvoorbeeld, door de hex-waarden handmatig in te voeren of door het hulpmiddel kleurenkiezer te gebruiken om een kleurwaarde op hun scherm te selecteren. </para>
+
+<para
+>De contrastverhouding die door deze toepassing wordt gecontroleerd is gerelateerd aan het verschil in kleur tussen twee objecten die hen biedt deze te onderscheiden. Een contrastwaarde van 21 geeft een perfect contrast aan (gewoonlijk zwart op wit) en een waarde 0 geeft aan dat de twee kleuren hetzelfde zijn. De kleuren worden gecontroleerd tegen Web Content Accessibility Guidelines (<quote
+>WCAG</quote
+>). </para>
+
+</chapter>
+
+
+<chapter id="using-kapp">
+<title
+>&kmyapplication; gebruiken</title>
+
+
+<para>
+<screenshot>
+<screeninfo
+>Hier is een schermafdruk van &kmyapplication;</screeninfo>
+	<mediaobject>
+	  <imageobject>
+	    <imagedata fileref="main.png" format="PNG"/>
+	  </imageobject>
+	  <textobject>
+	    <phrase
+>Schermafdruk van &kmyapplication;</phrase>
+	  </textobject>
+	</mediaobject>
+</screenshot>
+</para>
+
+<para
+>Na het openen van de toepassing, krijgt u een scherm te zien dat op het bovenstaande lijkt - dit is het hoofdscherm van &kmyapplication; en bevat de meeste van zijn mogelijkheden. Een willekeurig geselecteerde tekstkleur, achtergrondkleur en hun contrastverhouding zal als voorbeeld getoond worden. </para>
+
+<sect1 id="kapp-color-select">
+<title
+>Tekst en achtergrondkleuren selecteren</title>
+<para
+>Er zijn vijf manieren waarop waarop kleuren voor vergelijking geselecteerd kunnen worden. Deze zijn onderstaand uitgelegd. </para>
+
+<sect2 id="hex-values">
+<title
+>Hex-waarden invoeren</title>
+<para
+>Als u de hex-waarden van de kleuren weet die u zou willen controleren, dan kunt u deze direct invoeren. Om dat te doen, klik op de hex-waarde van de kleur van het sample dat nu op het scherm is en typ de gewenste waarde in.</para>
+</sect2>
+
+<sect2 id="color-picker">
+<title
+>Kleurenkiezer</title>
+<para
+>Als er een kleur die u nu op het scherm heeft - bijvoorbeeld, uit een voorbeeldafbeelding - dan kunt u het hulpmiddel kleurenkiezer gebruiken om deze kleur direct in de toepassing invoeren. Om dat te doen, klik op het pictogram van de kleurenkiezer rechts van de hex-waarde van de nu geselecteerde kleur en klik op de kleur ergens op het scherm die als sample wilt. De kleur zal dan geselecteerd worden in de toepassing.</para>
+</sect2>
+
+<sect2 id="hue">
+<title
+>Tint, verzadiging en lichtheid</title>
+<para
+>Als u uw huidige selectie wilt wijzigen om te zien of bepaalde wijzigingen een effect hebben op het contrast, dan kunt u dat doen door de schuifregelaars voor tint, verzadiging en lichtheid te gebruiken. Deze bevinden zich onder de hex-waarde van de huidige selectie. De kleurselectie zal automatisch bijgewerkt worden als u met deze schuifregelaars wijzigingen maakt.</para>
+</sect2>
+
+<sect2 id="invert">
+<title
+>Inverteren</title>
+<para
+>De knop <guimenuitem
+>Inverteren</guimenuitem
+> zal de twee nu geselecteerde kleuren omdraaien, waarmee de achtergrondkleur de tekstkleur wordt en omgekeerd.</para>
+</sect2>
+
+<sect2 id="randomize">
+<title
+>Willekeurig maken</title>
+<para
+>De knop <guimenuitem
+>Willekeurig maken</guimenuitem
+> zal willekeurige kleuren aan zowel de achtergrondkleur als de tekstkleur toekennen.</para>
+</sect2>
+</sect1>
+
+<sect1 id="result">
+<title
+>Contrastresultaat</title>
+<para
+>De contrastverhouding die resulteert uit uw selectie zal getoond worden bovenaan het scherm, samen met een korte noot die uitlegt hoe goed dit contrast geschikt is voor tekst met variërende groottes. Deze tekst zal automatisch bijgewerkt worden als u wijzigingen aanbrengt aan de kleurenwaarden. </para>
+</sect1>
+
+<sect1 id="favorite">
+<title
+>Favorieten</title>
+<para
+>&kmyapplication; biedt de gebruiker het opslaan van favoriete kleurcombinaties voor toekomstig gebruik. Om dat te doen, druk op <guimenuitem
+>Als favoriet markeren</guimenuitem
+> onderaan het scherm. Deze kleurcombinaties kunnen opnieuw bereikt worden via het menu-item <guimenuitem
+>Favoriete kleuren</guimenuitem
+>, zoals meer speciaal beschreven in het volgende hoofdstuk. </para>
+</sect1>
+</chapter>
+
+<chapter id="menu">
+<title
+>Menuopties</title>
+
+<para
+>Dit hoofdstuk beschrijft alle mogelijkheden van de toepassing die beschikbaar zijn na het klikken op het pictogram <guimenu
+>Menu</guimenu
+> in linker bovenhoek. </para>
+
+<sect1 id="contrast-checker">
+<title
+>Controleprogramma op contrast</title>
+<para
+>Dit is het standaard scherm van de toepassing, waarmee de gebruiker kleuren kan selecteren en hun contrastverhouding kan bekijken. De functionaliteit is beschreven in het vorige hoofdstuk. </para>
+</sect1>
+
+<sect1 id="fave-colors">
+<title
+>Favoriete kleuren</title>
+<para
+>Dit scherm zal alle kleurcombinaties bevatten die opgeslagen zijn als "favoriet" in het scherm <guimenuitem
+>Contrastcontrole</guimenuitem
+>. Kleurencombinaties kunnen verwijderd worden door op de knop <guimenuitem
+>verwijderen</guimenuitem
+> te drukken. </para>
+</sect1>
+
+<sect1 id="help">
+<title
+>Help</title>
+<para
+>Dit scherm bevat een korte samenvatting van de theorie achter deze toepassing, met een uitleg over hoe contrast werkt en hoe het beste de contrastverhouding te interpreteren in overeenstemming met de WCAG standaard. </para>
+</sect1>
+
+<sect1 id="about">
+<title
+>Info over</title>
+<para
+>Dit scherm bevat enige algemene informatie over de toepassing, zoals de auteurs en de gebruikte bibliotheken. Er is ook een knop die gebruikers een bug, die tegen zouden kunnen komen, laat indienen bij de ontwikkelaars. </para>
+</sect1>
+
+</chapter>
+
+<chapter id="credits">
+
+<title
+>Dankbetuigingen en licentie</title>
+
+<para
+>&kmyapplication; </para>
+<para
+>Programma copyright 2020-2022 Carl Schwan <email
+>carl@carlschwan.eu</email
+> </para>
+
+<para
+>Documentatie Copyright &copy; 2022 Vlad Rakhmanin <email
+>vladimir.rakhmanin@ucdconnect.ie</email
+> </para
+>&underGPL; </chapter>
+
+&documentation.index;
+</book>
