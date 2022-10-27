@@ -1,0 +1,235 @@
+<?xml version="1.0" ?>
+<!DOCTYPE book PUBLIC "-//KDE//DTD DocBook XML V4.5-Based Variant V1.1//EN" "dtd/kdedbx45.dtd" [
+  <!ENTITY kmyapplication "<application
+>Kontrast</application
+>">
+  <!ENTITY i18n-translatable-entity "<application
+>Entitat traduïble</application
+>">
+  <!ENTITY % addindex "IGNORE">
+  <!ENTITY % Catalan  "INCLUDE">
+]>
+<!--
+SPDX-FileCopyrightText: 2022 Vlad Rakhmanin <vladimir.rakhmanin@ucdconnect.ie>
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
+<book id="kmyapplication" lang="&language;">
+
+<!-- This header contains all of the meta-information for the document such
+as Authors, publish date, the abstract, and Keywords -->
+
+<bookinfo>
+<title
+>El manual del &kmyapplication;</title>
+
+<authorgroup>
+<author
+><personname
+> <firstname
+>Carl</firstname
+> <surname
+>Schwan</surname
+> </personname
+> <email
+>carl@carlschwan.eu</email
+> </author>
+&traductor.JosepMa.Ferrer; 
+</authorgroup>
+
+<copyright>
+<year
+>2022</year>
+<holder
+>Carl Schwan</holder>
+</copyright>
+
+<date
+>8 de setembre de 2022</date>
+
+<releaseinfo
+>Versió 22.08.0</releaseinfo>
+
+<abstract>
+<para
+>El &kmyapplication; és un comprovador del contrast del color i indica si les vostres combinacions de color són accessibles per a persones amb deficiències de visió del color. </para>
+</abstract>
+
+<keywordset>
+<keyword
+>KDE</keyword>
+<keyword
+>Accessibilitat</keyword>
+<keyword
+>Kontrast</keyword>
+</keywordset>
+
+</bookinfo>
+
+<chapter id="introduction">
+<title
+>Introducció</title>
+
+<para
+>El &kmyapplication; permet a l'usuari comprovar la relació de contrast entre colors i determinar si el resultat és adequat per a persones amb deficiències de la visió dels colors. Els usuaris poden seleccionar colors de diverses maneres, per exemple, introduint manualment els valors hexadecimals, o utilitzant l'eina de selecció de color per a seleccionar qualsevol valor de color a la pantalla. </para>
+
+<para
+>La comprovació de la relació de contrast d'aquesta aplicació està relacionada amb la diferència de color entre dos objectes que els permet distingir. Un valor de contrast de 21 indica un contrast perfecte (normalment negre sobre blanc) i un valor de 0 indica que els dos colors són els mateixos. Els colors es comproven amb les Directrius d'accessibilitat del contingut web (Web Content Accessibility Guidelines, <quote
+>WCAG</quote
+>). </para>
+
+</chapter>
+
+
+<chapter id="using-kapp">
+<title
+>Ús del &kmyapplication;</title>
+
+
+<para>
+<screenshot>
+<screeninfo
+>Aquesta és una captura de pantalla del &kmyapplication;</screeninfo>
+	<mediaobject>
+	  <imageobject>
+	    <imagedata fileref="main.png" format="PNG"/>
+	  </imageobject>
+	  <textobject>
+	    <phrase
+>Captura de pantalla del &kmyapplication;</phrase>
+	  </textobject>
+	</mediaobject>
+</screenshot>
+</para>
+
+<para
+>Després d'obrir l'aplicació, es presentarà una pantalla similar a l'anterior: aquesta és la pantalla principal del &kmyapplication; i conté la majoria de les seves característiques. Com a exemple, es mostraran un color de text seleccionat aleatòriament, el color de fons i la seva relació de contrast. </para>
+
+<sect1 id="kapp-color-select">
+<title
+>Selecció dels colors de text i de fons</title>
+<para
+>Hi ha cinc formes principals en què es poden seleccionar colors per a la comparació. Aquestes es descriuen a continuació. </para>
+
+<sect2 id="hex-values">
+<title
+>Entrada de valors hexadecimals</title>
+<para
+>Si coneixeu els valors hexadecimals dels colors que voleu comprovar, llavors podreu introduir-los directament. Per a fer-ho, feu clic al valor hexadecimal del color de la mostra que hi ha actualment a la pantalla i escriviu el valor desitjat.</para>
+</sect2>
+
+<sect2 id="color-picker">
+<title
+>Selector de color</title>
+<para
+>Si actualment hi ha un color a la pantalla, per exemple des d'una imatge de mostra, llavors podeu utilitzar l'eina selector de color per a introduir aquest color directament a l'aplicació. Per a fer-ho, feu clic a la icona del selector de color a la dreta del valor hexadecimal del color seleccionat, i feu clic al color a qualsevol lloc de la pantalla que vulgueu aconseguir de mostra. El color se seleccionarà a l'aplicació.</para>
+</sect2>
+
+<sect2 id="hue">
+<title
+>To, saturació i lluminositat</title>
+<para
+>Si voleu modificar la selecció actual per a veure si certs canvis tenen un efecte en el contrast, llavors podeu fer-ho utilitzant els controls lliscants de to, saturació i lluminositat. Aquests es troben sota el valor hexadecimal de la selecció actual. La selecció de color s'actualitzarà automàticament a mesura que feu canvis en aquests controls lliscants.</para>
+</sect2>
+
+<sect2 id="invert">
+<title
+>Inverteix</title>
+<para
+>El botó <guimenuitem
+>Inverteix</guimenuitem
+> intercanviarà els dos colors seleccionats, establint el color de fons com a color de text i viceversa.</para>
+</sect2>
+
+<sect2 id="randomize">
+<title
+>Aleatori</title>
+<para
+>El botó <guimenuitem
+>Aleatori</guimenuitem
+> assignarà colors aleatoris tant al fons com al color del text.</para>
+</sect2>
+</sect1>
+
+<sect1 id="result">
+<title
+>Resultat del contrast</title>
+<para
+>La relació de contrast resultant de la vostra selecció es mostrarà a la part superior de la pantalla, juntament amb una nota curta explicant com de bé s'adapta aquest contrast al text de diferents mides. Aquest text s'actualitzarà automàticament a mesura que es facin canvis als valors dels colors. </para>
+</sect1>
+
+<sect1 id="favorite">
+<title
+>Preferits</title>
+<para
+>El &kmyapplication; permet a l'usuari desar combinacions de colors preferides per a referències futures. Per fer-ho, premeu <guimenuitem
+>Marca com a preferit</guimenuitem
+> situat a la part inferior de la pantalla. Aquestes combinacions de colors es poden tornar a accedir a través de l'element de menú <guimenuitem
+>Colors preferits</guimenuitem
+>, com es descriu amb més detall en el capítol següent. </para>
+</sect1>
+</chapter>
+
+<chapter id="menu">
+<title
+>Opcions de menú</title>
+
+<para
+>Aquest capítol descriu totes les característiques de l'aplicació accessibles després de fer clic a la icona <guimenu
+>Menú</guimenu
+> de la cantonada superior esquerra. </para>
+
+<sect1 id="contrast-checker">
+<title
+>Comprovador del contrast</title>
+<para
+>Aquesta és la pantalla predeterminada de l'aplicació, que permet a l'usuari seleccionar colors i veure la seva relació de contrast. La funcionalitat es descriu en el capítol anterior. </para>
+</sect1>
+
+<sect1 id="fave-colors">
+<title
+>Colors preferits</title>
+<para
+>Aquesta pantalla contindrà totes les combinacions de color desades com a «preferides» a la pantalla <guimenuitem
+>Comprovador del contrast</guimenuitem
+>. Les combinacions de color es poden suprimir prement el botó <guimenuitem
+>Elimina</guimenuitem
+>. </para>
+</sect1>
+
+<sect1 id="help">
+<title
+>Ajuda</title>
+<para
+>Aquesta pantalla conté un resum breu de la teoria darrere d'aquesta aplicació, amb una explicació de com funciona el contrast i com interpretar millor la relació de contrast d'acord amb l'estàndard WCAG. </para>
+</sect1>
+
+<sect1 id="about">
+<title
+>Quant al</title>
+<para
+>Aquesta pantalla conté informació general relativa a l'aplicació, com els autors i les biblioteques utilitzades. També hi ha un botó que permet als usuaris enviar als desenvolupadors qualsevol error que puguin trobar. </para>
+</sect1>
+
+</chapter>
+
+<chapter id="credits">
+
+<title
+>Crèdits i llicència</title>
+
+<para
+>&kmyapplication; </para>
+<para
+>Copyright del programa 2020-2022 Carl Schwan <email
+>carl@carlschwan.eu</email
+> </para>
+
+<para
+>Copyright de la documentació &copy; 2022 Vlad Rakhmanin <email
+>vladimir.rakhmanin@ucdconnect.ie</email
+> </para
+>&underGPL; </chapter>
+
+&documentation.index;
+</book>
