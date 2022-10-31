@@ -1,12 +1,12 @@
 # Translation of kontrast to Norwegian Nynorsk
 #
-# Karl Ove Hufthammer <karl@huftis.org>, 2020.
+# Karl Ove Hufthammer <karl@huftis.org>, 2020, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: kontrast\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-10-01 00:38+0000\n"
-"PO-Revision-Date: 2020-09-09 19:29+0200\n"
+"PO-Revision-Date: 2022-10-30 10:10+0100\n"
 "Last-Translator: Karl Ove Hufthammer <karl@huftis.org>\n"
 "Language-Team: Norwegian Nynorsk <l10n-no@lister.huftis.org>\n"
 "Language: nn\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 20.08.0\n"
+"X-Generator: Lokalize 22.08.2\n"
 "X-Environment: kde\n"
 "X-Accelerator-Marker: &\n"
 "X-Text-Markup: kde4\n"
@@ -147,7 +147,7 @@ msgstr "Kontrast: %1"
 #: contents/ui/MainPage.qml:50
 #, kde-format
 msgid "%1"
-msgstr ""
+msgstr "%1"
 
 #: contents/ui/MainPage.qml:62
 #, kde-format
@@ -211,7 +211,7 @@ msgstr "Bakgrunn"
 #: contents/ui/MainPage.qml:238
 #, kde-format
 msgid "Font Size %1px"
-msgstr ""
+msgstr "Skriftstorleik %1 pikslar"
 
 #: contents/ui/MainPage.qml:255
 #, kde-format
@@ -236,17 +236,17 @@ msgstr "Klarte ikkje lagra farge"
 #: kontrast.cpp:355
 #, kde-format
 msgid "Font size %1px is bad with the current contrast"
-msgstr ""
+msgstr "Skriftstorleiken %1 pikslar er dårleg med gjeldande fargekontrast"
 
 #: kontrast.cpp:358
 #, kde-format
 msgid "Font size %1px is good with the current contrast"
-msgstr ""
+msgstr "Skriftstorleiken %1 pikslar er brukbar med gjeldande fargekontrast"
 
 #: kontrast.cpp:361
 #, kde-format
 msgid "Font size %1px is perfect with the current contrast"
-msgstr ""
+msgstr "Skriftstorleiken %1 pikslar er perfekt med gjeldande fargekontrast"
 
 #: main.cpp:42
 #, kde-format
