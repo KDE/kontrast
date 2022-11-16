@@ -1,0 +1,249 @@
+<?xml version="1.0" ?>
+<!DOCTYPE book PUBLIC "-//KDE//DTD DocBook XML V4.5-Based Variant V1.1//EN" "dtd/kdedbx45.dtd" [
+  <!ENTITY kmyapplication "<application
+>Kontrast</application
+>">
+  <!ENTITY i18n-translatable-entity "<application
+>Kontrast</application
+>">
+  <!ENTITY % addindex "IGNORE">
+  <!ENTITY % Italian "INCLUDE">
+]>
+<!--
+SPDX-FileCopyrightText: 2022 Vlad Rakhmanin <vladimir.rakhmanin@ucdconnect.ie>
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
+<book id="kmyapplication" lang="&language;">
+
+<!-- This header contains all of the meta-information for the document such
+as Authors, publish date, the abstract, and Keywords -->
+
+<bookinfo>
+<title
+>Manuale di &kmyapplication;</title>
+
+<authorgroup>
+<author
+><personname
+> <firstname
+>Carl</firstname
+> <surname
+>Schwan</surname
+> </personname
+> <email
+>carl@carlschwan.eu</email
+> </author>
+<othercredit role="translator"
+><firstname
+>Paolo</firstname
+> <surname
+>Zamponi</surname
+> <affiliation
+><address
+><email
+>zapaolo@email.it</email
+></address
+></affiliation
+> <contrib
+>Traduzione del documento</contrib
+></othercredit
+> 
+</authorgroup>
+
+<copyright>
+<year
+>2022</year>
+<holder
+>Carl Schwan</holder>
+</copyright>
+
+<date
+>08/09/2022</date>
+
+<releaseinfo
+>Versione 22.08.0</releaseinfo>
+
+<abstract>
+<para
+>&kmyapplication; è uno strumento per controllare il contrasto dei colori, che permette agli utenti di verificare se le combinazioni di colore sono accessibili alle persone con problemi nella visione dei colori. </para>
+</abstract>
+
+<keywordset>
+<keyword
+>KDE</keyword>
+<keyword
+>Accessibilità</keyword>
+<keyword
+>Kontrast</keyword>
+</keywordset>
+
+</bookinfo>
+
+<chapter id="introduction">
+<title
+>Introduzione</title>
+
+<para
+>&kmyapplication; permette all'utente di controllare il rapporto di contrasto tra i colori, e di determinare se il risultato è adatto per le persone con deficienze visive coi colori. Gli utenti possono selezionare i colori in vari modi, ad esempio immettendo manualmente i valori esadecimali, oppure utilizzando lo strumento selettore di colore per selezionare i valori del colore sullo schermo. </para>
+
+<para
+>Il rapporto di contrasto controllato da quest'applicazione è relativo alla differenza di colore tra due oggetti che gli permette di essere distinguibili. Un valore di contrasto di 21 indica un contrasto perfetto (in genere nero su bianco), mentre uno di 0 che i due colori sono uguali. I colori vengono controllati in base alle Web Content Accessibility Guidelines (<quote
+>WCAG</quote
+>). </para>
+
+</chapter>
+
+
+<chapter id="using-kapp">
+<title
+>Uso di &kmyapplication;</title>
+
+
+<para>
+<screenshot>
+<screeninfo
+>Ecco una schermata di &kmyapplication;</screeninfo>
+	<mediaobject>
+	  <imageobject>
+	    <imagedata fileref="main.png" format="PNG"/>
+	  </imageobject>
+	  <textobject>
+	    <phrase
+>Schermata di &kmyapplication;</phrase>
+	  </textobject>
+	</mediaobject>
+</screenshot>
+</para>
+
+<para
+>Dopo aver aperto l'applicazione ti si presenta un schermata simile a quella sopra, che è la principale di &kmyapplication;, quella che contiene la maggior parte delle sue funzionalità. Come esempio verranno visualizzati un colore di testo selezionato e uno di sfondo scelti casualmente, oltre al loro rapporto di contrasto. </para>
+
+<sect1 id="kapp-color-select">
+<title
+>Selezionare i colori del testo e dello sfondo</title>
+<para
+>Ci sono cinque modalità principali con le quali i colori possono essere selezionati per il confronto. Queste sono delineate di seguito. </para>
+
+<sect2 id="hex-values">
+<title
+>Immissione di valori esadecimali</title>
+<para
+>Se conosci i valori esadecimali dei colori che vorresti controllare, allora puoi immetterli direttamente. Per farlo, fai clic sui valori esadecimali del colore campione attualmente sullo schermo, poi digita il valore desiderato.</para>
+</sect2>
+
+<sect2 id="color-picker">
+<title
+>Selettore di colore</title>
+<para
+>Se attualmente sullo schermo c'è un colore, ad esempio in una pagina di campioni, puoi usare l'apposito strumento per immetterlo direttamente nell'applicazione. Per farlo, fai clic sull'icona del selettore di colore, poi sul colore che vorresti campionare nello schermo: esso verrà selezionato nell'applicazione.</para>
+</sect2>
+
+<sect2 id="hue">
+<title
+>Tonalità, saturazione e luminosità</title>
+<para
+>Se ti piacerebbe mettere a punto la selezione corrente, in modo da vedere se certe modifiche hanno o meno un effetto sul contrasto, puoi farlo usando i regolatori di tonalità, saturazione e chiarezza: si trovano al di sotto dei valori esadecimali della selezione corrente. La selezione dei colori verrà aggiornata automaticamente durante lo spostamento dei regolatori.</para>
+</sect2>
+
+<sect2 id="invert">
+<title
+>Inverti</title>
+<para
+>Il pulsante <guimenuitem
+>Inverti</guimenuitem
+> scambierà i due colori attualmente selezionati, impostando il colore dello sfondo a quello del testo, e viceversa.</para>
+</sect2>
+
+<sect2 id="randomize">
+<title
+>Casuale</title>
+<para
+>Il pulsante <guimenuitem
+>Casuale</guimenuitem
+> assegnerà dei colori casuali, sia allo sfondo che al testo.</para>
+</sect2>
+</sect1>
+
+<sect1 id="result">
+<title
+>Risultato del contrasto</title>
+<para
+>Il rapporto di contrasto risultante della selezione verrà mostrato nella parte alta della schermata, insieme ad una breve nota. Essa spiega quanto bene questo contrasto sia adatto al testo nelle varie dimensioni, inoltre verrà aggiornata automaticamente man mano che vengono apportate delle modifiche ai valori del colore. </para>
+</sect1>
+
+<sect1 id="favorite">
+<title
+>Preferiti</title>
+<para
+>&kmyapplication; permette all'utente di salvare delle combinazioni di colori per riferimenti futuri. Per farlo, premi il pulsante  <guimenuitem
+>Segna come preferita</guimenuitem
+> situato nella parte bassa della schermata. Puoi accedere a queste combinazioni di colori dalla voce di menu <guimenuitem
+>Colori preferiti</guimenuitem
+>, come meglio descritto nel capitolo successivo. </para>
+</sect1>
+</chapter>
+
+<chapter id="menu">
+<title
+>Opzioni del menu</title>
+
+<para
+>Questo capitolo descrive tutte le funzionalità dell'applicazione accessibili dopo aver fatto clic sull'icona <guimenu
+>Menu</guimenu
+> nell'angolo in alto a sinistra. </para>
+
+<sect1 id="contrast-checker">
+<title
+>Controllo del contrasto</title>
+<para
+>Questa è la schermata predefinita dell'applicazione: permette all'utente di selezionare i colori e di vedere il loro rapporto di contrasto. La funzionalità è descritta nel capitolo precedente. </para>
+</sect1>
+
+<sect1 id="fave-colors">
+<title
+>Colori preferiti</title>
+<para
+>Questa schermata conterrà tutte le combinazioni di colori salvate come «preferite» nella schermata <guimenuitem
+>Controllo del contrasto</guimenuitem
+>. Le combinazioni di colori possono essere eliminate premendo il pulsante <guimenuitem
+>Rimuovi</guimenuitem
+>. </para>
+</sect1>
+
+<sect1 id="help">
+<title
+>Aiuto</title>
+<para
+>Questa schermata contiene un breve riepilogo della teoria che c'è dietro a questa applicazione, ad esempio come funziona il contrasto e come interpretare al meglio il rapporto del contrasto, in linea con lo standard WCAG. </para>
+</sect1>
+
+<sect1 id="about">
+<title
+>Informazioni su</title>
+<para
+>Questa schermata contiene alcune informazioni generali sull'applicazione, quali l'autore e le librerie utilizzate. C'è anche un pulsante per segnalare agli sviluppatori qualsiasi bug incontrato. </para>
+</sect1>
+
+</chapter>
+
+<chapter id="credits">
+
+<title
+>Riconoscimenti e licenza</title>
+
+<para
+>&kmyapplication; </para>
+<para
+>Copyright del programma 2020-2022 Carl Schwan <email
+>carl@carlschwan.eu</email
+> </para>
+
+<para
+>Copyright della documentazione &copy; 2022 Vlad Rakhmanin <email
+>vladimir.rakhmanin@ucdconnect.ie</email
+> </para
+>&underGPL; </chapter>
+
+&documentation.index;
+</book>
