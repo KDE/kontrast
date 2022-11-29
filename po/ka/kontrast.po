@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: kontrast\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-10-01 00:38+0000\n"
-"PO-Revision-Date: 2022-10-06 19:39+0200\n"
+"PO-Revision-Date: 2022-11-28 09:35+0100\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
 "Language: ka\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.1.1\n"
+"X-Generator: Poedit 3.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -51,17 +51,17 @@ msgstr "წაშლა"
 #: contents/ui/FavoritePage.qml:105
 #, kde-format
 msgid "Background color copied to clipboard"
-msgstr ""
+msgstr "ფონის ფერი ბუფერში დაკოპირდა"
 
 #: contents/ui/FavoritePage.qml:113
 #, kde-format
 msgid "Text color copied to clipboard"
-msgstr ""
+msgstr "ტექსტის ფერი ბუფერში დაკოპირდა"
 
 #: contents/ui/FavoritePage.qml:122
 #, kde-format
 msgid "Color copied to clipboard"
-msgstr ""
+msgstr "ფერი ბუფერში დაკოპირდა"
 
 #: contents/ui/HelpPage.qml:13 contents/ui/main.qml:40
 #, kde-format
@@ -138,22 +138,22 @@ msgstr "%1"
 #: contents/ui/MainPage.qml:62
 #, kde-format
 msgid "Perfect for normal and large text"
-msgstr ""
+msgstr "შესანიშნავია ნორმალური და დიდი ტექსტისთვის"
 
 #: contents/ui/MainPage.qml:62
 #, kde-format
 msgid "Perfect for large text and good for normal text"
-msgstr ""
+msgstr "შესანიშნავია დიდი და ტექსტისთვის და კარგია ნორმალურისთვის"
 
 #: contents/ui/MainPage.qml:62
 #, kde-format
 msgid "Good for large text and bad for normal text"
-msgstr ""
+msgstr "კარგია დიდი ტექსტისთვის და ცუდია ნორმალურისთვის"
 
 #: contents/ui/MainPage.qml:62
 #, kde-format
 msgid "Bad for large and normal text"
-msgstr ""
+msgstr "ცუდია დიდი და ნორმალური ტექსტისთვის"
 
 #: contents/ui/MainPage.qml:69
 #, kde-format
@@ -218,17 +218,17 @@ msgstr "ფერის შენახვის შეცდომა"
 #: kontrast.cpp:355
 #, kde-format
 msgid "Font size %1px is bad with the current contrast"
-msgstr ""
+msgstr "ფონტის ზომა %1 პიქსელი მიმდინარე კონტრასტს არ უხდება"
 
 #: kontrast.cpp:358
 #, kde-format
 msgid "Font size %1px is good with the current contrast"
-msgstr ""
+msgstr "ფონტის ზომა %1 პიქსელი მიმდინარე კონტრასტს უხდება"
 
 #: kontrast.cpp:361
 #, kde-format
 msgid "Font size %1px is perfect with the current contrast"
-msgstr ""
+msgstr "ფონტის ზომა %1 პიქსელი მიმდინარე კონტრასტს შესანიშნავად უხდება"
 
 #: main.cpp:42
 #, kde-format
@@ -240,7 +240,7 @@ msgstr "Kontrast"
 #, kde-format
 msgctxt "@title"
 msgid "A contrast checker application"
-msgstr ""
+msgstr "კონტრასტის შემოწმების აპლიკაცია"
 
 #: main.cpp:47
 #, kde-format
@@ -252,7 +252,7 @@ msgstr "Carl Schwan"
 #, kde-format
 msgctxt "@info:credit"
 msgid "Maintainer and creator"
-msgstr ""
+msgstr "ავტორი და პროექტის პირველი ხელმძღვანელი"
 
 #: main.cpp:51
 #, kde-format
@@ -264,16 +264,16 @@ msgstr "Wikipedia - უფასო ენციკლოპედია"
 #, kde-format
 msgctxt "@info:credit"
 msgid "Text on the main page CC-BY-SA-4.0"
-msgstr ""
+msgstr "ტექსტი მთავარ გვერდზე CC-BY-SA-4.0"
 
 #: main.cpp:52
 #, kde-format
 msgctxt "@info:credit"
 msgid "Carson Black"
-msgstr ""
+msgstr "კარსონ-შავი"
 
 #: main.cpp:52
 #, kde-format
 msgctxt "@info:credit"
 msgid "SQLite backend for favorite colors"
-msgstr ""
+msgstr "SQLite -ის უკანაბოლო რჩეული ფერებისთვის"
