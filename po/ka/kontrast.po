@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: kontrast\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-10-01 00:38+0000\n"
-"PO-Revision-Date: 2022-12-01 09:36+0100\n"
+"PO-Revision-Date: 2022-12-03 09:25+0100\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
 "Language: ka\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.2\n"
+"X-Generator: Poedit 3.2.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -81,6 +81,9 @@ msgid ""
 "determined by the difference in the color and brightness of the object and "
 "other objects within the same field of view."
 msgstr ""
+"კონტრასტი ორი ობიექტის ფერებს შორის სხვაობაა. რეალური სამყაროს ვიზუალურ "
+"აღქმაში კონტრასი მიიღება როგორც ობიექტის ფერისა და სიკაშკაშის სხვაობა იგივე "
+"ხედში მდებარე სხვა ობიექტის მიმართ."
 
 #: contents/ui/HelpPage.qml:29
 #, kde-format
@@ -88,6 +91,8 @@ msgid ""
 "A contrast value of 21 indicates a perfect contrast (usually black on "
 "white), and a value of 0 indicate that the two colors are the same."
 msgstr ""
+"კონტრასტის მნიშვნელობა 21 ნიშნავს იდეალურ კონტრასტს (ჩვეულებრივ, შავი "
+"თეთრზე) და ნულოვანი მნიშვნელობა ნიშნავს, რომ ფერები იგივეა."
 
 #: contents/ui/HelpPage.qml:34
 #, kde-format
@@ -96,6 +101,9 @@ msgid ""
 "the WCAG AA standard and a contrast ratio of 7 or more is required to "
 "conform with the WCAG AAA standard."
 msgstr ""
+"ნორმალური ტექსტისთვის კონტრასტის ფარდობა 4.5 მაინც უნდა იყოს, რომ WCAG AA "
+"სტანდარტში ჯდებოდეს და კონტრასტის ფარდობა 7 აუცილებელია WCAG AA "
+"სტანდარტისთვის."
 
 #: contents/ui/HelpPage.qml:39
 #, kde-format
@@ -104,6 +112,9 @@ msgid ""
 "WCAG AA standard and a contrast ratio of 4.5 or more is required to conform "
 "with the WCAG AAA standard."
 msgstr ""
+"დიდი ტექსტისთვის კონტრასტის ფარდობა 3 მაინც უნდა იყოს, რომ WCAG AA "
+"სტანდარტში ჯდებოდეს და კონტრასტის ფარდობა 4.5 აუცილებელია WCAG AA "
+"სტანდარტისთვის."
 
 #: contents/ui/main.qml:23
 #, kde-format
@@ -164,6 +175,10 @@ msgid ""
 "the color and brightness of the object and other objects within the same "
 "field of view."
 msgstr ""
+"კონტრასტი ფერის სიკაშკაშეს შორის სხვაობაა, რომელიც ობიექტს (ან მის "
+"წარმოდგენას გამოსახულებაზე ან ეკრანზე) განსხვავებულს ხდის. რეალური სამყაროს "
+"ვიზუალურ აღქმაში კონტრასი ობიექტის ფერისა და სიკაშკაშის იგივე ხედში მყოფ "
+"სხვა ობიექტების მიმართ სხვაობას წარმოადგენს."
 
 #: contents/ui/MainPage.qml:84
 #, kde-format
