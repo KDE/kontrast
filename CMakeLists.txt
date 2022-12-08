@@ -12,7 +12,7 @@ set (RELEASE_SERVICE_VERSION "${RELEASE_SERVICE_VERSION_MAJOR}.${RELEASE_SERVICE
 project(kontrast VERSION ${RELEASE_SERVICE_VERSION})
 
 set(QT_MIN_VERSION "5.15.0")
-set(KF5_MIN_VERSION "5.90.0")
+set(KF5_MIN_VERSION "5.92.0")
 
 include(FeatureSummary)
 
@@ -30,6 +30,7 @@ include(ECMGenerateHeaders)
 include(ECMPoQmTools)
 include(KDEClangFormat)
 include(KDEGitCommitHooks)
+include(ECMDeprecationSettings)
 
 ecm_setup_version(${PROJECT_VERSION}
     VARIABLE_PREFIX KONTRAST
@@ -50,8 +51,7 @@ endif()
 add_definitions(-DQT_NO_CAST_FROM_ASCII -DQT_NO_CAST_TO_ASCII -DQT_NO_URL_CAST_FROM_STRING)
 add_definitions(-DQT_USE_QSTRINGBUILDER)
 add_definitions(-DQT_NO_NARROWING_CONVERSIONS_IN_CONNECT)
-add_definitions(-DQT_DISABLE_DEPRECATED_BEFORE=0x050d00)
-
+ecm_set_disabled_deprecation_versions(QT 5.15.2  KF 5.101.0)
 add_subdirectory(src)
 
 if(NOT ANDROID)
