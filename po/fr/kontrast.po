@@ -1,18 +1,19 @@
 # Xavier Besnard <xavier.besnard@neuf.fr>, 2020, 2021, 2022.
+# Xavier BESNARD <xavier.besnard]neuf.fr>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: kontrast\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-10-01 00:38+0000\n"
-"PO-Revision-Date: 2022-09-14 20:26+0200\n"
-"Last-Translator: Xavier Besnard <xavier.besnard@neuf.fr>\n"
-"Language-Team: French <kde-francophone@kde.org>\n"
+"PO-Revision-Date: 2023-01-06 13:08+0100\n"
+"Last-Translator: Xavier BESNARD <xavier.besnard]neuf.fr>\n"
+"Language-Team: fr\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 22.08.1\n"
+"X-Generator: Lokalize 22.12.0\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -67,7 +68,7 @@ msgstr "Aide"
 #: contents/ui/HelpPage.qml:19
 #, kde-format
 msgid "Contrast"
-msgstr "Contrast"
+msgstr "Contraste"
 
 #: contents/ui/HelpPage.qml:24
 #, kde-format
@@ -78,7 +79,7 @@ msgid ""
 "other objects within the same field of view."
 msgstr ""
 "Le contraste est la différence de couleurs entre deux objets permettant de "
-"les distinguer. Dans la perception visuelle du monde réel, le contrast est "
+"les distinguer. Dans la perception visuelle du monde réel, le contraste est "
 "déterminé par la différence entre la couleur et la luminosité des objets et "
 "d'autres objets dans le même champs de vision."
 
@@ -100,8 +101,8 @@ msgid ""
 "conform with the WCAG AAA standard."
 msgstr ""
 "Pour un texte normal, le taux de contraste devrait être au moins de 4.5, "
-"pour être conforme au standard « WCGA AA ». Un taux de contrast de 7 ou plus "
-"est nécessaire pour être conforme au standard « WCGA AA »."
+"pour être conforme au standard « WCGA AA ». Un taux de contraste de 7 ou "
+"plus est nécessaire pour être conforme au standard « WCGA AA »."
 
 #: contents/ui/HelpPage.qml:39
 #, kde-format
@@ -111,7 +112,7 @@ msgid ""
 "with the WCAG AAA standard."
 msgstr ""
 "Pour un texte large, le taux de contraste devrait être au moins de 3, pour "
-"être conforme au standard « WCGA AA ». Un taux de contrast de 4.5 ou plus "
+"être conforme au standard « WCGA AA ». Un taux de contraste de 4.5 ou plus "
 "est nécessaire pour être conforme au standard « WCGA AA »."
 
 #: contents/ui/main.qml:23
@@ -175,7 +176,7 @@ msgid ""
 msgstr ""
 "Le contraste est la différence entre la luminance et la couleur qui rend un "
 "objet (ou sa représentation dans une image ou un affichage). Dans la "
-"perception visuelle du monde réel, le contrast est déterminé par la "
+"perception visuelle du monde réel, le contraste est déterminé par la "
 "différence entre la couleur et la luminosité des objets et d'autres objets "
 "dans le même champs de vision."
 
