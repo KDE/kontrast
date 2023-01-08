@@ -1,13 +1,13 @@
 # Copyright (C) YEAR This file is copyright:
 # This file is distributed under the same license as the kontrast package.
 #
-# Stelios <sstavra@gmail.com>, 2020.
+# Stelios <sstavra@gmail.com>, 2020, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: kontrast\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-10-01 00:38+0000\n"
-"PO-Revision-Date: 2020-09-16 10:21+0300\n"
+"PO-Revision-Date: 2023-01-07 10:59+0200\n"
 "Last-Translator: Stelios <sstavra@gmail.com>\n"
 "Language-Team: Greek <kde-i18n-el@kde.org>\n"
 "Language: el\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 20.04.2\n"
+"X-Generator: Lokalize 21.12.3\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -30,7 +30,7 @@ msgstr "sstavra@gmail.com"
 #: contents/ui/FavoritePage.qml:18
 #, kde-format
 msgid "Favorite colors"
-msgstr "Αγαπημένα χρώματα"
+msgstr "Προτιμώμενα χρώματα"
 
 #: contents/ui/FavoritePage.qml:52
 #, kde-format
@@ -129,7 +129,7 @@ msgstr "Έλεγχος αντίθεσης"
 #: contents/ui/main.qml:34
 #, kde-format
 msgid "Favorite Colors"
-msgstr "Αγαπημένα χρώματα"
+msgstr "Προτιμώμενα χρώματα"
 
 #: contents/ui/main.qml:46
 #, kde-format
@@ -144,7 +144,7 @@ msgstr "Αναλογία αντίθσης: %1"
 #: contents/ui/MainPage.qml:50
 #, kde-format
 msgid "%1"
-msgstr ""
+msgstr "%1"
 
 #: contents/ui/MainPage.qml:62
 #, kde-format
@@ -209,7 +209,7 @@ msgstr "Φόντο"
 #: contents/ui/MainPage.qml:238
 #, kde-format
 msgid "Font Size %1px"
-msgstr ""
+msgstr "Μέγεθος γραμματοσειράς %1px"
 
 #: contents/ui/MainPage.qml:255
 #, kde-format
@@ -224,7 +224,7 @@ msgstr "Τυχαιοποίηση"
 #: contents/ui/MainPage.qml:267
 #, kde-format
 msgid "Mark as favorite"
-msgstr "Να σημειωθεί ως αγαπημένο"
+msgstr "Να σημειωθεί ως προτιμώμενο"
 
 #: contents/ui/MainPage.qml:270
 #, kde-format
@@ -234,17 +234,17 @@ msgstr "Αποτυχία αποθήκευσης χρώματος"
 #: kontrast.cpp:355
 #, kde-format
 msgid "Font size %1px is bad with the current contrast"
-msgstr ""
+msgstr "Το μέγεθος γραμματοσειράς %1px δεν είναι καλό με την τρέχουσα αντίθεση"
 
 #: kontrast.cpp:358
 #, kde-format
 msgid "Font size %1px is good with the current contrast"
-msgstr ""
+msgstr "Το μέγεθος γραμματοσειράς %1px είναι καλό με την τρέχουσα αντίθεση"
 
 #: kontrast.cpp:361
 #, kde-format
 msgid "Font size %1px is perfect with the current contrast"
-msgstr ""
+msgstr "Το μέγεθος γραμματοσειράς %1px είναι τέλειο με την τρέχουσα αντίθεση"
 
 #: main.cpp:42
 #, kde-format
@@ -292,7 +292,7 @@ msgstr "Carson Black"
 #, kde-format
 msgctxt "@info:credit"
 msgid "SQLite backend for favorite colors"
-msgstr "Σύστημα υποστήριξης SQLite για τα αγαπημένα χρώματα"
+msgstr "Σύστημα υποστήριξης SQLite για τα προτιμώμενα χρώματα"
 
 #~ msgid "Please choose a color"
 #~ msgstr "Επιλέξτε χρώμα"
