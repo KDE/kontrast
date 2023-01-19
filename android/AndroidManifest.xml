@@ -15,7 +15,8 @@ SPDX-License-Identifier: GPL-3.0-or-later
                   android:name="org.qtproject.qt5.android.bindings.QtActivity"
                   android:label="Kontrast"
                   android:windowSoftInputMode="adjustResize"
-                  android:launchMode="singleTop">
+                  android:launchMode="singleTop"
+                  android:exported="true">
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
