@@ -4,7 +4,7 @@
 add_executable(kontrast
     main.cpp
     kontrast.cpp
-    savedcolormodel.cpp
+    savedcolormodel.cpp savedcolormodel.h
     resources.qrc)
     
 target_link_libraries(kontrast
