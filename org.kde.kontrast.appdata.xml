@@ -181,7 +181,7 @@ SPDX-License-Identifier: CC0-1.0
       <caption xml:lang="zh-TW">Kontrast 的主頁面</caption>
       <image type="source" width="1074" height="833">https://cdn.kde.org/screenshots/kontrast/kontrast.png</image>
     </screenshot>
-    <screenshot>
+    <screenshot type="default">
       <caption>Main view of Kontrast on mobile</caption>
       <caption xml:lang="ca">Vista principal del Kontrast al mòbil</caption>
       <caption xml:lang="ca-valencia">Vista principal de Kontrast al mòbil</caption>
