@@ -15,8 +15,8 @@ target_link_libraries(kontrast
     Qt::QuickControls2
     Qt::Sql
     Qt::Svg
-    KF5::I18n
-    KF5::CoreAddons)
+    KF${KF_MAJOR_VERSION}::I18n
+    KF${KF_MAJOR_VERSION}::CoreAddons)
     
 if(TARGET Qt::DBus)
     target_link_libraries(kontrast Qt::DBus Qt::Widgets)
