@@ -16,7 +16,11 @@ Dependencies:
     'frameworks/ki18n': '@stable'
     'frameworks/kcoreaddons': '@stable'
 
-- 'on': ['Linux', 'FreeBSD', 'Windows']
+- 'on': ['Linux/Qt6', 'FreeBSD/Qt6', 'Windows/Qt6']
+  'require':
+    'frameworks/kdoctools': '@latest-qt6'
+
+- 'on': ['Linux/Qt5', 'FreeBSD/Qt5', 'Windows/Qt5']
   'require':
     'frameworks/kdoctools': '@stable'
 
