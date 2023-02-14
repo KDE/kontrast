@@ -18,7 +18,7 @@ Dependencies:
 
 - 'on': ['Linux/Qt6', 'FreeBSD/Qt6', 'Windows/Qt6']
   'require':
-    'frameworks/kdoctools': '@latest-qt6'
+    'frameworks/kdoctools': '@latest-kf6'
 
 - 'on': ['Linux/Qt5', 'FreeBSD/Qt5', 'Windows/Qt5']
   'require':
