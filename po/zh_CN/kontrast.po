@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-10-01 00:38+0000\n"
-"PO-Revision-Date: 2023-02-07 11:03\n"
+"PO-Revision-Date: 2023-02-15 11:05\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -141,7 +141,7 @@ msgstr "对比度明暗比：%1"
 #: contents/ui/MainPage.qml:50
 #, kde-format
 msgid "%1"
-msgstr ""
+msgstr "%1"
 
 #: contents/ui/MainPage.qml:62
 #, kde-format
@@ -204,7 +204,7 @@ msgstr "背景颜色"
 #: contents/ui/MainPage.qml:238
 #, kde-format
 msgid "Font Size %1px"
-msgstr ""
+msgstr "字体大小 %1px"
 
 #: contents/ui/MainPage.qml:255
 #, kde-format
@@ -229,17 +229,17 @@ msgstr "无法保存颜色"
 #: kontrast.cpp:355
 #, kde-format
 msgid "Font size %1px is bad with the current contrast"
-msgstr ""
+msgstr "字体大小 %1px 在当前对比度下效果不佳"
 
 #: kontrast.cpp:358
 #, kde-format
 msgid "Font size %1px is good with the current contrast"
-msgstr ""
+msgstr "字体大小 %1px 在当前对比度下效果良好"
 
 #: kontrast.cpp:361
 #, kde-format
 msgid "Font size %1px is perfect with the current contrast"
-msgstr ""
+msgstr "字体大小 %1px 在当前对比度下效果极佳"
 
 #: main.cpp:42
 #, kde-format
