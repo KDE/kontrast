@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: kontrast\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-10-01 00:38+0000\n"
-"PO-Revision-Date: 2023-01-28 13:38+0300\n"
+"PO-Revision-Date: 2023-02-19 17:02+0300\n"
 "Last-Translator: Alexander Yavorsky <kekcuha@gmail.com>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
 "Language: ru\n"
@@ -238,17 +238,17 @@ msgstr "Не удалось сохранить цвет"
 #: kontrast.cpp:355
 #, kde-format
 msgid "Font size %1px is bad with the current contrast"
-msgstr ""
+msgstr "Шрифт размером %1 является плохим выбором для текущего контраста"
 
 #: kontrast.cpp:358
 #, kde-format
 msgid "Font size %1px is good with the current contrast"
-msgstr ""
+msgstr "Шрифт размером %1 является хорошим выбором для текущего контраста"
 
 #: kontrast.cpp:361
 #, kde-format
 msgid "Font size %1px is perfect with the current contrast"
-msgstr ""
+msgstr "Шрифт размером %1 является отличным выбором для текущего контраста"
 
 #: main.cpp:42
 #, kde-format
