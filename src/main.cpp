@@ -13,6 +13,7 @@
 #else
 #include <QGuiApplication>
 #endif
+#include "clipboard.h"
 #include <QCommandLineParser>
 #include <QDir>
 #include <QIcon>
@@ -75,6 +76,7 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
 
     qmlRegisterSingletonInstance("org.kde.kontrast.private", 1, 0, "Kontrast", &kontrast);
     qmlRegisterSingletonInstance("org.kde.kontrast.private", 1, 0, "ColorStore", new SavedColorModel(qApp));
+    qmlRegisterType<Clipboard>("org.kde.kontrast.private", 1, 0, "Clipboard");
 
     engine.rootContext()->setContextObject(new KLocalizedContext(&engine));
     engine.load(QUrl(QStringLiteral("qrc:///main.qml")));

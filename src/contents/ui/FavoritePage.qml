@@ -10,9 +10,7 @@ import QtQuick.Controls 2.14 as QQC2
 import QtQuick.Window 2.14
 import QtQuick.Layouts 1.14
 import org.kde.kontrast.private 1.0
-import org.kde.kquickcontrolsaddons 2.0 as QtExtra
-        
-        
+
 Kirigami.ScrollablePage {
     id: root
     title: i18n("Favorite colors")
@@ -20,12 +18,12 @@ Kirigami.ScrollablePage {
     ListView {
         id: listview
         model: ColorStore
-        QtExtra.Clipboard {
+        Clipboard {
             id: clipboard
         }
-        
+
         spacing: Kirigami.Units.smallSpacing
-        
+
         delegate: Kirigami.AbstractListItem {
             background: Rectangle {
                 anchors.fill: parent

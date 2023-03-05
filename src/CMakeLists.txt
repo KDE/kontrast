@@ -5,8 +5,10 @@ add_executable(kontrast
     main.cpp
     kontrast.cpp
     savedcolormodel.cpp savedcolormodel.h
-    resources.qrc)
-    
+    clipboard.cpp clipboard.h
+    resources.qrc
+)
+
 target_link_libraries(kontrast
     Qt::Core
     Qt::Gui
