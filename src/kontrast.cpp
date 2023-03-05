@@ -44,10 +44,9 @@ const QDBusArgument &operator>>(const QDBusArgument &arg, Kontrast::ColorRGB &co
 }
 #endif
 
-Kontrast::Kontrast(KAboutData about, QObject *parent)
+Kontrast::Kontrast(QObject *parent)
     : QObject(parent)
     , m_fontSize(12)
-    , m_about(about)
 {
     setObjectName(QStringLiteral("Kontrast"));
 
@@ -259,11 +258,6 @@ QColor Kontrast::displayTextColor() const
         return Qt::black;
     }
     return Qt::white;
-}
-
-KAboutData Kontrast::about() const
-{
-    return m_about;
 }
 
 QColor Kontrast::pixelAt(const QImage &image, int x, int y) const

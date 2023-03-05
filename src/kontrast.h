@@ -7,7 +7,6 @@
 
 #pragma once
 
-#include <KAboutData>
 #include <QColor>
 #include <QImage>
 #include <QObject>
@@ -43,13 +42,11 @@ class Kontrast : public QObject
 
     Q_PROPERTY(QColor displayTextColor READ displayTextColor NOTIFY contrastChanged)
 
-    Q_PROPERTY(KAboutData about READ about)
-
     Q_PROPERTY(QColor grabbedColor READ grabbedColor NOTIFY grabbedColorChanged)
 
 public:
-    Kontrast(KAboutData about, QObject *parent = nullptr);
-    virtual ~Kontrast() override = default;
+    explicit Kontrast(QObject *parent = nullptr);
+    ~Kontrast() override = default;
 
     enum Quality { Bad, Good, Perfect };
 
@@ -98,8 +95,6 @@ public:
 
     QColor displayTextColor() const;
 
-    KAboutData about() const;
-
     QColor grabbedColor() const;
 
     QString getFontSizeQualityLabel();
@@ -124,7 +119,6 @@ private:
     QColor m_backgroundColor;
     QColor m_grabbedColor;
     int m_fontSize;
-    KAboutData m_about;
 
     ContrastQualities getContrastQualities();
 };
