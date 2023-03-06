@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kontrast\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-10-01 00:38+0000\n"
+"POT-Creation-Date: 2023-03-06 00:39+0000\n"
 "PO-Revision-Date: 2022-10-25 05:08+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Traditional Chinese <zh-l10n@linux.org.tw>\n"
@@ -19,47 +19,37 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Lokalize 22.08.2\n"
 
-#, kde-format
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "Kisaragi Hiu"
-
-#, kde-format
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "mail@kisaragi-hiu.com"
-
-#: contents/ui/FavoritePage.qml:18
+#: contents/ui/FavoritePage.qml:16
 #, kde-format
 msgid "Favorite colors"
 msgstr "最愛的顏色"
 
-#: contents/ui/FavoritePage.qml:52
+#: contents/ui/FavoritePage.qml:50
 #, kde-format
 msgid "Text: %1"
 msgstr "文字：%1"
 
-#: contents/ui/FavoritePage.qml:72
+#: contents/ui/FavoritePage.qml:70
 #, kde-format
 msgid "Background: %1"
 msgstr "背景：%1"
 
-#: contents/ui/FavoritePage.qml:93
+#: contents/ui/FavoritePage.qml:91
 #, kde-format
 msgid "Remove"
 msgstr "移除"
 
-#: contents/ui/FavoritePage.qml:105
+#: contents/ui/FavoritePage.qml:103
 #, kde-format
 msgid "Background color copied to clipboard"
 msgstr "背景顏色已複製到剪貼簿"
 
-#: contents/ui/FavoritePage.qml:113
+#: contents/ui/FavoritePage.qml:111
 #, kde-format
 msgid "Text color copied to clipboard"
 msgstr "文字顏色已複製到剪貼簿"
 
-#: contents/ui/FavoritePage.qml:122
+#: contents/ui/FavoritePage.qml:120
 #, kde-format
 msgid "Color copied to clipboard"
 msgstr "顏色已複製到剪貼簿"
@@ -225,65 +215,77 @@ msgstr "標記為最愛"
 msgid "Failed to save color"
 msgstr "儲存顏色失敗"
 
-#: kontrast.cpp:355
+#: kontrast.cpp:349
 #, kde-format
 msgid "Font size %1px is bad with the current contrast"
 msgstr "字型大小 %1px 不適合目前對比度"
 
-#: kontrast.cpp:358
+#: kontrast.cpp:352
 #, kde-format
 msgid "Font size %1px is good with the current contrast"
 msgstr "字型大小 %1px 對目前對比度還算可以"
 
-#: kontrast.cpp:361
+#: kontrast.cpp:355
 #, kde-format
 msgid "Font size %1px is perfect with the current contrast"
 msgstr "字型大小 %1px 適合目前對比度"
 
-#: main.cpp:42
+#: main.cpp:43
 #, kde-format
 msgctxt "@title"
 msgid "Kontrast"
 msgstr "Kontrast"
 
-#: main.cpp:44
+#: main.cpp:45
 #, kde-format
 msgctxt "@title"
 msgid "A contrast checker application"
 msgstr "檢查顏色對比度用的應用程式"
 
-#: main.cpp:47
+#: main.cpp:48
 #, kde-format
 msgctxt "@info:credit"
 msgid "Carl Schwan"
 msgstr "Carl Schwan"
 
-#: main.cpp:48
+#: main.cpp:49
 #, kde-format
 msgctxt "@info:credit"
 msgid "Maintainer and creator"
 msgstr "維護者和建立者"
 
-#: main.cpp:51
+#: main.cpp:52
 #, kde-format
 msgctxt "@info:credit"
 msgid "Wikipedia"
 msgstr "維基百科"
 
-#: main.cpp:51
+#: main.cpp:52
 #, kde-format
 msgctxt "@info:credit"
 msgid "Text on the main page CC-BY-SA-4.0"
 msgstr "主頁的文字 (CC-BY-SA-4.0)"
 
-#: main.cpp:52
+#: main.cpp:53
 #, kde-format
 msgctxt "@info:credit"
 msgid "Carson Black"
 msgstr "Carson Black"
 
-#: main.cpp:52
+#: main.cpp:53
 #, kde-format
 msgctxt "@info:credit"
 msgid "SQLite backend for favorite colors"
 msgstr "儲存最愛顏色用的 SQLite 後端"
+
+#: main.cpp:54
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Kisaragi Hiu"
+
+#: main.cpp:54
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "mail@kisaragi-hiu.com"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kontrast\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-10-01 00:38+0000\n"
+"POT-Creation-Date: 2023-03-06 00:39+0000\n"
 "PO-Revision-Date: 2023-02-19 17:02+0300\n"
 "Last-Translator: Alexander Yavorsky <kekcuha@gmail.com>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
@@ -20,47 +20,37 @@ msgstr ""
 "%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Lokalize 21.08.3\n"
 
-#, kde-format
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "Олеся Герасименко"
-
-#, kde-format
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "translation-team@basealt.ru"
-
-#: contents/ui/FavoritePage.qml:18
+#: contents/ui/FavoritePage.qml:16
 #, kde-format
 msgid "Favorite colors"
 msgstr "Избранные цвета"
 
-#: contents/ui/FavoritePage.qml:52
+#: contents/ui/FavoritePage.qml:50
 #, kde-format
 msgid "Text: %1"
 msgstr "Текст: %1"
 
-#: contents/ui/FavoritePage.qml:72
+#: contents/ui/FavoritePage.qml:70
 #, kde-format
 msgid "Background: %1"
 msgstr "Фон: %1"
 
-#: contents/ui/FavoritePage.qml:93
+#: contents/ui/FavoritePage.qml:91
 #, kde-format
 msgid "Remove"
 msgstr "Удалить"
 
-#: contents/ui/FavoritePage.qml:105
+#: contents/ui/FavoritePage.qml:103
 #, kde-format
 msgid "Background color copied to clipboard"
 msgstr "Цвет фона скопирован в буфер обмена"
 
-#: contents/ui/FavoritePage.qml:113
+#: contents/ui/FavoritePage.qml:111
 #, kde-format
 msgid "Text color copied to clipboard"
 msgstr "Цвет текста скопирован в буфер обмена"
 
-#: contents/ui/FavoritePage.qml:122
+#: contents/ui/FavoritePage.qml:120
 #, kde-format
 msgid "Color copied to clipboard"
 msgstr "Цвет скопирован в буфер обмена"
@@ -235,68 +225,80 @@ msgstr "Добавить в избранное"
 msgid "Failed to save color"
 msgstr "Не удалось сохранить цвет"
 
-#: kontrast.cpp:355
+#: kontrast.cpp:349
 #, kde-format
 msgid "Font size %1px is bad with the current contrast"
 msgstr "Шрифт размером %1 является плохим выбором для текущего контраста"
 
-#: kontrast.cpp:358
+#: kontrast.cpp:352
 #, kde-format
 msgid "Font size %1px is good with the current contrast"
 msgstr "Шрифт размером %1 является хорошим выбором для текущего контраста"
 
-#: kontrast.cpp:361
+#: kontrast.cpp:355
 #, kde-format
 msgid "Font size %1px is perfect with the current contrast"
 msgstr "Шрифт размером %1 является отличным выбором для текущего контраста"
 
-#: main.cpp:42
+#: main.cpp:43
 #, kde-format
 msgctxt "@title"
 msgid "Kontrast"
 msgstr "Kontrast"
 
-#: main.cpp:44
+#: main.cpp:45
 #, kde-format
 msgctxt "@title"
 msgid "A contrast checker application"
 msgstr "Приложение для проверки контраста"
 
-#: main.cpp:47
+#: main.cpp:48
 #, kde-format
 msgctxt "@info:credit"
 msgid "Carl Schwan"
 msgstr "Carl Schwan"
 
-#: main.cpp:48
+#: main.cpp:49
 #, kde-format
 msgctxt "@info:credit"
 msgid "Maintainer and creator"
 msgstr "Сопровождающий и создатель"
 
-#: main.cpp:51
+#: main.cpp:52
 #, kde-format
 msgctxt "@info:credit"
 msgid "Wikipedia"
 msgstr "Википедия"
 
-#: main.cpp:51
+#: main.cpp:52
 #, kde-format
 msgctxt "@info:credit"
 msgid "Text on the main page CC-BY-SA-4.0"
 msgstr "Текст на главной странице CC-BY-SA-4.0"
 
-#: main.cpp:52
+#: main.cpp:53
 #, kde-format
 msgctxt "@info:credit"
 msgid "Carson Black"
 msgstr "Carson Black"
 
-#: main.cpp:52
+#: main.cpp:53
 #, kde-format
 msgctxt "@info:credit"
 msgid "SQLite backend for favorite colors"
 msgstr "Модуль SQLite для избранных цветов"
+
+#: main.cpp:54
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Олеся Герасименко"
+
+#: main.cpp:54
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "translation-team@basealt.ru"
 
 #~ msgid "Please choose a color"
 #~ msgstr "Выбор цвета"

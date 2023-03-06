@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kontrast\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-10-01 00:38+0000\n"
+"POT-Creation-Date: 2023-03-06 00:39+0000\n"
 "PO-Revision-Date: 2022-09-15 06:47+0200\n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
@@ -18,47 +18,37 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n"
 "%100==4 ? 3 : 0);\n"
 
-#, kde-format
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "Matjaž Jeran"
-
-#, kde-format
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "matjaz.jeran@amis.net"
-
-#: contents/ui/FavoritePage.qml:18
+#: contents/ui/FavoritePage.qml:16
 #, kde-format
 msgid "Favorite colors"
 msgstr "Priljubljene barve"
 
-#: contents/ui/FavoritePage.qml:52
+#: contents/ui/FavoritePage.qml:50
 #, kde-format
 msgid "Text: %1"
 msgstr "Besedilo: %1"
 
-#: contents/ui/FavoritePage.qml:72
+#: contents/ui/FavoritePage.qml:70
 #, kde-format
 msgid "Background: %1"
 msgstr "Ozadje: %1"
 
-#: contents/ui/FavoritePage.qml:93
+#: contents/ui/FavoritePage.qml:91
 #, kde-format
 msgid "Remove"
 msgstr "Odstrani"
 
-#: contents/ui/FavoritePage.qml:105
+#: contents/ui/FavoritePage.qml:103
 #, kde-format
 msgid "Background color copied to clipboard"
 msgstr "Barva ozadja skopirana na odložišče"
 
-#: contents/ui/FavoritePage.qml:113
+#: contents/ui/FavoritePage.qml:111
 #, kde-format
 msgid "Text color copied to clipboard"
 msgstr "Barve besedila skopirana na odložišče"
 
-#: contents/ui/FavoritePage.qml:122
+#: contents/ui/FavoritePage.qml:120
 #, kde-format
 msgid "Color copied to clipboard"
 msgstr "Barva skopirana na odložišče"
@@ -231,68 +221,80 @@ msgstr "Označi kot priljubljeno"
 msgid "Failed to save color"
 msgstr "Ni bilo mogoče shraniti barve"
 
-#: kontrast.cpp:355
+#: kontrast.cpp:349
 #, kde-format
 msgid "Font size %1px is bad with the current contrast"
 msgstr "Velikost črkopisa %1px je slaba pri trenutnem kontrastu"
 
-#: kontrast.cpp:358
+#: kontrast.cpp:352
 #, kde-format
 msgid "Font size %1px is good with the current contrast"
 msgstr "Velikost črkopisa %1px je dobra pri trenutnem kontrastu"
 
-#: kontrast.cpp:361
+#: kontrast.cpp:355
 #, kde-format
 msgid "Font size %1px is perfect with the current contrast"
 msgstr "Velikost črkopisa %1px je odlična pri trenutnem kontrastu"
 
-#: main.cpp:42
+#: main.cpp:43
 #, kde-format
 msgctxt "@title"
 msgid "Kontrast"
 msgstr "Kontrast"
 
-#: main.cpp:44
+#: main.cpp:45
 #, kde-format
 msgctxt "@title"
 msgid "A contrast checker application"
 msgstr "Program za kontrolo barv"
 
-#: main.cpp:47
+#: main.cpp:48
 #, kde-format
 msgctxt "@info:credit"
 msgid "Carl Schwan"
 msgstr "Carl Schwan"
 
-#: main.cpp:48
+#: main.cpp:49
 #, kde-format
 msgctxt "@info:credit"
 msgid "Maintainer and creator"
 msgstr "Vzdrževalec in avtor"
 
-#: main.cpp:51
+#: main.cpp:52
 #, kde-format
 msgctxt "@info:credit"
 msgid "Wikipedia"
 msgstr "Wikipedia"
 
-#: main.cpp:51
+#: main.cpp:52
 #, kde-format
 msgctxt "@info:credit"
 msgid "Text on the main page CC-BY-SA-4.0"
 msgstr "Besedilo na glavni strani CC-BY-SA-4.0"
 
-#: main.cpp:52
+#: main.cpp:53
 #, kde-format
 msgctxt "@info:credit"
 msgid "Carson Black"
 msgstr "Carson Black"
 
-#: main.cpp:52
+#: main.cpp:53
 #, kde-format
 msgctxt "@info:credit"
 msgid "SQLite backend for favorite colors"
 msgstr "SQLite v ozadju za priljubljene barve"
+
+#: main.cpp:54
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Matjaž Jeran"
+
+#: main.cpp:54
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "matjaz.jeran@amis.net"
 
 #~ msgid "Please choose a color"
 #~ msgstr "Izberite barvo"
