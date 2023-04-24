@@ -1,6 +1,6 @@
 # Copyright (C) YEAR This file is copyright:
 # This file is distributed under the same license as the kontrast package.
-# Paolo Zamponi <zapaolo@email.it>, 2020, 2022.
+# Paolo Zamponi <feus73@gmail.com>, 2020, 2022.
 #
 msgid ""
 msgstr ""
@@ -8,7 +8,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-03-06 00:39+0000\n"
 "PO-Revision-Date: 2022-11-06 15:39+0100\n"
-"Last-Translator: Paolo Zamponi <zapaolo@email.it>\n"
+"Last-Translator: Paolo Zamponi <feus73@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -292,7 +292,7 @@ msgstr "Paolo Zamponi"
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "zapaolo@email.it"
+msgstr "feus73@gmail.com"
 
 #~ msgid "Please choose a color"
 #~ msgstr "Scegli un colore"
