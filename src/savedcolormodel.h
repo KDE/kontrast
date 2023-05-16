@@ -34,9 +34,9 @@ public:
     };
 
 public:
-    SavedColorModel(QObject *parent = nullptr);
+    explicit SavedColorModel(QObject *parent = nullptr);
 
-    virtual ~SavedColorModel() override = default;
+    ~SavedColorModel() override = default;
 
     QHash<int, QByteArray> roleNames() const override;
     QVariant data(const QModelIndex &index, int role) const override;
