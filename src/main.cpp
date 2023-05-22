@@ -57,7 +57,8 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
     QGuiApplication::setWindowIcon(QIcon::fromTheme(QStringLiteral("org.kde.kontrast")));
 
     Q_ASSERT(QSqlDatabase::isDriverAvailable(DRIVER));
-    Q_ASSERT(QDir().mkpath(QDir::cleanPath(QStandardPaths::writableLocation(QStandardPaths::AppLocalDataLocation))));
+    bool success = QDir().mkpath(QDir::cleanPath(QStandardPaths::writableLocation(QStandardPaths::AppLocalDataLocation)));
+    Q_ASSERT(success);
 
     QCommandLineParser parser;
     aboutData.setupCommandLine(&parser);
