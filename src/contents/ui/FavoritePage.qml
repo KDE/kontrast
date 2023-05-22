@@ -27,7 +27,7 @@ Kirigami.ScrollablePage {
         delegate: Kirigami.AbstractListItem {
             background: Rectangle {
                 anchors.fill: parent
-                color: model.BackgroundColor
+                color: model.backgroundColor
             }
 
             ColumnLayout {
@@ -36,19 +36,19 @@ Kirigami.ScrollablePage {
                     Layout.fillWidth: true
                     level: 3
                     text: "Lorem Impsum"
-                    color: model.ForegroundColor
+                    color: model.textColor
                 }
 
                 Text {
                     Layout.fillWidth: true
                     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque et dolor velit. Morbi elementum libero non vehicula porta. Suspendisse potenti. Suspendisse eu sapien lectus."
                     wrapMode: Text.WordWrap
-                    color: model.ForegroundColor
+                    color: model.textColor
                 }
 
                 Text {
-                    text: i18n("Text: %1", model.ForegroundColor)
-                    color: model.ForegroundColor
+                    text: i18n("Text: %1", model.textColor)
+                    color: model.textColor
                     MouseArea {
                         anchors.fill: parent
                         onClicked: copyText();
@@ -58,17 +58,17 @@ Kirigami.ScrollablePage {
                         height: parent.height
                         width: parent.height
                         source: "edit-copy"
-                        color: model.ForegroundColor
+                        color: model.textColor
                         MouseArea {
                             anchors.fill: parent
-                            onClicked: copyText(model.ForegroundColor);
+                            onClicked: copyText(model.textColor);
                         }
                     }
                 }
 
                 Text {
-                    text: i18n("Background: %1", model.BackgroundColor)
-                    color: model.ForegroundColor
+                    text: i18n("Background: %1", model.backgroundColor)
+                    color: model.textColor
 
                     MouseArea {
                         anchors.fill: parent
@@ -79,10 +79,10 @@ Kirigami.ScrollablePage {
                         height: parent.height
                         width: parent.height
                         source: "edit-copy"
-                        color: model.ForegroundColor
+                        color: model.textColor
                         MouseArea {
                             anchors.fill: parent
-                            onClicked: copyBackground(model.BackgroundColor);
+                            onClicked: copyBackground(model.backgroundColor);
                         }
                     }
                 }

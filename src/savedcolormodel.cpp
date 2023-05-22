@@ -5,79 +5,81 @@
 #include "savedcolormodel.h"
 
 #include <QDebug>
+#include <QDir>
 #include <QSqlError>
 #include <QSqlQuery>
 #include <QSqlRecord>
 #include <QStandardPaths>
+#include <QStringBuilder>
+
+#include <ThreadedDatabase>
+
+#include <QCoroFuture>
+#include <QCoroTask>
 
 SavedColorModel::SavedColorModel(QObject *parent)
-    : QSqlTableModel(parent)
+    : QAbstractListModel(parent)
 {
-    if (!QSqlDatabase::database().tables().contains(QStringLiteral("SavedColorModel"))) {
-        const auto statement = QStringLiteral(R"RJIENRLWEY(
-            CREATE TABLE IF NOT EXISTS SavedColorModel (
-                ID INTEGER PRIMARY KEY AUTOINCREMENT,
-                Name TEXT NOT NULL,
-                ForegroundColor BLOB NOT NULL,
-                BackgroundColor BLOB NOT NULL
-            )
-        )RJIENRLWEY");
-        auto query = QSqlQuery(statement);
-        if (!query.exec()) {
-            qCritical() << query.lastError() << "while creating table";
-        }
-    }
+    DatabaseConfiguration config;
+    config.setType(DatabaseType::SQLite);
+    config.setDatabaseName(
+        QDir::cleanPath(QStandardPaths::writableLocation(QStandardPaths::AppLocalDataLocation) % QDir::separator() % qApp->applicationName()));
 
-    setTable(QStringLiteral("SavedColorModel"));
-    setEditStrategy(QSqlTableModel::OnManualSubmit);
-    select();
+    m_database = ThreadedDatabase::establishConnection(config);
+    m_database->runMigrations(QStringLiteral(":/contents/migrations/"));
+
+    auto future = m_database->getResults<ColorEntry>(QStringLiteral("select * from SavedColorModel"));
+    QCoro::connect(std::move(future), this, [this](auto &&colors) {
+        beginResetModel();
+        m_colors = colors;
+        endResetModel();
+    });
 }
+
+SavedColorModel::~SavedColorModel() = default;
 
 QVariant SavedColorModel::data(const QModelIndex &index, int role) const
 {
-    if (role == Qt::EditRole) {
-        return QSqlTableModel::data(index, Qt::EditRole);
+    const auto &entry = m_colors.at(index.row());
+    switch (role) {
+    case ColorRoles::Id:
+        return entry.id;
+    case ColorRoles::Name:
+        return entry.name;
+    case ColorRoles::TextColor:
+        return entry.textColor;
+    case ColorRoles::BackgroundColor:
+        return entry.backgroundColor;
     }
-    int parentColumn = 0;
-    if (role == Qt::UserRole + 0 + 1) { // ID
-        parentColumn = 0;
-    } else if (role == Qt::UserRole + 1 + 1) { // Name
-        parentColumn = 1;
-    } else if (role == Qt::UserRole + 2 + 1) { // ForegroundColor
-        parentColumn = 2;
-    } else { // BackgroundColor
-        parentColumn = 3;
-    }
-    QModelIndex parentIndex = createIndex(index.row(), parentColumn);
-    return QSqlTableModel::data(parentIndex, Qt::DisplayRole);
+
+    return {};
+}
+
+int SavedColorModel::rowCount(const QModelIndex &parent) const
+{
+    return parent.isValid() ? 0 : m_colors.size();
 }
 
 QHash<int, QByteArray> SavedColorModel::roleNames() const
 {
-    QHash<int, QByteArray> roles;
-    for (int i = 0; i < this->record().count(); i++) {
-        roles.insert(Qt::UserRole + i + 1, record().fieldName(i).toUtf8());
-    }
-    return roles;
+    return {{ColorRoles::Id, "id"}, {ColorRoles::Name, "name"}, {ColorRoles::TextColor, "textColor"}, {ColorRoles::BackgroundColor, "backgroundColor"}};
 }
 
-bool SavedColorModel::addColor(const QString &name, const QColor &foreground, const QColor &background)
+void SavedColorModel::addColor(const QString &name, const QColor &foreground, const QColor &background)
 {
-    QSqlRecord newRecord = this->record();
-    newRecord.setValue(QStringLiteral("Name"), name);
-    newRecord.setValue(QStringLiteral("ForegroundColor"), foreground);
-    newRecord.setValue(QStringLiteral("BackgroundColor"), background);
+    m_database->execute(QStringLiteral("insert into SavedColorModel (Name, ForegroundColor, BackgroundColor) values (?, ?, ?)"), name, foreground, background);
 
-    bool result = insertRecord(rowCount(), newRecord);
-    result &= submitAll();
-    return result;
+    beginInsertRows({}, m_colors.size(), m_colors.size());
+    m_colors.push_back(ColorEntry{.id = int(m_colors.size()), .name = name, .textColor = foreground, .backgroundColor = background});
+    endInsertRows();
 }
 
-bool SavedColorModel::removeColor(int index)
+void SavedColorModel::removeColor(int index)
 {
-    bool result = removeRow(index);
-    result &= submitAll();
-    return result;
+    m_database->execute(QStringLiteral("delete from SavedColorModel where ID = ?"), m_colors[index].id);
+    beginRemoveRows({}, index, index);
+    m_colors.erase(m_colors.begin() + index);
+    endRemoveRows();
 }
 
 #include "moc_savedcolormodel.cpp"

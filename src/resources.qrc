@@ -9,5 +9,7 @@ SPDX-License-Identifier: GPL-3.0-or-later
         <file alias="AboutPage.qml">contents/ui/AboutPage.qml</file>
         <file alias="FavoritePage.qml">contents/ui/FavoritePage.qml</file>
         <file alias="HelpPage.qml">contents/ui/HelpPage.qml</file>
+        <file>contents/migrations/2023-05-22-132750_init/down.sql</file>
+        <file>contents/migrations/2023-05-22-132750_init/up.sql</file>
     </qresource>
 </RCC>
