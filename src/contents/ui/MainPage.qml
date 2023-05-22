@@ -266,9 +266,7 @@ Kirigami.ScrollablePage {
             QQC2.Button {
                 text: i18n("Mark as favorite")
                 icon.name: "favorite"
-                onClicked: if (!ColorStore.addColor("Lorem Ipsum", Kontrast.textColor, Kontrast.backgroundColor)) {
-                    applicationWindow().showPassiveNotification(i18n("Failed to save color"))
-                }
+                onClicked: ColorStore.addColor("Lorem Ipsum", Kontrast.textColor, Kontrast.backgroundColor)
             }
         }
     }

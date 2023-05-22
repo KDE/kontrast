@@ -58,12 +58,6 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
 
     Q_ASSERT(QSqlDatabase::isDriverAvailable(DRIVER));
     Q_ASSERT(QDir().mkpath(QDir::cleanPath(QStandardPaths::writableLocation(QStandardPaths::AppLocalDataLocation))));
-    QSqlDatabase db = QSqlDatabase::addDatabase(DRIVER);
-    const auto path = QDir::cleanPath(QStandardPaths::writableLocation(QStandardPaths::AppLocalDataLocation) + QStringLiteral("/") + qApp->applicationName());
-    db.setDatabaseName(path);
-    if (!db.open()) {
-        qCritical() << db.lastError() << "while opening database at" << path;
-    }
 
     QCommandLineParser parser;
     aboutData.setupCommandLine(&parser);

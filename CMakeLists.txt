@@ -3,6 +3,9 @@
 
 cmake_minimum_required(VERSION 3.16)
 
+set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD_REQUIRED)
+
 # KDE Application Version, managed by release script
 set (RELEASE_SERVICE_VERSION_MAJOR "23")
 set (RELEASE_SERVICE_VERSION_MINOR "07")
@@ -48,6 +51,8 @@ ecm_setup_version(${PROJECT_VERSION}
 ################# Find dependencies #################
 find_package(Qt${QT_MAJOR_VERSION} ${QT_MIN_VERSION} REQUIRED COMPONENTS Core Gui Qml QuickControls2 Svg Sql)
 find_package(KF${KF_MAJOR_VERSION} ${KF_MIN_VERSION} REQUIRED COMPONENTS Kirigami2 I18n CoreAddons)
+find_package(FutureSQL${QT_MAJOR_VERSION} REQUIRED)
+find_package(QCoro${QT_MAJOR_VERSION} REQUIRED COMPONENTS Core)
 
 if(NOT ANDROID)
     find_package(Qt${QT_MAJOR_VERSION} ${QT_MIN_VERSION} REQUIRED COMPONENTS DBus Widgets)
@@ -59,6 +64,7 @@ add_definitions(-DQT_NO_CAST_FROM_ASCII -DQT_NO_CAST_TO_ASCII -DQT_NO_URL_CAST_F
 add_definitions(-DQT_USE_QSTRINGBUILDER)
 add_definitions(-DQT_NO_NARROWING_CONVERSIONS_IN_CONNECT)
 ecm_set_disabled_deprecation_versions(QT 6.4  KF 5.101.0)
+kde_enable_exceptions()
 add_subdirectory(src)
 
 if(NOT ANDROID)

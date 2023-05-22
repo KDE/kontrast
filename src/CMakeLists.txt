@@ -17,6 +17,8 @@ target_link_libraries(kontrast
     Qt::QuickControls2
     Qt::Sql
     Qt::Svg
+    FutureSQL${QT_MAJOR_VERSION}::FutureSQL
+    QCoro${QT_MAJOR_VERSION}::Core
     KF${KF_MAJOR_VERSION}::I18n
     KF${KF_MAJOR_VERSION}::CoreAddons)
     

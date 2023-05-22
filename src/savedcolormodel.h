@@ -9,6 +9,19 @@
 #include <QSqlDatabase>
 #include <QSqlTableModel>
 
+#include <memory>
+
+class ThreadedDatabase;
+
+struct ColorEntry {
+    using ColumnTypes = std::tuple<int, QString, QColor, QColor>;
+
+    int id;
+    QString name;
+    QColor textColor;
+    QColor backgroundColor;
+};
+
 struct ColorCombination {
     QColor textColor;
     QColor backgroundColor;
@@ -23,27 +36,30 @@ struct ColorCombination {
 /**
  * @brief Store all the user's favorite color combinations.
  */
-class SavedColorModel : public QSqlTableModel
+class SavedColorModel : public QAbstractListModel
 {
     Q_OBJECT
 
 public:
     enum ColorRoles {
-        TextColor = Qt::UserRole + 1,
+        Id = Qt::UserRole + 1,
+        Name,
+        TextColor,
         BackgroundColor,
     };
 
 public:
     explicit SavedColorModel(QObject *parent = nullptr);
-
-    ~SavedColorModel() override = default;
+    ~SavedColorModel() override;
 
     QHash<int, QByteArray> roleNames() const override;
     QVariant data(const QModelIndex &index, int role) const override;
+    int rowCount(const QModelIndex &parent) const override;
 
-    Q_INVOKABLE bool addColor(const QString &name, const QColor &foreground, const QColor &background);
-    Q_INVOKABLE bool removeColor(int index);
+    Q_INVOKABLE void addColor(const QString &name, const QColor &foreground, const QColor &background);
+    Q_INVOKABLE void removeColor(int index);
 
 private:
-    QSqlDatabase m_db;
+    std::vector<ColorEntry> m_colors;
+    std::unique_ptr<ThreadedDatabase> m_database;
 };
