@@ -28,8 +28,8 @@ SavedColorModel::SavedColorModel(QObject *parent)
     m_database = ThreadedDatabase::establishConnection(config);
     m_database->runMigrations(QStringLiteral(":/contents/migrations/"));
 
-    auto future = m_database->getResults<ColorEntry>(QStringLiteral("select * from SavedColorModel"));
-    QCoro::connect(std::move(future), this, [this](auto &&colors) {
+    QFuture<std::vector<ColorEntry>> future = m_database->getResults<ColorEntry>(QStringLiteral("select * from SavedColorModel"));
+    QCoro::connect(std::move(future), this, [this](std::vector<ColorEntry> &&colors) {
         beginResetModel();
         m_colors = colors;
         endResetModel();
