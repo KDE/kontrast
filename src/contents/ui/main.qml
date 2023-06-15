@@ -38,7 +38,7 @@ Kirigami.ApplicationWindow {
             },
             Kirigami.PagePoolAction {
                 text: i18n("Help")
-                icon.name: "help-symbolic"
+                icon.name: "help-contents"
                 pagePool: mainPagePool
                 page: "HelpPage.qml"
             },
