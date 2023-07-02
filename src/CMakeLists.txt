@@ -3,7 +3,7 @@
 
 add_executable(kontrast
     main.cpp
-    kontrast.cpp
+    kontrast.cpp kontrast.h
     savedcolormodel.cpp savedcolormodel.h
     clipboard.cpp clipboard.h
     resources.qrc
