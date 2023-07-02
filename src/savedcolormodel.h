@@ -9,17 +9,6 @@
 #include <QSqlDatabase>
 #include <QSqlTableModel>
 
-struct ColorCombination {
-    QColor textColor;
-    QColor backgroundColor;
-
-    ColorCombination(QColor textColor, QColor backgroundColor)
-        : textColor(textColor)
-        , backgroundColor(backgroundColor)
-    {
-    }
-};
-
 /**
  * @brief Store all the user's favorite color combinations.
  */
