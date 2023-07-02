@@ -120,7 +120,7 @@ private:
     QColor m_grabbedColor;
     int m_fontSize;
 
-    ContrastQualities getContrastQualities();
+    ContrastQualities getContrastQualities() const;
 };
 
 Q_DECLARE_METATYPE(Kontrast::ColorRGB)

@@ -315,7 +315,7 @@ void Kontrast::gotColorResponse(uint response, const QVariantMap &results)
 #endif
 }
 
-Kontrast::ContrastQualities Kontrast::getContrastQualities()
+Kontrast::ContrastQualities Kontrast::getContrastQualities() const
 {
     const qreal contrast = Kontrast::contrast();
 
