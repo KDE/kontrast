@@ -9,7 +9,6 @@
 
 #include <QDebug>
 #include <QRandomGenerator>
-#include <QtMath>
 
 #include <KLocalizedString>
 

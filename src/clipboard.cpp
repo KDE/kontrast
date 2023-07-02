@@ -6,7 +6,6 @@
 #include <QClipboard>
 #include <QDateTime>
 #include <QDir>
-#include <QFileInfo>
 #include <QGuiApplication>
 #include <QMimeData>
 #include <QRegularExpression>
