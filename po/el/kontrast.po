@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kontrast\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-03-06 00:39+0000\n"
+"POT-Creation-Date: 2023-07-03 00:42+0000\n"
 "PO-Revision-Date: 2023-01-07 10:59+0200\n"
 "Last-Translator: Stelios <sstavra@gmail.com>\n"
 "Language-Team: Greek <kde-i18n-el@kde.org>\n"
@@ -221,17 +221,17 @@ msgstr "Να σημειωθεί ως προτιμώμενο"
 msgid "Failed to save color"
 msgstr "Αποτυχία αποθήκευσης χρώματος"
 
-#: kontrast.cpp:349
+#: kontrast.cpp:348
 #, kde-format
 msgid "Font size %1px is bad with the current contrast"
 msgstr "Το μέγεθος γραμματοσειράς %1px δεν είναι καλό με την τρέχουσα αντίθεση"
 
-#: kontrast.cpp:352
+#: kontrast.cpp:351
 #, kde-format
 msgid "Font size %1px is good with the current contrast"
 msgstr "Το μέγεθος γραμματοσειράς %1px είναι καλό με την τρέχουσα αντίθεση"
 
-#: kontrast.cpp:355
+#: kontrast.cpp:354
 #, kde-format
 msgid "Font size %1px is perfect with the current contrast"
 msgstr "Το μέγεθος γραμματοσειράς %1px είναι τέλειο με την τρέχουσα αντίθεση"
