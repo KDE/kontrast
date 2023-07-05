@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kontrast\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-07-03 00:42+0000\n"
+"POT-Creation-Date: 2023-07-05 00:50+0000\n"
 "PO-Revision-Date: 2022-12-05 05:42+0100\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
@@ -220,17 +220,17 @@ msgstr "რჩეულად მონიშვნა"
 msgid "Failed to save color"
 msgstr "ფერის შენახვის შეცდომა"
 
-#: kontrast.cpp:348
+#: kontrast.cpp:349
 #, kde-format
 msgid "Font size %1px is bad with the current contrast"
 msgstr "ფონტის ზომა %1 პიქსელი მიმდინარე კონტრასტს არ უხდება"
 
-#: kontrast.cpp:351
+#: kontrast.cpp:352
 #, kde-format
 msgid "Font size %1px is good with the current contrast"
 msgstr "ფონტის ზომა %1 პიქსელი მიმდინარე კონტრასტს უხდება"
 
-#: kontrast.cpp:354
+#: kontrast.cpp:355
 #, kde-format
 msgid "Font size %1px is perfect with the current contrast"
 msgstr "ფონტის ზომა %1 პიქსელი მიმდინარე კონტრასტს შესანიშნავად უხდება"

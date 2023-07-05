@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kontrast\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-03-06 00:39+0000\n"
+"POT-Creation-Date: 2023-07-03 00:42+0000\n"
 "PO-Revision-Date: 2022-10-30 10:10+0100\n"
 "Last-Translator: Karl Ove Hufthammer <karl@huftis.org>\n"
 "Language-Team: Norwegian Nynorsk <l10n-no@lister.huftis.org>\n"
@@ -223,17 +223,17 @@ msgstr "Merk som favoritt"
 msgid "Failed to save color"
 msgstr "Klarte ikkje lagra farge"
 
-#: kontrast.cpp:349
+#: kontrast.cpp:348
 #, kde-format
 msgid "Font size %1px is bad with the current contrast"
 msgstr "Skriftstorleiken %1 pikslar er dårleg med gjeldande fargekontrast"
 
-#: kontrast.cpp:352
+#: kontrast.cpp:351
 #, kde-format
 msgid "Font size %1px is good with the current contrast"
 msgstr "Skriftstorleiken %1 pikslar er brukbar med gjeldande fargekontrast"
 
-#: kontrast.cpp:355
+#: kontrast.cpp:354
 #, kde-format
 msgid "Font size %1px is perfect with the current contrast"
 msgstr "Skriftstorleiken %1 pikslar er perfekt med gjeldande fargekontrast"

@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kontrast\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-07-03 00:42+0000\n"
+"POT-Creation-Date: 2023-07-05 00:50+0000\n"
 "PO-Revision-Date: 2023-01-06 13:08+0100\n"
 "Last-Translator: Xavier BESNARD <xavier.besnard]neuf.fr>\n"
 "Language-Team: fr\n"
@@ -220,19 +220,19 @@ msgstr "Marquer comme préféré"
 msgid "Failed to save color"
 msgstr "Impossible d'enregistrer la couleur"
 
-#: kontrast.cpp:348
+#: kontrast.cpp:349
 #, kde-format
 msgid "Font size %1px is bad with the current contrast"
 msgstr ""
 "La taille de la police %1 px est mal adaptée avec le contraste courant."
 
-#: kontrast.cpp:351
+#: kontrast.cpp:352
 #, kde-format
 msgid "Font size %1px is good with the current contrast"
 msgstr ""
 "La taille de la police %1 px est bien adaptée avec le contraste courant."
 
-#: kontrast.cpp:354
+#: kontrast.cpp:355
 #, kde-format
 msgid "Font size %1px is perfect with the current contrast"
 msgstr "La taille de la police %1 px est parfaite avec le contraste courant."
