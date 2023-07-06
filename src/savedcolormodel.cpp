@@ -79,3 +79,5 @@ bool SavedColorModel::removeColor(int index)
     result &= submitAll();
     return result;
 }
+
+#include "moc_savedcolormodel.cpp"

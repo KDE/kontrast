@@ -357,3 +357,5 @@ QString Kontrast::getFontSizeQualityLabel()
     }
     return fontSizeQualityLabel;
 }
+
+#include "moc_kontrast.cpp"
