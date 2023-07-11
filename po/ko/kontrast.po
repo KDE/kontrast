@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kontrast\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-07-05 00:50+0000\n"
+"POT-Creation-Date: 2023-07-11 00:39+0000\n"
 "PO-Revision-Date: 2022-10-03 15:57+0200\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-i18n-doc@kde.org>\n"
@@ -210,11 +210,6 @@ msgstr "무작위"
 msgid "Mark as favorite"
 msgstr "책갈피에 추가"
 
-#: contents/ui/MainPage.qml:270
-#, kde-format
-msgid "Failed to save color"
-msgstr "색을 저장할 수 없음"
-
 #: kontrast.cpp:349
 #, kde-format
 msgid "Font size %1px is bad with the current contrast"
@@ -289,3 +284,6 @@ msgstr "박신조"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "kde@peremen.name"
+
+#~ msgid "Failed to save color"
+#~ msgstr "색을 저장할 수 없음"

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kontrast\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-07-05 00:50+0000\n"
+"POT-Creation-Date: 2023-07-11 00:39+0000\n"
 "PO-Revision-Date: 2022-09-14 07:00+0200\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
@@ -220,11 +220,6 @@ msgstr "Ausazkoa"
 msgid "Mark as favorite"
 msgstr "Markatu gogoko gisa"
 
-#: contents/ui/MainPage.qml:270
-#, kde-format
-msgid "Failed to save color"
-msgstr "Kolorea gordetzea huts egin du"
-
 #: kontrast.cpp:349
 #, kde-format
 msgid "Font size %1px is bad with the current contrast"
@@ -299,6 +294,9 @@ msgstr "Iñigo Salvador Azurmendi"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "xalba@ni.eus"
+
+#~ msgid "Failed to save color"
+#~ msgstr "Kolorea gordetzea huts egin du"
 
 #~ msgid "Please choose a color"
 #~ msgstr "Hautatu kolore bat"

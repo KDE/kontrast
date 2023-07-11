@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kontrast\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-07-05 00:50+0000\n"
+"POT-Creation-Date: 2023-07-11 00:39+0000\n"
 "PO-Revision-Date: 2021-05-01 23:52-0700\n"
 "Last-Translator: A S Alam <aalam@satluj.org>\n"
 "Language-Team: Punjabi <punjabi-users@lists.sf.net>\n"
@@ -197,11 +197,6 @@ msgstr "ਰਲਵੇਂ"
 #: contents/ui/MainPage.qml:267
 #, kde-format
 msgid "Mark as favorite"
-msgstr ""
-
-#: contents/ui/MainPage.qml:270
-#, kde-format
-msgid "Failed to save color"
 msgstr ""
 
 #: kontrast.cpp:349

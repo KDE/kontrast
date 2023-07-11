@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kontrast\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-07-05 00:50+0000\n"
+"POT-Creation-Date: 2023-07-11 00:39+0000\n"
 "PO-Revision-Date: 2023-02-19 17:02+0300\n"
 "Last-Translator: Alexander Yavorsky <kekcuha@gmail.com>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
@@ -220,11 +220,6 @@ msgstr "Выбрать случайно"
 msgid "Mark as favorite"
 msgstr "Добавить в избранное"
 
-#: contents/ui/MainPage.qml:270
-#, kde-format
-msgid "Failed to save color"
-msgstr "Не удалось сохранить цвет"
-
 #: kontrast.cpp:349
 #, kde-format
 msgid "Font size %1px is bad with the current contrast"
@@ -299,6 +294,9 @@ msgstr "Олеся Герасименко"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "translation-team@basealt.ru"
+
+#~ msgid "Failed to save color"
+#~ msgstr "Не удалось сохранить цвет"
 
 #~ msgid "Please choose a color"
 #~ msgstr "Выбор цвета"

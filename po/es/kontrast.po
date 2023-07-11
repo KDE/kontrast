@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kontrast\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-07-05 00:50+0000\n"
+"POT-Creation-Date: 2023-07-11 00:39+0000\n"
 "PO-Revision-Date: 2022-09-14 10:27+0200\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
@@ -219,11 +219,6 @@ msgstr "Aleatorio"
 msgid "Mark as favorite"
 msgstr "Marcar como favorito"
 
-#: contents/ui/MainPage.qml:270
-#, kde-format
-msgid "Failed to save color"
-msgstr "No se ha podido guardar el color"
-
 #: kontrast.cpp:349
 #, kde-format
 msgid "Font size %1px is bad with the current contrast"
@@ -298,6 +293,9 @@ msgstr "Eloy Cuadra"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "ecuadra@eloihr.net"
+
+#~ msgid "Failed to save color"
+#~ msgstr "No se ha podido guardar el color"
 
 #~ msgid "Please choose a color"
 #~ msgstr "Escoja un color"

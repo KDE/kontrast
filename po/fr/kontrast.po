@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kontrast\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-07-05 00:50+0000\n"
+"POT-Creation-Date: 2023-07-11 00:39+0000\n"
 "PO-Revision-Date: 2023-01-06 13:08+0100\n"
 "Last-Translator: Xavier BESNARD <xavier.besnard]neuf.fr>\n"
 "Language-Team: fr\n"
@@ -215,11 +215,6 @@ msgstr "Aléatoire"
 msgid "Mark as favorite"
 msgstr "Marquer comme préféré"
 
-#: contents/ui/MainPage.qml:270
-#, kde-format
-msgid "Failed to save color"
-msgstr "Impossible d'enregistrer la couleur"
-
 #: kontrast.cpp:349
 #, kde-format
 msgid "Font size %1px is bad with the current contrast"
@@ -296,6 +291,9 @@ msgstr "Xavier Besnard"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "xavier.besnard@neuf.fr"
+
+#~ msgid "Failed to save color"
+#~ msgstr "Impossible d'enregistrer la couleur"
 
 #~ msgid "Please choose a color"
 #~ msgstr "Veuillez sélectionner une couleur"

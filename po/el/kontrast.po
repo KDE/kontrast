@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kontrast\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-07-05 00:50+0000\n"
+"POT-Creation-Date: 2023-07-11 00:39+0000\n"
 "PO-Revision-Date: 2023-01-07 10:59+0200\n"
 "Last-Translator: Stelios <sstavra@gmail.com>\n"
 "Language-Team: Greek <kde-i18n-el@kde.org>\n"
@@ -216,11 +216,6 @@ msgstr "Τυχαιοποίηση"
 msgid "Mark as favorite"
 msgstr "Να σημειωθεί ως προτιμώμενο"
 
-#: contents/ui/MainPage.qml:270
-#, kde-format
-msgid "Failed to save color"
-msgstr "Αποτυχία αποθήκευσης χρώματος"
-
 #: kontrast.cpp:349
 #, kde-format
 msgid "Font size %1px is bad with the current contrast"
@@ -295,6 +290,9 @@ msgstr "Stelios"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "sstavra@gmail.com"
+
+#~ msgid "Failed to save color"
+#~ msgstr "Αποτυχία αποθήκευσης χρώματος"
 
 #~ msgid "Please choose a color"
 #~ msgstr "Επιλέξτε χρώμα"
