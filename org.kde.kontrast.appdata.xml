@@ -14,7 +14,6 @@ SPDX-License-Identifier: CC0-1.0
   <name xml:lang="de">Kontrast</name>
   <name xml:lang="el">Kontrast</name>
   <name xml:lang="en-GB">Kontrast</name>
-  <name xml:lang="eo">Kontrast</name>
   <name xml:lang="es">Kontrast</name>
   <name xml:lang="eu">Kontrast</name>
   <name xml:lang="fi">Kontrast</name>
@@ -47,7 +46,6 @@ SPDX-License-Identifier: CC0-1.0
   <summary xml:lang="de">Eine Anwendung zur Kontrastüberprüfung von Farben</summary>
   <summary xml:lang="el">Ένα πρόγραμμα ελέγχου της χρωματικής αντίθεσης</summary>
   <summary xml:lang="en-GB">A Colour Contrast Checker</summary>
-  <summary xml:lang="eo">Kolorkontrasta Kontrolilo</summary>
   <summary xml:lang="es">Verificador de contraste de color</summary>
   <summary xml:lang="eu">Koloreen arteko kontratea egiaztatzeko tresna</summary>
   <summary xml:lang="fi">Värikontrastin tarkistus</summary>
@@ -129,7 +127,6 @@ SPDX-License-Identifier: CC0-1.0
   <developer_name xml:lang="de">Carl Schwan</developer_name>
   <developer_name xml:lang="el">Carl Schwan</developer_name>
   <developer_name xml:lang="en-GB">Carl Schwan</developer_name>
-  <developer_name xml:lang="eo">Carl Schwan</developer_name>
   <developer_name xml:lang="es">Carl Schwan</developer_name>
   <developer_name xml:lang="eu">Carl Schwan</developer_name>
   <developer_name xml:lang="fi">Carl Schwan</developer_name>
@@ -163,7 +160,6 @@ SPDX-License-Identifier: CC0-1.0
       <caption xml:lang="de">Hauptansicht von Kontrast</caption>
       <caption xml:lang="el">Κύρια προβολή του Kontrast</caption>
       <caption xml:lang="en-GB">Main view of Kontrast</caption>
-      <caption xml:lang="eo">Ĉefa vido de Kontrast</caption>
       <caption xml:lang="es">Vista principal de Kontrast</caption>
       <caption xml:lang="eu">Kontrast-en ikuspegi nagusia</caption>
       <caption xml:lang="fi">Kontrastin päänäkymä</caption>
@@ -198,7 +194,6 @@ SPDX-License-Identifier: CC0-1.0
       <caption xml:lang="de">Hauptansicht von Kontrast auf Mobilgeräten</caption>
       <caption xml:lang="el">Κύρια προβολή του Kontrast σε κινητό</caption>
       <caption xml:lang="en-GB">Main view of Kontrast on mobile</caption>
-      <caption xml:lang="eo">Ĉefa vido de Kontrast sur poŝtelefono</caption>
       <caption xml:lang="es">Vista principal de Kontrast para móvil</caption>
       <caption xml:lang="eu">Kontrast-en ikuspegi nagusia mugikorrean</caption>
       <caption xml:lang="fi">Mobiili-Kontrastin päänäkymä</caption>
