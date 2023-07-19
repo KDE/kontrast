@@ -293,6 +293,3 @@ msgstr "Antoni Bella"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "antonibella5@yahoo.com"
-
-#~ msgid "Failed to save color"
-#~ msgstr "No s'ha pogut guardar el color"
