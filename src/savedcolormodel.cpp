@@ -6,6 +6,7 @@
 
 #include <QDebug>
 #include <QDir>
+#include <QGuiApplication>
 #include <QSqlError>
 #include <QSqlQuery>
 #include <QSqlRecord>
@@ -23,7 +24,7 @@ SavedColorModel::SavedColorModel(QObject *parent)
     DatabaseConfiguration config;
     config.setType(DatabaseType::SQLite);
     config.setDatabaseName(
-        QDir::cleanPath(QStandardPaths::writableLocation(QStandardPaths::AppLocalDataLocation) % QDir::separator() % qApp->applicationName()));
+        QDir::cleanPath(QStandardPaths::writableLocation(QStandardPaths::AppLocalDataLocation) % QDir::separator() % qGuiApp->applicationName()));
 
     m_database = ThreadedDatabase::establishConnection(config);
     m_database->runMigrations(QStringLiteral(":/contents/migrations/"));
