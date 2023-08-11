@@ -1,0 +1,249 @@
+<?xml version="1.0" ?>
+<!DOCTYPE book PUBLIC "-//KDE//DTD DocBook XML V4.5-Based Variant V1.1//EN" "dtd/kdedbx45.dtd" [
+  <!ENTITY kmyapplication "<application
+>Kontrast</application
+>">
+  <!ENTITY i18n-translatable-entity "<application
+>Översättbar enhet</application
+>">
+  <!ENTITY % addindex "IGNORE">
+  <!ENTITY % Swedish "INCLUDE">
+]>
+<!--
+SPDX-FileCopyrightText: 2022 Vlad Rakhmanin <vladimir.rakhmanin@ucdconnect.ie>
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
+<book id="kmyapplication" lang="&language;">
+
+<!-- This header contains all of the meta-information for the document such
+as Authors, publish date, the abstract, and Keywords -->
+
+<bookinfo>
+<title
+>Handbok &kmyapplication;</title>
+
+<authorgroup>
+<author
+><personname
+> <firstname
+>Carl</firstname
+> <surname
+>Schwan</surname
+> </personname
+> <email
+>carl@carlschwan.eu</email
+> </author>
+<othercredit role="translator"
+> <firstname
+>Stefan</firstname
+> <surname
+>Asserhäll</surname
+> <affiliation
+><address
+><email
+>stefan.asserhall@bredband.net</email
+></address
+></affiliation
+> <contrib
+>Översättare</contrib
+></othercredit
+> 
+</authorgroup>
+
+<copyright>
+<year
+>2022</year>
+<holder
+>Carl Schwan</holder>
+</copyright>
+
+<date
+>2022-09-08</date>
+
+<releaseinfo
+>Version 22.08.0</releaseinfo>
+
+<abstract>
+<para
+>&kmyapplication; är ett kontrollverktyg för färgkontrast som låter användare verifiera om deras färgkombinationer är tillgängliga för personer med färgblindhet. </para>
+</abstract>
+
+<keywordset>
+<keyword
+>KDE</keyword>
+<keyword
+>Handikappstöd</keyword>
+<keyword
+>Kontrast</keyword>
+</keywordset>
+
+</bookinfo>
+
+<chapter id="introduction">
+<title
+>Inledning</title>
+
+<para
+>&kmyapplication; låter användaren kontrollera kontrastförhållandet mellan färger och avgöra om resultatet är lämpligt för personer med färgblindhet. Användare kan välja färger på en mängd olika sätt, till exempel genom att mata in hexadecimala värdena manuellt, eller genom att använda färghämtningsverktyget för att välja valfritt färgvärde på skärmen. </para>
+
+<para
+>Kontrollen av kontrastförhållandet av programmet är relaterad till skillnaden i färg mellan två objekt som gör att de kan särskiljas. Ett kontrastvärde på 21 indikerar en perfekt kontrast (vanligtvis svart på vitt) och ett värde på 0 indikerar att de två färgerna är samma. Färgerna kontrolleras mot riktlinjer för tillgänglighet för webbinnehåll (<quote
+>WCAG</quote
+>). </para>
+
+</chapter>
+
+
+<chapter id="using-kapp">
+<title
+>Använda &kmyapplication;</title>
+
+
+<para>
+<screenshot>
+<screeninfo
+>Här är en skärmbild av &kmyapplication;</screeninfo>
+	<mediaobject>
+	  <imageobject>
+	    <imagedata fileref="main.png" format="PNG"/>
+	  </imageobject>
+	  <textobject>
+	    <phrase
+>Skärmbild av &kmyapplication;</phrase>
+	  </textobject>
+	</mediaobject>
+</screenshot>
+</para>
+
+<para
+>Efter att ha startat programmet visas en skärm för dig som liknar den ovan. Den är &kmyapplication;s huvudskärm, och innehåller de flesta av dess funktioner. En slumpmässigt vald textfärg, bakgrundsfärg och deras kontrastförhållande visas som exempel. </para>
+
+<sect1 id="kapp-color-select">
+<title
+>Välja text och bakgrundsfärger</title>
+<para
+>Det finns fem huvudsakliga sätt som färger kan väljas för jämförelse. De beskrivs nedan. </para>
+
+<sect2 id="hex-values">
+<title
+>Mata in hexadecimala värden</title>
+<para
+>Om du känner till de hexadecimala värdena för färgerna som du vill kontrollera kan du mata in dem direkt. För att göra det, klicka på provfärgens hexadecimala värde som för närvarande visas på skärmen och skriv in önskat värde.</para>
+</sect2>
+
+<sect2 id="color-picker">
+<title
+>Färghämtare</title>
+<para
+>Om det finns en färg som för närvarande visas på bildskärmen, till exempel från en exempelbild, kan du använda färghämtningsverktyget för att mata in färgen direkt i programmet. För att göra det, klicka på färghämtningsikonen till höger om det hexadecimala värdet för färgen som närvarande är vald och klicka på en färg var som helst på bildskärmen som du vill prova. Färgen blir då vald i programmet.</para>
+</sect2>
+
+<sect2 id="hue">
+<title
+>Färgton, mättnad och ljushet</title>
+<para
+>Om du vill justera nuvarande val för att se om vissa ändringar har en effekt på kontrasten, kan du göra det genom att använda reglagen för färgton, färgmättnad och ljushet. De finns under det nuvarande valets hexadecimala värden. Färgvalet uppdateras automatiskt när du gör ändringar med reglagen.</para>
+</sect2>
+
+<sect2 id="invert">
+<title
+>Invertera</title>
+<para
+>Knappen <guimenuitem
+>Invertera</guimenuitem
+> byter de två färgerna som för närvarande är valda, och använder bakgrundsfärgen som textfärg och vice versa.</para>
+</sect2>
+
+<sect2 id="randomize">
+<title
+>Slumpmässig</title>
+<para
+>Knappen <guimenuitem
+>Slumpmässig</guimenuitem
+> tilldelar slumpmässiga färger till både bakgrunds- och textfärgen.</para>
+</sect2>
+</sect1>
+
+<sect1 id="result">
+<title
+>Kontrastresultat</title>
+<para
+>Kontrastförhållandet som blir resultatet av valet visas överst på skärmen, tillsammans med en kort anmärkning som förklarar hur väl kontrasten är lämpad för text av varierande storlek. Texten uppdateras automatiskt när ändringar görs av färgvärdena. </para>
+</sect1>
+
+<sect1 id="favorite">
+<title
+>Favoriter</title>
+<para
+>&kmyapplication; låter användaren spara favoritfärgkombinationer för framtida behov. För att göra det, tryck på <guimenuitem 
+>Markera som favorit</guimenuitem 
+> längst ned på skärmen. Färgkombinationerna kan nås igen genom menyalternativet <guimenuitem 
+>Favoritfärger</guimenuitem 
+>, som beskrivs mer detaljerat i nästa kapitel. </para>
+</sect1>
+</chapter>
+
+<chapter id="menu">
+<title
+>Menyval</title>
+
+<para
+>Det här kapitlet beskriver alla programfunktioner som är tillgängliga efter att ha klickat på ikonen <guimenu 
+>Meny</guimenu 
+> i det övre vänstra hörnet. </para>
+
+<sect1 id="contrast-checker">
+<title
+>Kontrastkontroll</title>
+<para
+>Programmets standardskärm, som låter användaren välja färger och se deras kontrastförhållande. Funktionen beskrivs i föregående kapitel. </para>
+</sect1>
+
+<sect1 id="fave-colors">
+<title
+>Favoritfärger</title>
+<para
+>Den här skärmen innehåller alla färgkombinationer sparade som "favorit" på skärmen <guimenuitem 
+>Kontrastkontroll</guimenuitem 
+>. Färgkombinationer kan tas bort genom att trycka på knappen <guimenuitem 
+>Ta bort</guimenuitem
+>. </para>
+</sect1>
+
+<sect1 id="help">
+<title
+>Hjälp</title>
+<para
+>Skärmen innehåller en kort sammanfattning av teorin bakom programmet, med en förklaring av hur kontrast fungerar och hur kontrastförhållandet bäst tolkas i linje med WCAG-standarden. </para>
+</sect1>
+
+<sect1 id="about">
+<title
+>Om</title>
+<para
+>Skärmen innehåller allmän information om programmet, såsom upphovsmän och de bibliotek som används. Det finns också en knapp som låter användare skicka in eventuella felrapporter som stöter på till utvecklarna. </para>
+</sect1>
+
+</chapter>
+
+<chapter id="credits">
+
+<title
+>Tack till och licens</title>
+
+<para
+>&kmyapplication; </para>
+<para
+>Program copyright 2020-2022 Carl Schwan <email
+>carl@carlschwan.eu</email
+> </para>
+
+<para
+>Dokumentation Copyright &copy; 2022 Vlad Rakhmanin <email
+>vladimir.rakhmanin@ucdconnect.ie</email
+> </para
+>&underGPL; </chapter>
+
+&documentation.index;
+</book>
