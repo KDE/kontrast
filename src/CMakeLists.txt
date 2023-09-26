@@ -10,20 +10,20 @@ add_executable(kontrast
 )
 
 target_link_libraries(kontrast
-    Qt::Core
-    Qt::Gui
-    Qt::Qml
-    Qt::Quick
-    Qt::QuickControls2
-    Qt::Sql
-    Qt::Svg
-    FutureSQL${QT_MAJOR_VERSION}::FutureSQL
-    QCoro${QT_MAJOR_VERSION}::Core
-    KF${KF_MAJOR_VERSION}::I18n
-    KF${KF_MAJOR_VERSION}::CoreAddons)
-    
-if(TARGET Qt::DBus)
-    target_link_libraries(kontrast Qt::DBus Qt::Widgets)
+    Qt6::Core
+    Qt6::Gui
+    Qt6::Qml
+    Qt6::Quick
+    Qt6::QuickControls2
+    Qt6::Sql
+    Qt6::Svg
+    FutureSQL6::FutureSQL
+    QCoro6::Core
+    KF6::I18n
+    KF6::CoreAddons)
+
+if(TARGET Qt6::DBus)
+    target_link_libraries(kontrast Qt6::DBus Qt6::Widgets)
 endif()
 
 install(TARGETS kontrast ${KDE_INSTALL_TARGETS_DEFAULT_ARGS})

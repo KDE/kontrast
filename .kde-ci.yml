@@ -11,22 +11,9 @@ Dependencies:
     'libraries/kirigami-addons': '@latest-kf6'
     'libraries/futuresql': '@latest-kf6'
 
-- 'on': ['Linux/Qt5', 'FreeBSD/Qt5', 'Windows/Qt5', 'Android/Qt5']
-  'require':
-    'frameworks/extra-cmake-modules': '@stable'
-    'frameworks/kirigami': '@stable'
-    'frameworks/ki18n': '@stable'
-    'frameworks/kcoreaddons': '@stable'
-    'libraries/kirigami-addons': '@latest'
-    'libraries/futuresql': '@latest'
-
 - 'on': ['Linux/Qt6', 'FreeBSD/Qt6', 'Windows/Qt6']
   'require':
     'frameworks/kdoctools': '@latest-kf6'
-
-- 'on': ['Linux/Qt5', 'FreeBSD/Qt5', 'Windows/Qt5']
-  'require':
-    'frameworks/kdoctools': '@stable'
 
 Options:
     require-passing-tests-on: [ 'Linux', 'FreeBSD' ]

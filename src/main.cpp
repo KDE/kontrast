@@ -29,9 +29,6 @@ const QString DRIVER(QStringLiteral("QSQLITE"));
 
 Q_DECL_EXPORT int main(int argc, char *argv[])
 {
-#if QT_VERSION < QT_VERSION_CHECK(6, 0, 0)
-    QGuiApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
-#endif
 #ifndef Q_OS_ANDROID
     QApplication app(argc, argv);
 #else
@@ -48,7 +45,8 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
     aboutData.addAuthor(i18nc("@info:credit", "Carl Schwan"),
                         i18nc("@info:credit", "Maintainer and creator"),
                         QStringLiteral("carl@carlschwan.eu"),
-                        QStringLiteral("https://carlschwan.eu"));
+                        QStringLiteral("https://carlschwan.eu"),
+                        QUrl{QStringLiteral("https://carlschwan.eu/avatar.png")});
     aboutData.addCredit(i18nc("@info:credit", "Wikipedia"), i18nc("@info:credit", "Text on the main page CC-BY-SA-4.0"));
     aboutData.addAuthor(i18nc("@info:credit", "Carson Black"), i18nc("@info:credit", "SQLite backend for favorite colors"));
     aboutData.setTranslator(i18nc("NAME OF TRANSLATORS", "Your names"), i18nc("EMAIL OF TRANSLATORS", "Your emails"));

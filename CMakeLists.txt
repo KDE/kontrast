@@ -14,8 +14,8 @@ set (RELEASE_SERVICE_VERSION "${RELEASE_SERVICE_VERSION_MAJOR}.${RELEASE_SERVICE
 
 project(kontrast VERSION ${RELEASE_SERVICE_VERSION})
 
-set(QT_MIN_VERSION "5.15.0")
-set(KF_MIN_VERSION "5.92.0")
+set(QT_MIN_VERSION "6.5.0")
+set(KF_MIN_VERSION "5.240.0")
 
 include(FeatureSummary)
 
@@ -34,13 +34,6 @@ include(ECMPoQmTools)
 include(KDEClangFormat)
 include(KDEGitCommitHooks)
 include(ECMDeprecationSettings)
-if (QT_MAJOR_VERSION STREQUAL "6")
-    set(QT_REQUIRED_VERSION "6.4.0")
-    set(KF_MIN_VERSION "5.240.0")
-    set(KF_MAJOR_VERSION "6")
-else()
-    set(KF_MAJOR_VERSION "5")
-endif()
 
 ecm_setup_version(${PROJECT_VERSION}
     VARIABLE_PREFIX KONTRAST
@@ -49,14 +42,14 @@ ecm_setup_version(${PROJECT_VERSION}
 )
 
 ################# Find dependencies #################
-find_package(Qt${QT_MAJOR_VERSION} ${QT_MIN_VERSION} REQUIRED COMPONENTS Core Gui Qml QuickControls2 Svg Sql)
-find_package(KF${KF_MAJOR_VERSION} ${KF_MIN_VERSION} REQUIRED COMPONENTS Kirigami2 I18n CoreAddons)
-find_package(FutureSQL${QT_MAJOR_VERSION} REQUIRED)
-find_package(QCoro${QT_MAJOR_VERSION} REQUIRED COMPONENTS Core)
+find_package(Qt6 ${QT_MIN_VERSION} REQUIRED COMPONENTS Core Gui Qml QuickControls2 Svg Sql)
+find_package(KF6 ${KF_MIN_VERSION} REQUIRED COMPONENTS Kirigami2 I18n CoreAddons)
+find_package(FutureSQL6 REQUIRED)
+find_package(QCoro6 REQUIRED COMPONENTS Core)
 
 if(NOT ANDROID)
-    find_package(Qt${QT_MAJOR_VERSION} ${QT_MIN_VERSION} REQUIRED COMPONENTS DBus Widgets)
-    find_package(KF${KF_MAJOR_VERSION}DocTools ${KF_MIN_VERSION} REQUIRED)
+    find_package(Qt6 ${QT_MIN_VERSION} REQUIRED COMPONENTS DBus Widgets)
+    find_package(KF6DocTools ${KF_MIN_VERSION} REQUIRED)
 endif()
 
 ################# build and install #################
@@ -96,5 +89,5 @@ endif()
 
 file(GLOB_RECURSE ALL_CLANG_FORMAT_SOURCE_FILES src/*.cpp src/*.h)
 kde_clang_format(${ALL_CLANG_FORMAT_SOURCE_FILES})
-        
+
 kde_configure_git_pre_commit_hook(CHECKS CLANG_FORMAT)
