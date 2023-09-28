@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kontrast\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-07-11 00:39+0000\n"
+"POT-Creation-Date: 2023-09-28 01:38+0000\n"
 "PO-Revision-Date: 2023-02-19 17:02+0300\n"
 "Last-Translator: Alexander Yavorsky <kekcuha@gmail.com>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
@@ -235,61 +235,61 @@ msgstr "Шрифт размером %1 является хорошим выбо�
 msgid "Font size %1px is perfect with the current contrast"
 msgstr "Шрифт размером %1 является отличным выбором для текущего контраста"
 
-#: main.cpp:43
+#: main.cpp:40
 #, kde-format
 msgctxt "@title"
 msgid "Kontrast"
 msgstr "Kontrast"
 
-#: main.cpp:45
+#: main.cpp:42
 #, kde-format
 msgctxt "@title"
 msgid "A contrast checker application"
 msgstr "Приложение для проверки контраста"
 
-#: main.cpp:48
+#: main.cpp:45
 #, kde-format
 msgctxt "@info:credit"
 msgid "Carl Schwan"
 msgstr "Carl Schwan"
 
-#: main.cpp:49
+#: main.cpp:46
 #, kde-format
 msgctxt "@info:credit"
 msgid "Maintainer and creator"
 msgstr "Сопровождающий и создатель"
 
-#: main.cpp:52
+#: main.cpp:50
 #, kde-format
 msgctxt "@info:credit"
 msgid "Wikipedia"
 msgstr "Википедия"
 
-#: main.cpp:52
+#: main.cpp:50
 #, kde-format
 msgctxt "@info:credit"
 msgid "Text on the main page CC-BY-SA-4.0"
 msgstr "Текст на главной странице CC-BY-SA-4.0"
 
-#: main.cpp:53
+#: main.cpp:51
 #, kde-format
 msgctxt "@info:credit"
 msgid "Carson Black"
 msgstr "Carson Black"
 
-#: main.cpp:53
+#: main.cpp:51
 #, kde-format
 msgctxt "@info:credit"
 msgid "SQLite backend for favorite colors"
 msgstr "Модуль SQLite для избранных цветов"
 
-#: main.cpp:54
+#: main.cpp:52
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Олеся Герасименко"
 
-#: main.cpp:54
+#: main.cpp:52
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
