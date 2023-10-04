@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kontrast\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-09-28 01:38+0000\n"
-"PO-Revision-Date: 2023-10-02 17:09+0200\n"
+"PO-Revision-Date: 2023-10-03 12:26+0200\n"
 "Last-Translator: giovanni <g.sora@tiscali.it>\n"
 "Language-Team: Interlingua <kde-i18n-doc@kde.org>\n"
 "Language: ia\n"
@@ -117,7 +117,7 @@ msgstr "A proposito"
 #: contents/ui/MainPage.qml:42
 #, kde-format
 msgid "Contrast ratio: %1"
-msgstr ""
+msgstr "Rata de Contrasto: %1"
 
 #: contents/ui/MainPage.qml:50
 #, kde-format
@@ -127,22 +127,22 @@ msgstr "%1"
 #: contents/ui/MainPage.qml:62
 #, kde-format
 msgid "Perfect for normal and large text"
-msgstr ""
+msgstr "Perfecte per texto normal e grande"
 
 #: contents/ui/MainPage.qml:62
 #, kde-format
 msgid "Perfect for large text and good for normal text"
-msgstr ""
+msgstr "Perfecte per texto grande e bon per texto normal"
 
 #: contents/ui/MainPage.qml:62
 #, kde-format
 msgid "Good for large text and bad for normal text"
-msgstr ""
+msgstr "Bon per texto grande e mal per texto normal"
 
 #: contents/ui/MainPage.qml:62
 #, kde-format
 msgid "Bad for large and normal text"
-msgstr ""
+msgstr "Mal per texto grande e normal"
 
 #: contents/ui/MainPage.qml:69
 #, kde-format
@@ -207,12 +207,12 @@ msgstr "Dimension de Font %1px es mal con le contrasto currente"
 #: kontrast.cpp:352
 #, kde-format
 msgid "Font size %1px is good with the current contrast"
-msgstr ""
+msgstr "Dimension de Font %1px es bon con le contrasto currente"
 
 #: kontrast.cpp:355
 #, kde-format
 msgid "Font size %1px is perfect with the current contrast"
-msgstr ""
+msgstr "Dimension de Font %1px es perfecte con le contrasto currente"
 
 #: main.cpp:40
 #, kde-format
@@ -224,7 +224,7 @@ msgstr "Kontrast"
 #, kde-format
 msgctxt "@title"
 msgid "A contrast checker application"
-msgstr ""
+msgstr "Un application de verificator de contrasto"
 
 #: main.cpp:45
 #, kde-format
@@ -248,7 +248,7 @@ msgstr "Wikipedia"
 #, kde-format
 msgctxt "@info:credit"
 msgid "Text on the main page CC-BY-SA-4.0"
-msgstr ""
+msgstr "Texto sur le pagina principal CC-BY-SA-4.0"
 
 #: main.cpp:51
 #, kde-format
@@ -260,7 +260,7 @@ msgstr "Carson Black"
 #, kde-format
 msgctxt "@info:credit"
 msgid "SQLite backend for favorite colors"
-msgstr ""
+msgstr "Retroadministration de SQLite per colores favorite"
 
 #: main.cpp:52
 #, kde-format
