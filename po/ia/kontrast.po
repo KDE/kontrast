@@ -1,13 +1,13 @@
-# Copyright (C) YEAR This file is copyright:
+# Copyright (C) 2023 This file is copyright:
 # This file is distributed under the same license as the kontrast package.
 #
-# giovanni <g.sora@tiscali.it>, 2023.
+# SPDX-FileCopyrightText: 2023 giovanni <g.sora@tiscali.it>
 msgid ""
 msgstr ""
 "Project-Id-Version: kontrast\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-09-28 01:38+0000\n"
-"PO-Revision-Date: 2023-10-03 12:26+0200\n"
+"PO-Revision-Date: 2023-10-14 08:45+0200\n"
 "Last-Translator: giovanni <g.sora@tiscali.it>\n"
 "Language-Team: Interlingua <kde-i18n-doc@kde.org>\n"
 "Language: ia\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 22.12.3\n"
+"X-Generator: Lokalize 23.08.1\n"
 
 #: contents/ui/FavoritePage.qml:16
 #, kde-format
@@ -70,6 +70,10 @@ msgid ""
 "determined by the difference in the color and brightness of the object and "
 "other objects within the same field of view."
 msgstr ""
+"Contrasto es le differentia in color inter duo objectos que permitte lor a "
+"esser distinguite. In le perception visual del mundo real, contrasto es "
+"determinate per le differentia in le color e brillantia del objecto e altere "
+"objectos intra le mesme campo de vista."
 
 #: contents/ui/HelpPage.qml:29
 #, kde-format
@@ -77,6 +81,8 @@ msgid ""
 "A contrast value of 21 indicates a perfect contrast (usually black on "
 "white), and a value of 0 indicate that the two colors are the same."
 msgstr ""
+"Un valor de contrasto de 21 indica un contrasto perfecte (solitemente nigre "
+"sur blanc), e un valor de 0 indica que le duo colores es le mesme."
 
 #: contents/ui/HelpPage.qml:34
 #, kde-format
@@ -85,6 +91,9 @@ msgid ""
 "the WCAG AA standard and a contrast ratio of 7 or more is required to "
 "conform with the WCAG AAA standard."
 msgstr ""
+"Per un texto normal, le rata de contrasto deberea esser al minus de 4.5 per "
+"concordar con le standard WCAG AA e un rata de contrasto de 7 o plus es "
+"requirite per concordar con le standard WCAG AAA."
 
 #: contents/ui/HelpPage.qml:39
 #, kde-format
@@ -93,6 +102,9 @@ msgid ""
 "WCAG AA standard and a contrast ratio of 4.5 or more is required to conform "
 "with the WCAG AAA standard."
 msgstr ""
+"Per un texto grande, le rata de contrasto deberea esser al minus de 3 per "
+"concordar con le standard WCAG AA e un rata de contrasto de 4.5 o plus es "
+"requirite per concordar con le standard WCAG AAA."
 
 #: contents/ui/main.qml:23
 #, kde-format
@@ -153,6 +165,11 @@ msgid ""
 "the color and brightness of the object and other objects within the same "
 "field of view."
 msgstr ""
+"Contrasto es le differentia in luminantia o color que face un objecto (o su "
+"representation in unn imagine o un monstrator) distinguibile. In le "
+"perceprion visual del mundo real, contrasto es deteminate per le differentia "
+"in le color e brillantia del objecto e altere objectos intra le mesme campo "
+"de vista."
 
 #: contents/ui/MainPage.qml:84
 #, kde-format
