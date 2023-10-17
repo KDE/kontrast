@@ -1,0 +1,292 @@
+# Copyright (C) 2023 This file is copyright:
+# This file is distributed under the same license as the kontrast package.
+#
+# SPDX-FileCopyrightText: 2023 giovanni <g.sora@tiscali.it>
+msgid ""
+msgstr ""
+"Project-Id-Version: kontrast\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2023-07-11 00:39+0000\n"
+"PO-Revision-Date: 2023-10-16 13:18+0200\n"
+"Last-Translator: giovanni <g.sora@tiscali.it>\n"
+"Language-Team: Interlingua <kde-i18n-doc@kde.org>\n"
+"Language: ia\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 23.08.2\n"
+
+#: contents/ui/FavoritePage.qml:16
+#, kde-format
+msgid "Favorite colors"
+msgstr "Colores favorite"
+
+#: contents/ui/FavoritePage.qml:50
+#, kde-format
+msgid "Text: %1"
+msgstr "Texto: %1"
+
+#: contents/ui/FavoritePage.qml:70
+#, kde-format
+msgid "Background: %1"
+msgstr "Fundo: %1"
+
+#: contents/ui/FavoritePage.qml:91
+#, kde-format
+msgid "Remove"
+msgstr "Remove"
+
+#: contents/ui/FavoritePage.qml:103
+#, kde-format
+msgid "Background color copied to clipboard"
+msgstr "Color de fundo copiate a area de transferentia"
+
+#: contents/ui/FavoritePage.qml:111
+#, kde-format
+msgid "Text color copied to clipboard"
+msgstr "Color de texto  copiate a area de transferentia"
+
+#: contents/ui/FavoritePage.qml:120
+#, kde-format
+msgid "Color copied to clipboard"
+msgstr "Color  copiate a area de transferentia"
+
+#: contents/ui/HelpPage.qml:13 contents/ui/main.qml:40
+#, kde-format
+msgid "Help"
+msgstr "Adjuta"
+
+#: contents/ui/HelpPage.qml:19
+#, kde-format
+msgid "Contrast"
+msgstr "Contrasto"
+
+#: contents/ui/HelpPage.qml:24
+#, kde-format
+msgid ""
+"Contrast is the difference in color between two objects that allows them to "
+"be distinguished. In visual perception of the real world, contrast is "
+"determined by the difference in the color and brightness of the object and "
+"other objects within the same field of view."
+msgstr ""
+"Contrasto es le differentia in color inter duo objectos que permitte lor a "
+"esser distinguite. In le perception visual del mundo real, contrasto es "
+"determinate per le differentia in le color e brillantia del objecto e altere "
+"objectos intra le mesme campo de vista."
+
+#: contents/ui/HelpPage.qml:29
+#, kde-format
+msgid ""
+"A contrast value of 21 indicates a perfect contrast (usually black on "
+"white), and a value of 0 indicate that the two colors are the same."
+msgstr ""
+"Un valor de contrasto de 21 indica un contrasto perfecte (solitemente nigre "
+"sur blanc), e un valor de 0 indica que le duo colores es le mesme."
+
+#: contents/ui/HelpPage.qml:34
+#, kde-format
+msgid ""
+"For normal text, the contrast ratio should be at least of 4.5 to conform to "
+"the WCAG AA standard and a contrast ratio of 7 or more is required to "
+"conform with the WCAG AAA standard."
+msgstr ""
+"Per un texto normal, le rata de contrasto deberea esser al minus de 4.5 per "
+"concordar con le standard WCAG AA e un rata de contrasto de 7 o plus es "
+"requirite per concordar con le standard WCAG AAA."
+
+#: contents/ui/HelpPage.qml:39
+#, kde-format
+msgid ""
+"For large text, the contrast ratio should be at least of 3 to conform to the "
+"WCAG AA standard and a contrast ratio of 4.5 or more is required to conform "
+"with the WCAG AAA standard."
+msgstr ""
+"Per un texto grande, le rata de contrasto deberea esser al minus de 3 per "
+"concordar con le standard WCAG AA e un rata de contrasto de 4.5 o plus es "
+"requirite per concordar con le standard WCAG AAA."
+
+#: contents/ui/main.qml:23
+#, kde-format
+msgid "kontrast"
+msgstr "kontrast"
+
+#: contents/ui/main.qml:28 contents/ui/MainPage.qml:20
+#, kde-format
+msgid "Contrast Checker"
+msgstr "Verificator de contrasto"
+
+#: contents/ui/main.qml:34
+#, kde-format
+msgid "Favorite Colors"
+msgstr "Colores favorite"
+
+#: contents/ui/main.qml:46
+#, kde-format
+msgid "About"
+msgstr "A proposito"
+
+#: contents/ui/MainPage.qml:42
+#, kde-format
+msgid "Contrast ratio: %1"
+msgstr "Rata de Contrasto: %1"
+
+#: contents/ui/MainPage.qml:50
+#, kde-format
+msgid "%1"
+msgstr "%1"
+
+#: contents/ui/MainPage.qml:62
+#, kde-format
+msgid "Perfect for normal and large text"
+msgstr "Perfecte per texto normal e grande"
+
+#: contents/ui/MainPage.qml:62
+#, kde-format
+msgid "Perfect for large text and good for normal text"
+msgstr "Perfecte per texto grande e bon per texto normal"
+
+#: contents/ui/MainPage.qml:62
+#, kde-format
+msgid "Good for large text and bad for normal text"
+msgstr "Bon per texto grande e mal per texto normal"
+
+#: contents/ui/MainPage.qml:62
+#, kde-format
+msgid "Bad for large and normal text"
+msgstr "Mal per texto grande e normal"
+
+#: contents/ui/MainPage.qml:69
+#, kde-format
+msgid ""
+"Contrast is the difference in luminance or color that makes an object (or "
+"its representation in an image or display) distinguishable. In visual "
+"perception of the real world, contrast is determined by the difference in "
+"the color and brightness of the object and other objects within the same "
+"field of view."
+msgstr ""
+"Contrasto es le differentia in luminantia o color que face un objecto (o su "
+"representation in unn imagine o un monstrator) distinguibile. In le "
+"perceprion visual del mundo real, contrasto es deteminate per le differentia "
+"in le color e brillantia del objecto e altere objectos intra le mesme campo "
+"de vista."
+
+#: contents/ui/MainPage.qml:84
+#, kde-format
+msgid "Text"
+msgstr "Texto"
+
+#: contents/ui/MainPage.qml:113 contents/ui/MainPage.qml:193
+#, kde-format
+msgid "Hue %1°"
+msgstr "Tinta %1°"
+
+#: contents/ui/MainPage.qml:127 contents/ui/MainPage.qml:207
+#, kde-format
+msgid "Saturation %1"
+msgstr "Saturation %1"
+
+#: contents/ui/MainPage.qml:141 contents/ui/MainPage.qml:221
+#, kde-format
+msgid "Lightness %1"
+msgstr "Brillantia %1"
+
+#: contents/ui/MainPage.qml:165
+#, kde-format
+msgid "Background"
+msgstr "Fundo"
+
+#: contents/ui/MainPage.qml:238
+#, kde-format
+msgid "Font Size %1px"
+msgstr "Dimension de Font %1px"
+
+#: contents/ui/MainPage.qml:255
+#, kde-format
+msgid "Invert"
+msgstr "Inverte"
+
+#: contents/ui/MainPage.qml:261
+#, kde-format
+msgid "Randomize"
+msgstr "Aleatori"
+
+#: contents/ui/MainPage.qml:267
+#, kde-format
+msgid "Mark as favorite"
+msgstr "Marca iste canto como un favorite"
+
+#: kontrast.cpp:349
+#, kde-format
+msgid "Font size %1px is bad with the current contrast"
+msgstr "Dimension de Font %1px es mal con le contrasto currente"
+
+#: kontrast.cpp:352
+#, kde-format
+msgid "Font size %1px is good with the current contrast"
+msgstr "Dimension de Font %1px es bon con le contrasto currente"
+
+#: kontrast.cpp:355
+#, kde-format
+msgid "Font size %1px is perfect with the current contrast"
+msgstr "Dimension de Font %1px es perfecte con le contrasto currente"
+
+#: main.cpp:43
+#, kde-format
+msgctxt "@title"
+msgid "Kontrast"
+msgstr "Kontrast"
+
+#: main.cpp:45
+#, kde-format
+msgctxt "@title"
+msgid "A contrast checker application"
+msgstr "Un application de verificator de contrasto"
+
+#: main.cpp:48
+#, kde-format
+msgctxt "@info:credit"
+msgid "Carl Schwan"
+msgstr "Carl Schwan"
+
+#: main.cpp:49
+#, kde-format
+msgctxt "@info:credit"
+msgid "Maintainer and creator"
+msgstr "Mantenitor e creator"
+
+#: main.cpp:52
+#, kde-format
+msgctxt "@info:credit"
+msgid "Wikipedia"
+msgstr "Wikipedia"
+
+#: main.cpp:52
+#, kde-format
+msgctxt "@info:credit"
+msgid "Text on the main page CC-BY-SA-4.0"
+msgstr "Texto sur le pagina principal CC-BY-SA-4.0"
+
+#: main.cpp:53
+#, kde-format
+msgctxt "@info:credit"
+msgid "Carson Black"
+msgstr "Carson Black"
+
+#: main.cpp:53
+#, kde-format
+msgctxt "@info:credit"
+msgid "SQLite backend for favorite colors"
+msgstr "Retroadministration de SQLite per colores favorite"
+
+#: main.cpp:54
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Giovanni Sora"
+
+#: main.cpp:54
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "g.sora@tiscali.it"
