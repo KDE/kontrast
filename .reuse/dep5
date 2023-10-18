@@ -6,8 +6,11 @@ Files: android/res/**/*.png android/**/*.xml android/ic_launcher-playstore.png o
 Copyright: 2020 Carl Schwan <carlschwan@kde.org>
 License: GPL-3.0-or-later
 
-Files: .flatpak-manifest.json snapcraft.yaml
+Files: .flatpak-manifest.json
 Copyright: 2022 Aleix Pol <aleixpol@kde.org>,
            2223 Jonah Brüchert <jbb@kaidan.im>,
-           2023 Scarlett Moore <sgmoore@kde.org>
+License: GPL-3.0-or-later
+
+Files: snapcraft.yaml
+Copyright: 2023 Scarlett Moore <sgmoore@kde.org>
 License: GPL-3.0-or-later
