@@ -34,7 +34,7 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
 #else
     QGuiApplication app(argc, argv);
 #endif
-    KLocalizedString::setApplicationDomain("kontrast");
+    KLocalizedString::setApplicationDomain(QByteArrayLiteral("kontrast"));
 
     KAboutData aboutData(QStringLiteral("kontrast"),
                          i18nc("@title", "Kontrast"),
