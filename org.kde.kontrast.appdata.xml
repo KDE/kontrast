@@ -7,6 +7,7 @@ SPDX-License-Identifier: CC0-1.0
 <component type="desktop-application">
   <id>org.kde.kontrast</id>
   <name>Kontrast</name>
+  <name xml:lang="ast">Kontrast</name>
   <name xml:lang="ca">Kontrast</name>
   <name xml:lang="ca-valencia">Kontrast</name>
   <name xml:lang="cs">Kontrast</name>
