@@ -74,9 +74,7 @@ as Authors, publish date, the abstract, and Keywords -->
 >El &kmyapplication; permet a l'usuari comprovar la relació de contrast entre colors i determinar si el resultat és adequat per a persones amb deficiències de la visió dels colors. Els usuaris poden seleccionar colors de diverses maneres, per exemple, introduint manualment els valors hexadecimals, o utilitzant l'eina de selecció de color per a seleccionar qualsevol valor de color a la pantalla. </para>
 
 <para
->La comprovació de la relació de contrast d'aquesta aplicació està relacionada amb la diferència de color entre dos objectes que els permet distingir. Un valor de contrast de 21 indica un contrast perfecte (normalment negre sobre blanc) i un valor de 0 indica que els dos colors són els mateixos. Els colors es comproven amb les Directrius d'accessibilitat del contingut web (Web Content Accessibility Guidelines, <quote
->WCAG</quote
->). </para>
+>La comprovació de la relació de contrast d'aquesta aplicació està relacionada amb la diferència de color entre dos objectes que els permet distingir. Un valor de contrast de 21 indica un contrast perfecte (normalment negre sobre blanc) i un valor de 0 indica que els dos colors són els mateixos. Els colors es comproven amb les Directrius d'accessibilitat del contingut web (Web Content Accessibility Guidelines, «WCAG»). </para>
 
 </chapter>
 
