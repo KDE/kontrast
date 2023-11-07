@@ -7,4 +7,5 @@ include:
       - /gitlab-templates/reuse-lint.yml
       - /gitlab-templates/linux-qt6.yml
       - /gitlab-templates/android-qt6.yml
-  #- https://invent.kde.org/sysadmin/ci-utilities/raw/master/gitlab-templates/flatpak.yml
+      - /gitlab-templates/craft-android-qt6-apks.yml
+     #- /gitlab-templates/flatpak.yml
