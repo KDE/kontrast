@@ -24,13 +24,16 @@ Kirigami.ScrollablePage {
 
         spacing: Kirigami.Units.smallSpacing
 
-        delegate: Kirigami.AbstractListItem {
+        delegate: QQC2.ItemDelegate {
+
+            width: ListView.view.width
+
             background: Rectangle {
                 anchors.fill: parent
                 color: model.backgroundColor
             }
 
-            ColumnLayout {
+            contentItem: ColumnLayout {
                 id: layout
                 Kirigami.Heading {
                     Layout.fillWidth: true
