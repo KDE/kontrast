@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kontrast\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-09-28 01:38+0000\n"
+"POT-Creation-Date: 2023-11-08 08:45+0000\n"
 "PO-Revision-Date: 2023-01-06 13:08+0100\n"
 "Last-Translator: Xavier BESNARD <xavier.besnard]neuf.fr>\n"
 "Language-Team: fr\n"
@@ -20,32 +20,32 @@ msgstr ""
 msgid "Favorite colors"
 msgstr "Couleurs préférées"
 
-#: contents/ui/FavoritePage.qml:50
+#: contents/ui/FavoritePage.qml:53
 #, kde-format
 msgid "Text: %1"
 msgstr "Texte : %1"
 
-#: contents/ui/FavoritePage.qml:70
+#: contents/ui/FavoritePage.qml:73
 #, kde-format
 msgid "Background: %1"
 msgstr "Arrière-plan : %1"
 
-#: contents/ui/FavoritePage.qml:91
+#: contents/ui/FavoritePage.qml:94
 #, kde-format
 msgid "Remove"
 msgstr "Supprimer"
 
-#: contents/ui/FavoritePage.qml:103
+#: contents/ui/FavoritePage.qml:106
 #, kde-format
 msgid "Background color copied to clipboard"
 msgstr "Couleur d'arrière-plan copiée dans le presse-papier"
 
-#: contents/ui/FavoritePage.qml:111
+#: contents/ui/FavoritePage.qml:114
 #, kde-format
 msgid "Text color copied to clipboard"
 msgstr "Couleur de texte copiée dans le presse-papier"
 
-#: contents/ui/FavoritePage.qml:120
+#: contents/ui/FavoritePage.qml:123
 #, kde-format
 msgid "Color copied to clipboard"
 msgstr "Couleur copiée dans le presse-papier"

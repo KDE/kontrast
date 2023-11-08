@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kontrast\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-09-28 01:38+0000\n"
+"POT-Creation-Date: 2023-11-08 08:45+0000\n"
 "PO-Revision-Date: 2023-09-28 12:57+0200\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
@@ -25,32 +25,32 @@ msgstr ""
 msgid "Favorite colors"
 msgstr "Colors preferits"
 
-#: contents/ui/FavoritePage.qml:50
+#: contents/ui/FavoritePage.qml:53
 #, kde-format
 msgid "Text: %1"
 msgstr "Text: %1"
 
-#: contents/ui/FavoritePage.qml:70
+#: contents/ui/FavoritePage.qml:73
 #, kde-format
 msgid "Background: %1"
 msgstr "Fons: %1"
 
-#: contents/ui/FavoritePage.qml:91
+#: contents/ui/FavoritePage.qml:94
 #, kde-format
 msgid "Remove"
 msgstr "Elimina"
 
-#: contents/ui/FavoritePage.qml:103
+#: contents/ui/FavoritePage.qml:106
 #, kde-format
 msgid "Background color copied to clipboard"
 msgstr "Color de fons copiat a dins del porta-retalls"
 
-#: contents/ui/FavoritePage.qml:111
+#: contents/ui/FavoritePage.qml:114
 #, kde-format
 msgid "Text color copied to clipboard"
 msgstr "Color del text copiat a dins del porta-retalls"
 
-#: contents/ui/FavoritePage.qml:120
+#: contents/ui/FavoritePage.qml:123
 #, kde-format
 msgid "Color copied to clipboard"
 msgstr "Color copiat a dins del porta-retalls"

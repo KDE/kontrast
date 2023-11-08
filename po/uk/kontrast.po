@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kontrast\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-09-28 01:38+0000\n"
+"POT-Creation-Date: 2023-11-08 08:45+0000\n"
 "PO-Revision-Date: 2022-09-14 07:15+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
@@ -25,32 +25,32 @@ msgstr ""
 msgid "Favorite colors"
 msgstr "Улюблені кольори"
 
-#: contents/ui/FavoritePage.qml:50
+#: contents/ui/FavoritePage.qml:53
 #, kde-format
 msgid "Text: %1"
 msgstr "Текст: %1"
 
-#: contents/ui/FavoritePage.qml:70
+#: contents/ui/FavoritePage.qml:73
 #, kde-format
 msgid "Background: %1"
 msgstr "Тло: %1"
 
-#: contents/ui/FavoritePage.qml:91
+#: contents/ui/FavoritePage.qml:94
 #, kde-format
 msgid "Remove"
 msgstr "Вилучити"
 
-#: contents/ui/FavoritePage.qml:103
+#: contents/ui/FavoritePage.qml:106
 #, kde-format
 msgid "Background color copied to clipboard"
 msgstr "Колір фону скопійовано до буфера обміну даними"
 
-#: contents/ui/FavoritePage.qml:111
+#: contents/ui/FavoritePage.qml:114
 #, kde-format
 msgid "Text color copied to clipboard"
 msgstr "Колір тексту скопійовано до буфера обміну даними"
 
-#: contents/ui/FavoritePage.qml:120
+#: contents/ui/FavoritePage.qml:123
 #, kde-format
 msgid "Color copied to clipboard"
 msgstr "Колір скопійовано до буфера обміну даними"

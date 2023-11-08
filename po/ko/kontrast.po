@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kontrast\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-09-28 01:38+0000\n"
+"POT-Creation-Date: 2023-11-08 08:45+0000\n"
 "PO-Revision-Date: 2022-10-03 15:57+0200\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-i18n-doc@kde.org>\n"
@@ -22,32 +22,32 @@ msgstr ""
 msgid "Favorite colors"
 msgstr "책갈피에 등록된 색상"
 
-#: contents/ui/FavoritePage.qml:50
+#: contents/ui/FavoritePage.qml:53
 #, kde-format
 msgid "Text: %1"
 msgstr "텍스트: %1"
 
-#: contents/ui/FavoritePage.qml:70
+#: contents/ui/FavoritePage.qml:73
 #, kde-format
 msgid "Background: %1"
 msgstr "배경: %1"
 
-#: contents/ui/FavoritePage.qml:91
+#: contents/ui/FavoritePage.qml:94
 #, kde-format
 msgid "Remove"
 msgstr "삭제"
 
-#: contents/ui/FavoritePage.qml:103
+#: contents/ui/FavoritePage.qml:106
 #, kde-format
 msgid "Background color copied to clipboard"
 msgstr "배경색이 클립보드에 복사됨"
 
-#: contents/ui/FavoritePage.qml:111
+#: contents/ui/FavoritePage.qml:114
 #, kde-format
 msgid "Text color copied to clipboard"
 msgstr "글자색이 클립보드에 복사됨"
 
-#: contents/ui/FavoritePage.qml:120
+#: contents/ui/FavoritePage.qml:123
 #, kde-format
 msgid "Color copied to clipboard"
 msgstr "색이 클립보드에 복사됨"

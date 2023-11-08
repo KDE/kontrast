@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kontrast\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-09-28 01:38+0000\n"
+"POT-Creation-Date: 2023-11-08 08:45+0000\n"
 "PO-Revision-Date: 2023-10-02 09:09+0100\n"
 "Last-Translator: Oliver Kellogg <okellogg@users.sourceforge.net>\n"
 "Language-Team: Esperanto <kde-i18n-eo@kde.org>\n"
@@ -23,32 +23,32 @@ msgstr ""
 msgid "Favorite colors"
 msgstr "Plej ŝatataj koloroj"
 
-#: contents/ui/FavoritePage.qml:50
+#: contents/ui/FavoritePage.qml:53
 #, kde-format
 msgid "Text: %1"
 msgstr "Teksto: %1"
 
-#: contents/ui/FavoritePage.qml:70
+#: contents/ui/FavoritePage.qml:73
 #, kde-format
 msgid "Background: %1"
 msgstr "Fono: %1"
 
-#: contents/ui/FavoritePage.qml:91
+#: contents/ui/FavoritePage.qml:94
 #, kde-format
 msgid "Remove"
 msgstr "Forigi"
 
-#: contents/ui/FavoritePage.qml:103
+#: contents/ui/FavoritePage.qml:106
 #, kde-format
 msgid "Background color copied to clipboard"
 msgstr "Fonkoloro kopiita al tondujo"
 
-#: contents/ui/FavoritePage.qml:111
+#: contents/ui/FavoritePage.qml:114
 #, kde-format
 msgid "Text color copied to clipboard"
 msgstr "Tekstokoloro kopiita al tondujo"
 
-#: contents/ui/FavoritePage.qml:120
+#: contents/ui/FavoritePage.qml:123
 #, kde-format
 msgid "Color copied to clipboard"
 msgstr "Koloro kopiita al tondujo"
