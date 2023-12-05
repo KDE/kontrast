@@ -4,6 +4,7 @@
 
 #include "savedcolormodel.h"
 
+#include <QCoreApplication>
 #include <QDebug>
 #include <QDir>
 #include <QSqlError>
