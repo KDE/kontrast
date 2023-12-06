@@ -34,6 +34,7 @@ include(ECMPoQmTools)
 include(KDEClangFormat)
 include(KDEGitCommitHooks)
 include(ECMDeprecationSettings)
+include(ECMAddAndroidApk)
 
 ecm_setup_version(${PROJECT_VERSION}
     VARIABLE_PREFIX KONTRAST

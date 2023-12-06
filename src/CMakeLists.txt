@@ -22,6 +22,10 @@ target_link_libraries(kontrast
     KF6::I18n
     KF6::CoreAddons)
 
+if (ANDROID)
+    ecm_add_android_apk(kontrast ANDROID_DIR ${CMAKE_SOURCE_DIR}/android)
+endif()
+
 if(TARGET Qt6::DBus)
     target_link_libraries(kontrast Qt6::DBus Qt6::Widgets)
 endif()
