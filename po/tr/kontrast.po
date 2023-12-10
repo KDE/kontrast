@@ -1,13 +1,13 @@
 # Copyright (C) YEAR This file is copyright:
 # This file is distributed under the same license as the kontrast package.
 #
-# Emir SARI <emir_sari@icloud.com>, 2022.
+# Emir SARI <emir_sari@icloud.com>, 2022, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: kontrast\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-07-11 00:39+0000\n"
-"PO-Revision-Date: 2022-09-14 16:52+0300\n"
+"PO-Revision-Date: 2023-12-09 22:19+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 22.08.0\n"
+"X-Generator: Lokalize 24.01.80\n"
 
 #: contents/ui/FavoritePage.qml:16
 #, kde-format
@@ -165,7 +165,7 @@ msgid ""
 "the color and brightness of the object and other objects within the same "
 "field of view."
 msgstr ""
-"Karşıtlık, bir nesnenin (veya bir ekran veya görseldeki temsilinin) ayırt "
+"Karşıtlık, bir nesnenin (veya bir görüntü veya görseldeki temsilinin) ayırt "
 "edilebilir olmasını sağlayan parlaklık veya renk ayrımıdır. Gerçek dünyanın "
 "görsel algılamasında, karşıtlık, nesnenin ve aynı görüş alanındaki diğer "
 "nesnelerin renk ve parlaklığındaki ayrım ile algılanır."
