@@ -79,6 +79,7 @@ if(ANDROID)
     kirigami_package_breeze_icons(ICONS
         go-home
         favorite
+        help-contents
         help-symbolic
         help-about-symbolic
         applications-graphics
