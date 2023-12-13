@@ -86,6 +86,8 @@ if(ANDROID)
         color-picker
         reverse
         randomize
+        arrow-right
+        license
     )
 endif()
 
