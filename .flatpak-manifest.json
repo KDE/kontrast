@@ -32,6 +32,10 @@
                     "url": "https://download.kde.org/stable/futuresql/futuresql-0.1.0.tar.xz",
                     "sha256": "ecd354c26c48a67795b0004e701066f6176d25d39adda1b8a1bf9c07fa48ba6a"
                 }
+            ],
+            "config-opts": [
+                "-DBUILD_TESTING=OFF",
+                "-DBUILD_WITH_QT6=ON"
             ]
         },
         {
