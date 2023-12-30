@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the kontrast package.
 # Burkhard Lück <lueck@hube-lueck.de>, 2021.
 # Frederik Schwarzer <schwarzer@kde.org>, 2022.
-# Johannes Obermayr <johannesobermayr@gmx.de>, 2023.
+# SPDX-FileCopyrightText: 2023 Johannes Obermayr <johannesobermayr@gmx.de>
 #
 msgid ""
 msgstr ""
