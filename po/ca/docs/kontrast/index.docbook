@@ -120,7 +120,7 @@ as Authors, publish date, the abstract, and Keywords -->
 <title
 >Selector de color</title>
 <para
->Si actualment hi ha un color a la pantalla, per exemple des d'una imatge de mostra, llavors podeu utilitzar l'eina selector de color per a introduir aquest color directament a l'aplicació. Per a fer-ho, feu clic a la icona del selector de color a la dreta del valor hexadecimal del color seleccionat, i feu clic al color a qualsevol lloc de la pantalla que vulgueu aconseguir de mostra. El color se seleccionarà a l'aplicació.</para>
+>Si actualment hi ha un color a la pantalla, per exemple des d'una imatge de mostra, llavors podeu utilitzar l'eina selectora de color per a introduir aquest color directament a l'aplicació. Per a fer-ho, feu clic a la icona del selector de color a la dreta del valor hexadecimal del color seleccionat, i feu clic al color a qualsevol lloc de la pantalla que vulgueu aconseguir de mostra. El color se seleccionarà a l'aplicació.</para>
 </sect2>
 
 <sect2 id="hue">
