@@ -14,6 +14,7 @@
 #include <QGuiApplication>
 #endif
 #include "clipboard.h"
+#include "kontrast.h"
 #include <QCommandLineParser>
 #include <QDir>
 #include <QIcon>
@@ -23,7 +24,6 @@
 #include <QSqlError>
 #include <QStandardPaths>
 #include <QUrl>
-#include <kontrast.h>
 
 const QString DRIVER(QStringLiteral("QSQLITE"));
 
