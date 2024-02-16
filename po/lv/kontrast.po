@@ -1,65 +1,67 @@
-# SPDX-FileCopyrightText: 2024 Lemon73
+# Copyright (C) 2024 This file is copyright:
+# This file is distributed under the same license as the kontrast package.
+#
+# SPDX-FileCopyrightText: 2024 Toms Trasuns <toms.trasuns@posteo.net>
 msgid ""
 msgstr ""
 "Project-Id-Version: kontrast\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-11-08 08:45+0000\n"
-"PO-Revision-Date: 2024-02-15 00:02+0900\n"
-"Last-Translator: Lemon73 <Lemonade.Flash.1164@gmail.com>\n"
-"Language-Team: Japanese\n"
-"Language: ja\n"
+"PO-Revision-Date: 2024-02-13 16:44+0200\n"
+"Last-Translator: Toms Trasuns <toms.trasuns@posteo.net>\n"
+"Language-Team: Latvian <kde-i18n-doc@kde.org>\n"
+"Language: lv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Accelerator-Marker: &\n"
-"X-Text-Markup: kde4\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : "
+"2);\n"
 "X-Generator: Lokalize 23.08.4\n"
 
 #: contents/ui/FavoritePage.qml:16
 #, kde-format
 msgid "Favorite colors"
-msgstr "好みの色"
+msgstr "Iecienītākās krāsas"
 
 #: contents/ui/FavoritePage.qml:53
 #, kde-format
 msgid "Text: %1"
-msgstr "文字: %1"
+msgstr "Teksts: %1"
 
 #: contents/ui/FavoritePage.qml:73
 #, kde-format
 msgid "Background: %1"
-msgstr "背景: %1"
+msgstr "Fons: %1"
 
 #: contents/ui/FavoritePage.qml:94
 #, kde-format
 msgid "Remove"
-msgstr "取り除く"
+msgstr "Noņemt"
 
 #: contents/ui/FavoritePage.qml:106
 #, kde-format
 msgid "Background color copied to clipboard"
-msgstr "背景色をクリップボードにコピーしました"
+msgstr "Fona krāsa ir iekopēta starpliktuvē"
 
 #: contents/ui/FavoritePage.qml:114
 #, kde-format
 msgid "Text color copied to clipboard"
-msgstr "文字色をクリップボードにコピーしました"
+msgstr "Teksta krāsa ir iekopēta starpliktuvē"
 
 #: contents/ui/FavoritePage.qml:123
 #, kde-format
 msgid "Color copied to clipboard"
-msgstr "色をクリップボードにコピーしました"
+msgstr "Krāsa ir iekopēta starpliktuvē"
 
 #: contents/ui/HelpPage.qml:13 contents/ui/main.qml:40
 #, kde-format
 msgid "Help"
-msgstr "ヘルプ"
+msgstr "Palīdzība"
 
 #: contents/ui/HelpPage.qml:19
 #, kde-format
 msgid "Contrast"
-msgstr "コントラスト"
+msgstr "Kontrasts"
 
 #: contents/ui/HelpPage.qml:24
 #, kde-format
@@ -69,8 +71,9 @@ msgid ""
 "determined by the difference in the color and brightness of the object and "
 "other objects within the same field of view."
 msgstr ""
-"コントラストとは2つの物体を区別するための色の違いです。現実世界の視覚的認識"
-"は、物体や同じ視界内の異なる物体の色の違いや明度によって決定されます。"
+"Kontrasts ir krāsu atšķirību starp diviem objektiem, kas ļauj tos atšķirt. "
+"Reālās pasaules vizuālajā uztverē kontrastu veido uztveres laukā esošo "
+"objektu savstarpējās atšķirības krāsā un gaišumā."
 
 #: contents/ui/HelpPage.qml:29
 #, kde-format
@@ -78,8 +81,8 @@ msgid ""
 "A contrast value of 21 indicates a perfect contrast (usually black on "
 "white), and a value of 0 indicate that the two colors are the same."
 msgstr ""
-"完璧なコントラスト(黒と白など)のときはコントラスト値が21で、2つの色が同一の時"
-"はコントラスト値が0となります。"
+"Kontrasta vērtība 21 nozīmē nevainojamu kontrastu (parasti melnbalts), bet "
+"nulles vērtība nozīmē, ka abas krāsas ir vienādas."
 
 #: contents/ui/HelpPage.qml:34
 #, kde-format
@@ -88,8 +91,9 @@ msgid ""
 "the WCAG AA standard and a contrast ratio of 7 or more is required to "
 "conform with the WCAG AAA standard."
 msgstr ""
-"通常の文字では、WCAG 規格のレベル AA で最低 4.5 のコントラスト比が必要です。"
-"また、WCAG 規格のレベル AAA で最低 7 のコントラスト比が必要です。"
+"Parastam tekstam kontrasta attiecībai ir jābūt vismaz 4,5, lai atbilsto WCAG "
+"AA standartam, bet kontrastam jābūt 7 vai lielākam, lai atbalstu WCAG AAA "
+"standartam."
 
 #: contents/ui/HelpPage.qml:39
 #, kde-format
@@ -98,8 +102,9 @@ msgid ""
 "WCAG AA standard and a contrast ratio of 4.5 or more is required to conform "
 "with the WCAG AAA standard."
 msgstr ""
-"大きい文字では、WCAG 規格のレベル AA で最低 3 のコントラスト比が必要です。ま"
-"た、WCAG 規格のレベル AAA で最低 4.5 のコントラスト比が必要です。"
+"Lielāka teksta gadījumā atbilstība WCAG AA standarta ir panākama ar "
+"kontrasta attiecību 3 vai lielāku, bet 4,5 ir nepieciešamā attiecība, lai "
+"atbilstu WCAG AAA standartam."
 
 #: contents/ui/main.qml:23
 #, kde-format
@@ -109,22 +114,22 @@ msgstr "kontrast"
 #: contents/ui/main.qml:28 contents/ui/MainPage.qml:20
 #, kde-format
 msgid "Contrast Checker"
-msgstr "コントラストチェッカー"
+msgstr "Kontrasta pārbaudītājs"
 
 #: contents/ui/main.qml:34
 #, kde-format
 msgid "Favorite Colors"
-msgstr "お気に入りの色"
+msgstr "Iecienītākās krāsas"
 
 #: contents/ui/main.qml:46
 #, kde-format
 msgid "About"
-msgstr "これは何？"
+msgstr "Par"
 
 #: contents/ui/MainPage.qml:42
 #, kde-format
 msgid "Contrast ratio: %1"
-msgstr "コントラスト比: %1"
+msgstr "Kontrasta attiecība :%1"
 
 #: contents/ui/MainPage.qml:50
 #, kde-format
@@ -134,22 +139,22 @@ msgstr "%1"
 #: contents/ui/MainPage.qml:62
 #, kde-format
 msgid "Perfect for normal and large text"
-msgstr "通常サイズと大きいサイズの文字にとても適しています"
+msgstr "Nevainojams normālam un lielam tekstam"
 
 #: contents/ui/MainPage.qml:62
 #, kde-format
 msgid "Perfect for large text and good for normal text"
-msgstr "大きいサイズの文字にとても適していて、普通サイズの文字にも適しています"
+msgstr "Nevainojams lielam tekstam un labs normālam tekstam"
 
 #: contents/ui/MainPage.qml:62
 #, kde-format
 msgid "Good for large text and bad for normal text"
-msgstr "大きいサイズの文字に適していますが、通常サイズの文字に適していません"
+msgstr "Labs lielam tekstam, bet slikts normālam tekstam"
 
 #: contents/ui/MainPage.qml:62
 #, kde-format
 msgid "Bad for large and normal text"
-msgstr "大きいサイズと通常サイズの文字に適していません"
+msgstr "Slikts lielam un normālam tekstam"
 
 #: contents/ui/MainPage.qml:69
 #, kde-format
@@ -160,69 +165,70 @@ msgid ""
 "the color and brightness of the object and other objects within the same "
 "field of view."
 msgstr ""
-"コントラストは輝度や物体を構成する色(または画像や表示の表現)の違いを判別でき"
-"ます。現実世界の視覚的認識は、物体や同じ視界内の異なる物体の色の違いや明度に"
-"よって決定されます。"
+"Kontrasts nozīmē objektu (vai tā reprezentāciju attēlā vai ekrānā) "
+"veidojošās krāsas spilgtuma un krāsas atšķirību, kas to padara atšķiramu. "
+"Reālās pasaules vizuālajā uztverē kontrastu veido uztveres laukā esošo "
+"objektu savstarpējās atšķirības krāsā un gaišumā."
 
 #: contents/ui/MainPage.qml:84
 #, kde-format
 msgid "Text"
-msgstr "文字"
+msgstr "Teksts"
 
 #: contents/ui/MainPage.qml:113 contents/ui/MainPage.qml:193
 #, kde-format
 msgid "Hue %1°"
-msgstr "色相 %1°"
+msgstr "Nokrāsa %1°"
 
 #: contents/ui/MainPage.qml:127 contents/ui/MainPage.qml:207
 #, kde-format
 msgid "Saturation %1"
-msgstr "彩度 %1"
+msgstr "Piesātinājums %1"
 
 #: contents/ui/MainPage.qml:141 contents/ui/MainPage.qml:221
 #, kde-format
 msgid "Lightness %1"
-msgstr "明度 %1"
+msgstr "Gaišums %1"
 
 #: contents/ui/MainPage.qml:165
 #, kde-format
 msgid "Background"
-msgstr "背景"
+msgstr "Fons"
 
 #: contents/ui/MainPage.qml:238
 #, kde-format
 msgid "Font Size %1px"
-msgstr "フォントサイズ %1px"
+msgstr "Fonta izmērs %1 px"
 
 #: contents/ui/MainPage.qml:255
 #, kde-format
 msgid "Invert"
-msgstr "入れ替える"
+msgstr "Invertēt"
 
 #: contents/ui/MainPage.qml:261
 #, kde-format
 msgid "Randomize"
-msgstr "ランダム"
+msgstr "Nejaušas"
 
 #: contents/ui/MainPage.qml:267
 #, kde-format
 msgid "Mark as favorite"
-msgstr "お気に入りとしてマークする"
+msgstr "Atzīmēt kā iecienītu"
 
 #: kontrast.cpp:349
 #, kde-format
 msgid "Font size %1px is bad with the current contrast"
-msgstr "フォントサイズ %1px は現在のコントラストで適していません"
+msgstr "Fonts ar izmēru %1 px nav piemērots šim kontrastam"
 
 #: kontrast.cpp:352
 #, kde-format
 msgid "Font size %1px is good with the current contrast"
-msgstr "フォントサイズ %1px は現在のコントラストで適しています"
+msgstr "Fonts ar izmēru %1 px ir piemērots šim kontrastam"
 
 #: kontrast.cpp:355
 #, kde-format
 msgid "Font size %1px is perfect with the current contrast"
-msgstr "フォントサイズ %1px は現在のコントラストでとても適しています"
+msgstr "Fonts ar izmēru %1 px ir izcils šim kontrastam"
 
 #: main.cpp:40
 #, kde-format
@@ -234,7 +240,7 @@ msgstr "Kontrast"
 #, kde-format
 msgctxt "@title"
 msgid "A contrast checker application"
-msgstr "コントラストチェック用のアプリケーション"
+msgstr "Kontrasta pārbaudīšanas programma"
 
 #: main.cpp:45
 #, kde-format
@@ -246,19 +252,19 @@ msgstr "Carl Schwan"
 #, kde-format
 msgctxt "@info:credit"
 msgid "Maintainer and creator"
-msgstr "メンテナーとクリエーター"
+msgstr "Uzturētājs un veidotājs"
 
 #: main.cpp:50
 #, kde-format
 msgctxt "@info:credit"
 msgid "Wikipedia"
-msgstr "ウィキペディア"
+msgstr "Wikipedia"
 
 #: main.cpp:50
 #, kde-format
 msgctxt "@info:credit"
 msgid "Text on the main page CC-BY-SA-4.0"
-msgstr "メインページの文章は CC-BY-SA-4.0 です"
+msgstr "Teksts galvenajā lapā CC-BY-SA-4.0"
 
 #: main.cpp:51
 #, kde-format
@@ -270,16 +276,16 @@ msgstr "Carson Black"
 #, kde-format
 msgctxt "@info:credit"
 msgid "SQLite backend for favorite colors"
-msgstr "SQLite バックエンド向けの好みの色"
+msgstr "SQLite aizmugursistēma iecienītajām krāsām"
 
 #: main.cpp:52
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Shizuku Hagoromo"
+msgstr "Toms Trasūns"
 
 #: main.cpp:52
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "Lemonade.Flash.1164@gmail.com"
+msgstr "toms.trasuns@posteo.net"
