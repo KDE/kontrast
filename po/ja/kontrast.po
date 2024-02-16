@@ -1,11 +1,12 @@
+# SPDX-FileCopyrightText: 2024 Lemon73
 msgid ""
 msgstr ""
 "Project-Id-Version: kontrast\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-11-08 08:45+0000\n"
-"PO-Revision-Date: 2020-08-02 21:58-0700\n"
-"Last-Translator: Japanese KDE translation team <kde-jp@kde.org>\n"
-"Language-Team: Japanese <kde-jp@kde.org>\n"
+"PO-Revision-Date: 2024-02-15 00:02+0900\n"
+"Last-Translator: Lemon73 <Lemonade.Flash.1164@gmail.com>\n"
+"Language-Team: Japanese\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -13,51 +14,52 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Accelerator-Marker: &\n"
 "X-Text-Markup: kde4\n"
+"X-Generator: Lokalize 23.08.4\n"
 
 #: contents/ui/FavoritePage.qml:16
 #, kde-format
 msgid "Favorite colors"
-msgstr ""
+msgstr "好みの色"
 
 #: contents/ui/FavoritePage.qml:53
 #, kde-format
 msgid "Text: %1"
-msgstr ""
+msgstr "文字: %1"
 
 #: contents/ui/FavoritePage.qml:73
 #, kde-format
 msgid "Background: %1"
-msgstr ""
+msgstr "背景: %1"
 
 #: contents/ui/FavoritePage.qml:94
 #, kde-format
 msgid "Remove"
-msgstr ""
+msgstr "取り除く"
 
 #: contents/ui/FavoritePage.qml:106
 #, kde-format
 msgid "Background color copied to clipboard"
-msgstr ""
+msgstr "背景色をクリップボードにコピーしました"
 
 #: contents/ui/FavoritePage.qml:114
 #, kde-format
 msgid "Text color copied to clipboard"
-msgstr ""
+msgstr "文字色をクリップボードにコピーしました"
 
 #: contents/ui/FavoritePage.qml:123
 #, kde-format
 msgid "Color copied to clipboard"
-msgstr ""
+msgstr "色をクリップボードにコピーしました"
 
 #: contents/ui/HelpPage.qml:13 contents/ui/main.qml:40
 #, kde-format
 msgid "Help"
-msgstr ""
+msgstr "ヘルプ"
 
 #: contents/ui/HelpPage.qml:19
 #, kde-format
 msgid "Contrast"
-msgstr ""
+msgstr "コントラスト"
 
 #: contents/ui/HelpPage.qml:24
 #, kde-format
@@ -67,6 +69,8 @@ msgid ""
 "determined by the difference in the color and brightness of the object and "
 "other objects within the same field of view."
 msgstr ""
+"コントラストとは2つの物体を区別するための色の違いです。現実世界の視覚的認識"
+"は、物体や同じ視界内の異なる物体の色の違いや明度によって決定されます。"
 
 #: contents/ui/HelpPage.qml:29
 #, kde-format
@@ -74,6 +78,8 @@ msgid ""
 "A contrast value of 21 indicates a perfect contrast (usually black on "
 "white), and a value of 0 indicate that the two colors are the same."
 msgstr ""
+"完璧なコントラスト(黒と白など)のときはコントラスト値が21で、2つの色が同一の時"
+"はコントラスト値が0となります。"
 
 #: contents/ui/HelpPage.qml:34
 #, kde-format
@@ -82,6 +88,8 @@ msgid ""
 "the WCAG AA standard and a contrast ratio of 7 or more is required to "
 "conform with the WCAG AAA standard."
 msgstr ""
+"通常の文字では、WCAG 規格のレベル AA で最低 4.5 のコントラスト比が必要です。"
+"また、WCAG 規格のレベル AAA で最低 7 のコントラスト比が必要です。"
 
 #: contents/ui/HelpPage.qml:39
 #, kde-format
@@ -90,56 +98,58 @@ msgid ""
 "WCAG AA standard and a contrast ratio of 4.5 or more is required to conform "
 "with the WCAG AAA standard."
 msgstr ""
+"大きい文字では、WCAG 規格のレベル AA で最低 3 のコントラスト比が必要です。ま"
+"た、WCAG 規格のレベル AAA で最低 4.5 のコントラスト比が必要です。"
 
 #: contents/ui/main.qml:23
 #, kde-format
 msgid "kontrast"
-msgstr ""
+msgstr "kontrast"
 
 #: contents/ui/main.qml:28 contents/ui/MainPage.qml:20
 #, kde-format
 msgid "Contrast Checker"
-msgstr ""
+msgstr "コントラストチェッカー"
 
 #: contents/ui/main.qml:34
 #, kde-format
 msgid "Favorite Colors"
-msgstr ""
+msgstr "お気に入りの色"
 
 #: contents/ui/main.qml:46
 #, kde-format
 msgid "About"
-msgstr ""
+msgstr "これは何？"
 
 #: contents/ui/MainPage.qml:42
 #, kde-format
 msgid "Contrast ratio: %1"
-msgstr ""
+msgstr "コントラスト比: %1"
 
 #: contents/ui/MainPage.qml:50
 #, kde-format
 msgid "%1"
-msgstr ""
+msgstr "%1"
 
 #: contents/ui/MainPage.qml:62
 #, kde-format
 msgid "Perfect for normal and large text"
-msgstr ""
+msgstr "通常サイズと大きいサイズの文字にとても適しています"
 
 #: contents/ui/MainPage.qml:62
 #, kde-format
 msgid "Perfect for large text and good for normal text"
-msgstr ""
+msgstr "大きいサイズの文字にとても適していて、普通サイズの文字にも適しています"
 
 #: contents/ui/MainPage.qml:62
 #, kde-format
 msgid "Good for large text and bad for normal text"
-msgstr ""
+msgstr "大きいサイズの文字に適していますが、通常サイズの文字に適していません"
 
 #: contents/ui/MainPage.qml:62
 #, kde-format
 msgid "Bad for large and normal text"
-msgstr ""
+msgstr "大きいサイズと通常サイズの文字に適していません"
 
 #: contents/ui/MainPage.qml:69
 #, kde-format
@@ -150,123 +160,126 @@ msgid ""
 "the color and brightness of the object and other objects within the same "
 "field of view."
 msgstr ""
+"コントラストは輝度や物体を構成する色(または画像や表示の表現)の違いを判別でき"
+"ます。現実世界の視覚的認識は、物体や同じ視界内の異なる物体の色の違いや明度に"
+"よって決定されます。"
 
 #: contents/ui/MainPage.qml:84
 #, kde-format
 msgid "Text"
-msgstr ""
+msgstr "文字"
 
 #: contents/ui/MainPage.qml:113 contents/ui/MainPage.qml:193
 #, kde-format
 msgid "Hue %1°"
-msgstr ""
+msgstr "色相 %1°"
 
 #: contents/ui/MainPage.qml:127 contents/ui/MainPage.qml:207
 #, kde-format
 msgid "Saturation %1"
-msgstr ""
+msgstr "彩度 %1"
 
 #: contents/ui/MainPage.qml:141 contents/ui/MainPage.qml:221
 #, kde-format
 msgid "Lightness %1"
-msgstr ""
+msgstr "明度 %1"
 
 #: contents/ui/MainPage.qml:165
 #, kde-format
 msgid "Background"
-msgstr ""
+msgstr "背景"
 
 #: contents/ui/MainPage.qml:238
 #, kde-format
 msgid "Font Size %1px"
-msgstr ""
+msgstr "フォントサイズ %1px"
 
 #: contents/ui/MainPage.qml:255
 #, kde-format
 msgid "Invert"
-msgstr ""
+msgstr "入れ替える"
 
 #: contents/ui/MainPage.qml:261
 #, kde-format
 msgid "Randomize"
-msgstr ""
+msgstr "ランダム"
 
 #: contents/ui/MainPage.qml:267
 #, kde-format
 msgid "Mark as favorite"
-msgstr ""
+msgstr "お気に入りとしてマークする"
 
 #: kontrast.cpp:349
 #, kde-format
 msgid "Font size %1px is bad with the current contrast"
-msgstr ""
+msgstr "フォントサイズ %1px は現在のコントラストで適していません"
 
 #: kontrast.cpp:352
 #, kde-format
 msgid "Font size %1px is good with the current contrast"
-msgstr ""
+msgstr "フォントサイズ %1px は現在のコントラストで適しています"
 
 #: kontrast.cpp:355
 #, kde-format
 msgid "Font size %1px is perfect with the current contrast"
-msgstr ""
+msgstr "フォントサイズ %1px は現在のコントラストでとても適しています"
 
 #: main.cpp:40
 #, kde-format
 msgctxt "@title"
 msgid "Kontrast"
-msgstr ""
+msgstr "Kontrast"
 
 #: main.cpp:42
 #, kde-format
 msgctxt "@title"
 msgid "A contrast checker application"
-msgstr ""
+msgstr "コントラストチェック用のアプリケーション"
 
 #: main.cpp:45
 #, kde-format
 msgctxt "@info:credit"
 msgid "Carl Schwan"
-msgstr ""
+msgstr "Carl Schwan"
 
 #: main.cpp:46
 #, kde-format
 msgctxt "@info:credit"
 msgid "Maintainer and creator"
-msgstr ""
+msgstr "メンテナーとクリエーター"
 
 #: main.cpp:50
 #, kde-format
 msgctxt "@info:credit"
 msgid "Wikipedia"
-msgstr ""
+msgstr "ウィキペディア"
 
 #: main.cpp:50
 #, kde-format
 msgctxt "@info:credit"
 msgid "Text on the main page CC-BY-SA-4.0"
-msgstr ""
+msgstr "メインページの文章は CC-BY-SA-4.0 です"
 
 #: main.cpp:51
 #, kde-format
 msgctxt "@info:credit"
 msgid "Carson Black"
-msgstr ""
+msgstr "Carson Black"
 
 #: main.cpp:51
 #, kde-format
 msgctxt "@info:credit"
 msgid "SQLite backend for favorite colors"
-msgstr ""
+msgstr "SQLite バックエンド向けの好みの色"
 
 #: main.cpp:52
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr ""
+msgstr "Shizuku Hagoromo"
 
 #: main.cpp:52
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr ""
+msgstr "Lemonade.Flash.1164@gmail.com"
