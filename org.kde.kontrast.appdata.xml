@@ -25,8 +25,10 @@ SPDX-License-Identifier: CC0-1.0
   <name xml:lang="ia">Kontrast</name>
   <name xml:lang="id">Kontrast</name>
   <name xml:lang="it">Kontrast</name>
+  <name xml:lang="ja">Kontrast</name>
   <name xml:lang="ka">Kontrast</name>
   <name xml:lang="ko">Kontrast</name>
+  <name xml:lang="lv">Kontrast</name>
   <name xml:lang="nl">Kontrast</name>
   <name xml:lang="nn">Kontrast</name>
   <name xml:lang="pa">ਕਨਟਰਾਸਟ</name>
@@ -59,8 +61,10 @@ SPDX-License-Identifier: CC0-1.0
   <summary xml:lang="ia">Un Verificator de contrasto de color</summary>
   <summary xml:lang="id">Sebuah Pemeriksa Kontras Warna</summary>
   <summary xml:lang="it">Un controllo del contrasto</summary>
+  <summary xml:lang="ja">色のコントラストチェッカー</summary>
   <summary xml:lang="ka">კონტრასტის შემოწმება</summary>
   <summary xml:lang="ko">색 대비 검사기</summary>
+  <summary xml:lang="lv">Krāsu kontrasta pārbaudītājs</summary>
   <summary xml:lang="nl">Een controleprogramma op contrast</summary>
   <summary xml:lang="nn">Verktøy for å sjekka fargekontrast</summary>
   <summary xml:lang="pa">ਰੰਗ ਕਨਟਰਾਸਟ ਜਾਂਚਕਾਰ</summary>
@@ -95,8 +99,10 @@ SPDX-License-Identifier: CC0-1.0
     <p xml:lang="ia">Kontrast es un verificator de contrasto e te dice si tu combinationes de color es assatis distincte per esser legibile e accessibile.</p>
     <p xml:lang="id">Kontrast adalah pemeriksa kontras warna dan memberi tahu kamu jika kombinasi warnamu cukup berbeda untuk bisa dibaca dan diakses.</p>
     <p xml:lang="it">Kontrast è un controllore del contrasto dei colori che ti dice se le tue combinazioni di colori sono abbastanza distinguibili da essere leggibili ed accessibili.</p>
+    <p xml:lang="ja">Kontrast は、明確に読みやすくアクセス可能な色の組み合わせかわかる色のコントラストチェッカーです。</p>
     <p xml:lang="ka">Kontrast ფერების კონტრასტს ამოწმებს და გეუბნებათ, არის თუ არა ფერების კომბინაცია ნორმალური კითხვისა და მუშაობისთვის.</p>
     <p xml:lang="ko">Kontrast는 색 대비 검사기입니다. 색 조합이 쉽게 읽을 수 있고 접근성 문제가 없는지 알려 줍니다.</p>
+    <p xml:lang="lv">„Kontrast“ ir krāsu kontrasta pārbaudītājs, kas parāda, vai plānotā vai izmantotā krāsu kombinācija ir pietiekami salasāma.</p>
     <p xml:lang="nl">Kontrast is een controleprogramma op kleurcontrast en vertelt u of uw kleurencombinaties voldoende onderscheid maken om leesbaar en toegankelijk te zijn.</p>
     <p xml:lang="nn">Kontrast er eit verktøy for å vurdera kontrasten til tekst- og bakgrunnsfargar. Du får veta om dei er forskjellige nok til at teksten er lett å lesa.</p>
     <p xml:lang="pl">Kontrast jest programem do sprawdzania kontrastu barw, który mówi jakie połączenia barw są wystarczająco różne, aby były czytelne i nie sprawiały trudności z dostępnością.</p>
@@ -143,8 +149,10 @@ SPDX-License-Identifier: CC0-1.0
   <developer_name xml:lang="ia">Carl Schwan</developer_name>
   <developer_name xml:lang="id">Carl Schwan</developer_name>
   <developer_name xml:lang="it">Carl Schwan</developer_name>
+  <developer_name xml:lang="ja">Carl Schwan</developer_name>
   <developer_name xml:lang="ka">Carl Schwan</developer_name>
   <developer_name xml:lang="ko">Carl Schwan</developer_name>
+  <developer_name xml:lang="lv">Carl Schwan</developer_name>
   <developer_name xml:lang="nl">Carl Schwan</developer_name>
   <developer_name xml:lang="nn">Carl Schwan</developer_name>
   <developer_name xml:lang="pa">ਕਾਰਲ ਸਚਵਾਨ</developer_name>
@@ -178,8 +186,10 @@ SPDX-License-Identifier: CC0-1.0
       <caption xml:lang="ia">Vista principal de Kontrast</caption>
       <caption xml:lang="id">Tampilan utama Kontrast</caption>
       <caption xml:lang="it">Vista principale di Kontrast</caption>
+      <caption xml:lang="ja">Kontrast の外観</caption>
       <caption xml:lang="ka">Kontrast-ის მთავარი ხედი</caption>
       <caption xml:lang="ko">Kontrast 주 보기</caption>
+      <caption xml:lang="lv">„Kontrast“ pamatlogs</caption>
       <caption xml:lang="nl">Hoofdweergave van Kontrast</caption>
       <caption xml:lang="nn">Hovudvising i Kontrast</caption>
       <caption xml:lang="pa">ਕਨਟਰਾਸਟ ਦੀ ਮੁੱਖ ਝਲਕ</caption>
@@ -214,8 +224,10 @@ SPDX-License-Identifier: CC0-1.0
       <caption xml:lang="ia">Vista principal de Kontrast sur Mobile</caption>
       <caption xml:lang="id">Tampilan utama Kontrast di ponsel</caption>
       <caption xml:lang="it">Vista principale di Kontrast nei dispositivi mobili</caption>
+      <caption xml:lang="ja">携帯端末での Kontrast の外観</caption>
       <caption xml:lang="ka">Kontrast-ის მთავარი ხედი მობილურზე</caption>
       <caption xml:lang="ko">모바일 환경에서의 Kontrast 주 보기</caption>
+      <caption xml:lang="lv">„Kontrast“ pamatlogs tālrunī</caption>
       <caption xml:lang="nl">Hoofdweergave van Kontrast op mobiel</caption>
       <caption xml:lang="nn">Hovudvising i mobilversjon av Kontrast</caption>
       <caption xml:lang="pa">ਮੋਬਾਈਲ ਉੱਤੇ ਕਨਟਰਾਸਟ ਦੀ ਮੁੱਖ ਝਲਕ</caption>
