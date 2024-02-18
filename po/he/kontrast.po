@@ -1,0 +1,289 @@
+# Copyright (C) 2024 This file is copyright:
+# This file is distributed under the same license as the kontrast package.
+#
+# SPDX-FileCopyrightText: 2024 Yaron Shahrabani <sh.yaron@gmail.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: kontrast\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2023-11-08 08:45+0000\n"
+"PO-Revision-Date: 2024-02-17 13:58+0200\n"
+"Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
+"Language-Team: צוות התרגום של KDE ישראל\n"
+"Language: he\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 23.08.4\n"
+
+#: contents/ui/FavoritePage.qml:16
+#, kde-format
+msgid "Favorite colors"
+msgstr "צבעים מועדפים"
+
+#: contents/ui/FavoritePage.qml:53
+#, kde-format
+msgid "Text: %1"
+msgstr "טקסט: %1"
+
+#: contents/ui/FavoritePage.qml:73
+#, kde-format
+msgid "Background: %1"
+msgstr "רקע: %1"
+
+#: contents/ui/FavoritePage.qml:94
+#, kde-format
+msgid "Remove"
+msgstr "הסרה"
+
+#: contents/ui/FavoritePage.qml:106
+#, kde-format
+msgid "Background color copied to clipboard"
+msgstr "צבע הרקע הועתק ללוח הגזירים"
+
+#: contents/ui/FavoritePage.qml:114
+#, kde-format
+msgid "Text color copied to clipboard"
+msgstr "צבע הטקסט הועתק ללוח הגזירים"
+
+#: contents/ui/FavoritePage.qml:123
+#, kde-format
+msgid "Color copied to clipboard"
+msgstr "הצבע הועתק ללוח הגזירים"
+
+#: contents/ui/HelpPage.qml:13 contents/ui/main.qml:40
+#, kde-format
+msgid "Help"
+msgstr "עזרה"
+
+#: contents/ui/HelpPage.qml:19
+#, kde-format
+msgid "Contrast"
+msgstr "ניגודיות"
+
+#: contents/ui/HelpPage.qml:24
+#, kde-format
+msgid ""
+"Contrast is the difference in color between two objects that allows them to "
+"be distinguished. In visual perception of the real world, contrast is "
+"determined by the difference in the color and brightness of the object and "
+"other objects within the same field of view."
+msgstr ""
+"ניגודיות היא הבדל הצבע בין שני עצמים שמאפשרת להבחין ביניהם. בתפיסה חזותית "
+"בעולם האמיתי, ניגודיות נקבעת על ידי ההפרש בין הצבעים ובהירות העצם מול עצמים "
+"אחרים באותו שדה ראייה."
+
+#: contents/ui/HelpPage.qml:29
+#, kde-format
+msgid ""
+"A contrast value of 21 indicates a perfect contrast (usually black on "
+"white), and a value of 0 indicate that the two colors are the same."
+msgstr ""
+"ניגודיות בערך של 21 היא ניגודיות מושלמת (בדרך כלל שחור על לבן), בעוד ערך של "
+"0 מציין שהצבעים זהים לחלוטין."
+
+#: contents/ui/HelpPage.qml:34
+#, kde-format
+msgid ""
+"For normal text, the contrast ratio should be at least of 4.5 to conform to "
+"the WCAG AA standard and a contrast ratio of 7 or more is required to "
+"conform with the WCAG AAA standard."
+msgstr ""
+"לכתב בגודל רגיל, יחס הניגודיות צריך להיות לפחות 4.5 כדי לעמוד ברמת AA של תקן "
+"WCAG (המלצות להנגשת תכני אתרי אינטרנט) ויחס ניגודיות של 7 ומעלה נחוץ כדי "
+"לעמוד ברמת AAA של תקן WCAG."
+
+#: contents/ui/HelpPage.qml:39
+#, kde-format
+msgid ""
+"For large text, the contrast ratio should be at least of 3 to conform to the "
+"WCAG AA standard and a contrast ratio of 4.5 or more is required to conform "
+"with the WCAG AAA standard."
+msgstr ""
+"לכתב גדול, יחס הניגודיות צריך להיות לפחות 3 כדי לעמוד ברמת AA של תקן WCAG "
+"(המלצות להנגשת תכני אתרי אינטרנט) ויחס ניגודיות של 4.5 ומעלה נחוץ כדי לעמוד "
+"ברמת AAA של תקן WCAG."
+
+#: contents/ui/main.qml:23
+#, kde-format
+msgid "kontrast"
+msgstr "kontrast"
+
+#: contents/ui/main.qml:28 contents/ui/MainPage.qml:20
+#, kde-format
+msgid "Contrast Checker"
+msgstr "בודק ניגודיות"
+
+#: contents/ui/main.qml:34
+#, kde-format
+msgid "Favorite Colors"
+msgstr "צבעים מועדפים"
+
+#: contents/ui/main.qml:46
+#, kde-format
+msgid "About"
+msgstr "על אודות"
+
+#: contents/ui/MainPage.qml:42
+#, kde-format
+msgid "Contrast ratio: %1"
+msgstr "יחס ניגודיות: %1"
+
+#: contents/ui/MainPage.qml:50
+#, kde-format
+msgid "%1"
+msgstr "%1"
+
+#: contents/ui/MainPage.qml:62
+#, kde-format
+msgid "Perfect for normal and large text"
+msgstr "מושלם לכתב רגיל וגדול"
+
+#: contents/ui/MainPage.qml:62
+#, kde-format
+msgid "Perfect for large text and good for normal text"
+msgstr "מושלם לכתב גדול וטוב לכתב רגיל"
+
+#: contents/ui/MainPage.qml:62
+#, kde-format
+msgid "Good for large text and bad for normal text"
+msgstr "טוב לכתב גדול ורע לכתב רגיל"
+
+#: contents/ui/MainPage.qml:62
+#, kde-format
+msgid "Bad for large and normal text"
+msgstr "רע לכתב גדול ורגיל כאחד"
+
+#: contents/ui/MainPage.qml:69
+#, kde-format
+msgid ""
+"Contrast is the difference in luminance or color that makes an object (or "
+"its representation in an image or display) distinguishable. In visual "
+"perception of the real world, contrast is determined by the difference in "
+"the color and brightness of the object and other objects within the same "
+"field of view."
+msgstr ""
+"ניגודיות היא הבדל התאורה או הצבע בין שני עצמים שמאפשרת להבחין ביניהם. בתפיסה "
+"חזותית בעולם האמיתי, ניגודיות נקבעת על ידי ההפרש בין הצבעים ובהירות העצם מול "
+"עצמים אחרים באותו שדה ראייה."
+
+#: contents/ui/MainPage.qml:84
+#, kde-format
+msgid "Text"
+msgstr "טקסט"
+
+#: contents/ui/MainPage.qml:113 contents/ui/MainPage.qml:193
+#, kde-format
+msgid "Hue %1°"
+msgstr "גוון %1°"
+
+#: contents/ui/MainPage.qml:127 contents/ui/MainPage.qml:207
+#, kde-format
+msgid "Saturation %1"
+msgstr "רוויה %1"
+
+#: contents/ui/MainPage.qml:141 contents/ui/MainPage.qml:221
+#, kde-format
+msgid "Lightness %1"
+msgstr "בהירות %1"
+
+#: contents/ui/MainPage.qml:165
+#, kde-format
+msgid "Background"
+msgstr "רקע"
+
+#: contents/ui/MainPage.qml:238
+#, kde-format
+msgid "Font Size %1px"
+msgstr "גודל הגופן %1 פיקסלים"
+
+#: contents/ui/MainPage.qml:255
+#, kde-format
+msgid "Invert"
+msgstr "היפוך"
+
+#: contents/ui/MainPage.qml:261
+#, kde-format
+msgid "Randomize"
+msgstr "אקראיות"
+
+#: contents/ui/MainPage.qml:267
+#, kde-format
+msgid "Mark as favorite"
+msgstr "סימון כמועדף"
+
+#: kontrast.cpp:349
+#, kde-format
+msgid "Font size %1px is bad with the current contrast"
+msgstr "גודל הגופן %1 פיקסלים הוא רע בניגודיות הנוכחית"
+
+#: kontrast.cpp:352
+#, kde-format
+msgid "Font size %1px is good with the current contrast"
+msgstr "גודל הגופן %1 פיקסלים הוא טוב בניגודיות הנוכחית"
+
+#: kontrast.cpp:355
+#, kde-format
+msgid "Font size %1px is perfect with the current contrast"
+msgstr "גודל הגופן %1 פיקסלים הוא מושלם בניגודיות הנוכחית"
+
+#: main.cpp:40
+#, kde-format
+msgctxt "@title"
+msgid "Kontrast"
+msgstr "Kontrast"
+
+#: main.cpp:42
+#, kde-format
+msgctxt "@title"
+msgid "A contrast checker application"
+msgstr "יישום לבדיקת ניגודיות"
+
+#: main.cpp:45
+#, kde-format
+msgctxt "@info:credit"
+msgid "Carl Schwan"
+msgstr "קארל שוואן"
+
+#: main.cpp:46
+#, kde-format
+msgctxt "@info:credit"
+msgid "Maintainer and creator"
+msgstr "מתחזק ויוצר"
+
+#: main.cpp:50
+#, kde-format
+msgctxt "@info:credit"
+msgid "Wikipedia"
+msgstr "ויקיפדיה"
+
+#: main.cpp:50
+#, kde-format
+msgctxt "@info:credit"
+msgid "Text on the main page CC-BY-SA-4.0"
+msgstr "טקסט בעמוד הראשי CC לפי שיתוף זהה 4.0"
+
+#: main.cpp:51
+#, kde-format
+msgctxt "@info:credit"
+msgid "Carson Black"
+msgstr "קרסון בלאק"
+
+#: main.cpp:51
+#, kde-format
+msgctxt "@info:credit"
+msgid "SQLite backend for favorite colors"
+msgstr "מנגנון SQLite לצבעים מועדפים"
+
+#: main.cpp:52
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "צוות התרגום של KDE ישראל"
+
+#: main.cpp:52
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-l10n-he@kde.org"
