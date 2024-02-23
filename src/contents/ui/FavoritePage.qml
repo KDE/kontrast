@@ -120,6 +120,7 @@ Kirigami.ScrollablePage {
     footer: Kirigami.InlineMessage {
         id: inlineMessage
         type: Kirigami.MessageType.Information
+        position: Kirigami.InlineMessage.Footer
         text: i18n("Color copied to clipboard")
         
         Timer {
