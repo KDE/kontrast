@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kontrast\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-11-08 08:45+0000\n"
+"POT-Creation-Date: 2024-02-24 00:35+0000\n"
 "PO-Revision-Date: 2023-02-19 17:02+0300\n"
 "Last-Translator: Alexander Yavorsky <kekcuha@gmail.com>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
@@ -50,7 +50,7 @@ msgstr "Цвет фона скопирован в буфер обмена"
 msgid "Text color copied to clipboard"
 msgstr "Цвет текста скопирован в буфер обмена"
 
-#: contents/ui/FavoritePage.qml:123
+#: contents/ui/FavoritePage.qml:124
 #, kde-format
 msgid "Color copied to clipboard"
 msgstr "Цвет скопирован в буфер обмена"

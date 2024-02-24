@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kontrast\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-11-08 08:45+0000\n"
+"POT-Creation-Date: 2024-02-24 00:35+0000\n"
 "PO-Revision-Date: 2022-09-14 07:00+0200\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
@@ -50,7 +50,7 @@ msgstr "Hondoko kolorea arbelera kopiatu da"
 msgid "Text color copied to clipboard"
 msgstr "Testuaren kolorea arbelera kopiatu da"
 
-#: contents/ui/FavoritePage.qml:123
+#: contents/ui/FavoritePage.qml:124
 #, kde-format
 msgid "Color copied to clipboard"
 msgstr "Kolorea arbelera kopiatu da"

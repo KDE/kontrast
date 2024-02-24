@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kontrast\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-11-08 08:45+0000\n"
+"POT-Creation-Date: 2024-02-24 00:35+0000\n"
 "PO-Revision-Date: 2023-01-07 10:59+0200\n"
 "Last-Translator: Stelios <sstavra@gmail.com>\n"
 "Language-Team: Greek <kde-i18n-el@kde.org>\n"
@@ -47,7 +47,7 @@ msgstr "Το χρώμα του φόντου αντιγράφτηκε στο πρ
 msgid "Text color copied to clipboard"
 msgstr "Το χρώμα του κειμένου αντιγράφτηκε στο πρόχειρο"
 
-#: contents/ui/FavoritePage.qml:123
+#: contents/ui/FavoritePage.qml:124
 #, kde-format
 msgid "Color copied to clipboard"
 msgstr "Το χρώμα αντιγράφτηκε στο πρόχειρο"
