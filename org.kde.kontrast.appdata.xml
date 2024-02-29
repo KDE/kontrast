@@ -34,6 +34,7 @@ SPDX-License-Identifier: CC0-1.0
   <name xml:lang="pl">Kontrast</name>
   <name xml:lang="pt">Kontrast</name>
   <name xml:lang="pt-BR">Kontrast</name>
+  <name xml:lang="ro">Kontrast</name>
   <name xml:lang="ru">Kontrast</name>
   <name xml:lang="sk">Kontrast</name>
   <name xml:lang="sl">Kontrast</name>
@@ -69,6 +70,7 @@ SPDX-License-Identifier: CC0-1.0
   <summary xml:lang="pl">Sprawdzanie kontrastu barw</summary>
   <summary xml:lang="pt">Um Módulo de Verificação de Contraste de Cores</summary>
   <summary xml:lang="pt-BR">Um verificador de contraste de cores</summary>
+  <summary xml:lang="ro">Verifică contrastul culorilor</summary>
   <summary xml:lang="ru">Проверка цветового контраста</summary>
   <summary xml:lang="sk">Kontrolovač farebného kontrastu</summary>
   <summary xml:lang="sl">Kontrolor kontrasta</summary>
@@ -105,6 +107,7 @@ SPDX-License-Identifier: CC0-1.0
     <p xml:lang="pl">Kontrast jest programem do sprawdzania kontrastu barw, który mówi jakie połączenia barw są wystarczająco różne, aby były czytelne i nie sprawiały trudności z dostępnością.</p>
     <p xml:lang="pt">O Kontrast é uma aplicação de verificação de contraste de cores e diz-lhe se as suas combinações de cores são legíveis e acessíveis.</p>
     <p xml:lang="pt-BR">O Kontrast é um verificador de contraste de cores que te diz se as combinações de cores que você usa são distintas o suficiente para serem legíveis e acessíveis.</p>
+    <p xml:lang="ro">Kontrast e o unealtă de verificare a contrastului culorilor ce vă spune dacă combinațiile de culori sunt suficient de distincte pentru a fi citețe și accesibile.</p>
     <p xml:lang="ru">Kontrast — это программа для проверки цветового контраста, которая позволяет узнать, являются ли выбранные сочетания цветов достаточно хорошо читаемыми.</p>
     <p xml:lang="sk">Kontrast je nástroj na kontrolu kontrastu a povie vám, či vaše farebné kombinácie sú dosť jedinečné, aby boli ľahko čitateľné a dostupné.</p>
     <p xml:lang="sl">Kontrast je kontrolnik barvnega kontrasta in vam pove, ali so vaše barvne kombinacije dovolj različne, da so berljive in dostopne.</p>
@@ -155,6 +158,7 @@ SPDX-License-Identifier: CC0-1.0
   <developer_name xml:lang="pl">Carl Schwan</developer_name>
   <developer_name xml:lang="pt">Carl Schwan</developer_name>
   <developer_name xml:lang="pt-BR">Carl Schwan</developer_name>
+  <developer_name xml:lang="ro">Carl Schwan</developer_name>
   <developer_name xml:lang="ru">Carl Schwan</developer_name>
   <developer_name xml:lang="sk">Carl Schwan</developer_name>
   <developer_name xml:lang="sl">Carl Schwan</developer_name>
@@ -191,6 +195,7 @@ SPDX-License-Identifier: CC0-1.0
       <caption xml:lang="pl">Główny widok Kontrastu</caption>
       <caption xml:lang="pt">Janela principal do Kontrast</caption>
       <caption xml:lang="pt-BR">Visão principal do Kontrast</caption>
+      <caption xml:lang="ro">Vizualizarea principală a Kontrast</caption>
       <caption xml:lang="ru">Главное окно Kontrast</caption>
       <caption xml:lang="sk">Hlavný pohľad Kontrast</caption>
       <caption xml:lang="sl">Glavni pogled kontrasta</caption>
@@ -228,6 +233,7 @@ SPDX-License-Identifier: CC0-1.0
       <caption xml:lang="pl">Główny widok Kontrastu na urządzeniach przenośnych</caption>
       <caption xml:lang="pt">Janela principal do Kontrast no telemóvel</caption>
       <caption xml:lang="pt-BR">Visão principal do Kontrast no celular</caption>
+      <caption xml:lang="ro">Vizualizarea principală a Kontrast pe mobil</caption>
       <caption xml:lang="ru">Главное окно Kontrast на мобильном устройстве</caption>
       <caption xml:lang="sk">Hlavný pohľad Kontrast na mobile</caption>
       <caption xml:lang="sl">Glavni pogled kontrasta na mobilni napravi</caption>
