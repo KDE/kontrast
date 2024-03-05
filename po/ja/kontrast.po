@@ -1,10 +1,10 @@
-# SPDX-FileCopyrightText: 2024 Lemon73
+# Lemon73 <Lemonade.Flash.1164@gmail.com>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: kontrast\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-02-24 00:35+0000\n"
-"PO-Revision-Date: 2024-02-15 00:02+0900\n"
+"PO-Revision-Date: 2024-03-01 14:48+0900\n"
 "Last-Translator: Lemon73 <Lemonade.Flash.1164@gmail.com>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -14,12 +14,12 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Accelerator-Marker: &\n"
 "X-Text-Markup: kde4\n"
-"X-Generator: Lokalize 23.08.4\n"
+"X-Generator: Lokalize 23.08.5\n"
 
 #: contents/ui/FavoritePage.qml:16
 #, kde-format
 msgid "Favorite colors"
-msgstr "好みの色"
+msgstr "お気に入りの色"
 
 #: contents/ui/FavoritePage.qml:53
 #, kde-format
@@ -34,7 +34,7 @@ msgstr "背景: %1"
 #: contents/ui/FavoritePage.qml:94
 #, kde-format
 msgid "Remove"
-msgstr "取り除く"
+msgstr "削除"
 
 #: contents/ui/FavoritePage.qml:106
 #, kde-format
@@ -78,8 +78,8 @@ msgid ""
 "A contrast value of 21 indicates a perfect contrast (usually black on "
 "white), and a value of 0 indicate that the two colors are the same."
 msgstr ""
-"完璧なコントラスト(黒と白など)のときはコントラスト値が21で、2つの色が同一の時"
-"はコントラスト値が0となります。"
+"完璧なコントラスト (黒と白など) のときはコントラスト値が21で、2つの色が同一の"
+"時はコントラスト値が0となります。"
 
 #: contents/ui/HelpPage.qml:34
 #, kde-format
@@ -160,9 +160,9 @@ msgid ""
 "the color and brightness of the object and other objects within the same "
 "field of view."
 msgstr ""
-"コントラストは輝度や物体を構成する色(または画像や表示の表現)の違いを判別でき"
-"ます。現実世界の視覚的認識は、物体や同じ視界内の異なる物体の色の違いや明度に"
-"よって決定されます。"
+"コントラストは輝度や物体を構成する色 (または画像や表示の表現) の違いを判別で"
+"きます。現実世界の視覚的認識は、物体や同じ視界内の異なる物体の色の違いや明度"
+"によって決定されます。"
 
 #: contents/ui/MainPage.qml:84
 #, kde-format
@@ -270,13 +270,13 @@ msgstr "Carson Black"
 #, kde-format
 msgctxt "@info:credit"
 msgid "SQLite backend for favorite colors"
-msgstr "SQLite バックエンド向けの好みの色"
+msgstr "バックエンドの SQLite でお気に入りの色を管理"
 
 #: main.cpp:52
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Shizuku Hagoromo"
+msgstr "Lemon73"
 
 #: main.cpp:52
 #, kde-format
