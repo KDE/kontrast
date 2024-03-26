@@ -25,6 +25,7 @@ Kirigami.ApplicationWindow {
         isMenu: true
         actions: [
             Kirigami.PagePoolAction {
+                id: contrastChecker
                 text: i18n("Contrast Checker")
                 icon.name: "go-home"
                 pagePool: mainPagePool

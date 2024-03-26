@@ -69,6 +69,16 @@ Kirigami.ScrollablePage {
                         onClicked: copyBackground(model.backgroundColor)
                     }
                 }
+
+                QQC2.Button {
+                    text: i18n("Apply")
+                    icon.name: "dialog-ok-apply"
+                    onClicked: {
+                        Kontrast.textColor = model.textColor
+                        Kontrast.backgroundColor = model.backgroundColor
+                        contrastChecker.trigger()
+                    }
+                }
             }
         }
     }
