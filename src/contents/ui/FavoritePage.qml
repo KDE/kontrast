@@ -37,6 +37,16 @@ Kirigami.ScrollablePage {
                     level: 3
                     text: "Lorem Impsum"
                     color: model.textColor
+
+                    QQC2.Button {
+                        anchors.right: parent.right
+                        icon.name: "edit-delete-remove"
+                        QQC2.ToolTip.text: i18n("Remove")
+                        QQC2.ToolTip.visible: hovered
+                        onClicked: {
+                            ColorStore.removeColor(model.index)
+                        }
+                    }
                 }
 
                 Text {
@@ -57,14 +67,6 @@ Kirigami.ScrollablePage {
                         text: i18n("Background: %1", model.backgroundColor)
                         icon.source: "edit-copy"
                         onClicked: copyBackground(model.backgroundColor)
-                    }
-                }
-
-                QQC2.Button {
-                    text: i18n("Remove")
-                    Layout.topMargin: Kirigami.Units.largeSpacing
-                    onClicked: {
-                        ColorStore.removeColor(model.index)
                     }
                 }
             }
