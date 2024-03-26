@@ -18,9 +18,6 @@ Kirigami.ScrollablePage {
     ListView {
         id: listview
         model: ColorStore
-        Clipboard {
-            id: clipboard
-        }
 
         spacing: Kirigami.Units.smallSpacing
 
@@ -48,45 +45,18 @@ Kirigami.ScrollablePage {
                     wrapMode: Text.WordWrap
                     color: model.textColor
                 }
-
-                Text {
-                    text: i18n("Text: %1", model.textColor)
-                    color: model.textColor
-                    MouseArea {
-                        anchors.fill: parent
-                        onClicked: copyText();
+                
+                RowLayout {
+                    Layout.fillWidth: true
+                    QQC2.Button {
+                        text: i18n("Text: %1", model.textColor)
+                        icon.source: "edit-copy"
+                        onClicked: copyText(model.textColor)
                     }
-                    Kirigami.Icon {
-                        anchors.left: parent.right
-                        height: parent.height
-                        width: parent.height
-                        source: "edit-copy"
-                        color: model.textColor
-                        MouseArea {
-                            anchors.fill: parent
-                            onClicked: copyText(model.textColor);
-                        }
-                    }
-                }
-
-                Text {
-                    text: i18n("Background: %1", model.backgroundColor)
-                    color: model.textColor
-
-                    MouseArea {
-                        anchors.fill: parent
-                        onClicked: copyBackground();
-                    }
-                    Kirigami.Icon {
-                        anchors.left: parent.right
-                        height: parent.height
-                        width: parent.height
-                        source: "edit-copy"
-                        color: model.textColor
-                        MouseArea {
-                            anchors.fill: parent
-                            onClicked: copyBackground(model.backgroundColor);
-                        }
+                    QQC2.Button {
+                        text: i18n("Background: %1", model.backgroundColor)
+                        icon.source: "edit-copy"
+                        onClicked: copyBackground(model.backgroundColor)
                     }
                 }
 
@@ -100,21 +70,30 @@ Kirigami.ScrollablePage {
             }
         }
     }
+
+    // Workaround for QTBUG-21989
+    TextInput {
+       id: clipboard
+       visible: false
+       property string content
+       onContentChanged: {
+           text = content
+           selectAll()
+           copy()
+       }
+    }
+
+    function copyColorTextToClipboard(colorText, passiveMessageText) {
+        clipboard.content = colorText
+        inlineMessage.showPassive(passiveMessageText)
+    }
     
     function copyBackground(colorText) {
-        clipboard.content = colorText;
-        inlineMessage.text = i18n("Background color copied to clipboard");
-        inlineMessage.visible = true;
-        timer.interval = Kirigami.Units.longDuration
-        timer.running = true;
+        copyColorTextToClipboard(colorText, i18n("Background color copied to clipboard"))
     }
     
     function copyText(colorText) {
-        clipboard.content = colorText;
-        inlineMessage.text = i18n("Text color copied to clipboard");
-        inlineMessage.visible = true;
-        timer.interval = Kirigami.Units.longDuration
-        timer.running = true;
+        copyColorTextToClipboard(colorText, i18n("Text color copied to clipboard"))
     }
     
     footer: Kirigami.InlineMessage {
@@ -122,11 +101,18 @@ Kirigami.ScrollablePage {
         type: Kirigami.MessageType.Information
         position: Kirigami.InlineMessage.Footer
         text: i18n("Color copied to clipboard")
+        visible: false
         
         Timer {
             id: timer
-            interval: Kirigami.Units.longDuration
+            interval: Kirigami.Units.humanMoment
             onTriggered: inlineMessage.visible = false
+        }
+
+        function showPassive(message) {
+            text = message
+            visible = true
+            timer.running = true
         }
     }
 }

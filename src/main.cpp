@@ -13,7 +13,6 @@
 #else
 #include <QGuiApplication>
 #endif
-#include "clipboard.h"
 #include "kontrast.h"
 #include <QCommandLineParser>
 #include <QDir>
@@ -70,7 +69,6 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
 
     qmlRegisterSingletonInstance("org.kde.kontrast.private", 1, 0, "Kontrast", &kontrast);
     qmlRegisterSingletonInstance("org.kde.kontrast.private", 1, 0, "ColorStore", new SavedColorModel(qApp));
-    qmlRegisterType<Clipboard>("org.kde.kontrast.private", 1, 0, "Clipboard");
     qmlRegisterSingletonType("org.kde.kontrast.private", 1, 0, "About", [](QQmlEngine *engine, QJSEngine *) -> QJSValue {
         return engine->toScriptValue(KAboutData::applicationData());
     });
