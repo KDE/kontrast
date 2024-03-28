@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-02-24 00:35+0000\n"
-"PO-Revision-Date: 2024-03-26 19:25\n"
+"POT-Creation-Date: 2024-03-28 00:35+0000\n"
+"PO-Revision-Date: 2024-03-27 19:45\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -22,37 +22,42 @@ msgstr ""
 msgid "Favorite colors"
 msgstr "常用颜色"
 
-#: contents/ui/FavoritePage.qml:53
-#, kde-format
-msgid "Text: %1"
-msgstr "文本颜色：%1"
-
-#: contents/ui/FavoritePage.qml:73
-#, kde-format
-msgid "Background: %1"
-msgstr "背景颜色：%1"
-
-#: contents/ui/FavoritePage.qml:94
+#: contents/ui/FavoritePage.qml:44
 #, kde-format
 msgid "Remove"
 msgstr "移除"
 
-#: contents/ui/FavoritePage.qml:106
+#: contents/ui/FavoritePage.qml:62
+#, kde-format
+msgid "Text: %1"
+msgstr "文本颜色：%1"
+
+#: contents/ui/FavoritePage.qml:67
+#, kde-format
+msgid "Background: %1"
+msgstr "背景颜色：%1"
+
+#: contents/ui/FavoritePage.qml:74
+#, kde-format
+msgid "Apply"
+msgstr ""
+
+#: contents/ui/FavoritePage.qml:104
 #, kde-format
 msgid "Background color copied to clipboard"
 msgstr "背景颜色已复制到剪贴板"
 
-#: contents/ui/FavoritePage.qml:114
+#: contents/ui/FavoritePage.qml:108
 #, kde-format
 msgid "Text color copied to clipboard"
 msgstr "文本颜色已被复制到剪贴板。"
 
-#: contents/ui/FavoritePage.qml:124
+#: contents/ui/FavoritePage.qml:115
 #, kde-format
 msgid "Color copied to clipboard"
 msgstr "颜色已复制到剪贴板"
 
-#: contents/ui/HelpPage.qml:13 contents/ui/main.qml:40
+#: contents/ui/HelpPage.qml:13 contents/ui/main.qml:41
 #, kde-format
 msgid "Help"
 msgstr "帮助"
@@ -108,17 +113,17 @@ msgstr ""
 msgid "kontrast"
 msgstr "kontrast"
 
-#: contents/ui/main.qml:28 contents/ui/MainPage.qml:20
+#: contents/ui/main.qml:29 contents/ui/MainPage.qml:20
 #, kde-format
 msgid "Contrast Checker"
 msgstr "对比度检查工具"
 
-#: contents/ui/main.qml:34
+#: contents/ui/main.qml:35
 #, kde-format
 msgid "Favorite Colors"
 msgstr "常用颜色"
 
-#: contents/ui/main.qml:46
+#: contents/ui/main.qml:47
 #, kde-format
 msgid "About"
 msgstr "关于"
@@ -226,61 +231,61 @@ msgstr "字体大小 %1px 在当前对比度下效果良好"
 msgid "Font size %1px is perfect with the current contrast"
 msgstr "字体大小 %1px 在当前对比度下效果极佳"
 
-#: main.cpp:40
+#: main.cpp:39
 #, kde-format
 msgctxt "@title"
 msgid "Kontrast"
 msgstr "Kontrast"
 
-#: main.cpp:42
+#: main.cpp:41
 #, kde-format
 msgctxt "@title"
 msgid "A contrast checker application"
 msgstr "对比度检查应用程序"
 
-#: main.cpp:45
+#: main.cpp:44
 #, kde-format
 msgctxt "@info:credit"
 msgid "Carl Schwan"
 msgstr "Carl Schwan"
 
-#: main.cpp:46
+#: main.cpp:45
 #, kde-format
 msgctxt "@info:credit"
 msgid "Maintainer and creator"
 msgstr "项目维护者和创建者"
 
-#: main.cpp:50
+#: main.cpp:49
 #, kde-format
 msgctxt "@info:credit"
 msgid "Wikipedia"
 msgstr "维基百科"
 
-#: main.cpp:50
+#: main.cpp:49
 #, kde-format
 msgctxt "@info:credit"
 msgid "Text on the main page CC-BY-SA-4.0"
 msgstr "主页显示的文字 CC-BY-SA-4.0"
 
-#: main.cpp:51
+#: main.cpp:50
 #, kde-format
 msgctxt "@info:credit"
 msgid "Carson Black"
 msgstr "Carson Black"
 
-#: main.cpp:51
+#: main.cpp:50
 #, kde-format
 msgctxt "@info:credit"
 msgid "SQLite backend for favorite colors"
 msgstr "常用颜色的 SQLite 后端程序"
 
-#: main.cpp:52
+#: main.cpp:51
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Tyson Tan"
 
-#: main.cpp:52
+#: main.cpp:51
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"

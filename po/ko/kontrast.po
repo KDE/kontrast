@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kontrast\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-02-24 00:35+0000\n"
+"POT-Creation-Date: 2024-03-28 00:35+0000\n"
 "PO-Revision-Date: 2022-10-03 15:57+0200\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-i18n-doc@kde.org>\n"
@@ -22,37 +22,42 @@ msgstr ""
 msgid "Favorite colors"
 msgstr "책갈피에 등록된 색상"
 
-#: contents/ui/FavoritePage.qml:53
-#, kde-format
-msgid "Text: %1"
-msgstr "텍스트: %1"
-
-#: contents/ui/FavoritePage.qml:73
-#, kde-format
-msgid "Background: %1"
-msgstr "배경: %1"
-
-#: contents/ui/FavoritePage.qml:94
+#: contents/ui/FavoritePage.qml:44
 #, kde-format
 msgid "Remove"
 msgstr "삭제"
 
-#: contents/ui/FavoritePage.qml:106
+#: contents/ui/FavoritePage.qml:62
+#, kde-format
+msgid "Text: %1"
+msgstr "텍스트: %1"
+
+#: contents/ui/FavoritePage.qml:67
+#, kde-format
+msgid "Background: %1"
+msgstr "배경: %1"
+
+#: contents/ui/FavoritePage.qml:74
+#, kde-format
+msgid "Apply"
+msgstr ""
+
+#: contents/ui/FavoritePage.qml:104
 #, kde-format
 msgid "Background color copied to clipboard"
 msgstr "배경색이 클립보드에 복사됨"
 
-#: contents/ui/FavoritePage.qml:114
+#: contents/ui/FavoritePage.qml:108
 #, kde-format
 msgid "Text color copied to clipboard"
 msgstr "글자색이 클립보드에 복사됨"
 
-#: contents/ui/FavoritePage.qml:124
+#: contents/ui/FavoritePage.qml:115
 #, kde-format
 msgid "Color copied to clipboard"
 msgstr "색이 클립보드에 복사됨"
 
-#: contents/ui/HelpPage.qml:13 contents/ui/main.qml:40
+#: contents/ui/HelpPage.qml:13 contents/ui/main.qml:41
 #, kde-format
 msgid "Help"
 msgstr "도움말"
@@ -107,17 +112,17 @@ msgstr ""
 msgid "kontrast"
 msgstr "kontrast"
 
-#: contents/ui/main.qml:28 contents/ui/MainPage.qml:20
+#: contents/ui/main.qml:29 contents/ui/MainPage.qml:20
 #, kde-format
 msgid "Contrast Checker"
 msgstr "대비 검사기"
 
-#: contents/ui/main.qml:34
+#: contents/ui/main.qml:35
 #, kde-format
 msgid "Favorite Colors"
 msgstr "책갈피에 등록된 색상"
 
-#: contents/ui/main.qml:46
+#: contents/ui/main.qml:47
 #, kde-format
 msgid "About"
 msgstr "정보"
@@ -225,61 +230,61 @@ msgstr "현재 대비에서 글꼴 크기 %1px은 최적화됨"
 msgid "Font size %1px is perfect with the current contrast"
 msgstr "현재 대비에서 글꼴 크기 %1px은 완벽함"
 
-#: main.cpp:40
+#: main.cpp:39
 #, kde-format
 msgctxt "@title"
 msgid "Kontrast"
 msgstr "Kontrast"
 
-#: main.cpp:42
+#: main.cpp:41
 #, kde-format
 msgctxt "@title"
 msgid "A contrast checker application"
 msgstr "색 대비 검사기"
 
-#: main.cpp:45
+#: main.cpp:44
 #, kde-format
 msgctxt "@info:credit"
 msgid "Carl Schwan"
 msgstr "Carl Schwan"
 
-#: main.cpp:46
+#: main.cpp:45
 #, kde-format
 msgctxt "@info:credit"
 msgid "Maintainer and creator"
 msgstr "관리자와 최초 개발자"
 
-#: main.cpp:50
+#: main.cpp:49
 #, kde-format
 msgctxt "@info:credit"
 msgid "Wikipedia"
 msgstr "위키백과"
 
-#: main.cpp:50
+#: main.cpp:49
 #, kde-format
 msgctxt "@info:credit"
 msgid "Text on the main page CC-BY-SA-4.0"
 msgstr "대문의 텍스트: CC-BY-SA-4.0"
 
-#: main.cpp:51
+#: main.cpp:50
 #, kde-format
 msgctxt "@info:credit"
 msgid "Carson Black"
 msgstr "Carson Black"
 
-#: main.cpp:51
+#: main.cpp:50
 #, kde-format
 msgctxt "@info:credit"
 msgid "SQLite backend for favorite colors"
 msgstr "책갈피에 등록된 색상 SQLite 백엔드"
 
-#: main.cpp:52
+#: main.cpp:51
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "박신조"
 
-#: main.cpp:52
+#: main.cpp:51
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"

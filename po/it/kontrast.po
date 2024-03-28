@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kontrast\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-02-24 00:35+0000\n"
+"POT-Creation-Date: 2024-03-28 00:35+0000\n"
 "PO-Revision-Date: 2022-11-06 15:39+0100\n"
 "Last-Translator: Paolo Zamponi <feus73@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
@@ -22,37 +22,42 @@ msgstr ""
 msgid "Favorite colors"
 msgstr "Colori preferiti"
 
-#: contents/ui/FavoritePage.qml:53
-#, kde-format
-msgid "Text: %1"
-msgstr "Testo: %1"
-
-#: contents/ui/FavoritePage.qml:73
-#, kde-format
-msgid "Background: %1"
-msgstr "Sfondo: %1"
-
-#: contents/ui/FavoritePage.qml:94
+#: contents/ui/FavoritePage.qml:44
 #, kde-format
 msgid "Remove"
 msgstr "Rimuovi"
 
-#: contents/ui/FavoritePage.qml:106
+#: contents/ui/FavoritePage.qml:62
+#, kde-format
+msgid "Text: %1"
+msgstr "Testo: %1"
+
+#: contents/ui/FavoritePage.qml:67
+#, kde-format
+msgid "Background: %1"
+msgstr "Sfondo: %1"
+
+#: contents/ui/FavoritePage.qml:74
+#, kde-format
+msgid "Apply"
+msgstr ""
+
+#: contents/ui/FavoritePage.qml:104
 #, kde-format
 msgid "Background color copied to clipboard"
 msgstr "Colore di sfondo copiato negli appunti"
 
-#: contents/ui/FavoritePage.qml:114
+#: contents/ui/FavoritePage.qml:108
 #, kde-format
 msgid "Text color copied to clipboard"
 msgstr "Colore del testo copiato negli appunti"
 
-#: contents/ui/FavoritePage.qml:124
+#: contents/ui/FavoritePage.qml:115
 #, kde-format
 msgid "Color copied to clipboard"
 msgstr "Colore copiato negli appunti"
 
-#: contents/ui/HelpPage.qml:13 contents/ui/main.qml:40
+#: contents/ui/HelpPage.qml:13 contents/ui/main.qml:41
 #, kde-format
 msgid "Help"
 msgstr "Aiuto"
@@ -109,17 +114,17 @@ msgstr ""
 msgid "kontrast"
 msgstr "kontrast"
 
-#: contents/ui/main.qml:28 contents/ui/MainPage.qml:20
+#: contents/ui/main.qml:29 contents/ui/MainPage.qml:20
 #, kde-format
 msgid "Contrast Checker"
 msgstr "Controllo del contrasto"
 
-#: contents/ui/main.qml:34
+#: contents/ui/main.qml:35
 #, kde-format
 msgid "Favorite Colors"
 msgstr "Colori preferiti"
 
-#: contents/ui/main.qml:46
+#: contents/ui/main.qml:47
 #, kde-format
 msgid "About"
 msgstr "Informazioni su"
@@ -229,61 +234,61 @@ msgstr "La dimensione del carattere a %1px è buona col contrasto corrente"
 msgid "Font size %1px is perfect with the current contrast"
 msgstr "La dimensione del carattere a %1px è perfetta col contrasto corrente"
 
-#: main.cpp:40
+#: main.cpp:39
 #, kde-format
 msgctxt "@title"
 msgid "Kontrast"
 msgstr "Kontrast"
 
-#: main.cpp:42
+#: main.cpp:41
 #, kde-format
 msgctxt "@title"
 msgid "A contrast checker application"
 msgstr "Un'applicazione per il controllo del contrasto"
 
-#: main.cpp:45
+#: main.cpp:44
 #, kde-format
 msgctxt "@info:credit"
 msgid "Carl Schwan"
 msgstr "Carl Schwan"
 
-#: main.cpp:46
+#: main.cpp:45
 #, kde-format
 msgctxt "@info:credit"
 msgid "Maintainer and creator"
 msgstr "Responsabile e creatore"
 
-#: main.cpp:50
+#: main.cpp:49
 #, kde-format
 msgctxt "@info:credit"
 msgid "Wikipedia"
 msgstr "Wikipedia"
 
-#: main.cpp:50
+#: main.cpp:49
 #, kde-format
 msgctxt "@info:credit"
 msgid "Text on the main page CC-BY-SA-4.0"
 msgstr "Testo nella pagina principale CC-BY-SA-4.0"
 
-#: main.cpp:51
+#: main.cpp:50
 #, kde-format
 msgctxt "@info:credit"
 msgid "Carson Black"
 msgstr "Carson Black"
 
-#: main.cpp:51
+#: main.cpp:50
 #, kde-format
 msgctxt "@info:credit"
 msgid "SQLite backend for favorite colors"
 msgstr "Motore SQLite per i colori preferiti"
 
-#: main.cpp:52
+#: main.cpp:51
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Paolo Zamponi"
 
-#: main.cpp:52
+#: main.cpp:51
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
