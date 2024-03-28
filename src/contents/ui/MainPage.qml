@@ -39,7 +39,7 @@ Kirigami.ScrollablePage {
         Kirigami.Heading {
             level: 1
             font.bold: true
-            text: i18nc("@label", "Contrast ratio: %1", Kontrast.contrast.toFixed(2))
+            text: i18nc("@label", "Contrast ratio: %1", Kontrast.contrast.toLocaleString(Qt.locale(), "f", 2))
 
             color: Kontrast.textColor
             wrapMode: Text.WordWrap
@@ -110,7 +110,7 @@ Kirigami.ScrollablePage {
 
                 Text {
                     Layout.topMargin: Kirigami.Units.largeSpacing
-                    text: i18nc("@label", "Hue: %1°", Kontrast.textHue)
+                    text: i18nc("@label", "Hue: %1°", Kontrast.textHue.toLocaleString(Qt.locale(), "f", 2))
                     color: Kontrast.displayTextColor
                 }
 
@@ -124,7 +124,7 @@ Kirigami.ScrollablePage {
 
                 Text {
                     Layout.topMargin: Kirigami.Units.largeSpacing
-                    text: i18nc("@label", "Saturation: %1", (Kontrast.textSaturation / 255).toFixed(2))
+                    text: i18nc("@label", "Saturation: %1", (Kontrast.textSaturation / 255).toLocaleString(Qt.locale(), "f", 2))
                     color: Kontrast.displayTextColor
                 }
 
@@ -138,7 +138,7 @@ Kirigami.ScrollablePage {
 
                 Text {
                     Layout.topMargin: Kirigami.Units.largeSpacing
-                    text: i18nc("@label", "Lightness: %1", (Kontrast.textLightness / 255).toFixed(2))
+                    text: i18nc("@label", "Lightness: %1", (Kontrast.textLightness / 255).toLocaleString(Qt.locale(), "f", 2))
                     color: Kontrast.displayTextColor
                 }
 
@@ -190,7 +190,7 @@ Kirigami.ScrollablePage {
 
                 Text {
                     Layout.topMargin: Kirigami.Units.largeSpacing
-                    text: i18nc("@label", "Hue: %1°", Kontrast.backgroundHue)
+                    text: i18nc("@label", "Hue: %1°", Kontrast.backgroundHue.toLocaleString(Qt.locale(), "f", 2))
                     color: Kontrast.displayTextColor
                 }
 
@@ -204,7 +204,7 @@ Kirigami.ScrollablePage {
 
                 Text {
                     Layout.topMargin: Kirigami.Units.largeSpacing
-                    text: i18nc("@label", "Saturation: %1", (Kontrast.backgroundSaturation / 255).toFixed(2))
+                    text: i18nc("@label", "Saturation: %1", (Kontrast.backgroundSaturation / 255).toLocaleString(Qt.locale(), "f", 2))
                     color: Kontrast.displayTextColor
                 }
 
@@ -218,7 +218,7 @@ Kirigami.ScrollablePage {
 
                 Text {
                     Layout.topMargin: Kirigami.Units.largeSpacing
-                    text: i18nc("@label", "Lightness: %1", (Kontrast.backgroundLightness / 255).toFixed(2))
+                    text: i18nc("@label", "Lightness: %1", (Kontrast.backgroundLightness / 255).toLocaleString(Qt.locale(), "f", 2))
                     color: Kontrast.displayTextColor
                 }
 
