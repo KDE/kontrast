@@ -10,13 +10,13 @@ import QtQuick.Layouts 1.14
 import QtQuick.Controls 2.15 as QQC2
 
 Kirigami.ScrollablePage {
-    title: i18n("Help")
+    title: i18nc("@title:menu", "Help")
     ColumnLayout {
         width: parent.width
         Kirigami.Heading {
             Layout.fillWidth: true
             level: 1
-            text: i18n("Contrast")
+            text: i18nc("@title:heading", "Contrast")
         }
         QQC2.Label {
             Layout.fillWidth: true

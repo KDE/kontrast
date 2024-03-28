@@ -13,7 +13,7 @@ import org.kde.kontrast.private 1.0
 
 Kirigami.ScrollablePage {
     id: root
-    title: i18n("Favorite colors")
+    title: i18nc("@title:menu", "Favorite Colors")
     property bool isMobile: Window.width <= Kirigami.Units.gridUnit * 30
     ListView {
         id: listview
@@ -35,13 +35,13 @@ Kirigami.ScrollablePage {
                 Kirigami.Heading {
                     Layout.fillWidth: true
                     level: 3
-                    text: "Lorem Impsum"
+                    text: "Lorem Ipsum"
                     color: model.textColor
 
                     QQC2.Button {
                         anchors.right: parent.right
                         icon.name: "edit-delete-remove"
-                        QQC2.ToolTip.text: i18n("Remove")
+                        QQC2.ToolTip.text: i18nc("@info:tooltip", "Remove")
                         QQC2.ToolTip.visible: hovered
                         onClicked: {
                             ColorStore.removeColor(model.index)
@@ -55,23 +55,23 @@ Kirigami.ScrollablePage {
                     wrapMode: Text.WordWrap
                     color: model.textColor
                 }
-                
+
                 RowLayout {
                     Layout.fillWidth: true
                     QQC2.Button {
-                        text: i18n("Text: %1", model.textColor)
+                        text: i18nc("@action:button", "Text: %1", model.textColor)
                         icon.source: "edit-copy"
                         onClicked: copyText(model.textColor)
                     }
                     QQC2.Button {
-                        text: i18n("Background: %1", model.backgroundColor)
+                        text: i18nc("@action:button", "Background: %1", model.backgroundColor)
                         icon.source: "edit-copy"
                         onClicked: copyBackground(model.backgroundColor)
                     }
                 }
 
                 QQC2.Button {
-                    text: i18n("Apply")
+                    text: i18nc("@action:button", "Apply")
                     icon.name: "dialog-ok-apply"
                     onClicked: {
                         Kontrast.textColor = model.textColor
@@ -99,22 +99,22 @@ Kirigami.ScrollablePage {
         clipboard.content = colorText
         inlineMessage.showPassive(passiveMessageText)
     }
-    
+
     function copyBackground(colorText) {
-        copyColorTextToClipboard(colorText, i18n("Background color copied to clipboard"))
+        copyColorTextToClipboard(colorText, i18nc("@info:inline", "Background color copied to clipboard"))
     }
-    
+
     function copyText(colorText) {
-        copyColorTextToClipboard(colorText, i18n("Text color copied to clipboard"))
+        copyColorTextToClipboard(colorText, i18nc("@info:inline", "Text color copied to clipboard"))
     }
-    
+
     footer: Kirigami.InlineMessage {
         id: inlineMessage
         type: Kirigami.MessageType.Information
         position: Kirigami.InlineMessage.Footer
-        text: i18n("Color copied to clipboard")
+        text: i18nc("@info:inline", "Color copied to clipboard")
         visible: false
-        
+
         Timer {
             id: timer
             interval: Kirigami.Units.humanMoment

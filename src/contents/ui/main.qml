@@ -20,31 +20,31 @@ Kirigami.ApplicationWindow {
     }
 
     globalDrawer: Kirigami.GlobalDrawer {
-        title: i18n("kontrast")
+        title: i18n("Kontrast")
         titleIcon: "applications-graphics"
         isMenu: true
         actions: [
             Kirigami.PagePoolAction {
                 id: contrastChecker
-                text: i18n("Contrast Checker")
+                text: i18nc("@title:menu", "Contrast Checker")
                 icon.name: "go-home"
                 pagePool: mainPagePool
                 page: "MainPage.qml"
             },
             Kirigami.PagePoolAction {
-                text: i18n("Favorite Colors")
+                text: i18nc("@title:menu", "Favorite Colors")
                 icon.name: "favorite"
                 pagePool: mainPagePool
                 page: "FavoritePage.qml"
             },
             Kirigami.PagePoolAction {
-                text: i18n("Help")
+                text: i18nc("@title:menu", "Help")
                 icon.name: "help-contents"
                 pagePool: mainPagePool
                 page: "HelpPage.qml"
             },
             Kirigami.PagePoolAction {
-                text: i18n("About")
+                text: i18nc("@title:menu", "About")
                 icon.name: "help-about-symbolic"
                 pagePool: mainPagePool
                 page: "AboutPage.qml"

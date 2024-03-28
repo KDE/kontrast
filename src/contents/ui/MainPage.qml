@@ -17,7 +17,7 @@ Kirigami.ScrollablePage {
     property bool isMobile: Window.width <= Kirigami.Units.gridUnit * 30
     Kirigami.ColumnView.preventStealing: true
 
-    title: i18n("Contrast Checker")
+    title: i18nc("@title:menu", "Contrast Checker")
     background: Rectangle {
         color: Kontrast.backgroundColor
     }
@@ -39,7 +39,7 @@ Kirigami.ScrollablePage {
         Kirigami.Heading {
             level: 1
             font.bold: true
-            text: i18n("Contrast ratio: %1", Kontrast.contrast.toFixed(2))
+            text: i18nc("@label", "Contrast ratio: %1", Kontrast.contrast.toFixed(2))
 
             color: Kontrast.textColor
             wrapMode: Text.WordWrap
@@ -81,7 +81,7 @@ Kirigami.ScrollablePage {
 
                 Text {
                     Layout.topMargin: Kirigami.Units.largeSpacing
-                    text: i18n("Text")
+                    text: i18nc("@label", "Text")
                     color: Kontrast.displayTextColor
                 }
 
@@ -110,7 +110,7 @@ Kirigami.ScrollablePage {
 
                 Text {
                     Layout.topMargin: Kirigami.Units.largeSpacing
-                    text: i18n("Hue %1°", Kontrast.textHue)
+                    text: i18nc("@label", "Hue: %1°", Kontrast.textHue)
                     color: Kontrast.displayTextColor
                 }
 
@@ -124,7 +124,7 @@ Kirigami.ScrollablePage {
 
                 Text {
                     Layout.topMargin: Kirigami.Units.largeSpacing
-                    text: i18n("Saturation %1", (Kontrast.textSaturation / 255).toFixed(2))
+                    text: i18nc("@label", "Saturation: %1", (Kontrast.textSaturation / 255).toFixed(2))
                     color: Kontrast.displayTextColor
                 }
 
@@ -138,7 +138,7 @@ Kirigami.ScrollablePage {
 
                 Text {
                     Layout.topMargin: Kirigami.Units.largeSpacing
-                    text: i18n("Lightness %1", (Kontrast.textLightness / 255).toFixed(2))
+                    text: i18nc("@label", "Lightness: %1", (Kontrast.textLightness / 255).toFixed(2))
                     color: Kontrast.displayTextColor
                 }
 
@@ -162,7 +162,7 @@ Kirigami.ScrollablePage {
 
                 Text {
                     Layout.topMargin: Kirigami.Units.largeSpacing
-                    text: i18n("Background")
+                    text: i18nc("@label", "Background")
                     color: Kontrast.displayTextColor
                 }
 
@@ -190,7 +190,7 @@ Kirigami.ScrollablePage {
 
                 Text {
                     Layout.topMargin: Kirigami.Units.largeSpacing
-                    text: i18n("Hue %1°", Kontrast.backgroundHue)
+                    text: i18nc("@label", "Hue: %1°", Kontrast.backgroundHue)
                     color: Kontrast.displayTextColor
                 }
 
@@ -204,7 +204,7 @@ Kirigami.ScrollablePage {
 
                 Text {
                     Layout.topMargin: Kirigami.Units.largeSpacing
-                    text: i18n("Saturation %1", (Kontrast.backgroundSaturation / 255).toFixed(2))
+                    text: i18nc("@label", "Saturation: %1", (Kontrast.backgroundSaturation / 255).toFixed(2))
                     color: Kontrast.displayTextColor
                 }
 
@@ -218,7 +218,7 @@ Kirigami.ScrollablePage {
 
                 Text {
                     Layout.topMargin: Kirigami.Units.largeSpacing
-                    text: i18n("Lightness %1", (Kontrast.backgroundLightness / 255).toFixed(2))
+                    text: i18nc("@label", "Lightness: %1", (Kontrast.backgroundLightness / 255).toFixed(2))
                     color: Kontrast.displayTextColor
                 }
 
@@ -235,7 +235,7 @@ Kirigami.ScrollablePage {
         ColumnLayout {
             Text {
                 Layout.topMargin: Kirigami.Units.smallSpacing
-                text: i18n("Font Size %1px", Kontrast.fontSize)
+                text: i18nc("@label", "Font size: %1px", Kontrast.fontSize)
                 color: Kontrast.displayTextColor
             }
 
@@ -252,19 +252,19 @@ Kirigami.ScrollablePage {
             Layout.fillWidth: true
             Layout.topMargin: Kirigami.Units.gridUnit * 2
             QQC2.Button {
-                text: i18n("Invert")
+                text: i18nc("@action:button", "Invert")
                 onClicked: Kontrast.reverse()
                 icon.name: "reverse"
             }
 
             QQC2.Button {
-                text: i18n("Randomize")
+                text: i18nc("@action:button", "Randomize")
                 onClicked: Kontrast.random()
                 icon.name: "randomize"
             }
 
             QQC2.Button {
-                text: i18n("Mark as favorite")
+                text: i18nc("@action:button", "Mark as Favorite")
                 icon.name: "favorite"
                 onClicked: ColorStore.addColor("Lorem Ipsum", Kontrast.textColor, Kontrast.backgroundColor)
             }
