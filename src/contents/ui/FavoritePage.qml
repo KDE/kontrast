@@ -41,7 +41,7 @@ Kirigami.ScrollablePage {
                     QQC2.Button {
                         anchors.right: parent.right
                         icon.name: "edit-delete-remove"
-                        QQC2.ToolTip.text: i18nc("@info:tooltip", "Remove")
+                        QQC2.ToolTip.text: i18nc("@action:tooltip", "Remove")
                         QQC2.ToolTip.visible: hovered
                         onClicked: {
                             ColorStore.removeColor(model.index)
