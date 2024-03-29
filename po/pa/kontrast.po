@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kontrast\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-03-28 00:35+0000\n"
+"POT-Creation-Date: 2024-03-29 00:35+0000\n"
 "PO-Revision-Date: 2021-05-01 23:52-0700\n"
 "Last-Translator: A S Alam <aalam@satluj.org>\n"
 "Language-Team: Punjabi <punjabi-users@lists.sf.net>\n"
@@ -17,53 +17,72 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Lokalize 20.12.2\n"
 
-#: contents/ui/FavoritePage.qml:16
-#, kde-format
-msgid "Favorite colors"
+#: contents/ui/FavoritePage.qml:16 contents/ui/main.qml:35
+#, fuzzy, kde-format
+#| msgid "Favorite Colors"
+msgctxt "@title:menu"
+msgid "Favorite Colors"
 msgstr "ਪਸੰਦੀਦਾ ਰੰਗ"
 
 #: contents/ui/FavoritePage.qml:44
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Remove"
+msgctxt "@action:tooltip"
 msgid "Remove"
 msgstr "ਹਟਾਓ"
 
 #: contents/ui/FavoritePage.qml:62
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Text: %1"
+msgctxt "@action:button"
 msgid "Text: %1"
 msgstr "ਲਿਖਤ: %1"
 
 #: contents/ui/FavoritePage.qml:67
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Background: %1"
+msgctxt "@action:button"
 msgid "Background: %1"
 msgstr "ਬੈਕਗਰਾਊਂਡ: %1"
 
 #: contents/ui/FavoritePage.qml:74
 #, kde-format
+msgctxt "@action:button"
 msgid "Apply"
 msgstr ""
 
 #: contents/ui/FavoritePage.qml:104
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Color copied to clipboard"
+msgctxt "@info:inline"
 msgid "Background color copied to clipboard"
-msgstr ""
+msgstr "ਰੰਗ ਕਲਿੱਪਬੋਰਡ ਵਿੱਚ ਕਾਪੀ ਕੀਤਾ"
 
 #: contents/ui/FavoritePage.qml:108
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Color copied to clipboard"
+msgctxt "@info:inline"
 msgid "Text color copied to clipboard"
-msgstr ""
+msgstr "ਰੰਗ ਕਲਿੱਪਬੋਰਡ ਵਿੱਚ ਕਾਪੀ ਕੀਤਾ"
 
 #: contents/ui/FavoritePage.qml:115
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Color copied to clipboard"
+msgctxt "@info:inline"
 msgid "Color copied to clipboard"
 msgstr "ਰੰਗ ਕਲਿੱਪਬੋਰਡ ਵਿੱਚ ਕਾਪੀ ਕੀਤਾ"
 
 #: contents/ui/HelpPage.qml:13 contents/ui/main.qml:41
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Help"
+msgctxt "@title:menu"
 msgid "Help"
 msgstr "ਮਦਦ"
 
 #: contents/ui/HelpPage.qml:19
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Contrast"
+msgctxt "@title:heading"
 msgid "Contrast"
 msgstr "ਕਨਟਰਾਸਟ"
 
@@ -100,27 +119,30 @@ msgid ""
 msgstr ""
 
 #: contents/ui/main.qml:23
-#, kde-format
-msgid "kontrast"
+#, fuzzy, kde-format
+#| msgctxt "@title"
+#| msgid "Kontrast"
+msgid "Kontrast"
 msgstr "ਕਨਟਰਾਸਟ"
 
 #: contents/ui/main.qml:29 contents/ui/MainPage.qml:20
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Contrast Checker"
+msgctxt "@title:menu"
 msgid "Contrast Checker"
 msgstr "ਕਨਟਰਾਸਟ ਜਾਂਚਕਾਰ"
 
-#: contents/ui/main.qml:35
-#, kde-format
-msgid "Favorite Colors"
-msgstr "ਪਸੰਦੀਦਾ ਰੰਗ"
-
 #: contents/ui/main.qml:47
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "About"
+msgctxt "@title:menu"
 msgid "About"
 msgstr "ਇਸ ਬਾਰੇ"
 
 #: contents/ui/MainPage.qml:42
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Contrast ratio: %1"
+msgctxt "@label"
 msgid "Contrast ratio: %1"
 msgstr "ਕਨਟਰਾਸਟ ਅਨੁਪਾਤ: %1"
 
@@ -160,48 +182,64 @@ msgid ""
 msgstr ""
 
 #: contents/ui/MainPage.qml:84
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Text"
+msgctxt "@label"
 msgid "Text"
 msgstr "ਲਿਖਤ"
 
 #: contents/ui/MainPage.qml:113 contents/ui/MainPage.qml:193
-#, kde-format
-msgid "Hue %1°"
+#, fuzzy, kde-format
+#| msgid "Hue %1°"
+msgctxt "@label"
+msgid "Hue: %1°"
 msgstr "ਆਭਾ %1°"
 
 #: contents/ui/MainPage.qml:127 contents/ui/MainPage.qml:207
-#, kde-format
-msgid "Saturation %1"
+#, fuzzy, kde-format
+#| msgid "Saturation %1"
+msgctxt "@label"
+msgid "Saturation: %1"
 msgstr "ਸੰਤ੍ਰਿਪਤਾ %1"
 
 #: contents/ui/MainPage.qml:141 contents/ui/MainPage.qml:221
-#, kde-format
-msgid "Lightness %1"
+#, fuzzy, kde-format
+#| msgid "Lightness %1"
+msgctxt "@label"
+msgid "Lightness: %1"
 msgstr "ਪ੍ਰਕਾਸ਼ਵਾਨ %1"
 
 #: contents/ui/MainPage.qml:165
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Background"
+msgctxt "@label"
 msgid "Background"
 msgstr "ਬੈਕਗਰਾਊਂਡ"
 
 #: contents/ui/MainPage.qml:238
 #, kde-format
-msgid "Font Size %1px"
+msgctxt "@label"
+msgid "Font size: %1px"
 msgstr ""
 
 #: contents/ui/MainPage.qml:255
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Invert"
+msgctxt "@action:button"
 msgid "Invert"
 msgstr "ਉਲਟ"
 
 #: contents/ui/MainPage.qml:261
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Randomize"
+msgctxt "@action:button"
 msgid "Randomize"
 msgstr "ਰਲਵੇਂ"
 
 #: contents/ui/MainPage.qml:267
 #, kde-format
-msgid "Mark as favorite"
+msgctxt "@action:button"
+msgid "Mark as Favorite"
 msgstr ""
 
 #: kontrast.cpp:349
@@ -278,3 +316,9 @@ msgstr "ਅਮਨਪਰੀਤ ਸਿੰਘ ਆਲਮ ੨੦੨੧"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "alam.yellow@gmail.com"
+
+#~ msgid "Favorite colors"
+#~ msgstr "ਪਸੰਦੀਦਾ ਰੰਗ"
+
+#~ msgid "kontrast"
+#~ msgstr "ਕਨਟਰਾਸਟ"

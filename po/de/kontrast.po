@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kontrast\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-03-28 00:35+0000\n"
+"POT-Creation-Date: 2024-03-29 00:35+0000\n"
 "PO-Revision-Date: 2023-12-18 15:47+0100\n"
 "Last-Translator: Johannes Obermayr <johannesobermayr@gmx.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
@@ -19,53 +19,72 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Lokalize 23.08.4\n"
 
-#: contents/ui/FavoritePage.qml:16
-#, kde-format
-msgid "Favorite colors"
+#: contents/ui/FavoritePage.qml:16 contents/ui/main.qml:35
+#, fuzzy, kde-format
+#| msgid "Favorite Colors"
+msgctxt "@title:menu"
+msgid "Favorite Colors"
 msgstr "Bevorzugte Farben"
 
 #: contents/ui/FavoritePage.qml:44
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Remove"
+msgctxt "@action:tooltip"
 msgid "Remove"
 msgstr "Entfernen"
 
 #: contents/ui/FavoritePage.qml:62
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Text: %1"
+msgctxt "@action:button"
 msgid "Text: %1"
 msgstr "Text: %1"
 
 #: contents/ui/FavoritePage.qml:67
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Background: %1"
+msgctxt "@action:button"
 msgid "Background: %1"
 msgstr "Hintergrund: %1"
 
 #: contents/ui/FavoritePage.qml:74
 #, kde-format
+msgctxt "@action:button"
 msgid "Apply"
 msgstr ""
 
 #: contents/ui/FavoritePage.qml:104
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Background color copied to clipboard"
+msgctxt "@info:inline"
 msgid "Background color copied to clipboard"
 msgstr "Hintergrundfarbe in die Zwischenablage kopiert"
 
 #: contents/ui/FavoritePage.qml:108
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Text color copied to clipboard"
+msgctxt "@info:inline"
 msgid "Text color copied to clipboard"
 msgstr "Textfarbe in die Zwischenablage kopiert"
 
 #: contents/ui/FavoritePage.qml:115
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Color copied to clipboard"
+msgctxt "@info:inline"
 msgid "Color copied to clipboard"
 msgstr "Farbe in die Zwischenablage kopiert"
 
 #: contents/ui/HelpPage.qml:13 contents/ui/main.qml:41
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Help"
+msgctxt "@title:menu"
 msgid "Help"
 msgstr "Hilfe"
 
 #: contents/ui/HelpPage.qml:19
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Contrast"
+msgctxt "@title:heading"
 msgid "Contrast"
 msgstr "Kontrast"
 
@@ -118,27 +137,30 @@ msgstr ""
 "für den WCAG-AAA-Standard erforderlich."
 
 #: contents/ui/main.qml:23
-#, kde-format
-msgid "kontrast"
-msgstr "kontrast"
+#, fuzzy, kde-format
+#| msgctxt "@title"
+#| msgid "Kontrast"
+msgid "Kontrast"
+msgstr "Kontrast"
 
 #: contents/ui/main.qml:29 contents/ui/MainPage.qml:20
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Contrast Checker"
+msgctxt "@title:menu"
 msgid "Contrast Checker"
 msgstr "Kontrastüberprüfung"
 
-#: contents/ui/main.qml:35
-#, kde-format
-msgid "Favorite Colors"
-msgstr "Bevorzugte Farben"
-
 #: contents/ui/main.qml:47
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "About"
+msgctxt "@title:menu"
 msgid "About"
 msgstr "Über"
 
 #: contents/ui/MainPage.qml:42
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Contrast ratio: %1"
+msgctxt "@label"
 msgid "Contrast ratio: %1"
 msgstr "Kontrastverhältnis: %1"
 
@@ -183,48 +205,66 @@ msgstr ""
 "Objekte im gleichen Sichtbereich definiert."
 
 #: contents/ui/MainPage.qml:84
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Text"
+msgctxt "@label"
 msgid "Text"
 msgstr "Text"
 
 #: contents/ui/MainPage.qml:113 contents/ui/MainPage.qml:193
-#, kde-format
-msgid "Hue %1°"
+#, fuzzy, kde-format
+#| msgid "Hue %1°"
+msgctxt "@label"
+msgid "Hue: %1°"
 msgstr "Farbton %1°"
 
 #: contents/ui/MainPage.qml:127 contents/ui/MainPage.qml:207
-#, kde-format
-msgid "Saturation %1"
+#, fuzzy, kde-format
+#| msgid "Saturation %1"
+msgctxt "@label"
+msgid "Saturation: %1"
 msgstr "Sättigung %1"
 
 #: contents/ui/MainPage.qml:141 contents/ui/MainPage.qml:221
-#, kde-format
-msgid "Lightness %1"
+#, fuzzy, kde-format
+#| msgid "Lightness %1"
+msgctxt "@label"
+msgid "Lightness: %1"
 msgstr "Helligkeit %1"
 
 #: contents/ui/MainPage.qml:165
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Background"
+msgctxt "@label"
 msgid "Background"
 msgstr "Hintergrund"
 
 #: contents/ui/MainPage.qml:238
-#, kde-format
-msgid "Font Size %1px"
+#, fuzzy, kde-format
+#| msgid "Font Size %1px"
+msgctxt "@label"
+msgid "Font size: %1px"
 msgstr "Schriftgröße %1 px"
 
 #: contents/ui/MainPage.qml:255
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Invert"
+msgctxt "@action:button"
 msgid "Invert"
 msgstr "Umkehren"
 
 #: contents/ui/MainPage.qml:261
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Randomize"
+msgctxt "@action:button"
 msgid "Randomize"
 msgstr "Zufällig"
 
 #: contents/ui/MainPage.qml:267
-#, kde-format
-msgid "Mark as favorite"
+#, fuzzy, kde-format
+#| msgid "Mark as favorite"
+msgctxt "@action:button"
+msgid "Mark as Favorite"
 msgstr "Als Favorit markieren"
 
 #: kontrast.cpp:349
@@ -302,6 +342,12 @@ msgstr "Deutsches KDE-Übersetzerteam"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "kde-i18n-de@kde.org"
+
+#~ msgid "Favorite colors"
+#~ msgstr "Bevorzugte Farben"
+
+#~ msgid "kontrast"
+#~ msgstr "kontrast"
 
 #~ msgid "Failed to save color"
 #~ msgstr "Farbe kann nicht gespeichert werden"

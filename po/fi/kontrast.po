@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kontrast\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-03-28 00:35+0000\n"
+"POT-Creation-Date: 2024-03-29 00:35+0000\n"
 "PO-Revision-Date: 2022-11-05 21:17+0200\n"
 "Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
 "Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
@@ -17,53 +17,72 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Lokalize 21.12.3\n"
 
-#: contents/ui/FavoritePage.qml:16
-#, kde-format
-msgid "Favorite colors"
+#: contents/ui/FavoritePage.qml:16 contents/ui/main.qml:35
+#, fuzzy, kde-format
+#| msgid "Favorite Colors"
+msgctxt "@title:menu"
+msgid "Favorite Colors"
 msgstr "Suosikkivärit"
 
 #: contents/ui/FavoritePage.qml:44
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Remove"
+msgctxt "@action:tooltip"
 msgid "Remove"
 msgstr "Poista"
 
 #: contents/ui/FavoritePage.qml:62
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Text: %1"
+msgctxt "@action:button"
 msgid "Text: %1"
 msgstr "Teksti: %1"
 
 #: contents/ui/FavoritePage.qml:67
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Background: %1"
+msgctxt "@action:button"
 msgid "Background: %1"
 msgstr "Tausta: %1"
 
 #: contents/ui/FavoritePage.qml:74
 #, kde-format
+msgctxt "@action:button"
 msgid "Apply"
 msgstr ""
 
 #: contents/ui/FavoritePage.qml:104
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Background color copied to clipboard"
+msgctxt "@info:inline"
 msgid "Background color copied to clipboard"
 msgstr "Taustaväri kopioitu leikepöydälle"
 
 #: contents/ui/FavoritePage.qml:108
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Text color copied to clipboard"
+msgctxt "@info:inline"
 msgid "Text color copied to clipboard"
 msgstr "Tekstiväri kopioitu leikepöydälle"
 
 #: contents/ui/FavoritePage.qml:115
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Color copied to clipboard"
+msgctxt "@info:inline"
 msgid "Color copied to clipboard"
 msgstr "Väri kopioitu leikepöydälle"
 
 #: contents/ui/HelpPage.qml:13 contents/ui/main.qml:41
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Help"
+msgctxt "@title:menu"
 msgid "Help"
 msgstr "Ohje"
 
 #: contents/ui/HelpPage.qml:19
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Contrast"
+msgctxt "@title:heading"
 msgid "Contrast"
 msgstr "Kontrasti"
 
@@ -112,27 +131,30 @@ msgstr ""
 "standardin mukaisuuteen."
 
 #: contents/ui/main.qml:23
-#, kde-format
-msgid "kontrast"
-msgstr "kontrast"
+#, fuzzy, kde-format
+#| msgctxt "@title"
+#| msgid "Kontrast"
+msgid "Kontrast"
+msgstr "Kontrast"
 
 #: contents/ui/main.qml:29 contents/ui/MainPage.qml:20
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Contrast Checker"
+msgctxt "@title:menu"
 msgid "Contrast Checker"
 msgstr "Kontrastin tarkistus"
 
-#: contents/ui/main.qml:35
-#, kde-format
-msgid "Favorite Colors"
-msgstr "Suosikkivärit"
-
 #: contents/ui/main.qml:47
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "About"
+msgctxt "@title:menu"
 msgid "About"
 msgstr "Tietoa"
 
 #: contents/ui/MainPage.qml:42
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Contrast ratio: %1"
+msgctxt "@label"
 msgid "Contrast ratio: %1"
 msgstr "Kontrastikerroin: %1"
 
@@ -176,48 +198,66 @@ msgstr ""
 "olevien kohteiden värin ja kirkkauden ero."
 
 #: contents/ui/MainPage.qml:84
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Text"
+msgctxt "@label"
 msgid "Text"
 msgstr "Teksti"
 
 #: contents/ui/MainPage.qml:113 contents/ui/MainPage.qml:193
-#, kde-format
-msgid "Hue %1°"
+#, fuzzy, kde-format
+#| msgid "Hue %1°"
+msgctxt "@label"
+msgid "Hue: %1°"
 msgstr "Sävy %1°"
 
 #: contents/ui/MainPage.qml:127 contents/ui/MainPage.qml:207
-#, kde-format
-msgid "Saturation %1"
+#, fuzzy, kde-format
+#| msgid "Saturation %1"
+msgctxt "@label"
+msgid "Saturation: %1"
 msgstr "Kylläisyys %1"
 
 #: contents/ui/MainPage.qml:141 contents/ui/MainPage.qml:221
-#, kde-format
-msgid "Lightness %1"
+#, fuzzy, kde-format
+#| msgid "Lightness %1"
+msgctxt "@label"
+msgid "Lightness: %1"
 msgstr "Valoisuus %1"
 
 #: contents/ui/MainPage.qml:165
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Background"
+msgctxt "@label"
 msgid "Background"
 msgstr "Tausta"
 
 #: contents/ui/MainPage.qml:238
-#, kde-format
-msgid "Font Size %1px"
+#, fuzzy, kde-format
+#| msgid "Font Size %1px"
+msgctxt "@label"
+msgid "Font size: %1px"
 msgstr "Fonttikoko %1 px"
 
 #: contents/ui/MainPage.qml:255
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Invert"
+msgctxt "@action:button"
 msgid "Invert"
 msgstr "Käännä"
 
 #: contents/ui/MainPage.qml:261
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Randomize"
+msgctxt "@action:button"
 msgid "Randomize"
 msgstr "Satunnaista"
 
 #: contents/ui/MainPage.qml:267
-#, kde-format
-msgid "Mark as favorite"
+#, fuzzy, kde-format
+#| msgid "Mark as favorite"
+msgctxt "@action:button"
+msgid "Mark as Favorite"
 msgstr "Merkitse suosikiksi"
 
 #: kontrast.cpp:349
@@ -294,6 +334,12 @@ msgstr "Tommi Nieminen"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "translator@legisign.org"
+
+#~ msgid "Favorite colors"
+#~ msgstr "Suosikkivärit"
+
+#~ msgid "kontrast"
+#~ msgstr "kontrast"
 
 #~ msgid "Failed to save color"
 #~ msgstr "Värin tallentaminen epäonnistui"

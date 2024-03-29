@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kontrast\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-03-28 00:35+0000\n"
+"POT-Creation-Date: 2024-03-29 00:35+0000\n"
 "PO-Revision-Date: 2023-10-25 13:08+0200\n"
 "Last-Translator: Enol P. <enolp@softastur.org>\n"
 "Language-Team: \n"
@@ -17,53 +17,63 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Lokalize 23.08.2\n"
 
-#: contents/ui/FavoritePage.qml:16
+#: contents/ui/FavoritePage.qml:16 contents/ui/main.qml:35
 #, kde-format
-msgid "Favorite colors"
+msgctxt "@title:menu"
+msgid "Favorite Colors"
 msgstr ""
 
 #: contents/ui/FavoritePage.qml:44
 #, kde-format
+msgctxt "@action:tooltip"
 msgid "Remove"
 msgstr ""
 
 #: contents/ui/FavoritePage.qml:62
 #, kde-format
+msgctxt "@action:button"
 msgid "Text: %1"
 msgstr ""
 
 #: contents/ui/FavoritePage.qml:67
 #, kde-format
+msgctxt "@action:button"
 msgid "Background: %1"
 msgstr ""
 
 #: contents/ui/FavoritePage.qml:74
 #, kde-format
+msgctxt "@action:button"
 msgid "Apply"
 msgstr ""
 
 #: contents/ui/FavoritePage.qml:104
 #, kde-format
+msgctxt "@info:inline"
 msgid "Background color copied to clipboard"
 msgstr ""
 
 #: contents/ui/FavoritePage.qml:108
 #, kde-format
+msgctxt "@info:inline"
 msgid "Text color copied to clipboard"
 msgstr ""
 
 #: contents/ui/FavoritePage.qml:115
 #, kde-format
+msgctxt "@info:inline"
 msgid "Color copied to clipboard"
 msgstr ""
 
 #: contents/ui/HelpPage.qml:13 contents/ui/main.qml:41
 #, kde-format
+msgctxt "@title:menu"
 msgid "Help"
 msgstr ""
 
 #: contents/ui/HelpPage.qml:19
 #, kde-format
+msgctxt "@title:heading"
 msgid "Contrast"
 msgstr ""
 
@@ -101,26 +111,24 @@ msgstr ""
 
 #: contents/ui/main.qml:23
 #, kde-format
-msgid "kontrast"
+msgid "Kontrast"
 msgstr ""
 
 #: contents/ui/main.qml:29 contents/ui/MainPage.qml:20
 #, kde-format
+msgctxt "@title:menu"
 msgid "Contrast Checker"
-msgstr ""
-
-#: contents/ui/main.qml:35
-#, kde-format
-msgid "Favorite Colors"
 msgstr ""
 
 #: contents/ui/main.qml:47
 #, kde-format
+msgctxt "@title:menu"
 msgid "About"
 msgstr ""
 
 #: contents/ui/MainPage.qml:42
 #, kde-format
+msgctxt "@label"
 msgid "Contrast ratio: %1"
 msgstr ""
 
@@ -161,47 +169,56 @@ msgstr ""
 
 #: contents/ui/MainPage.qml:84
 #, kde-format
+msgctxt "@label"
 msgid "Text"
 msgstr ""
 
 #: contents/ui/MainPage.qml:113 contents/ui/MainPage.qml:193
 #, kde-format
-msgid "Hue %1°"
+msgctxt "@label"
+msgid "Hue: %1°"
 msgstr ""
 
 #: contents/ui/MainPage.qml:127 contents/ui/MainPage.qml:207
 #, kde-format
-msgid "Saturation %1"
+msgctxt "@label"
+msgid "Saturation: %1"
 msgstr ""
 
 #: contents/ui/MainPage.qml:141 contents/ui/MainPage.qml:221
 #, kde-format
-msgid "Lightness %1"
+msgctxt "@label"
+msgid "Lightness: %1"
 msgstr ""
 
 #: contents/ui/MainPage.qml:165
 #, kde-format
+msgctxt "@label"
 msgid "Background"
 msgstr ""
 
 #: contents/ui/MainPage.qml:238
 #, kde-format
-msgid "Font Size %1px"
+msgctxt "@label"
+msgid "Font size: %1px"
 msgstr ""
 
 #: contents/ui/MainPage.qml:255
 #, kde-format
+msgctxt "@action:button"
 msgid "Invert"
 msgstr ""
 
 #: contents/ui/MainPage.qml:261
 #, kde-format
+msgctxt "@action:button"
 msgid "Randomize"
 msgstr ""
 
 #: contents/ui/MainPage.qml:267
 #, kde-format
-msgid "Mark as favorite"
+msgctxt "@action:button"
+msgid "Mark as Favorite"
 msgstr ""
 
 #: kontrast.cpp:349

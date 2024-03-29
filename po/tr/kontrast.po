@@ -1,13 +1,13 @@
-# Copyright (C) YEAR This file is copyright:
+# Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the kontrast package.
 #
-# Emir SARI <emir_sari@icloud.com>, 2022, 2023.
+# SPDX-FileCopyrightText: 2022, 2023, 2024 Emir SARI <emir_sari@icloud.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: kontrast\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-03-28 00:35+0000\n"
-"PO-Revision-Date: 2023-12-09 22:19+0300\n"
+"POT-Creation-Date: 2024-03-29 00:35+0000\n"
+"PO-Revision-Date: 2024-03-28 15:06+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -15,55 +15,75 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 24.01.80\n"
+"X-Generator: Lokalize 24.02.1\n"
 
-#: contents/ui/FavoritePage.qml:16
-#, kde-format
-msgid "Favorite colors"
-msgstr "Sık kullanılan renkler"
+#: contents/ui/FavoritePage.qml:16 contents/ui/main.qml:35
+#, fuzzy, kde-format
+#| msgid "Favorite Colors"
+msgctxt "@title:menu"
+msgid "Favorite Colors"
+msgstr "Sık Kullanılan Renkler"
 
 #: contents/ui/FavoritePage.qml:44
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Remove"
+msgctxt "@action:tooltip"
 msgid "Remove"
 msgstr "Kaldır"
 
 #: contents/ui/FavoritePage.qml:62
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Text: %1"
+msgctxt "@action:button"
 msgid "Text: %1"
 msgstr "Metin: %1"
 
 #: contents/ui/FavoritePage.qml:67
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Background: %1"
+msgctxt "@action:button"
 msgid "Background: %1"
 msgstr "Arka plan: %1"
 
 #: contents/ui/FavoritePage.qml:74
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Apply"
+msgctxt "@action:button"
 msgid "Apply"
-msgstr ""
+msgstr "Uygula"
 
 #: contents/ui/FavoritePage.qml:104
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Background color copied to clipboard"
+msgctxt "@info:inline"
 msgid "Background color copied to clipboard"
 msgstr "Arka plan rengi panoya kopyalandı"
 
 #: contents/ui/FavoritePage.qml:108
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Text color copied to clipboard"
+msgctxt "@info:inline"
 msgid "Text color copied to clipboard"
 msgstr "Metin rengi panoya kopyalandı"
 
 #: contents/ui/FavoritePage.qml:115
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Color copied to clipboard"
+msgctxt "@info:inline"
 msgid "Color copied to clipboard"
 msgstr "Renk panoya kopyalandı"
 
 #: contents/ui/HelpPage.qml:13 contents/ui/main.qml:41
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Help"
+msgctxt "@title:menu"
 msgid "Help"
 msgstr "Yardım"
 
 #: contents/ui/HelpPage.qml:19
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Contrast"
+msgctxt "@title:heading"
 msgid "Contrast"
 msgstr "Karşıtlık"
 
@@ -86,8 +106,8 @@ msgid ""
 "A contrast value of 21 indicates a perfect contrast (usually black on "
 "white), and a value of 0 indicate that the two colors are the same."
 msgstr ""
-"21'lik bir karşıtlık değeri, genelde mükemmel bir karşıtlığı belirtirken "
-"(siyah ve beyaz), 0'lık bir değer ise iki rengin aynı olduğunu belirtir."
+"21’lik bir karşıtlık değeri, genelde mükemmel bir karşıtlığı belirtirken "
+"(siyah ve beyaz), 0’lık bir değer ise iki rengin aynı olduğunu belirtir."
 
 #: contents/ui/HelpPage.qml:34
 #, kde-format
@@ -112,27 +132,30 @@ msgstr ""
 "veya daha çok olmalıdır."
 
 #: contents/ui/main.qml:23
-#, kde-format
-msgid "kontrast"
-msgstr "karşıtlık"
+#, fuzzy, kde-format
+#| msgctxt "@title"
+#| msgid "Kontrast"
+msgid "Kontrast"
+msgstr "Kontrast"
 
 #: contents/ui/main.qml:29 contents/ui/MainPage.qml:20
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Contrast Checker"
+msgctxt "@title:menu"
 msgid "Contrast Checker"
 msgstr "Karşıtlık Denetimcisi"
 
-#: contents/ui/main.qml:35
-#, kde-format
-msgid "Favorite Colors"
-msgstr "Sık Kullanılan Renkler"
-
 #: contents/ui/main.qml:47
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "About"
+msgctxt "@title:menu"
 msgid "About"
 msgstr "Hakkında"
 
 #: contents/ui/MainPage.qml:42
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Contrast ratio: %1"
+msgctxt "@label"
 msgid "Contrast ratio: %1"
 msgstr "Karşıtlık oranı: %1"
 
@@ -176,64 +199,82 @@ msgstr ""
 "nesnelerin renk ve parlaklığındaki ayrım ile algılanır."
 
 #: contents/ui/MainPage.qml:84
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Text"
+msgctxt "@label"
 msgid "Text"
 msgstr "Metin"
 
 #: contents/ui/MainPage.qml:113 contents/ui/MainPage.qml:193
-#, kde-format
-msgid "Hue %1°"
-msgstr "Renk tonu %1°"
+#, fuzzy, kde-format
+#| msgid "Hue %1°"
+msgctxt "@label"
+msgid "Hue: %1°"
+msgstr "Renk tonu: %1°"
 
 #: contents/ui/MainPage.qml:127 contents/ui/MainPage.qml:207
-#, kde-format
-msgid "Saturation %1"
-msgstr "Doygunluk %1"
+#, fuzzy, kde-format
+#| msgid "Saturation %1"
+msgctxt "@label"
+msgid "Saturation: %1"
+msgstr "Doygunluk: %1"
 
 #: contents/ui/MainPage.qml:141 contents/ui/MainPage.qml:221
-#, kde-format
-msgid "Lightness %1"
-msgstr "Açıklık %1"
+#, fuzzy, kde-format
+#| msgid "Lightness %1"
+msgctxt "@label"
+msgid "Lightness: %1"
+msgstr "Açıklık: %1"
 
 #: contents/ui/MainPage.qml:165
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Background"
+msgctxt "@label"
 msgid "Background"
 msgstr "Arka plan"
 
 #: contents/ui/MainPage.qml:238
-#, kde-format
-msgid "Font Size %1px"
-msgstr "Yazıtipi Boyutu %1 pks"
+#, fuzzy, kde-format
+#| msgid "Font Size %1px"
+msgctxt "@label"
+msgid "Font size: %1px"
+msgstr "Yazıtipi boyutu: %1 pks"
 
 #: contents/ui/MainPage.qml:255
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Invert"
+msgctxt "@action:button"
 msgid "Invert"
-msgstr "Tersine çevir"
+msgstr "Tersine Çevir"
 
 #: contents/ui/MainPage.qml:261
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Randomize"
+msgctxt "@action:button"
 msgid "Randomize"
 msgstr "Rastgeleleştir"
 
 #: contents/ui/MainPage.qml:267
-#, kde-format
-msgid "Mark as favorite"
-msgstr "Sık kullanılan olarak imle"
+#, fuzzy, kde-format
+#| msgid "Mark as favorite"
+msgctxt "@action:button"
+msgid "Mark as Favorite"
+msgstr "Sık Kullanılanlara Ekle"
 
 #: kontrast.cpp:349
 #, kde-format
 msgid "Font size %1px is bad with the current contrast"
-msgstr "%1 piksellik yazıtipi boyutu, geçerli karşıtlıkla iyi görünmüyor"
+msgstr "Geçerli karşıtlığa %1 piksellik yazıtipi boyutu pek uymadı."
 
 #: kontrast.cpp:352
 #, kde-format
 msgid "Font size %1px is good with the current contrast"
-msgstr "%1 piksellik yazıtipi boyutu, geçerli karşıtlıkla iyi görünüyor"
+msgstr "Geçerlik karşıtlıkla %1 piksellik yazıtipi boyutu iyi gidiyor."
 
 #: kontrast.cpp:355
 #, kde-format
 msgid "Font size %1px is perfect with the current contrast"
-msgstr "%1 piksellik yazıtipi boyutu, geçerli karşıtlıkla mükemmel görünüyor"
+msgstr "Geçerli karşıtlığa %1 piksellik yazıtipi boyutu tam uydu."
 
 #: main.cpp:39
 #, kde-format
@@ -257,7 +298,7 @@ msgstr "Carl Schwan"
 #, kde-format
 msgctxt "@info:credit"
 msgid "Maintainer and creator"
-msgstr "Projeyi oluşturan ve sürdüren"
+msgstr "Yaratan ve bakımcı"
 
 #: main.cpp:49
 #, kde-format
@@ -294,6 +335,12 @@ msgstr "Emir SARI"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "emir_sari@icloud.com"
+
+#~ msgid "Favorite colors"
+#~ msgstr "Sık Kullanılan Renkler"
+
+#~ msgid "kontrast"
+#~ msgstr "Karşıtlık"
 
 #~ msgid "Failed to save color"
 #~ msgstr "Renk kaydedilemedi"
