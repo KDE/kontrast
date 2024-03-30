@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kontrast\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-03-29 00:35+0000\n"
-"PO-Revision-Date: 2024-03-28 10:29+0100\n"
+"PO-Revision-Date: 2024-03-29 12:10+0100\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
 "Language: nl\n"
@@ -18,71 +18,61 @@ msgstr ""
 "X-Generator: Lokalize 24.02.1\n"
 
 #: contents/ui/FavoritePage.qml:16 contents/ui/main.qml:35
-#, fuzzy, kde-format
-#| msgid "Favorite Colors"
+#, kde-format
 msgctxt "@title:menu"
 msgid "Favorite Colors"
 msgstr "Favoriete kleuren"
 
 #: contents/ui/FavoritePage.qml:44
-#, fuzzy, kde-format
-#| msgid "Remove"
+#, kde-format
 msgctxt "@action:tooltip"
 msgid "Remove"
 msgstr "Verwijderen"
 
 #: contents/ui/FavoritePage.qml:62
-#, fuzzy, kde-format
-#| msgid "Text: %1"
+#, kde-format
 msgctxt "@action:button"
 msgid "Text: %1"
 msgstr "Tekst: %1"
 
 #: contents/ui/FavoritePage.qml:67
-#, fuzzy, kde-format
-#| msgid "Background: %1"
+#, kde-format
 msgctxt "@action:button"
 msgid "Background: %1"
 msgstr "Achtergrond: %1"
 
 #: contents/ui/FavoritePage.qml:74
-#, fuzzy, kde-format
-#| msgid "Apply"
+#, kde-format
 msgctxt "@action:button"
 msgid "Apply"
 msgstr "Toepassen"
 
 #: contents/ui/FavoritePage.qml:104
-#, fuzzy, kde-format
-#| msgid "Background color copied to clipboard"
+#, kde-format
 msgctxt "@info:inline"
 msgid "Background color copied to clipboard"
 msgstr "Achtergrondkleur gekopieerd naar klembord"
 
 #: contents/ui/FavoritePage.qml:108
-#, fuzzy, kde-format
-#| msgid "Text color copied to clipboard"
+#, kde-format
 msgctxt "@info:inline"
 msgid "Text color copied to clipboard"
 msgstr "Tekstkleur gekopieerd naar klembord"
 
 #: contents/ui/FavoritePage.qml:115
-#, fuzzy, kde-format
-#| msgid "Color copied to clipboard"
+#, kde-format
 msgctxt "@info:inline"
 msgid "Color copied to clipboard"
 msgstr "Kleur gekopieerd naar klembord"
 
 #: contents/ui/HelpPage.qml:13 contents/ui/main.qml:41
-#, fuzzy, kde-format
-#| msgid "Help"
+#, kde-format
 msgctxt "@title:menu"
 msgid "Help"
 msgstr "Help"
 
 #: contents/ui/HelpPage.qml:19
-#, fuzzy, kde-format
-#| msgid "Contrast"
+#, kde-format
 msgctxt "@title:heading"
 msgid "Contrast"
 msgstr "Contrast"
@@ -132,29 +122,24 @@ msgstr ""
 "vereist om te voldoen aan de standaard WCAG AAA."
 
 #: contents/ui/main.qml:23
-#, fuzzy, kde-format
-#| msgctxt "@title"
-#| msgid "Kontrast"
+#, kde-format
 msgid "Kontrast"
 msgstr "Kontrast"
 
 #: contents/ui/main.qml:29 contents/ui/MainPage.qml:20
-#, fuzzy, kde-format
-#| msgid "Contrast Checker"
+#, kde-format
 msgctxt "@title:menu"
 msgid "Contrast Checker"
 msgstr "Controleprogramma op contrast"
 
 #: contents/ui/main.qml:47
-#, fuzzy, kde-format
-#| msgid "About"
+#, kde-format
 msgctxt "@title:menu"
 msgid "About"
 msgstr "Info over"
 
 #: contents/ui/MainPage.qml:42
-#, fuzzy, kde-format
-#| msgid "Contrast ratio: %1"
+#, kde-format
 msgctxt "@label"
 msgid "Contrast ratio: %1"
 msgstr "Contrastverhouding: %1"
@@ -200,64 +185,55 @@ msgstr ""
 "hetzelfde beeldveld."
 
 #: contents/ui/MainPage.qml:84
-#, fuzzy, kde-format
-#| msgid "Text"
+#, kde-format
 msgctxt "@label"
 msgid "Text"
 msgstr "Tekst"
 
 #: contents/ui/MainPage.qml:113 contents/ui/MainPage.qml:193
-#, fuzzy, kde-format
-#| msgid "Hue %1°"
+#, kde-format
 msgctxt "@label"
 msgid "Hue: %1°"
-msgstr "Tint %1°"
+msgstr "Tint: %1°"
 
 #: contents/ui/MainPage.qml:127 contents/ui/MainPage.qml:207
-#, fuzzy, kde-format
-#| msgid "Saturation %1"
+#, kde-format
 msgctxt "@label"
 msgid "Saturation: %1"
-msgstr "Verzadiging %1"
+msgstr "Verzadiging: %1"
 
 #: contents/ui/MainPage.qml:141 contents/ui/MainPage.qml:221
-#, fuzzy, kde-format
-#| msgid "Lightness %1"
+#, kde-format
 msgctxt "@label"
 msgid "Lightness: %1"
-msgstr "Helderheid %1"
+msgstr "Lichtheid: %1"
 
 #: contents/ui/MainPage.qml:165
-#, fuzzy, kde-format
-#| msgid "Background"
+#, kde-format
 msgctxt "@label"
 msgid "Background"
 msgstr "Achtergrond"
 
 #: contents/ui/MainPage.qml:238
-#, fuzzy, kde-format
-#| msgid "Font Size %1px"
+#, kde-format
 msgctxt "@label"
 msgid "Font size: %1px"
-msgstr "Tekengrootte %1px"
+msgstr "Tekengrootte: %1px"
 
 #: contents/ui/MainPage.qml:255
-#, fuzzy, kde-format
-#| msgid "Invert"
+#, kde-format
 msgctxt "@action:button"
 msgid "Invert"
 msgstr "Inverteren"
 
 #: contents/ui/MainPage.qml:261
-#, fuzzy, kde-format
-#| msgid "Randomize"
+#, kde-format
 msgctxt "@action:button"
 msgid "Randomize"
 msgstr "Willekeurig maken"
 
 #: contents/ui/MainPage.qml:267
-#, fuzzy, kde-format
-#| msgid "Mark as favorite"
+#, kde-format
 msgctxt "@action:button"
 msgid "Mark as Favorite"
 msgstr "Als favoriet markeren"
