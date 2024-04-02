@@ -1,16 +1,16 @@
 # Translation for kontrast.po to Euskara/Basque (eu).
-# Copyright (C) 2020-2022, This file is copyright:
+# Copyright (C) 2020-2024 This file is copyright:
 # This file is distributed under the same license as the kontrast package.
-# KDE euskaratzeko proiektuko arduraduna <xalba@ni.eus>.
+# SPDX-FileCopyrightText: 2024 KDE euskaratzeko proiektuko arduraduna <xalba@ni.eus>
 #
 # Translators:
-# Iñigo Salvador Azurmendi <xalba@ni.eus>, 2020, 2021, 2022.
+# Iñigo Salvador Azurmendi <xalba@ni.eus>, 2020, 2021, 2022, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: kontrast\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-03-29 00:35+0000\n"
-"PO-Revision-Date: 2022-09-14 07:00+0200\n"
+"PO-Revision-Date: 2024-04-01 11:39+0200\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
 "Language: eu\n"
@@ -18,32 +18,28 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 22.08.0\n"
+"X-Generator: Lokalize 24.02.1\n"
 
 #: contents/ui/FavoritePage.qml:16 contents/ui/main.qml:35
-#, fuzzy, kde-format
-#| msgid "Favorite Colors"
+#, kde-format
 msgctxt "@title:menu"
 msgid "Favorite Colors"
 msgstr "Gogoko koloreak"
 
 #: contents/ui/FavoritePage.qml:44
-#, fuzzy, kde-format
-#| msgid "Remove"
+#, kde-format
 msgctxt "@action:tooltip"
 msgid "Remove"
 msgstr "Kendu"
 
 #: contents/ui/FavoritePage.qml:62
-#, fuzzy, kde-format
-#| msgid "Text: %1"
+#, kde-format
 msgctxt "@action:button"
 msgid "Text: %1"
 msgstr "Testua: %1"
 
 #: contents/ui/FavoritePage.qml:67
-#, fuzzy, kde-format
-#| msgid "Background: %1"
+#, kde-format
 msgctxt "@action:button"
 msgid "Background: %1"
 msgstr "Hondoa: %1"
@@ -52,39 +48,34 @@ msgstr "Hondoa: %1"
 #, kde-format
 msgctxt "@action:button"
 msgid "Apply"
-msgstr ""
+msgstr "Aplikatu"
 
 #: contents/ui/FavoritePage.qml:104
-#, fuzzy, kde-format
-#| msgid "Background color copied to clipboard"
+#, kde-format
 msgctxt "@info:inline"
 msgid "Background color copied to clipboard"
 msgstr "Hondoko kolorea arbelera kopiatu da"
 
 #: contents/ui/FavoritePage.qml:108
-#, fuzzy, kde-format
-#| msgid "Text color copied to clipboard"
+#, kde-format
 msgctxt "@info:inline"
 msgid "Text color copied to clipboard"
 msgstr "Testuaren kolorea arbelera kopiatu da"
 
 #: contents/ui/FavoritePage.qml:115
-#, fuzzy, kde-format
-#| msgid "Color copied to clipboard"
+#, kde-format
 msgctxt "@info:inline"
 msgid "Color copied to clipboard"
 msgstr "Kolorea arbelera kopiatu da"
 
 #: contents/ui/HelpPage.qml:13 contents/ui/main.qml:41
-#, fuzzy, kde-format
-#| msgid "Help"
+#, kde-format
 msgctxt "@title:menu"
 msgid "Help"
 msgstr "Laguntza"
 
 #: contents/ui/HelpPage.qml:19
-#, fuzzy, kde-format
-#| msgid "Contrast"
+#, kde-format
 msgctxt "@title:heading"
 msgid "Contrast"
 msgstr "Kontrastea"
@@ -97,10 +88,10 @@ msgid ""
 "determined by the difference in the color and brightness of the object and "
 "other objects within the same field of view."
 msgstr ""
-"Kontrastea bi objekturen arteko kolore diferentzia da, haiek bereizgarriak "
-"izatea eragiten duena. Mundu errealaren ikusizko pertzepzioan, objektuaren "
-"eta ikus-eremu bereko beste objektu batzuen kolorearen eta distiraren arteko "
-"diferentziak zehazten du kontrastea."
+"Kontrastea, bi objektu bereiztea ahalbidetzen duen bien arteko kolore "
+"diferentzia da. Mundu errealaren ikusizko pertzepzioan, kontrastea, "
+"objektuaren eta ikus-eremu bereko beste objektu batzuen kolorearen eta "
+"distiraren arteko diferentziak zehazten du."
 
 #: contents/ui/HelpPage.qml:29
 #, kde-format
@@ -108,9 +99,9 @@ msgid ""
 "A contrast value of 21 indicates a perfect contrast (usually black on "
 "white), and a value of 0 indicate that the two colors are the same."
 msgstr ""
-"21 balioko kontraste batek kontraste perfektua adierazten du (zuriak "
-"beltzean izan ohi duena), eta 0 balioak bi koloreak bera direla adierazten "
-"du."
+"21 balioko kontraste batek kontraste perfektua adierazten du (normalean "
+"beltza zuriaren gainean), eta 0 balioak bi koloreak berdinak direla "
+"adierazten du."
 
 #: contents/ui/HelpPage.qml:34
 #, kde-format
@@ -119,9 +110,9 @@ msgid ""
 "the WCAG AA standard and a contrast ratio of 7 or more is required to "
 "conform with the WCAG AAA standard."
 msgstr ""
-"Testu arrunterako, kontraste-proportzioa gutxienez 4,5ekoa izan beharko "
-"litzateke WCAG AA estandarrarekin bat etortzeko eta 7 edo gehiagoko "
-"kontraste-proportzioa behar da WCAG AAA estandarrarekin bat etortzeko."
+"Testu arrunterako, kontraste-proportzioa gutxienez 4,5ekoa izan behar da "
+"WCAG AA estandarrarera egokitzeko eta 7 edo gehiagoko kontraste-proportzioa "
+"behar da WCAG AAA estandarrera egokitzeko."
 
 #: contents/ui/HelpPage.qml:39
 #, kde-format
@@ -130,34 +121,29 @@ msgid ""
 "WCAG AA standard and a contrast ratio of 4.5 or more is required to conform "
 "with the WCAG AAA standard."
 msgstr ""
-"Testu handietarako, kontraste-proportzioak gutxienez 3koa izan beharko "
-"litzateke WCAG AA estandarrarekin bat etortzeko eta 4,5 edo gehiagoko "
-"kontraste-proportzioa behar da WCAG AAA estandarrarekin bat etortzeko."
+"Testu handirako, kontraste-proportzioa gutxienez 3koa izan behar da WCAG AA "
+"estandarrera egokitzeko eta 4,5 edo gehiagoko kontraste-proportzioa behar da "
+"WCAG AAA estandarrera egokitzeko."
 
 #: contents/ui/main.qml:23
-#, fuzzy, kde-format
-#| msgctxt "@title"
-#| msgid "Kontrast"
+#, kde-format
 msgid "Kontrast"
 msgstr "Kontrast"
 
 #: contents/ui/main.qml:29 contents/ui/MainPage.qml:20
-#, fuzzy, kde-format
-#| msgid "Contrast Checker"
+#, kde-format
 msgctxt "@title:menu"
 msgid "Contrast Checker"
-msgstr "Kontrastea egiaztatzeko tresna"
+msgstr "Kontraste egiaztatzailea"
 
 #: contents/ui/main.qml:47
-#, fuzzy, kde-format
-#| msgid "About"
+#, kde-format
 msgctxt "@title:menu"
 msgid "About"
 msgstr "Honi buruz"
 
 #: contents/ui/MainPage.qml:42
-#, fuzzy, kde-format
-#| msgid "Contrast ratio: %1"
+#, kde-format
 msgctxt "@label"
 msgid "Contrast ratio: %1"
 msgstr "Kontraste proportzioa: %1"
@@ -170,22 +156,22 @@ msgstr "%1"
 #: contents/ui/MainPage.qml:62
 #, kde-format
 msgid "Perfect for normal and large text"
-msgstr "Ezin hobea testu arrunt eta handiarentzat"
+msgstr "Ezin hobea testu arrunt eta handirako"
 
 #: contents/ui/MainPage.qml:62
 #, kde-format
 msgid "Perfect for large text and good for normal text"
-msgstr "Ezin hobea testu handiarentzat eta ona testu arruntarentzat"
+msgstr "Ezin hobea testu handirako eta ona testu arrunterako"
 
 #: contents/ui/MainPage.qml:62
 #, kde-format
 msgid "Good for large text and bad for normal text"
-msgstr "Ona testu handiarentzat eta txarra testu arruntarentzat"
+msgstr "Ona testu handirako eta txarra testu arrunterako"
 
 #: contents/ui/MainPage.qml:62
 #, kde-format
 msgid "Bad for large and normal text"
-msgstr "Txarra testu handi eta arruntarentzat"
+msgstr "Txarra testu handi eta arrunterako"
 
 #: contents/ui/MainPage.qml:69
 #, kde-format
@@ -196,71 +182,62 @@ msgid ""
 "the color and brightness of the object and other objects within the same "
 "field of view."
 msgstr ""
-"Kontrastea da, objektu bat (edo irudi edo bistaratzaile batean duen "
-"irudikapena)bereizgarria izatea eragiten duen luminantzia- edo kolore-"
-"diferentzia. Mundu errealaren ikusizko pertzepzioan, objektuaren eta ikus-"
-"eremu bereko beste objektu batzuen kolorearen eta distiraren arteko "
-"diferentziak zehazten du kontrastea."
+"Kontrastea, objektu bat (edo irudi edo bistaratzaile batean duen "
+"irudikapena) bereizgarria izatea eragiten duen argitasun- edo kolore-"
+"diferentzia da. Mundu errealaren ikusizko pertzepzioan, kontrastea, "
+"objektuaren eta ikus-eremu bereko beste objektu batzuen kolorearen eta "
+"distiraren arteko diferentziak zehazten du."
 
 #: contents/ui/MainPage.qml:84
-#, fuzzy, kde-format
-#| msgid "Text"
+#, kde-format
 msgctxt "@label"
 msgid "Text"
 msgstr "Testua"
 
 #: contents/ui/MainPage.qml:113 contents/ui/MainPage.qml:193
-#, fuzzy, kde-format
-#| msgid "Hue %1°"
+#, kde-format
 msgctxt "@label"
 msgid "Hue: %1°"
-msgstr "Tonua %1º"
+msgstr "Tonua: %1º"
 
 #: contents/ui/MainPage.qml:127 contents/ui/MainPage.qml:207
-#, fuzzy, kde-format
-#| msgid "Saturation %1"
+#, kde-format
 msgctxt "@label"
 msgid "Saturation: %1"
-msgstr "Asetasuna %1"
+msgstr "Asetasuna: %1"
 
 #: contents/ui/MainPage.qml:141 contents/ui/MainPage.qml:221
-#, fuzzy, kde-format
-#| msgid "Lightness %1"
+#, kde-format
 msgctxt "@label"
 msgid "Lightness: %1"
-msgstr "Argitasuna %1"
+msgstr "Argitasuna: %1"
 
 #: contents/ui/MainPage.qml:165
-#, fuzzy, kde-format
-#| msgid "Background"
+#, kde-format
 msgctxt "@label"
 msgid "Background"
 msgstr "Hondoa"
 
 #: contents/ui/MainPage.qml:238
-#, fuzzy, kde-format
-#| msgid "Font Size %1px"
+#, kde-format
 msgctxt "@label"
 msgid "Font size: %1px"
-msgstr "Letra-tipoaren neurria %1px"
+msgstr "Letra-neurria: %1px"
 
 #: contents/ui/MainPage.qml:255
-#, fuzzy, kde-format
-#| msgid "Invert"
+#, kde-format
 msgctxt "@action:button"
 msgid "Invert"
 msgstr "Alderantzikatu"
 
 #: contents/ui/MainPage.qml:261
-#, fuzzy, kde-format
-#| msgid "Randomize"
+#, kde-format
 msgctxt "@action:button"
 msgid "Randomize"
-msgstr "Ausazkoa"
+msgstr "Ausazko egin"
 
 #: contents/ui/MainPage.qml:267
-#, fuzzy, kde-format
-#| msgid "Mark as favorite"
+#, kde-format
 msgctxt "@action:button"
 msgid "Mark as Favorite"
 msgstr "Markatu gogoko gisa"
@@ -268,17 +245,17 @@ msgstr "Markatu gogoko gisa"
 #: kontrast.cpp:349
 #, kde-format
 msgid "Font size %1px is bad with the current contrast"
-msgstr "%1px-eko letra-tipoaren neurria gaizki dator uneko kontrastearekin"
+msgstr "%1px-eko letra-neurria uneko kontrastearekin gaizki dator"
 
 #: kontrast.cpp:352
 #, kde-format
 msgid "Font size %1px is good with the current contrast"
-msgstr "%1px-eko letra-tipoaren neurria ondo dator uneko kontrastearekin"
+msgstr "%1px-eko letra-neurria uneko kontrastearekin ondo dator"
 
 #: kontrast.cpp:355
 #, kde-format
 msgid "Font size %1px is perfect with the current contrast"
-msgstr "%1px-eko letra-tipoaren neurria perfektua da uneko kontrastearekin"
+msgstr "%1px-eko letra-neurria uneko kontrastearekin ezin hobea da"
 
 #: main.cpp:39
 #, kde-format
@@ -290,7 +267,7 @@ msgstr "Kontrast"
 #, kde-format
 msgctxt "@title"
 msgid "A contrast checker application"
-msgstr "Kontrastea egiaztatzeko tresna bat"
+msgstr "Kontrastea egiaztatzeko tresna"
 
 #: main.cpp:44
 #, kde-format
@@ -326,7 +303,7 @@ msgstr "Carson Black"
 #, kde-format
 msgctxt "@info:credit"
 msgid "SQLite backend for favorite colors"
-msgstr "Gogoko koloretarako SQLite bizkarraldekoa"
+msgstr "Gogoko koloreetarako SQLite bizkarraldekoa"
 
 #: main.cpp:51
 #, kde-format
