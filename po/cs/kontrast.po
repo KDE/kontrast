@@ -24,31 +24,28 @@ msgid "Favorite Colors"
 msgstr ""
 
 #: contents/ui/FavoritePage.qml:44
-#, fuzzy, kde-format
-#| msgid "Remove"
+#, kde-format
 msgctxt "@action:tooltip"
 msgid "Remove"
-msgstr "Odstranit"
+msgstr ""
 
 #: contents/ui/FavoritePage.qml:62
-#, fuzzy, kde-format
-#| msgid "Text: %1"
+#, kde-format
 msgctxt "@action:button"
 msgid "Text: %1"
-msgstr "Text: %1"
+msgstr ""
 
 #: contents/ui/FavoritePage.qml:67
-#, fuzzy, kde-format
-#| msgid "Background: %1"
+#, kde-format
 msgctxt "@action:button"
 msgid "Background: %1"
-msgstr "Pozadí: %1"
+msgstr ""
 
 #: contents/ui/FavoritePage.qml:74
 #, kde-format
 msgctxt "@action:button"
 msgid "Apply"
-msgstr ""
+msgstr "Použít"
 
 #: contents/ui/FavoritePage.qml:104
 #, kde-format
@@ -69,18 +66,16 @@ msgid "Color copied to clipboard"
 msgstr ""
 
 #: contents/ui/HelpPage.qml:13 contents/ui/main.qml:41
-#, fuzzy, kde-format
-#| msgid "Help"
+#, kde-format
 msgctxt "@title:menu"
 msgid "Help"
 msgstr "Nápověda"
 
 #: contents/ui/HelpPage.qml:19
-#, fuzzy, kde-format
-#| msgid "Contrast"
+#, kde-format
 msgctxt "@title:heading"
 msgid "Contrast"
-msgstr "Kontrast"
+msgstr ""
 
 #: contents/ui/HelpPage.qml:24
 #, kde-format
@@ -115,32 +110,27 @@ msgid ""
 msgstr ""
 
 #: contents/ui/main.qml:23
-#, fuzzy, kde-format
-#| msgctxt "@title"
-#| msgid "Kontrast"
+#, kde-format
 msgid "Kontrast"
 msgstr "Kontrast"
 
 #: contents/ui/main.qml:29 contents/ui/MainPage.qml:20
-#, fuzzy, kde-format
-#| msgid "Contrast"
+#, kde-format
 msgctxt "@title:menu"
 msgid "Contrast Checker"
-msgstr "Kontrast"
+msgstr ""
 
 #: contents/ui/main.qml:47
-#, fuzzy, kde-format
-#| msgid "About"
+#, kde-format
 msgctxt "@title:menu"
 msgid "About"
-msgstr "O aplikaci"
+msgstr ""
 
 #: contents/ui/MainPage.qml:42
-#, fuzzy, kde-format
-#| msgid "Saturation %1"
+#, kde-format
 msgctxt "@label"
 msgid "Contrast ratio: %1"
-msgstr "Nasycení %1"
+msgstr ""
 
 #: contents/ui/MainPage.qml:50
 #, kde-format
@@ -178,60 +168,52 @@ msgid ""
 msgstr ""
 
 #: contents/ui/MainPage.qml:84
-#, fuzzy, kde-format
-#| msgid "Text"
+#, kde-format
 msgctxt "@label"
 msgid "Text"
 msgstr "Text"
 
 #: contents/ui/MainPage.qml:113 contents/ui/MainPage.qml:193
-#, fuzzy, kde-format
-#| msgid "Hue %1°"
+#, kde-format
 msgctxt "@label"
 msgid "Hue: %1°"
-msgstr "Tón %1°"
+msgstr ""
 
 #: contents/ui/MainPage.qml:127 contents/ui/MainPage.qml:207
-#, fuzzy, kde-format
-#| msgid "Saturation %1"
+#, kde-format
 msgctxt "@label"
 msgid "Saturation: %1"
-msgstr "Nasycení %1"
+msgstr ""
 
 #: contents/ui/MainPage.qml:141 contents/ui/MainPage.qml:221
-#, fuzzy, kde-format
-#| msgid "Lightness %1"
+#, kde-format
 msgctxt "@label"
 msgid "Lightness: %1"
-msgstr "Jas %1"
+msgstr ""
 
 #: contents/ui/MainPage.qml:165
-#, fuzzy, kde-format
-#| msgid "Background"
+#, kde-format
 msgctxt "@label"
 msgid "Background"
-msgstr "Pozadí"
+msgstr ""
 
 #: contents/ui/MainPage.qml:238
-#, fuzzy, kde-format
-#| msgid "Font Size %1px"
+#, kde-format
 msgctxt "@label"
 msgid "Font size: %1px"
-msgstr "Velikost písma %1px"
+msgstr ""
 
 #: contents/ui/MainPage.qml:255
-#, fuzzy, kde-format
-#| msgid "Invert"
+#, kde-format
 msgctxt "@action:button"
 msgid "Invert"
-msgstr "Invertovat"
+msgstr ""
 
 #: contents/ui/MainPage.qml:261
-#, fuzzy, kde-format
-#| msgid "Randomize"
+#, kde-format
 msgctxt "@action:button"
 msgid "Randomize"
-msgstr "Zamíchat"
+msgstr ""
 
 #: contents/ui/MainPage.qml:267
 #, kde-format
