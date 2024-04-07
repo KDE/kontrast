@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kontrast\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-03-29 00:35+0000\n"
-"PO-Revision-Date: 2024-02-13 16:44+0200\n"
+"PO-Revision-Date: 2024-04-05 16:07+0300\n"
 "Last-Translator: Toms Trasuns <toms.trasuns@posteo.net>\n"
 "Language-Team: Latvian <kde-i18n-doc@kde.org>\n"
 "Language: lv\n"
@@ -16,32 +16,28 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : "
 "2);\n"
-"X-Generator: Lokalize 23.08.4\n"
+"X-Generator: Lokalize 23.08.5\n"
 
 #: contents/ui/FavoritePage.qml:16 contents/ui/main.qml:35
-#, fuzzy, kde-format
-#| msgid "Favorite Colors"
+#, kde-format
 msgctxt "@title:menu"
 msgid "Favorite Colors"
 msgstr "Iecienītākās krāsas"
 
 #: contents/ui/FavoritePage.qml:44
-#, fuzzy, kde-format
-#| msgid "Remove"
+#, kde-format
 msgctxt "@action:tooltip"
 msgid "Remove"
 msgstr "Noņemt"
 
 #: contents/ui/FavoritePage.qml:62
-#, fuzzy, kde-format
-#| msgid "Text: %1"
+#, kde-format
 msgctxt "@action:button"
 msgid "Text: %1"
 msgstr "Teksts: %1"
 
 #: contents/ui/FavoritePage.qml:67
-#, fuzzy, kde-format
-#| msgid "Background: %1"
+#, kde-format
 msgctxt "@action:button"
 msgid "Background: %1"
 msgstr "Fons: %1"
@@ -50,39 +46,34 @@ msgstr "Fons: %1"
 #, kde-format
 msgctxt "@action:button"
 msgid "Apply"
-msgstr ""
+msgstr "Pielietot"
 
 #: contents/ui/FavoritePage.qml:104
-#, fuzzy, kde-format
-#| msgid "Background color copied to clipboard"
+#, kde-format
 msgctxt "@info:inline"
 msgid "Background color copied to clipboard"
 msgstr "Fona krāsa ir iekopēta starpliktuvē"
 
 #: contents/ui/FavoritePage.qml:108
-#, fuzzy, kde-format
-#| msgid "Text color copied to clipboard"
+#, kde-format
 msgctxt "@info:inline"
 msgid "Text color copied to clipboard"
 msgstr "Teksta krāsa ir iekopēta starpliktuvē"
 
 #: contents/ui/FavoritePage.qml:115
-#, fuzzy, kde-format
-#| msgid "Color copied to clipboard"
+#, kde-format
 msgctxt "@info:inline"
 msgid "Color copied to clipboard"
 msgstr "Krāsa ir iekopēta starpliktuvē"
 
 #: contents/ui/HelpPage.qml:13 contents/ui/main.qml:41
-#, fuzzy, kde-format
-#| msgid "Help"
+#, kde-format
 msgctxt "@title:menu"
 msgid "Help"
 msgstr "Palīdzība"
 
 #: contents/ui/HelpPage.qml:19
-#, fuzzy, kde-format
-#| msgid "Contrast"
+#, kde-format
 msgctxt "@title:heading"
 msgid "Contrast"
 msgstr "Kontrasts"
@@ -95,7 +86,7 @@ msgid ""
 "determined by the difference in the color and brightness of the object and "
 "other objects within the same field of view."
 msgstr ""
-"Kontrasts ir krāsu atšķirību starp diviem objektiem, kas ļauj tos atšķirt. "
+"Kontrasts ir krāsu starpība starp diviem objektiem, lai tos varētu atšķirt. "
 "Reālās pasaules vizuālajā uztverē kontrastu veido uztveres laukā esošo "
 "objektu savstarpējās atšķirības krāsā un gaišumā."
 
@@ -105,8 +96,8 @@ msgid ""
 "A contrast value of 21 indicates a perfect contrast (usually black on "
 "white), and a value of 0 indicate that the two colors are the same."
 msgstr ""
-"Kontrasta vērtība 21 nozīmē nevainojamu kontrastu (parasti melnbalts), bet "
-"nulles vērtība nozīmē, ka abas krāsas ir vienādas."
+"Kontrasta vērtība 21 nozīmē nevainojamu kontrastu (parasti melns uz balta), "
+"bet nulles vērtība nozīmē, ka abas krāsas ir vienādas."
 
 #: contents/ui/HelpPage.qml:34
 #, kde-format
@@ -115,9 +106,9 @@ msgid ""
 "the WCAG AA standard and a contrast ratio of 7 or more is required to "
 "conform with the WCAG AAA standard."
 msgstr ""
-"Parastam tekstam kontrasta attiecībai ir jābūt vismaz 4,5, lai atbilsto WCAG "
-"AA standartam, bet kontrastam jābūt 7 vai lielākam, lai atbalstu WCAG AAA "
-"standartam."
+"Parasta teksta kontrasta attiecībai ir jābūt vismaz 4,5, lai atbilsto WCAG "
+"AA standartam, bet, lai atbilstu WCAG AAA standartam, kontrastam jābūt 7 vai "
+"lielākam."
 
 #: contents/ui/HelpPage.qml:39
 #, kde-format
@@ -131,29 +122,24 @@ msgstr ""
 "atbilstu WCAG AAA standartam."
 
 #: contents/ui/main.qml:23
-#, fuzzy, kde-format
-#| msgctxt "@title"
-#| msgid "Kontrast"
+#, kde-format
 msgid "Kontrast"
 msgstr "Kontrast"
 
 #: contents/ui/main.qml:29 contents/ui/MainPage.qml:20
-#, fuzzy, kde-format
-#| msgid "Contrast Checker"
+#, kde-format
 msgctxt "@title:menu"
 msgid "Contrast Checker"
 msgstr "Kontrasta pārbaudītājs"
 
 #: contents/ui/main.qml:47
-#, fuzzy, kde-format
-#| msgid "About"
+#, kde-format
 msgctxt "@title:menu"
 msgid "About"
 msgstr "Par"
 
 #: contents/ui/MainPage.qml:42
-#, fuzzy, kde-format
-#| msgid "Contrast ratio: %1"
+#, kde-format
 msgctxt "@label"
 msgid "Contrast ratio: %1"
 msgstr "Kontrasta attiecība :%1"
@@ -192,70 +178,61 @@ msgid ""
 "the color and brightness of the object and other objects within the same "
 "field of view."
 msgstr ""
-"Kontrasts nozīmē objektu (vai tā reprezentāciju attēlā vai ekrānā) "
+"Kontrasts nozīmē objekta (vai tā reprezentāciju attēlā vai ekrānā) "
 "veidojošās krāsas spilgtuma un krāsas atšķirību, kas to padara atšķiramu. "
 "Reālās pasaules vizuālajā uztverē kontrastu veido uztveres laukā esošo "
 "objektu savstarpējās atšķirības krāsā un gaišumā."
 
 #: contents/ui/MainPage.qml:84
-#, fuzzy, kde-format
-#| msgid "Text"
+#, kde-format
 msgctxt "@label"
 msgid "Text"
 msgstr "Teksts"
 
 #: contents/ui/MainPage.qml:113 contents/ui/MainPage.qml:193
-#, fuzzy, kde-format
-#| msgid "Hue %1°"
+#, kde-format
 msgctxt "@label"
 msgid "Hue: %1°"
-msgstr "Nokrāsa %1°"
+msgstr "Nokrāsa: %1°"
 
 #: contents/ui/MainPage.qml:127 contents/ui/MainPage.qml:207
-#, fuzzy, kde-format
-#| msgid "Saturation %1"
+#, kde-format
 msgctxt "@label"
 msgid "Saturation: %1"
-msgstr "Piesātinājums %1"
+msgstr "Piesātinājums: %1"
 
 #: contents/ui/MainPage.qml:141 contents/ui/MainPage.qml:221
-#, fuzzy, kde-format
-#| msgid "Lightness %1"
+#, kde-format
 msgctxt "@label"
 msgid "Lightness: %1"
-msgstr "Gaišums %1"
+msgstr "Gaišums: %1"
 
 #: contents/ui/MainPage.qml:165
-#, fuzzy, kde-format
-#| msgid "Background"
+#, kde-format
 msgctxt "@label"
 msgid "Background"
 msgstr "Fons"
 
 #: contents/ui/MainPage.qml:238
-#, fuzzy, kde-format
-#| msgid "Font Size %1px"
+#, kde-format
 msgctxt "@label"
 msgid "Font size: %1px"
-msgstr "Fonta izmērs %1 px"
+msgstr "Fonta izmērs: %1 px"
 
 #: contents/ui/MainPage.qml:255
-#, fuzzy, kde-format
-#| msgid "Invert"
+#, kde-format
 msgctxt "@action:button"
 msgid "Invert"
 msgstr "Invertēt"
 
 #: contents/ui/MainPage.qml:261
-#, fuzzy, kde-format
-#| msgid "Randomize"
+#, kde-format
 msgctxt "@action:button"
 msgid "Randomize"
 msgstr "Nejaušas"
 
 #: contents/ui/MainPage.qml:267
-#, fuzzy, kde-format
-#| msgid "Mark as favorite"
+#, kde-format
 msgctxt "@action:button"
 msgid "Mark as Favorite"
 msgstr "Atzīmēt kā iecienītu"
