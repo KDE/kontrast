@@ -8,7 +8,17 @@ add_executable(kontrast
     resources.qrc
 )
 
-target_link_libraries(kontrast
+ecm_add_qml_module(kontrast URI "org.kde.kontrast" VERSION 1.0)
+
+ecm_target_qml_sources(kontrast SOURCES
+    qml/Main.qml
+    qml/MainPage.qml
+    qml/AboutPage.qml
+    qml/FavoritePage.qml
+    qml/HelpPage.qml
+)
+
+target_link_libraries(kontrast PRIVATE
     Qt6::Core
     Qt6::Gui
     Qt6::Qml
@@ -26,7 +36,7 @@ if (ANDROID)
 endif()
 
 if(TARGET Qt6::DBus)
-    target_link_libraries(kontrast Qt6::DBus Qt6::Widgets)
+    target_link_libraries(kontrast PRIVATE Qt6::DBus Qt6::Widgets)
 endif()
 
 install(TARGETS kontrast ${KDE_INSTALL_TARGETS_DEFAULT_ARGS})

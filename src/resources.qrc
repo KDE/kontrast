@@ -4,11 +4,6 @@ SPDX-FileCopyrightText: 2022 Carl Schwan <carl@carlschwan.eu>
 SPDX-License-Identifier: GPL-3.0-or-later
 -->
     <qresource prefix="/">
-        <file alias="main.qml">contents/ui/main.qml</file>
-        <file alias="MainPage.qml">contents/ui/MainPage.qml</file>
-        <file alias="AboutPage.qml">contents/ui/AboutPage.qml</file>
-        <file alias="FavoritePage.qml">contents/ui/FavoritePage.qml</file>
-        <file alias="HelpPage.qml">contents/ui/HelpPage.qml</file>
         <file>contents/migrations/2023-05-22-132750_init/down.sql</file>
         <file>contents/migrations/2023-05-22-132750_init/up.sql</file>
     </qresource>
