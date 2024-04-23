@@ -73,7 +73,7 @@ install(FILES org.kde.kontrast.svg DESTINATION ${KDE_INSTALL_FULL_ICONDIR}/hicol
 ki18n_install(po)
 
 
-feature_summary(WHAT ALL INCLUDE_QUIET_PACKAGES FATAL_ON_MISSING_REQUIRED_PACKAGES)
+feature_summary(WHAT ALL FATAL_ON_MISSING_REQUIRED_PACKAGES)
 
 if(ANDROID)
     kirigami_package_breeze_icons(ICONS
