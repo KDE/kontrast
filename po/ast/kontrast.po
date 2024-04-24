@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kontrast\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-03-29 00:35+0000\n"
+"POT-Creation-Date: 2024-04-24 00:35+0000\n"
 "PO-Revision-Date: 2023-10-25 13:08+0200\n"
 "Last-Translator: Enol P. <enolp@softastur.org>\n"
 "Language-Team: \n"
@@ -16,210 +16,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Lokalize 23.08.2\n"
-
-#: contents/ui/FavoritePage.qml:16 contents/ui/main.qml:35
-#, kde-format
-msgctxt "@title:menu"
-msgid "Favorite Colors"
-msgstr ""
-
-#: contents/ui/FavoritePage.qml:44
-#, kde-format
-msgctxt "@action:tooltip"
-msgid "Remove"
-msgstr ""
-
-#: contents/ui/FavoritePage.qml:62
-#, kde-format
-msgctxt "@action:button"
-msgid "Text: %1"
-msgstr ""
-
-#: contents/ui/FavoritePage.qml:67
-#, kde-format
-msgctxt "@action:button"
-msgid "Background: %1"
-msgstr ""
-
-#: contents/ui/FavoritePage.qml:74
-#, kde-format
-msgctxt "@action:button"
-msgid "Apply"
-msgstr ""
-
-#: contents/ui/FavoritePage.qml:104
-#, kde-format
-msgctxt "@info:inline"
-msgid "Background color copied to clipboard"
-msgstr ""
-
-#: contents/ui/FavoritePage.qml:108
-#, kde-format
-msgctxt "@info:inline"
-msgid "Text color copied to clipboard"
-msgstr ""
-
-#: contents/ui/FavoritePage.qml:115
-#, kde-format
-msgctxt "@info:inline"
-msgid "Color copied to clipboard"
-msgstr ""
-
-#: contents/ui/HelpPage.qml:13 contents/ui/main.qml:41
-#, kde-format
-msgctxt "@title:menu"
-msgid "Help"
-msgstr ""
-
-#: contents/ui/HelpPage.qml:19
-#, kde-format
-msgctxt "@title:heading"
-msgid "Contrast"
-msgstr ""
-
-#: contents/ui/HelpPage.qml:24
-#, kde-format
-msgid ""
-"Contrast is the difference in color between two objects that allows them to "
-"be distinguished. In visual perception of the real world, contrast is "
-"determined by the difference in the color and brightness of the object and "
-"other objects within the same field of view."
-msgstr ""
-
-#: contents/ui/HelpPage.qml:29
-#, kde-format
-msgid ""
-"A contrast value of 21 indicates a perfect contrast (usually black on "
-"white), and a value of 0 indicate that the two colors are the same."
-msgstr ""
-
-#: contents/ui/HelpPage.qml:34
-#, kde-format
-msgid ""
-"For normal text, the contrast ratio should be at least of 4.5 to conform to "
-"the WCAG AA standard and a contrast ratio of 7 or more is required to "
-"conform with the WCAG AAA standard."
-msgstr ""
-
-#: contents/ui/HelpPage.qml:39
-#, kde-format
-msgid ""
-"For large text, the contrast ratio should be at least of 3 to conform to the "
-"WCAG AA standard and a contrast ratio of 4.5 or more is required to conform "
-"with the WCAG AAA standard."
-msgstr ""
-
-#: contents/ui/main.qml:23
-#, kde-format
-msgid "Kontrast"
-msgstr ""
-
-#: contents/ui/main.qml:29 contents/ui/MainPage.qml:20
-#, kde-format
-msgctxt "@title:menu"
-msgid "Contrast Checker"
-msgstr ""
-
-#: contents/ui/main.qml:47
-#, kde-format
-msgctxt "@title:menu"
-msgid "About"
-msgstr ""
-
-#: contents/ui/MainPage.qml:42
-#, kde-format
-msgctxt "@label"
-msgid "Contrast ratio: %1"
-msgstr ""
-
-#: contents/ui/MainPage.qml:50
-#, kde-format
-msgid "%1"
-msgstr ""
-
-#: contents/ui/MainPage.qml:62
-#, kde-format
-msgid "Perfect for normal and large text"
-msgstr ""
-
-#: contents/ui/MainPage.qml:62
-#, kde-format
-msgid "Perfect for large text and good for normal text"
-msgstr ""
-
-#: contents/ui/MainPage.qml:62
-#, kde-format
-msgid "Good for large text and bad for normal text"
-msgstr ""
-
-#: contents/ui/MainPage.qml:62
-#, kde-format
-msgid "Bad for large and normal text"
-msgstr ""
-
-#: contents/ui/MainPage.qml:69
-#, kde-format
-msgid ""
-"Contrast is the difference in luminance or color that makes an object (or "
-"its representation in an image or display) distinguishable. In visual "
-"perception of the real world, contrast is determined by the difference in "
-"the color and brightness of the object and other objects within the same "
-"field of view."
-msgstr ""
-
-#: contents/ui/MainPage.qml:84
-#, kde-format
-msgctxt "@label"
-msgid "Text"
-msgstr ""
-
-#: contents/ui/MainPage.qml:113 contents/ui/MainPage.qml:193
-#, kde-format
-msgctxt "@label"
-msgid "Hue: %1°"
-msgstr ""
-
-#: contents/ui/MainPage.qml:127 contents/ui/MainPage.qml:207
-#, kde-format
-msgctxt "@label"
-msgid "Saturation: %1"
-msgstr ""
-
-#: contents/ui/MainPage.qml:141 contents/ui/MainPage.qml:221
-#, kde-format
-msgctxt "@label"
-msgid "Lightness: %1"
-msgstr ""
-
-#: contents/ui/MainPage.qml:165
-#, kde-format
-msgctxt "@label"
-msgid "Background"
-msgstr ""
-
-#: contents/ui/MainPage.qml:238
-#, kde-format
-msgctxt "@label"
-msgid "Font size: %1px"
-msgstr ""
-
-#: contents/ui/MainPage.qml:255
-#, kde-format
-msgctxt "@action:button"
-msgid "Invert"
-msgstr ""
-
-#: contents/ui/MainPage.qml:261
-#, kde-format
-msgctxt "@action:button"
-msgid "Randomize"
-msgstr ""
-
-#: contents/ui/MainPage.qml:267
-#, kde-format
-msgctxt "@action:button"
-msgid "Mark as Favorite"
-msgstr ""
 
 #: kontrast.cpp:349
 #, kde-format
@@ -295,3 +91,207 @@ msgstr "Softastur"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "alministradores@softastur.org"
+
+#: qml/FavoritePage.qml:16 qml/Main.qml:35
+#, kde-format
+msgctxt "@title:menu"
+msgid "Favorite Colors"
+msgstr ""
+
+#: qml/FavoritePage.qml:44
+#, kde-format
+msgctxt "@action:tooltip"
+msgid "Remove"
+msgstr ""
+
+#: qml/FavoritePage.qml:62
+#, kde-format
+msgctxt "@action:button"
+msgid "Text: %1"
+msgstr ""
+
+#: qml/FavoritePage.qml:67
+#, kde-format
+msgctxt "@action:button"
+msgid "Background: %1"
+msgstr ""
+
+#: qml/FavoritePage.qml:74
+#, kde-format
+msgctxt "@action:button"
+msgid "Apply"
+msgstr ""
+
+#: qml/FavoritePage.qml:104
+#, kde-format
+msgctxt "@info:inline"
+msgid "Background color copied to clipboard"
+msgstr ""
+
+#: qml/FavoritePage.qml:108
+#, kde-format
+msgctxt "@info:inline"
+msgid "Text color copied to clipboard"
+msgstr ""
+
+#: qml/FavoritePage.qml:115
+#, kde-format
+msgctxt "@info:inline"
+msgid "Color copied to clipboard"
+msgstr ""
+
+#: qml/HelpPage.qml:13 qml/Main.qml:41
+#, kde-format
+msgctxt "@title:menu"
+msgid "Help"
+msgstr ""
+
+#: qml/HelpPage.qml:19
+#, kde-format
+msgctxt "@title:heading"
+msgid "Contrast"
+msgstr ""
+
+#: qml/HelpPage.qml:24
+#, kde-format
+msgid ""
+"Contrast is the difference in color between two objects that allows them to "
+"be distinguished. In visual perception of the real world, contrast is "
+"determined by the difference in the color and brightness of the object and "
+"other objects within the same field of view."
+msgstr ""
+
+#: qml/HelpPage.qml:29
+#, kde-format
+msgid ""
+"A contrast value of 21 indicates a perfect contrast (usually black on "
+"white), and a value of 0 indicate that the two colors are the same."
+msgstr ""
+
+#: qml/HelpPage.qml:34
+#, kde-format
+msgid ""
+"For normal text, the contrast ratio should be at least of 4.5 to conform to "
+"the WCAG AA standard and a contrast ratio of 7 or more is required to "
+"conform with the WCAG AAA standard."
+msgstr ""
+
+#: qml/HelpPage.qml:39
+#, kde-format
+msgid ""
+"For large text, the contrast ratio should be at least of 3 to conform to the "
+"WCAG AA standard and a contrast ratio of 4.5 or more is required to conform "
+"with the WCAG AAA standard."
+msgstr ""
+
+#: qml/Main.qml:23
+#, kde-format
+msgid "Kontrast"
+msgstr ""
+
+#: qml/Main.qml:29 qml/MainPage.qml:20
+#, kde-format
+msgctxt "@title:menu"
+msgid "Contrast Checker"
+msgstr ""
+
+#: qml/Main.qml:47
+#, kde-format
+msgctxt "@title:menu"
+msgid "About"
+msgstr ""
+
+#: qml/MainPage.qml:42
+#, kde-format
+msgctxt "@label"
+msgid "Contrast ratio: %1"
+msgstr ""
+
+#: qml/MainPage.qml:50
+#, kde-format
+msgid "%1"
+msgstr ""
+
+#: qml/MainPage.qml:62
+#, kde-format
+msgid "Perfect for normal and large text"
+msgstr ""
+
+#: qml/MainPage.qml:62
+#, kde-format
+msgid "Perfect for large text and good for normal text"
+msgstr ""
+
+#: qml/MainPage.qml:62
+#, kde-format
+msgid "Good for large text and bad for normal text"
+msgstr ""
+
+#: qml/MainPage.qml:62
+#, kde-format
+msgid "Bad for large and normal text"
+msgstr ""
+
+#: qml/MainPage.qml:69
+#, kde-format
+msgid ""
+"Contrast is the difference in luminance or color that makes an object (or "
+"its representation in an image or display) distinguishable. In visual "
+"perception of the real world, contrast is determined by the difference in "
+"the color and brightness of the object and other objects within the same "
+"field of view."
+msgstr ""
+
+#: qml/MainPage.qml:84
+#, kde-format
+msgctxt "@label"
+msgid "Text"
+msgstr ""
+
+#: qml/MainPage.qml:113 qml/MainPage.qml:193
+#, kde-format
+msgctxt "@label"
+msgid "Hue: %1°"
+msgstr ""
+
+#: qml/MainPage.qml:127 qml/MainPage.qml:207
+#, kde-format
+msgctxt "@label"
+msgid "Saturation: %1"
+msgstr ""
+
+#: qml/MainPage.qml:141 qml/MainPage.qml:221
+#, kde-format
+msgctxt "@label"
+msgid "Lightness: %1"
+msgstr ""
+
+#: qml/MainPage.qml:165
+#, kde-format
+msgctxt "@label"
+msgid "Background"
+msgstr ""
+
+#: qml/MainPage.qml:238
+#, kde-format
+msgctxt "@label"
+msgid "Font size: %1px"
+msgstr ""
+
+#: qml/MainPage.qml:255
+#, kde-format
+msgctxt "@action:button"
+msgid "Invert"
+msgstr ""
+
+#: qml/MainPage.qml:261
+#, kde-format
+msgctxt "@action:button"
+msgid "Randomize"
+msgstr ""
+
+#: qml/MainPage.qml:267
+#, kde-format
+msgctxt "@action:button"
+msgid "Mark as Favorite"
+msgstr ""

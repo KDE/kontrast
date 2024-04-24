@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kontrast\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-03-29 00:35+0000\n"
+"POT-Creation-Date: 2024-04-24 00:35+0000\n"
 "PO-Revision-Date: 2023-12-05 17:30+0100\n"
 "Last-Translator: Roman Paholik <wizzardsk@gmail.com>\n"
 "Language-Team: Slovak <kde-sk@linux.sk>\n"
@@ -15,248 +15,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Lokalize 23.08.3\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-
-#: contents/ui/FavoritePage.qml:16 contents/ui/main.qml:35
-#, fuzzy, kde-format
-#| msgid "Favorite Colors"
-msgctxt "@title:menu"
-msgid "Favorite Colors"
-msgstr "Obľúbené farby"
-
-#: contents/ui/FavoritePage.qml:44
-#, fuzzy, kde-format
-#| msgid "Remove"
-msgctxt "@action:tooltip"
-msgid "Remove"
-msgstr "Odstrániť"
-
-#: contents/ui/FavoritePage.qml:62
-#, fuzzy, kde-format
-#| msgid "Text: %1"
-msgctxt "@action:button"
-msgid "Text: %1"
-msgstr "Text: %1"
-
-#: contents/ui/FavoritePage.qml:67
-#, fuzzy, kde-format
-#| msgid "Background: %1"
-msgctxt "@action:button"
-msgid "Background: %1"
-msgstr "Pozadie: %1"
-
-#: contents/ui/FavoritePage.qml:74
-#, kde-format
-msgctxt "@action:button"
-msgid "Apply"
-msgstr ""
-
-#: contents/ui/FavoritePage.qml:104
-#, fuzzy, kde-format
-#| msgid "Background color copied to clipboard"
-msgctxt "@info:inline"
-msgid "Background color copied to clipboard"
-msgstr "Farba pozadia bola skopírovaná do schránky"
-
-#: contents/ui/FavoritePage.qml:108
-#, fuzzy, kde-format
-#| msgid "Text color copied to clipboard"
-msgctxt "@info:inline"
-msgid "Text color copied to clipboard"
-msgstr "Farba textu bola skopírovaná do schránky"
-
-#: contents/ui/FavoritePage.qml:115
-#, fuzzy, kde-format
-#| msgid "Color copied to clipboard"
-msgctxt "@info:inline"
-msgid "Color copied to clipboard"
-msgstr "Farba skopírovaná do schránky"
-
-#: contents/ui/HelpPage.qml:13 contents/ui/main.qml:41
-#, fuzzy, kde-format
-#| msgid "Help"
-msgctxt "@title:menu"
-msgid "Help"
-msgstr "Pomocník"
-
-#: contents/ui/HelpPage.qml:19
-#, fuzzy, kde-format
-#| msgid "Contrast"
-msgctxt "@title:heading"
-msgid "Contrast"
-msgstr "Kontrast"
-
-#: contents/ui/HelpPage.qml:24
-#, kde-format
-msgid ""
-"Contrast is the difference in color between two objects that allows them to "
-"be distinguished. In visual perception of the real world, contrast is "
-"determined by the difference in the color and brightness of the object and "
-"other objects within the same field of view."
-msgstr ""
-"Kontrast je rozdiel farieb medzi dvoma objektmi, ktorý umožňuje ich "
-"rozlíšenie. Vo vizuálnom vnímaní skutočného sveta je kontrast určený "
-"rozdielom vo farbe a jasu objektu a ostatných objektov v rovnakom zornom "
-"poli."
-
-#: contents/ui/HelpPage.qml:29
-#, kde-format
-msgid ""
-"A contrast value of 21 indicates a perfect contrast (usually black on "
-"white), and a value of 0 indicate that the two colors are the same."
-msgstr ""
-"Hodnota kontrastu 21 označuje dokonalý kontrast (zvyčajne čierna na bielej) "
-"a hodnota 0 znamená, že obe farby sú rovnaké."
-
-#: contents/ui/HelpPage.qml:34
-#, kde-format
-msgid ""
-"For normal text, the contrast ratio should be at least of 4.5 to conform to "
-"the WCAG AA standard and a contrast ratio of 7 or more is required to "
-"conform with the WCAG AAA standard."
-msgstr ""
-"Pre normálny text by mal byť kontrastný pomer najmenej 4,5, aby zodpovedal "
-"štandardu WSGA AA a kontrastný pomer 7 alebo viac sa vyžaduje, aby vyhovoval "
-"štandardu WSGA AAA."
-
-#: contents/ui/HelpPage.qml:39
-#, kde-format
-msgid ""
-"For large text, the contrast ratio should be at least of 3 to conform to the "
-"WCAG AA standard and a contrast ratio of 4.5 or more is required to conform "
-"with the WCAG AAA standard."
-msgstr ""
-"V prípade veľkého textu by mal byť kontrastný pomer najmenej 3, aby "
-"zodpovedal štandardu WSGA AA a kontrastný pomer 4,5 alebo viac sa vyžaduje, "
-"aby vyhovoval štandardu WSGA AAA."
-
-#: contents/ui/main.qml:23
-#, fuzzy, kde-format
-#| msgctxt "@title"
-#| msgid "Kontrast"
-msgid "Kontrast"
-msgstr "Kontrast"
-
-#: contents/ui/main.qml:29 contents/ui/MainPage.qml:20
-#, fuzzy, kde-format
-#| msgid "Contrast Checker"
-msgctxt "@title:menu"
-msgid "Contrast Checker"
-msgstr "Kontrola kontrastu"
-
-#: contents/ui/main.qml:47
-#, fuzzy, kde-format
-#| msgid "About"
-msgctxt "@title:menu"
-msgid "About"
-msgstr "O aplikácii"
-
-#: contents/ui/MainPage.qml:42
-#, fuzzy, kde-format
-#| msgid "Contrast ratio: %1"
-msgctxt "@label"
-msgid "Contrast ratio: %1"
-msgstr "Kontrastný pomer: %1"
-
-#: contents/ui/MainPage.qml:50
-#, kde-format
-msgid "%1"
-msgstr "%1"
-
-#: contents/ui/MainPage.qml:62
-#, kde-format
-msgid "Perfect for normal and large text"
-msgstr "Ideálne pre normálny a veľký text"
-
-#: contents/ui/MainPage.qml:62
-#, kde-format
-msgid "Perfect for large text and good for normal text"
-msgstr "Ideálne pre veľký text a dobré pre normálny text"
-
-#: contents/ui/MainPage.qml:62
-#, kde-format
-msgid "Good for large text and bad for normal text"
-msgstr "Dobré pre veľký text a zlé pre normálny text"
-
-#: contents/ui/MainPage.qml:62
-#, kde-format
-msgid "Bad for large and normal text"
-msgstr "Zlé pre veľký a normálny text"
-
-#: contents/ui/MainPage.qml:69
-#, kde-format
-msgid ""
-"Contrast is the difference in luminance or color that makes an object (or "
-"its representation in an image or display) distinguishable. In visual "
-"perception of the real world, contrast is determined by the difference in "
-"the color and brightness of the object and other objects within the same "
-"field of view."
-msgstr ""
-"Kontrast je rozdiel vo svietivosti alebo farbe, ktorý umožňuje rozlíšiť "
-"objekt (alebo jeho zobrazenie v obrázku alebo displeji). Vo vizuálnom "
-"vnímaní skutočného sveta je kontrast určený rozdielom vo farbe a jasu "
-"objektu a ostatných objektov v rovnakom zornom poli."
-
-#: contents/ui/MainPage.qml:84
-#, fuzzy, kde-format
-#| msgid "Text"
-msgctxt "@label"
-msgid "Text"
-msgstr "Text"
-
-#: contents/ui/MainPage.qml:113 contents/ui/MainPage.qml:193
-#, fuzzy, kde-format
-#| msgid "Hue %1°"
-msgctxt "@label"
-msgid "Hue: %1°"
-msgstr "Odtieň %1°"
-
-#: contents/ui/MainPage.qml:127 contents/ui/MainPage.qml:207
-#, fuzzy, kde-format
-#| msgid "Saturation %1"
-msgctxt "@label"
-msgid "Saturation: %1"
-msgstr "Sýtosť %1"
-
-#: contents/ui/MainPage.qml:141 contents/ui/MainPage.qml:221
-#, fuzzy, kde-format
-#| msgid "Lightness %1"
-msgctxt "@label"
-msgid "Lightness: %1"
-msgstr "Jas %1"
-
-#: contents/ui/MainPage.qml:165
-#, fuzzy, kde-format
-#| msgid "Background"
-msgctxt "@label"
-msgid "Background"
-msgstr "Pozadie"
-
-#: contents/ui/MainPage.qml:238
-#, kde-format
-msgctxt "@label"
-msgid "Font size: %1px"
-msgstr ""
-
-#: contents/ui/MainPage.qml:255
-#, fuzzy, kde-format
-#| msgid "Invert"
-msgctxt "@action:button"
-msgid "Invert"
-msgstr "Invertovať"
-
-#: contents/ui/MainPage.qml:261
-#, fuzzy, kde-format
-#| msgid "Randomize"
-msgctxt "@action:button"
-msgid "Randomize"
-msgstr "Náhodne"
-
-#: contents/ui/MainPage.qml:267
-#, fuzzy, kde-format
-#| msgid "Mark as favorite"
-msgctxt "@action:button"
-msgid "Mark as Favorite"
-msgstr "Označiť ako obľúbené"
 
 #: kontrast.cpp:349
 #, kde-format
@@ -332,6 +90,248 @@ msgstr "Roman Paholík"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "wizzardsk@gmail.com"
+
+#: qml/FavoritePage.qml:16 qml/Main.qml:35
+#, fuzzy, kde-format
+#| msgid "Favorite Colors"
+msgctxt "@title:menu"
+msgid "Favorite Colors"
+msgstr "Obľúbené farby"
+
+#: qml/FavoritePage.qml:44
+#, fuzzy, kde-format
+#| msgid "Remove"
+msgctxt "@action:tooltip"
+msgid "Remove"
+msgstr "Odstrániť"
+
+#: qml/FavoritePage.qml:62
+#, fuzzy, kde-format
+#| msgid "Text: %1"
+msgctxt "@action:button"
+msgid "Text: %1"
+msgstr "Text: %1"
+
+#: qml/FavoritePage.qml:67
+#, fuzzy, kde-format
+#| msgid "Background: %1"
+msgctxt "@action:button"
+msgid "Background: %1"
+msgstr "Pozadie: %1"
+
+#: qml/FavoritePage.qml:74
+#, kde-format
+msgctxt "@action:button"
+msgid "Apply"
+msgstr ""
+
+#: qml/FavoritePage.qml:104
+#, fuzzy, kde-format
+#| msgid "Background color copied to clipboard"
+msgctxt "@info:inline"
+msgid "Background color copied to clipboard"
+msgstr "Farba pozadia bola skopírovaná do schránky"
+
+#: qml/FavoritePage.qml:108
+#, fuzzy, kde-format
+#| msgid "Text color copied to clipboard"
+msgctxt "@info:inline"
+msgid "Text color copied to clipboard"
+msgstr "Farba textu bola skopírovaná do schránky"
+
+#: qml/FavoritePage.qml:115
+#, fuzzy, kde-format
+#| msgid "Color copied to clipboard"
+msgctxt "@info:inline"
+msgid "Color copied to clipboard"
+msgstr "Farba skopírovaná do schránky"
+
+#: qml/HelpPage.qml:13 qml/Main.qml:41
+#, fuzzy, kde-format
+#| msgid "Help"
+msgctxt "@title:menu"
+msgid "Help"
+msgstr "Pomocník"
+
+#: qml/HelpPage.qml:19
+#, fuzzy, kde-format
+#| msgid "Contrast"
+msgctxt "@title:heading"
+msgid "Contrast"
+msgstr "Kontrast"
+
+#: qml/HelpPage.qml:24
+#, kde-format
+msgid ""
+"Contrast is the difference in color between two objects that allows them to "
+"be distinguished. In visual perception of the real world, contrast is "
+"determined by the difference in the color and brightness of the object and "
+"other objects within the same field of view."
+msgstr ""
+"Kontrast je rozdiel farieb medzi dvoma objektmi, ktorý umožňuje ich "
+"rozlíšenie. Vo vizuálnom vnímaní skutočného sveta je kontrast určený "
+"rozdielom vo farbe a jasu objektu a ostatných objektov v rovnakom zornom "
+"poli."
+
+#: qml/HelpPage.qml:29
+#, kde-format
+msgid ""
+"A contrast value of 21 indicates a perfect contrast (usually black on "
+"white), and a value of 0 indicate that the two colors are the same."
+msgstr ""
+"Hodnota kontrastu 21 označuje dokonalý kontrast (zvyčajne čierna na bielej) "
+"a hodnota 0 znamená, že obe farby sú rovnaké."
+
+#: qml/HelpPage.qml:34
+#, kde-format
+msgid ""
+"For normal text, the contrast ratio should be at least of 4.5 to conform to "
+"the WCAG AA standard and a contrast ratio of 7 or more is required to "
+"conform with the WCAG AAA standard."
+msgstr ""
+"Pre normálny text by mal byť kontrastný pomer najmenej 4,5, aby zodpovedal "
+"štandardu WSGA AA a kontrastný pomer 7 alebo viac sa vyžaduje, aby vyhovoval "
+"štandardu WSGA AAA."
+
+#: qml/HelpPage.qml:39
+#, kde-format
+msgid ""
+"For large text, the contrast ratio should be at least of 3 to conform to the "
+"WCAG AA standard and a contrast ratio of 4.5 or more is required to conform "
+"with the WCAG AAA standard."
+msgstr ""
+"V prípade veľkého textu by mal byť kontrastný pomer najmenej 3, aby "
+"zodpovedal štandardu WSGA AA a kontrastný pomer 4,5 alebo viac sa vyžaduje, "
+"aby vyhovoval štandardu WSGA AAA."
+
+#: qml/Main.qml:23
+#, fuzzy, kde-format
+#| msgctxt "@title"
+#| msgid "Kontrast"
+msgid "Kontrast"
+msgstr "Kontrast"
+
+#: qml/Main.qml:29 qml/MainPage.qml:20
+#, fuzzy, kde-format
+#| msgid "Contrast Checker"
+msgctxt "@title:menu"
+msgid "Contrast Checker"
+msgstr "Kontrola kontrastu"
+
+#: qml/Main.qml:47
+#, fuzzy, kde-format
+#| msgid "About"
+msgctxt "@title:menu"
+msgid "About"
+msgstr "O aplikácii"
+
+#: qml/MainPage.qml:42
+#, fuzzy, kde-format
+#| msgid "Contrast ratio: %1"
+msgctxt "@label"
+msgid "Contrast ratio: %1"
+msgstr "Kontrastný pomer: %1"
+
+#: qml/MainPage.qml:50
+#, kde-format
+msgid "%1"
+msgstr "%1"
+
+#: qml/MainPage.qml:62
+#, kde-format
+msgid "Perfect for normal and large text"
+msgstr "Ideálne pre normálny a veľký text"
+
+#: qml/MainPage.qml:62
+#, kde-format
+msgid "Perfect for large text and good for normal text"
+msgstr "Ideálne pre veľký text a dobré pre normálny text"
+
+#: qml/MainPage.qml:62
+#, kde-format
+msgid "Good for large text and bad for normal text"
+msgstr "Dobré pre veľký text a zlé pre normálny text"
+
+#: qml/MainPage.qml:62
+#, kde-format
+msgid "Bad for large and normal text"
+msgstr "Zlé pre veľký a normálny text"
+
+#: qml/MainPage.qml:69
+#, kde-format
+msgid ""
+"Contrast is the difference in luminance or color that makes an object (or "
+"its representation in an image or display) distinguishable. In visual "
+"perception of the real world, contrast is determined by the difference in "
+"the color and brightness of the object and other objects within the same "
+"field of view."
+msgstr ""
+"Kontrast je rozdiel vo svietivosti alebo farbe, ktorý umožňuje rozlíšiť "
+"objekt (alebo jeho zobrazenie v obrázku alebo displeji). Vo vizuálnom "
+"vnímaní skutočného sveta je kontrast určený rozdielom vo farbe a jasu "
+"objektu a ostatných objektov v rovnakom zornom poli."
+
+#: qml/MainPage.qml:84
+#, fuzzy, kde-format
+#| msgid "Text"
+msgctxt "@label"
+msgid "Text"
+msgstr "Text"
+
+#: qml/MainPage.qml:113 qml/MainPage.qml:193
+#, fuzzy, kde-format
+#| msgid "Hue %1°"
+msgctxt "@label"
+msgid "Hue: %1°"
+msgstr "Odtieň %1°"
+
+#: qml/MainPage.qml:127 qml/MainPage.qml:207
+#, fuzzy, kde-format
+#| msgid "Saturation %1"
+msgctxt "@label"
+msgid "Saturation: %1"
+msgstr "Sýtosť %1"
+
+#: qml/MainPage.qml:141 qml/MainPage.qml:221
+#, fuzzy, kde-format
+#| msgid "Lightness %1"
+msgctxt "@label"
+msgid "Lightness: %1"
+msgstr "Jas %1"
+
+#: qml/MainPage.qml:165
+#, fuzzy, kde-format
+#| msgid "Background"
+msgctxt "@label"
+msgid "Background"
+msgstr "Pozadie"
+
+#: qml/MainPage.qml:238
+#, kde-format
+msgctxt "@label"
+msgid "Font size: %1px"
+msgstr ""
+
+#: qml/MainPage.qml:255
+#, fuzzy, kde-format
+#| msgid "Invert"
+msgctxt "@action:button"
+msgid "Invert"
+msgstr "Invertovať"
+
+#: qml/MainPage.qml:261
+#, fuzzy, kde-format
+#| msgid "Randomize"
+msgctxt "@action:button"
+msgid "Randomize"
+msgstr "Náhodne"
+
+#: qml/MainPage.qml:267
+#, fuzzy, kde-format
+#| msgid "Mark as favorite"
+msgctxt "@action:button"
+msgid "Mark as Favorite"
+msgstr "Označiť ako obľúbené"
 
 #~ msgid "Favorite colors"
 #~ msgstr "Obľúbené farby"

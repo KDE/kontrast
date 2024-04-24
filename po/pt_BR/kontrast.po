@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kontrast\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-03-29 00:35+0000\n"
+"POT-Creation-Date: 2024-04-24 00:35+0000\n"
 "PO-Revision-Date: 2022-10-19 15:49-0300\n"
 "Last-Translator: Luiz Fernando Ranghetti <elchevive@opensuse.org>\n"
 "Language-Team: Portuguese <kde-i18n-pt_BR@kde.org>\n"
@@ -17,249 +17,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Lokalize 21.12.3\n"
-
-#: contents/ui/FavoritePage.qml:16 contents/ui/main.qml:35
-#, fuzzy, kde-format
-#| msgid "Favorite Colors"
-msgctxt "@title:menu"
-msgid "Favorite Colors"
-msgstr "Cores favoritas"
-
-#: contents/ui/FavoritePage.qml:44
-#, fuzzy, kde-format
-#| msgid "Remove"
-msgctxt "@action:tooltip"
-msgid "Remove"
-msgstr "Remover"
-
-#: contents/ui/FavoritePage.qml:62
-#, fuzzy, kde-format
-#| msgid "Text: %1"
-msgctxt "@action:button"
-msgid "Text: %1"
-msgstr "Texto: %1"
-
-#: contents/ui/FavoritePage.qml:67
-#, fuzzy, kde-format
-#| msgid "Background: %1"
-msgctxt "@action:button"
-msgid "Background: %1"
-msgstr "Plano de fundo: %1"
-
-#: contents/ui/FavoritePage.qml:74
-#, kde-format
-msgctxt "@action:button"
-msgid "Apply"
-msgstr ""
-
-#: contents/ui/FavoritePage.qml:104
-#, fuzzy, kde-format
-#| msgid "Background color copied to clipboard"
-msgctxt "@info:inline"
-msgid "Background color copied to clipboard"
-msgstr "Plano de fundo copiado para a área de transferência"
-
-#: contents/ui/FavoritePage.qml:108
-#, fuzzy, kde-format
-#| msgid "Text color copied to clipboard"
-msgctxt "@info:inline"
-msgid "Text color copied to clipboard"
-msgstr "Cor de texto copiada para a área de transferência"
-
-#: contents/ui/FavoritePage.qml:115
-#, fuzzy, kde-format
-#| msgid "Color copied to clipboard"
-msgctxt "@info:inline"
-msgid "Color copied to clipboard"
-msgstr "Cor copiada para a área de transferência"
-
-#: contents/ui/HelpPage.qml:13 contents/ui/main.qml:41
-#, fuzzy, kde-format
-#| msgid "Help"
-msgctxt "@title:menu"
-msgid "Help"
-msgstr "Ajuda"
-
-#: contents/ui/HelpPage.qml:19
-#, fuzzy, kde-format
-#| msgid "Contrast"
-msgctxt "@title:heading"
-msgid "Contrast"
-msgstr "Contraste"
-
-#: contents/ui/HelpPage.qml:24
-#, kde-format
-msgid ""
-"Contrast is the difference in color between two objects that allows them to "
-"be distinguished. In visual perception of the real world, contrast is "
-"determined by the difference in the color and brightness of the object and "
-"other objects within the same field of view."
-msgstr ""
-"Contraste é a diferença de cores entre dois objetos que os torna "
-"distinguíveis. Usado para perceber visualmente o mundo real, o contraste é "
-"definido como a diferença de cor e brilho entre um objeto e outros objetos "
-"no mesmo campo de visão."
-
-#: contents/ui/HelpPage.qml:29
-#, kde-format
-msgid ""
-"A contrast value of 21 indicates a perfect contrast (usually black on "
-"white), and a value of 0 indicate that the two colors are the same."
-msgstr ""
-"Um valor de contraste de 21 indica contraste perfeito (geralmente preto no "
-"branco), enquanto um valor de 0 indica que as duas cores são as mesmas."
-
-#: contents/ui/HelpPage.qml:34
-#, kde-format
-msgid ""
-"For normal text, the contrast ratio should be at least of 4.5 to conform to "
-"the WCAG AA standard and a contrast ratio of 7 or more is required to "
-"conform with the WCAG AAA standard."
-msgstr ""
-"Para textos comuns, a taxa de contraste deve ser de pelo menos 4,5 para se "
-"adequar às Diretrizes de Acessibilidade para Conteúdo Web (WCAG) nível AA e "
-"uma taxa de contraste de 7 ou mais para se adequar ao nível AAA."
-
-#: contents/ui/HelpPage.qml:39
-#, kde-format
-msgid ""
-"For large text, the contrast ratio should be at least of 3 to conform to the "
-"WCAG AA standard and a contrast ratio of 4.5 or more is required to conform "
-"with the WCAG AAA standard."
-msgstr ""
-"Para textos grandes, a taxa de contraste deve ser de pelo menos 3 para se "
-"adequar às Diretrizes de Acessibilidade para Conteúdo Web (WCAG) nível AA e "
-"uma taxa de contraste de 4,5 ou mais para se adequar ao nível AAA."
-
-#: contents/ui/main.qml:23
-#, fuzzy, kde-format
-#| msgctxt "@title"
-#| msgid "Kontrast"
-msgid "Kontrast"
-msgstr "Kontrast"
-
-#: contents/ui/main.qml:29 contents/ui/MainPage.qml:20
-#, fuzzy, kde-format
-#| msgid "Contrast Checker"
-msgctxt "@title:menu"
-msgid "Contrast Checker"
-msgstr "Verificador de contraste"
-
-#: contents/ui/main.qml:47
-#, fuzzy, kde-format
-#| msgid "About"
-msgctxt "@title:menu"
-msgid "About"
-msgstr "Sobre"
-
-#: contents/ui/MainPage.qml:42
-#, fuzzy, kde-format
-#| msgid "Contrast ratio: %1"
-msgctxt "@label"
-msgid "Contrast ratio: %1"
-msgstr "Taxa de contraste: %1"
-
-#: contents/ui/MainPage.qml:50
-#, kde-format
-msgid "%1"
-msgstr "%1"
-
-#: contents/ui/MainPage.qml:62
-#, kde-format
-msgid "Perfect for normal and large text"
-msgstr "Perfeito para textos normais e grandes"
-
-#: contents/ui/MainPage.qml:62
-#, kde-format
-msgid "Perfect for large text and good for normal text"
-msgstr "Perfeito para texto grande e bom para texto normal"
-
-#: contents/ui/MainPage.qml:62
-#, kde-format
-msgid "Good for large text and bad for normal text"
-msgstr "Bom para texto grande e ruim para texto normal"
-
-#: contents/ui/MainPage.qml:62
-#, kde-format
-msgid "Bad for large and normal text"
-msgstr "Ruim para textos normais e grandes"
-
-#: contents/ui/MainPage.qml:69
-#, kde-format
-msgid ""
-"Contrast is the difference in luminance or color that makes an object (or "
-"its representation in an image or display) distinguishable. In visual "
-"perception of the real world, contrast is determined by the difference in "
-"the color and brightness of the object and other objects within the same "
-"field of view."
-msgstr ""
-"Contraste é a diferença de luminosidade e cor que torna um objeto (ou sua "
-"representação em uma imagem ou tela) distinguível. Usado para perceber "
-"visualmente o mundo real, o contraste é definido como a diferença de cor e "
-"brilho entre um objeto e outros objetos no mesmo campo de visão."
-
-#: contents/ui/MainPage.qml:84
-#, fuzzy, kde-format
-#| msgid "Text"
-msgctxt "@label"
-msgid "Text"
-msgstr "Texto"
-
-#: contents/ui/MainPage.qml:113 contents/ui/MainPage.qml:193
-#, fuzzy, kde-format
-#| msgid "Hue %1°"
-msgctxt "@label"
-msgid "Hue: %1°"
-msgstr "Matiz %1°"
-
-#: contents/ui/MainPage.qml:127 contents/ui/MainPage.qml:207
-#, fuzzy, kde-format
-#| msgid "Saturation %1"
-msgctxt "@label"
-msgid "Saturation: %1"
-msgstr "Saturação %1"
-
-#: contents/ui/MainPage.qml:141 contents/ui/MainPage.qml:221
-#, fuzzy, kde-format
-#| msgid "Lightness %1"
-msgctxt "@label"
-msgid "Lightness: %1"
-msgstr "Brilho %1"
-
-#: contents/ui/MainPage.qml:165
-#, fuzzy, kde-format
-#| msgid "Background"
-msgctxt "@label"
-msgid "Background"
-msgstr "Plano de fundo"
-
-#: contents/ui/MainPage.qml:238
-#, fuzzy, kde-format
-#| msgid "Font Size %1px"
-msgctxt "@label"
-msgid "Font size: %1px"
-msgstr "Tamanho da fonte %1px"
-
-#: contents/ui/MainPage.qml:255
-#, fuzzy, kde-format
-#| msgid "Invert"
-msgctxt "@action:button"
-msgid "Invert"
-msgstr "Inverter"
-
-#: contents/ui/MainPage.qml:261
-#, fuzzy, kde-format
-#| msgid "Randomize"
-msgctxt "@action:button"
-msgid "Randomize"
-msgstr "Aleatorizar"
-
-#: contents/ui/MainPage.qml:267
-#, fuzzy, kde-format
-#| msgid "Mark as favorite"
-msgctxt "@action:button"
-msgid "Mark as Favorite"
-msgstr "Favoritar"
 
 #: kontrast.cpp:349
 #, kde-format
@@ -335,6 +92,249 @@ msgstr "Thiago Masato Costa Sueto"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "herzenschein@gmail.com"
+
+#: qml/FavoritePage.qml:16 qml/Main.qml:35
+#, fuzzy, kde-format
+#| msgid "Favorite Colors"
+msgctxt "@title:menu"
+msgid "Favorite Colors"
+msgstr "Cores favoritas"
+
+#: qml/FavoritePage.qml:44
+#, fuzzy, kde-format
+#| msgid "Remove"
+msgctxt "@action:tooltip"
+msgid "Remove"
+msgstr "Remover"
+
+#: qml/FavoritePage.qml:62
+#, fuzzy, kde-format
+#| msgid "Text: %1"
+msgctxt "@action:button"
+msgid "Text: %1"
+msgstr "Texto: %1"
+
+#: qml/FavoritePage.qml:67
+#, fuzzy, kde-format
+#| msgid "Background: %1"
+msgctxt "@action:button"
+msgid "Background: %1"
+msgstr "Plano de fundo: %1"
+
+#: qml/FavoritePage.qml:74
+#, kde-format
+msgctxt "@action:button"
+msgid "Apply"
+msgstr ""
+
+#: qml/FavoritePage.qml:104
+#, fuzzy, kde-format
+#| msgid "Background color copied to clipboard"
+msgctxt "@info:inline"
+msgid "Background color copied to clipboard"
+msgstr "Plano de fundo copiado para a área de transferência"
+
+#: qml/FavoritePage.qml:108
+#, fuzzy, kde-format
+#| msgid "Text color copied to clipboard"
+msgctxt "@info:inline"
+msgid "Text color copied to clipboard"
+msgstr "Cor de texto copiada para a área de transferência"
+
+#: qml/FavoritePage.qml:115
+#, fuzzy, kde-format
+#| msgid "Color copied to clipboard"
+msgctxt "@info:inline"
+msgid "Color copied to clipboard"
+msgstr "Cor copiada para a área de transferência"
+
+#: qml/HelpPage.qml:13 qml/Main.qml:41
+#, fuzzy, kde-format
+#| msgid "Help"
+msgctxt "@title:menu"
+msgid "Help"
+msgstr "Ajuda"
+
+#: qml/HelpPage.qml:19
+#, fuzzy, kde-format
+#| msgid "Contrast"
+msgctxt "@title:heading"
+msgid "Contrast"
+msgstr "Contraste"
+
+#: qml/HelpPage.qml:24
+#, kde-format
+msgid ""
+"Contrast is the difference in color between two objects that allows them to "
+"be distinguished. In visual perception of the real world, contrast is "
+"determined by the difference in the color and brightness of the object and "
+"other objects within the same field of view."
+msgstr ""
+"Contraste é a diferença de cores entre dois objetos que os torna "
+"distinguíveis. Usado para perceber visualmente o mundo real, o contraste é "
+"definido como a diferença de cor e brilho entre um objeto e outros objetos "
+"no mesmo campo de visão."
+
+#: qml/HelpPage.qml:29
+#, kde-format
+msgid ""
+"A contrast value of 21 indicates a perfect contrast (usually black on "
+"white), and a value of 0 indicate that the two colors are the same."
+msgstr ""
+"Um valor de contraste de 21 indica contraste perfeito (geralmente preto no "
+"branco), enquanto um valor de 0 indica que as duas cores são as mesmas."
+
+#: qml/HelpPage.qml:34
+#, kde-format
+msgid ""
+"For normal text, the contrast ratio should be at least of 4.5 to conform to "
+"the WCAG AA standard and a contrast ratio of 7 or more is required to "
+"conform with the WCAG AAA standard."
+msgstr ""
+"Para textos comuns, a taxa de contraste deve ser de pelo menos 4,5 para se "
+"adequar às Diretrizes de Acessibilidade para Conteúdo Web (WCAG) nível AA e "
+"uma taxa de contraste de 7 ou mais para se adequar ao nível AAA."
+
+#: qml/HelpPage.qml:39
+#, kde-format
+msgid ""
+"For large text, the contrast ratio should be at least of 3 to conform to the "
+"WCAG AA standard and a contrast ratio of 4.5 or more is required to conform "
+"with the WCAG AAA standard."
+msgstr ""
+"Para textos grandes, a taxa de contraste deve ser de pelo menos 3 para se "
+"adequar às Diretrizes de Acessibilidade para Conteúdo Web (WCAG) nível AA e "
+"uma taxa de contraste de 4,5 ou mais para se adequar ao nível AAA."
+
+#: qml/Main.qml:23
+#, fuzzy, kde-format
+#| msgctxt "@title"
+#| msgid "Kontrast"
+msgid "Kontrast"
+msgstr "Kontrast"
+
+#: qml/Main.qml:29 qml/MainPage.qml:20
+#, fuzzy, kde-format
+#| msgid "Contrast Checker"
+msgctxt "@title:menu"
+msgid "Contrast Checker"
+msgstr "Verificador de contraste"
+
+#: qml/Main.qml:47
+#, fuzzy, kde-format
+#| msgid "About"
+msgctxt "@title:menu"
+msgid "About"
+msgstr "Sobre"
+
+#: qml/MainPage.qml:42
+#, fuzzy, kde-format
+#| msgid "Contrast ratio: %1"
+msgctxt "@label"
+msgid "Contrast ratio: %1"
+msgstr "Taxa de contraste: %1"
+
+#: qml/MainPage.qml:50
+#, kde-format
+msgid "%1"
+msgstr "%1"
+
+#: qml/MainPage.qml:62
+#, kde-format
+msgid "Perfect for normal and large text"
+msgstr "Perfeito para textos normais e grandes"
+
+#: qml/MainPage.qml:62
+#, kde-format
+msgid "Perfect for large text and good for normal text"
+msgstr "Perfeito para texto grande e bom para texto normal"
+
+#: qml/MainPage.qml:62
+#, kde-format
+msgid "Good for large text and bad for normal text"
+msgstr "Bom para texto grande e ruim para texto normal"
+
+#: qml/MainPage.qml:62
+#, kde-format
+msgid "Bad for large and normal text"
+msgstr "Ruim para textos normais e grandes"
+
+#: qml/MainPage.qml:69
+#, kde-format
+msgid ""
+"Contrast is the difference in luminance or color that makes an object (or "
+"its representation in an image or display) distinguishable. In visual "
+"perception of the real world, contrast is determined by the difference in "
+"the color and brightness of the object and other objects within the same "
+"field of view."
+msgstr ""
+"Contraste é a diferença de luminosidade e cor que torna um objeto (ou sua "
+"representação em uma imagem ou tela) distinguível. Usado para perceber "
+"visualmente o mundo real, o contraste é definido como a diferença de cor e "
+"brilho entre um objeto e outros objetos no mesmo campo de visão."
+
+#: qml/MainPage.qml:84
+#, fuzzy, kde-format
+#| msgid "Text"
+msgctxt "@label"
+msgid "Text"
+msgstr "Texto"
+
+#: qml/MainPage.qml:113 qml/MainPage.qml:193
+#, fuzzy, kde-format
+#| msgid "Hue %1°"
+msgctxt "@label"
+msgid "Hue: %1°"
+msgstr "Matiz %1°"
+
+#: qml/MainPage.qml:127 qml/MainPage.qml:207
+#, fuzzy, kde-format
+#| msgid "Saturation %1"
+msgctxt "@label"
+msgid "Saturation: %1"
+msgstr "Saturação %1"
+
+#: qml/MainPage.qml:141 qml/MainPage.qml:221
+#, fuzzy, kde-format
+#| msgid "Lightness %1"
+msgctxt "@label"
+msgid "Lightness: %1"
+msgstr "Brilho %1"
+
+#: qml/MainPage.qml:165
+#, fuzzy, kde-format
+#| msgid "Background"
+msgctxt "@label"
+msgid "Background"
+msgstr "Plano de fundo"
+
+#: qml/MainPage.qml:238
+#, fuzzy, kde-format
+#| msgid "Font Size %1px"
+msgctxt "@label"
+msgid "Font size: %1px"
+msgstr "Tamanho da fonte %1px"
+
+#: qml/MainPage.qml:255
+#, fuzzy, kde-format
+#| msgid "Invert"
+msgctxt "@action:button"
+msgid "Invert"
+msgstr "Inverter"
+
+#: qml/MainPage.qml:261
+#, fuzzy, kde-format
+#| msgid "Randomize"
+msgctxt "@action:button"
+msgid "Randomize"
+msgstr "Aleatorizar"
+
+#: qml/MainPage.qml:267
+#, fuzzy, kde-format
+#| msgid "Mark as favorite"
+msgctxt "@action:button"
+msgid "Mark as Favorite"
+msgstr "Favoritar"
 
 #~ msgid "Favorite colors"
 #~ msgstr "Cores favoritas"
