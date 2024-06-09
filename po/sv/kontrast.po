@@ -1,13 +1,13 @@
-# Copyright (C) YEAR This file is copyright:
+# Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the kontrast package.
 #
-# Stefan Asserhäll <stefan.asserhall@bredband.net>, 2020, 2022.
+# SPDX-FileCopyrightText: 2020, 2022, 2024 Stefan Asserhäll <stefan.asserhall@bredband.net>
 msgid ""
 msgstr ""
 "Project-Id-Version: kontrast\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-03-29 00:35+0000\n"
-"PO-Revision-Date: 2022-09-24 16:15+0200\n"
+"PO-Revision-Date: 2024-06-08 21:59+0200\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -15,32 +15,28 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 20.08.1\n"
+"X-Generator: Lokalize 23.08.5\n"
 
 #: contents/ui/FavoritePage.qml:16 contents/ui/main.qml:35
-#, fuzzy, kde-format
-#| msgid "Favorite Colors"
+#, kde-format
 msgctxt "@title:menu"
 msgid "Favorite Colors"
 msgstr "Favoritfärger"
 
 #: contents/ui/FavoritePage.qml:44
-#, fuzzy, kde-format
-#| msgid "Remove"
+#, kde-format
 msgctxt "@action:tooltip"
 msgid "Remove"
 msgstr "Ta bort"
 
 #: contents/ui/FavoritePage.qml:62
-#, fuzzy, kde-format
-#| msgid "Text: %1"
+#, kde-format
 msgctxt "@action:button"
 msgid "Text: %1"
 msgstr "Text: %1"
 
 #: contents/ui/FavoritePage.qml:67
-#, fuzzy, kde-format
-#| msgid "Background: %1"
+#, kde-format
 msgctxt "@action:button"
 msgid "Background: %1"
 msgstr "Bakgrund: %1"
@@ -49,39 +45,34 @@ msgstr "Bakgrund: %1"
 #, kde-format
 msgctxt "@action:button"
 msgid "Apply"
-msgstr ""
+msgstr "Verkställ"
 
 #: contents/ui/FavoritePage.qml:104
-#, fuzzy, kde-format
-#| msgid "Background color copied to clipboard"
+#, kde-format
 msgctxt "@info:inline"
 msgid "Background color copied to clipboard"
 msgstr "Bakgrundsfärg kopierad till klippbordet"
 
 #: contents/ui/FavoritePage.qml:108
-#, fuzzy, kde-format
-#| msgid "Text color copied to clipboard"
+#, kde-format
 msgctxt "@info:inline"
 msgid "Text color copied to clipboard"
 msgstr "Textfärg kopierad till klippbordet"
 
 #: contents/ui/FavoritePage.qml:115
-#, fuzzy, kde-format
-#| msgid "Color copied to clipboard"
+#, kde-format
 msgctxt "@info:inline"
 msgid "Color copied to clipboard"
 msgstr "Färg kopierad till klippbordet"
 
 #: contents/ui/HelpPage.qml:13 contents/ui/main.qml:41
-#, fuzzy, kde-format
-#| msgid "Help"
+#, kde-format
 msgctxt "@title:menu"
 msgid "Help"
 msgstr "Hjälp"
 
 #: contents/ui/HelpPage.qml:19
-#, fuzzy, kde-format
-#| msgid "Contrast"
+#, kde-format
 msgctxt "@title:heading"
 msgid "Contrast"
 msgstr "Kontrast"
@@ -131,29 +122,24 @@ msgstr ""
 "att uppfylla standarden WCAG AAA."
 
 #: contents/ui/main.qml:23
-#, fuzzy, kde-format
-#| msgctxt "@title"
-#| msgid "Kontrast"
+#, kde-format
 msgid "Kontrast"
 msgstr "Kontrast"
 
 #: contents/ui/main.qml:29 contents/ui/MainPage.qml:20
-#, fuzzy, kde-format
-#| msgid "Contrast Checker"
+#, kde-format
 msgctxt "@title:menu"
 msgid "Contrast Checker"
 msgstr "Kontrastkontroll"
 
 #: contents/ui/main.qml:47
-#, fuzzy, kde-format
-#| msgid "About"
+#, kde-format
 msgctxt "@title:menu"
 msgid "About"
 msgstr "Om"
 
 #: contents/ui/MainPage.qml:42
-#, fuzzy, kde-format
-#| msgid "Contrast ratio: %1"
+#, kde-format
 msgctxt "@label"
 msgid "Contrast ratio: %1"
 msgstr "Kontrastförhållande: %1"
@@ -198,64 +184,55 @@ msgstr ""
 "ljusstyrka mellan objektet och andra objekt i samma synfält."
 
 #: contents/ui/MainPage.qml:84
-#, fuzzy, kde-format
-#| msgid "Text"
+#, kde-format
 msgctxt "@label"
 msgid "Text"
 msgstr "Text"
 
 #: contents/ui/MainPage.qml:113 contents/ui/MainPage.qml:193
-#, fuzzy, kde-format
-#| msgid "Hue %1°"
+#, kde-format
 msgctxt "@label"
 msgid "Hue: %1°"
 msgstr "Färgton %1°"
 
 #: contents/ui/MainPage.qml:127 contents/ui/MainPage.qml:207
-#, fuzzy, kde-format
-#| msgid "Saturation %1"
+#, kde-format
 msgctxt "@label"
 msgid "Saturation: %1"
 msgstr "Färgmättnad %1"
 
 #: contents/ui/MainPage.qml:141 contents/ui/MainPage.qml:221
-#, fuzzy, kde-format
-#| msgid "Lightness %1"
+#, kde-format
 msgctxt "@label"
 msgid "Lightness: %1"
 msgstr "Ljushet %1"
 
 #: contents/ui/MainPage.qml:165
-#, fuzzy, kde-format
-#| msgid "Background"
+#, kde-format
 msgctxt "@label"
 msgid "Background"
 msgstr "Bakgrund"
 
 #: contents/ui/MainPage.qml:238
-#, fuzzy, kde-format
-#| msgid "Font Size %1px"
+#, kde-format
 msgctxt "@label"
 msgid "Font size: %1px"
 msgstr "Teckenstorlek %1 bildpunkter"
 
 #: contents/ui/MainPage.qml:255
-#, fuzzy, kde-format
-#| msgid "Invert"
+#, kde-format
 msgctxt "@action:button"
 msgid "Invert"
 msgstr "Invertera"
 
 #: contents/ui/MainPage.qml:261
-#, fuzzy, kde-format
-#| msgid "Randomize"
+#, kde-format
 msgctxt "@action:button"
 msgid "Randomize"
 msgstr "Slumpmässig"
 
 #: contents/ui/MainPage.qml:267
-#, fuzzy, kde-format
-#| msgid "Mark as favorite"
+#, kde-format
 msgctxt "@action:button"
 msgid "Mark as Favorite"
 msgstr "Markera som favorit"
