@@ -14,8 +14,8 @@ set (RELEASE_SERVICE_VERSION "${RELEASE_SERVICE_VERSION_MAJOR}.${RELEASE_SERVICE
 
 project(kontrast VERSION ${RELEASE_SERVICE_VERSION})
 
-set(QT_MIN_VERSION "6.5.0")
-set(KF_MIN_VERSION "6.0.0")
+set(QT_MIN_VERSION "6.6.0")
+set(KF_MIN_VERSION "6.4.0")
 
 include(FeatureSummary)
 
@@ -45,9 +45,10 @@ ecm_setup_version(${PROJECT_VERSION}
 
 ################# Find dependencies #################
 find_package(Qt6 ${QT_MIN_VERSION} REQUIRED COMPONENTS Core Gui Qml QuickControls2 Svg Sql)
-find_package(KF6 ${KF_MIN_VERSION} REQUIRED COMPONENTS Kirigami I18n CoreAddons)
+find_package(KF6 ${KF_MIN_VERSION} REQUIRED COMPONENTS Kirigami I18n CoreAddons QQC2DesktopStyle)
 find_package(FutureSQL6 REQUIRED)
 find_package(QCoro6 REQUIRED COMPONENTS Core)
+find_package(KF6KirigamiAddons 1.4.0 REQUIRED)
 
 if(NOT ANDROID)
     find_package(Qt6 ${QT_MIN_VERSION} REQUIRED COMPONENTS DBus Widgets)
@@ -60,6 +61,7 @@ add_definitions(-DQT_USE_QSTRINGBUILDER)
 add_definitions(-DQT_NO_NARROWING_CONVERSIONS_IN_CONNECT)
 ecm_set_disabled_deprecation_versions(QT 6.7  KF 6.3.0)
 kde_enable_exceptions()
+
 add_subdirectory(src)
 
 if(NOT ANDROID)
