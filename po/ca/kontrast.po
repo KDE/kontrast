@@ -315,12 +315,3 @@ msgstr "Aleatori"
 msgctxt "@action:button"
 msgid "Mark as Favorite"
 msgstr "Marca com a preferit"
-
-#~ msgid "Favorite colors"
-#~ msgstr "Colors preferits"
-
-#~ msgid "kontrast"
-#~ msgstr "kontrast"
-
-#~ msgid "Failed to save color"
-#~ msgstr "Ha fallat en desar el color"
