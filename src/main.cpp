@@ -14,7 +14,9 @@
 #include <QGuiApplication>
 #endif
 #include "kontrast.h"
+#ifndef Q_OS_ANDROID
 #include <KCrash>
+#endif
 #include <QCommandLineParser>
 #include <QDir>
 #include <QIcon>
@@ -52,7 +54,9 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
     aboutData.setTranslator(i18nc("NAME OF TRANSLATORS", "Your names"), i18nc("EMAIL OF TRANSLATORS", "Your emails"));
 
     KAboutData::setApplicationData(aboutData);
+#ifndef Q_OS_ANDROID
     KCrash::initialize();
+#endif
     QGuiApplication::setWindowIcon(QIcon::fromTheme(QStringLiteral("org.kde.kontrast")));
 
     Q_ASSERT(QSqlDatabase::isDriverAvailable(DRIVER));

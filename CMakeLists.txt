@@ -53,6 +53,7 @@ find_package(KF6KirigamiAddons 1.4.0 REQUIRED)
 if(NOT ANDROID)
     find_package(Qt6 ${QT_MIN_VERSION} REQUIRED COMPONENTS DBus Widgets)
     find_package(KF6DocTools ${KF_MIN_VERSION} REQUIRED)
+    find_package(KF6Crash ${KF_MIN_VERSION} REQUIRED)
 endif()
 
 ################# build and install #################

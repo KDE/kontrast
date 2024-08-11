@@ -30,8 +30,13 @@ target_link_libraries(kontrast PRIVATE
     QCoro6::Core
     KF6::I18n
     KF6::CoreAddons
+)
+
+if (TARGET KF6::Crash)
+target_link_libraries(kontrast PRIVATE
     KF6::Crash
 )
+endif()	
 
 if (ANDROID)
     ecm_add_android_apk(kontrast ANDROID_DIR ${CMAKE_SOURCE_DIR}/android)
