@@ -45,7 +45,7 @@ ecm_setup_version(${PROJECT_VERSION}
 
 ################# Find dependencies #################
 find_package(Qt6 ${QT_MIN_VERSION} REQUIRED COMPONENTS Core Gui Qml QuickControls2 Svg Sql)
-find_package(KF6 ${KF_MIN_VERSION} REQUIRED COMPONENTS Kirigami I18n CoreAddons)
+find_package(KF6 ${KF_MIN_VERSION} REQUIRED COMPONENTS Kirigami I18n CoreAddons Crash)
 find_package(FutureSQL6 REQUIRED)
 find_package(QCoro6 REQUIRED COMPONENTS Core)
 find_package(KF6KirigamiAddons 1.4.0 REQUIRED)

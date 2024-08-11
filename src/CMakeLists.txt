@@ -29,7 +29,9 @@ target_link_libraries(kontrast PRIVATE
     FutureSQL6::FutureSQL
     QCoro6::Core
     KF6::I18n
-    KF6::CoreAddons)
+    KF6::CoreAddons
+    KF6::Crash
+)
 
 if (ANDROID)
     ecm_add_android_apk(kontrast ANDROID_DIR ${CMAKE_SOURCE_DIR}/android)
