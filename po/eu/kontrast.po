@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kontrast\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-04-24 00:35+0000\n"
+"POT-Creation-Date: 2024-08-12 00:36+0000\n"
 "PO-Revision-Date: 2024-04-01 11:39+0200\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
@@ -35,61 +35,61 @@ msgstr "%1px-eko letra-neurria uneko kontrastearekin ondo dator"
 msgid "Font size %1px is perfect with the current contrast"
 msgstr "%1px-eko letra-neurria uneko kontrastearekin ezin hobea da"
 
-#: main.cpp:39
+#: main.cpp:42
 #, kde-format
 msgctxt "@title"
 msgid "Kontrast"
 msgstr "Kontrast"
 
-#: main.cpp:41
+#: main.cpp:44
 #, kde-format
 msgctxt "@title"
 msgid "A contrast checker application"
 msgstr "Kontrastea egiaztatzeko tresna"
 
-#: main.cpp:44
+#: main.cpp:47
 #, kde-format
 msgctxt "@info:credit"
 msgid "Carl Schwan"
 msgstr "Carl Schwan"
 
-#: main.cpp:45
+#: main.cpp:48
 #, kde-format
 msgctxt "@info:credit"
 msgid "Maintainer and creator"
 msgstr "Mantentzailea eta sortzailea"
 
-#: main.cpp:49
+#: main.cpp:52
 #, kde-format
 msgctxt "@info:credit"
 msgid "Wikipedia"
 msgstr "Wikipedia"
 
-#: main.cpp:49
+#: main.cpp:52
 #, kde-format
 msgctxt "@info:credit"
 msgid "Text on the main page CC-BY-SA-4.0"
 msgstr "Orri nagusiko testua CC-BY-SA-4.0"
 
-#: main.cpp:50
+#: main.cpp:53
 #, kde-format
 msgctxt "@info:credit"
 msgid "Carson Black"
 msgstr "Carson Black"
 
-#: main.cpp:50
+#: main.cpp:53
 #, kde-format
 msgctxt "@info:credit"
 msgid "SQLite backend for favorite colors"
 msgstr "Gogoko koloreetarako SQLite bizkarraldekoa"
 
-#: main.cpp:51
+#: main.cpp:54
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Iñigo Salvador Azurmendi"
 
-#: main.cpp:51
+#: main.cpp:54
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
