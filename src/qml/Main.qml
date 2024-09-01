@@ -9,11 +9,15 @@ import org.kde.kirigami 2.12 as Kirigami
 import QtQuick.Controls 2.14 as QQC2
 import QtQuick.Window 2.14
 import QtQuick.Layouts 1.14
+import org.kde.config as KConfig
 
 
 Kirigami.ApplicationWindow {
     id: root
 
+    KConfig.WindowStateSaver {
+        configGroupName: "Window"
+    }
     
     Kirigami.PagePool {
         id: mainPagePool
