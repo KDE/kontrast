@@ -334,7 +334,7 @@ QString Kontrast::getFontSizeQualityLabel()
 {
     const auto currentQualities = getContrastQualities();
 
-    Quality currentQuality; 
+    Quality currentQuality;
     if (m_fontSize >= 18) {
         currentQuality = currentQualities.large;
     } else if (m_fontSize > 13) {
