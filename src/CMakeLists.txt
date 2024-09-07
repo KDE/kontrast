@@ -13,7 +13,6 @@ ecm_add_qml_module(kontrast URI "org.kde.kontrast" VERSION 1.0)
 ecm_target_qml_sources(kontrast SOURCES
     qml/Main.qml
     qml/MainPage.qml
-    qml/AboutPage.qml
     qml/FavoritePage.qml
     qml/HelpPage.qml
 )

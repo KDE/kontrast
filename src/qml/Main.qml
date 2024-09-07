@@ -47,7 +47,7 @@ Kirigami.ApplicationWindow {
                 text: i18nc("@title:menu", "About")
                 icon.name: "help-about-symbolic"
                 pagePool: mainPagePool
-                page: "AboutPage.qml"
+                page: Qt.createComponent("org.kde.kirigamiaddons.formcard", "AboutPage").url
             }
         ]
     }
