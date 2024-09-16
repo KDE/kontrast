@@ -93,29 +93,25 @@ msgid "Your emails"
 msgstr "sstavra@gmail.com"
 
 #: qml/FavoritePage.qml:16 qml/Main.qml:35
-#, fuzzy, kde-format
-#| msgid "Favorite Colors"
+#, kde-format
 msgctxt "@title:menu"
 msgid "Favorite Colors"
 msgstr "Προτιμώμενα χρώματα"
 
 #: qml/FavoritePage.qml:44
-#, fuzzy, kde-format
-#| msgid "Remove"
+#, kde-format
 msgctxt "@action:tooltip"
 msgid "Remove"
 msgstr "Αφαίρεση"
 
 #: qml/FavoritePage.qml:62
-#, fuzzy, kde-format
-#| msgid "Text: %1"
+#, kde-format
 msgctxt "@action:button"
 msgid "Text: %1"
 msgstr "Κείμενο: %1"
 
 #: qml/FavoritePage.qml:67
-#, fuzzy, kde-format
-#| msgid "Background: %1"
+#, kde-format
 msgctxt "@action:button"
 msgid "Background: %1"
 msgstr "Φόντο: %1"
@@ -127,36 +123,31 @@ msgid "Apply"
 msgstr ""
 
 #: qml/FavoritePage.qml:104
-#, fuzzy, kde-format
-#| msgid "Background color copied to clipboard"
+#, kde-format
 msgctxt "@info:inline"
 msgid "Background color copied to clipboard"
 msgstr "Το χρώμα του φόντου αντιγράφτηκε στο πρόχειρο"
 
 #: qml/FavoritePage.qml:108
-#, fuzzy, kde-format
-#| msgid "Text color copied to clipboard"
+#, kde-format
 msgctxt "@info:inline"
 msgid "Text color copied to clipboard"
 msgstr "Το χρώμα του κειμένου αντιγράφτηκε στο πρόχειρο"
 
 #: qml/FavoritePage.qml:115
-#, fuzzy, kde-format
-#| msgid "Color copied to clipboard"
+#, kde-format
 msgctxt "@info:inline"
 msgid "Color copied to clipboard"
 msgstr "Το χρώμα αντιγράφτηκε στο πρόχειρο"
 
 #: qml/HelpPage.qml:13 qml/Main.qml:41
-#, fuzzy, kde-format
-#| msgid "Help"
+#, kde-format
 msgctxt "@title:menu"
 msgid "Help"
 msgstr "Βοήθεια"
 
 #: qml/HelpPage.qml:19
-#, fuzzy, kde-format
-#| msgid "Contrast"
+#, kde-format
 msgctxt "@title:heading"
 msgid "Contrast"
 msgstr "Αντίθεση"
@@ -206,29 +197,24 @@ msgstr ""
 "περισσότερο απαιτείται για συμμόρφωση με το WCAG AAA πρότυπο."
 
 #: qml/Main.qml:23
-#, fuzzy, kde-format
-#| msgctxt "@title"
-#| msgid "Kontrast"
+#, kde-format
 msgid "Kontrast"
 msgstr "Kontrast"
 
 #: qml/Main.qml:29 qml/MainPage.qml:20
-#, fuzzy, kde-format
-#| msgid "Contrast Checker"
+#, kde-format
 msgctxt "@title:menu"
 msgid "Contrast Checker"
 msgstr "Έλεγχος αντίθεσης"
 
 #: qml/Main.qml:47
-#, fuzzy, kde-format
-#| msgid "About"
+#, kde-format
 msgctxt "@title:menu"
 msgid "About"
 msgstr "Περίγραμμα"
 
 #: qml/MainPage.qml:42
-#, fuzzy, kde-format
-#| msgid "Contrast ratio: %1"
+#, kde-format
 msgctxt "@label"
 msgid "Contrast ratio: %1"
 msgstr "Αναλογία αντίθσης: %1"
@@ -274,8 +260,7 @@ msgstr ""
 "μέσα στο ίδιο οπτικό πεδίο."
 
 #: qml/MainPage.qml:84
-#, fuzzy, kde-format
-#| msgid "Text"
+#, kde-format
 msgctxt "@label"
 msgid "Text"
 msgstr "Κείμενο"
@@ -302,8 +287,7 @@ msgid "Lightness: %1"
 msgstr "Χρωματικό πλάτος %1"
 
 #: qml/MainPage.qml:165
-#, fuzzy, kde-format
-#| msgid "Background"
+#, kde-format
 msgctxt "@label"
 msgid "Background"
 msgstr "Φόντο"
@@ -316,22 +300,19 @@ msgid "Font size: %1px"
 msgstr "Μέγεθος γραμματοσειράς %1px"
 
 #: qml/MainPage.qml:255
-#, fuzzy, kde-format
-#| msgid "Invert"
+#, kde-format
 msgctxt "@action:button"
 msgid "Invert"
 msgstr "Αντιστροφή"
 
 #: qml/MainPage.qml:261
-#, fuzzy, kde-format
-#| msgid "Randomize"
+#, kde-format
 msgctxt "@action:button"
 msgid "Randomize"
 msgstr "Τυχαιοποίηση"
 
 #: qml/MainPage.qml:267
-#, fuzzy, kde-format
-#| msgid "Mark as favorite"
+#, kde-format
 msgctxt "@action:button"
 msgid "Mark as Favorite"
 msgstr "Να σημειωθεί ως προτιμώμενο"
