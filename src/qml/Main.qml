@@ -16,9 +16,9 @@ Kirigami.ApplicationWindow {
     id: root
 
     KConfig.WindowStateSaver {
-        configGroupName: "Window"
+        configGroupName: "MainWindow"
     }
-    
+
     Kirigami.PagePool {
         id: mainPagePool
     }
