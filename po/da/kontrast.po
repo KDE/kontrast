@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kontrast\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-08-12 00:36+0000\n"
+"POT-Creation-Date: 2024-09-18 00:36+0000\n"
 "PO-Revision-Date: 2020-10-04 16:48+0200\n"
 "Last-Translator: Martin Schlander <mschlander@opensuse.org>\n"
 "Language-Team: Danish <kde-i18n-doc@kde.org>\n"
@@ -92,7 +92,7 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "mschlander@opensuse.org"
 
-#: qml/FavoritePage.qml:16 qml/Main.qml:35
+#: qml/FavoritePage.qml:16 qml/Main.qml:39
 #, fuzzy, kde-format
 #| msgid "Favorite Colors"
 msgctxt "@title:menu"
@@ -147,7 +147,7 @@ msgctxt "@info:inline"
 msgid "Color copied to clipboard"
 msgstr "Farve kopieret til udklipsholderen"
 
-#: qml/HelpPage.qml:13 qml/Main.qml:41
+#: qml/HelpPage.qml:13 qml/Main.qml:45
 #, fuzzy, kde-format
 #| msgid "Help"
 msgctxt "@title:menu"
@@ -205,21 +205,21 @@ msgstr ""
 "standarden og et kontrastforhold på 4.5 eller mere kræves for at overholde "
 "WCAG AAA-standarden."
 
-#: qml/Main.qml:23
+#: qml/Main.qml:27
 #, fuzzy, kde-format
 #| msgctxt "@title"
 #| msgid "Kontrast"
 msgid "Kontrast"
 msgstr "Kontrast"
 
-#: qml/Main.qml:29 qml/MainPage.qml:20
+#: qml/Main.qml:33 qml/MainPage.qml:20
 #, fuzzy, kde-format
 #| msgid "Contrast Checker"
 msgctxt "@title:menu"
 msgid "Contrast Checker"
 msgstr "Tjek af kontrast"
 
-#: qml/Main.qml:47
+#: qml/Main.qml:51
 #, fuzzy, kde-format
 #| msgid "About"
 msgctxt "@title:menu"

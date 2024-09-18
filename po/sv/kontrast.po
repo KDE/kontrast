@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kontrast\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-08-12 00:36+0000\n"
+"POT-Creation-Date: 2024-09-18 00:36+0000\n"
 "PO-Revision-Date: 2024-06-19 22:16+0200\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@gmail.com>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
@@ -92,7 +92,7 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "stefan.asserhall@gmail.com"
 
-#: qml/FavoritePage.qml:16 qml/Main.qml:35
+#: qml/FavoritePage.qml:16 qml/Main.qml:39
 #, kde-format
 msgctxt "@title:menu"
 msgid "Favorite Colors"
@@ -140,7 +140,7 @@ msgctxt "@info:inline"
 msgid "Color copied to clipboard"
 msgstr "Färg kopierad till klippbordet"
 
-#: qml/HelpPage.qml:13 qml/Main.qml:41
+#: qml/HelpPage.qml:13 qml/Main.qml:45
 #, kde-format
 msgctxt "@title:menu"
 msgid "Help"
@@ -196,18 +196,18 @@ msgstr ""
 "standarden WCAG AA och ett kontrastförhållande på 4,5 eller mer krävs för "
 "att uppfylla standarden WCAG AAA."
 
-#: qml/Main.qml:23
+#: qml/Main.qml:27
 #, kde-format
 msgid "Kontrast"
 msgstr "Kontrast"
 
-#: qml/Main.qml:29 qml/MainPage.qml:20
+#: qml/Main.qml:33 qml/MainPage.qml:20
 #, kde-format
 msgctxt "@title:menu"
 msgid "Contrast Checker"
 msgstr "Kontrastkontroll"
 
-#: qml/Main.qml:47
+#: qml/Main.qml:51
 #, kde-format
 msgctxt "@title:menu"
 msgid "About"

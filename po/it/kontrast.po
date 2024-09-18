@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kontrast\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-08-12 00:36+0000\n"
+"POT-Creation-Date: 2024-09-18 00:36+0000\n"
 "PO-Revision-Date: 2024-04-01 10:43+0200\n"
 "Last-Translator: Paolo Zamponi <feus73@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
@@ -92,7 +92,7 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "feus73@gmail.com"
 
-#: qml/FavoritePage.qml:16 qml/Main.qml:35
+#: qml/FavoritePage.qml:16 qml/Main.qml:39
 #, kde-format
 msgctxt "@title:menu"
 msgid "Favorite Colors"
@@ -140,7 +140,7 @@ msgctxt "@info:inline"
 msgid "Color copied to clipboard"
 msgstr "Colore copiato negli appunti"
 
-#: qml/HelpPage.qml:13 qml/Main.qml:41
+#: qml/HelpPage.qml:13 qml/Main.qml:45
 #, kde-format
 msgctxt "@title:menu"
 msgid "Help"
@@ -194,18 +194,18 @@ msgstr ""
 "Il rapporto di contrasto per il testo grande dovrebbe essere almeno di 3 per "
 "essere conforme allo standard WCAG AA, e di 4,5 o più per il WCAG AAA."
 
-#: qml/Main.qml:23
+#: qml/Main.qml:27
 #, kde-format
 msgid "Kontrast"
 msgstr "Kontrast"
 
-#: qml/Main.qml:29 qml/MainPage.qml:20
+#: qml/Main.qml:33 qml/MainPage.qml:20
 #, kde-format
 msgctxt "@title:menu"
 msgid "Contrast Checker"
 msgstr "Controllo del contrasto"
 
-#: qml/Main.qml:47
+#: qml/Main.qml:51
 #, kde-format
 msgctxt "@title:menu"
 msgid "About"

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kontrast\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-08-12 00:36+0000\n"
+"POT-Creation-Date: 2024-09-18 00:36+0000\n"
 "PO-Revision-Date: 2024-04-05 16:07+0300\n"
 "Last-Translator: Toms Trasuns <toms.trasuns@posteo.net>\n"
 "Language-Team: Latvian <kde-i18n-doc@kde.org>\n"
@@ -93,7 +93,7 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "toms.trasuns@posteo.net"
 
-#: qml/FavoritePage.qml:16 qml/Main.qml:35
+#: qml/FavoritePage.qml:16 qml/Main.qml:39
 #, kde-format
 msgctxt "@title:menu"
 msgid "Favorite Colors"
@@ -141,7 +141,7 @@ msgctxt "@info:inline"
 msgid "Color copied to clipboard"
 msgstr "Krāsa ir iekopēta starpliktuvē"
 
-#: qml/HelpPage.qml:13 qml/Main.qml:41
+#: qml/HelpPage.qml:13 qml/Main.qml:45
 #, kde-format
 msgctxt "@title:menu"
 msgid "Help"
@@ -196,18 +196,18 @@ msgstr ""
 "kontrasta attiecību 3 vai lielāku, bet 4,5 ir nepieciešamā attiecība, lai "
 "atbilstu WCAG AAA standartam."
 
-#: qml/Main.qml:23
+#: qml/Main.qml:27
 #, kde-format
 msgid "Kontrast"
 msgstr "Kontrast"
 
-#: qml/Main.qml:29 qml/MainPage.qml:20
+#: qml/Main.qml:33 qml/MainPage.qml:20
 #, kde-format
 msgctxt "@title:menu"
 msgid "Contrast Checker"
 msgstr "Kontrasta pārbaudītājs"
 
-#: qml/Main.qml:47
+#: qml/Main.qml:51
 #, kde-format
 msgctxt "@title:menu"
 msgid "About"

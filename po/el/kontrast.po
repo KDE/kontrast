@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kontrast\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-08-12 00:36+0000\n"
+"POT-Creation-Date: 2024-09-18 00:36+0000\n"
 "PO-Revision-Date: 2023-01-07 10:59+0200\n"
 "Last-Translator: Stelios <sstavra@gmail.com>\n"
 "Language-Team: Greek <kde-i18n-el@kde.org>\n"
@@ -92,7 +92,7 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "sstavra@gmail.com"
 
-#: qml/FavoritePage.qml:16 qml/Main.qml:35
+#: qml/FavoritePage.qml:16 qml/Main.qml:39
 #, kde-format
 msgctxt "@title:menu"
 msgid "Favorite Colors"
@@ -140,7 +140,7 @@ msgctxt "@info:inline"
 msgid "Color copied to clipboard"
 msgstr "Το χρώμα αντιγράφτηκε στο πρόχειρο"
 
-#: qml/HelpPage.qml:13 qml/Main.qml:41
+#: qml/HelpPage.qml:13 qml/Main.qml:45
 #, kde-format
 msgctxt "@title:menu"
 msgid "Help"
@@ -196,18 +196,18 @@ msgstr ""
 "τη συμμόρφωση με το WCAG AA πρότυπο και μια αναλογία αντίθεσης 4.5 ή "
 "περισσότερο απαιτείται για συμμόρφωση με το WCAG AAA πρότυπο."
 
-#: qml/Main.qml:23
+#: qml/Main.qml:27
 #, kde-format
 msgid "Kontrast"
 msgstr "Kontrast"
 
-#: qml/Main.qml:29 qml/MainPage.qml:20
+#: qml/Main.qml:33 qml/MainPage.qml:20
 #, kde-format
 msgctxt "@title:menu"
 msgid "Contrast Checker"
 msgstr "Έλεγχος αντίθεσης"
 
-#: qml/Main.qml:47
+#: qml/Main.qml:51
 #, kde-format
 msgctxt "@title:menu"
 msgid "About"
@@ -266,25 +266,22 @@ msgid "Text"
 msgstr "Κείμενο"
 
 #: qml/MainPage.qml:113 qml/MainPage.qml:193
-#, fuzzy, kde-format
-#| msgid "Hue %1°"
+#, kde-format
 msgctxt "@label"
 msgid "Hue: %1°"
-msgstr "Απόχρωση %1"
+msgstr "Απόχρωση: %1"
 
 #: qml/MainPage.qml:127 qml/MainPage.qml:207
-#, fuzzy, kde-format
-#| msgid "Saturation %1"
+#, kde-format
 msgctxt "@label"
 msgid "Saturation: %1"
-msgstr "Κορεσμός %1"
+msgstr "Κορεσμός: %1"
 
 #: qml/MainPage.qml:141 qml/MainPage.qml:221
-#, fuzzy, kde-format
-#| msgid "Lightness %1"
+#, kde-format
 msgctxt "@label"
 msgid "Lightness: %1"
-msgstr "Χρωματικό πλάτος %1"
+msgstr "Χρωματικό πλάτος: %1"
 
 #: qml/MainPage.qml:165
 #, kde-format
@@ -293,11 +290,10 @@ msgid "Background"
 msgstr "Φόντο"
 
 #: qml/MainPage.qml:238
-#, fuzzy, kde-format
-#| msgid "Font Size %1px"
+#, kde-format
 msgctxt "@label"
 msgid "Font size: %1px"
-msgstr "Μέγεθος γραμματοσειράς %1px"
+msgstr "Μέγεθος γραμματοσειράς: %1px"
 
 #: qml/MainPage.qml:255
 #, kde-format

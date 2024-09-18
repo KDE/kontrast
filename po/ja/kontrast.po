@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kontrast\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-08-12 00:36+0000\n"
+"POT-Creation-Date: 2024-09-18 00:36+0000\n"
 "PO-Revision-Date: 2024-03-01 14:48+0900\n"
 "Last-Translator: Lemon73 <Lemonade.Flash.1164@gmail.com>\n"
 "Language-Team: Japanese\n"
@@ -91,7 +91,7 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "Lemonade.Flash.1164@gmail.com"
 
-#: qml/FavoritePage.qml:16 qml/Main.qml:35
+#: qml/FavoritePage.qml:16 qml/Main.qml:39
 #, fuzzy, kde-format
 #| msgid "Favorite Colors"
 msgctxt "@title:menu"
@@ -146,7 +146,7 @@ msgctxt "@info:inline"
 msgid "Color copied to clipboard"
 msgstr "色をクリップボードにコピーしました"
 
-#: qml/HelpPage.qml:13 qml/Main.qml:41
+#: qml/HelpPage.qml:13 qml/Main.qml:45
 #, fuzzy, kde-format
 #| msgid "Help"
 msgctxt "@title:menu"
@@ -200,21 +200,21 @@ msgstr ""
 "大きい文字では、WCAG 規格のレベル AA で最低 3 のコントラスト比が必要です。ま"
 "た、WCAG 規格のレベル AAA で最低 4.5 のコントラスト比が必要です。"
 
-#: qml/Main.qml:23
+#: qml/Main.qml:27
 #, fuzzy, kde-format
 #| msgctxt "@title"
 #| msgid "Kontrast"
 msgid "Kontrast"
 msgstr "Kontrast"
 
-#: qml/Main.qml:29 qml/MainPage.qml:20
+#: qml/Main.qml:33 qml/MainPage.qml:20
 #, fuzzy, kde-format
 #| msgid "Contrast Checker"
 msgctxt "@title:menu"
 msgid "Contrast Checker"
 msgstr "コントラストチェッカー"
 
-#: qml/Main.qml:47
+#: qml/Main.qml:51
 #, fuzzy, kde-format
 #| msgid "About"
 msgctxt "@title:menu"

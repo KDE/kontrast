@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kontrast\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-08-12 00:36+0000\n"
+"POT-Creation-Date: 2024-09-18 00:36+0000\n"
 "PO-Revision-Date: 2022-10-30 10:10+0100\n"
 "Last-Translator: Karl Ove Hufthammer <karl@huftis.org>\n"
 "Language-Team: Norwegian Nynorsk <l10n-no@lister.huftis.org>\n"
@@ -94,7 +94,7 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "karl@huftis.org"
 
-#: qml/FavoritePage.qml:16 qml/Main.qml:35
+#: qml/FavoritePage.qml:16 qml/Main.qml:39
 #, fuzzy, kde-format
 msgctxt "@title:menu"
 msgid "Favorite Colors"
@@ -142,7 +142,7 @@ msgctxt "@info:inline"
 msgid "Color copied to clipboard"
 msgstr "Farge kopiert til utklippstavla"
 
-#: qml/HelpPage.qml:13 qml/Main.qml:41
+#: qml/HelpPage.qml:13 qml/Main.qml:45
 #, fuzzy, kde-format
 msgctxt "@title:menu"
 msgid "Help"
@@ -199,18 +199,18 @@ msgstr ""
 "WCAG AA-standarden, eller på minst 4,5 for å vera i samsvar med WCAG AAA-"
 "standarden."
 
-#: qml/Main.qml:23
+#: qml/Main.qml:27
 #, fuzzy, kde-format
 msgid "Kontrast"
 msgstr "Kontrast"
 
-#: qml/Main.qml:29 qml/MainPage.qml:20
+#: qml/Main.qml:33 qml/MainPage.qml:20
 #, fuzzy, kde-format
 msgctxt "@title:menu"
 msgid "Contrast Checker"
 msgstr "Kontrastsjekkar"
 
-#: qml/Main.qml:47
+#: qml/Main.qml:51
 #, fuzzy, kde-format
 msgctxt "@title:menu"
 msgid "About"
