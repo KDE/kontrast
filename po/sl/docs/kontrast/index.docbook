@@ -1,0 +1,249 @@
+<?xml version="1.0" ?>
+<!DOCTYPE book PUBLIC "-//KDE//DTD DocBook XML V4.5-Based Variant V1.1//EN" "dtd/kdedbx45.dtd" [
+  <!ENTITY kmyapplication "<application
+>Kontrast</application
+>">
+  <!ENTITY i18n-translatable-entity "<application
+>Translatable Entity</application
+>">
+  <!ENTITY % addindex "IGNORE">
+  <!ENTITY % Slovenian "INCLUDE">
+]>
+<!--
+SPDX-FileCopyrightText: 2022 Vlad Rakhmanin <vladimir.rakhmanin@ucdconnect.ie>
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
+<book id="kmyapplication" lang="&language;">
+
+<!-- This header contains all of the meta-information for the document such
+as Authors, publish date, the abstract, and Keywords -->
+
+<bookinfo>
+<title
+>Priročnik za &kmyapplication;</title>
+
+<authorgroup>
+<author
+><personname
+> <firstname
+>Carl</firstname
+> <surname
+>Schwan</surname
+> </personname
+> <email
+>carl@carlschwan.eu</email
+> </author>
+<othercredit role="translator"
+><firstname
+>Peter</firstname
+><surname
+>Žaucer</surname
+><affiliation
+><address
+><email
+>peter.zaucer@gmail.com</email
+></address
+></affiliation
+><contrib
+>Prevod</contrib
+></othercredit
+> 
+</authorgroup>
+
+<copyright>
+<year
+>2022</year>
+<holder
+>Carl Schwan</holder>
+</copyright>
+
+<date
+>08.09.2022</date>
+
+<releaseinfo
+>Različica 22.08.0</releaseinfo>
+
+<abstract>
+<para
+>&kmyapplication; je preverjevalnik barvnega kontrasta, ki uporabnikom omogoča preverjanje, ali so njihove barvne kombinacije dostopne ljudem s pomanjkljivim barvnim vidom. </para>
+</abstract>
+
+<keywordset>
+<keyword
+>KDE</keyword>
+<keyword
+>Dostopnost</keyword>
+<keyword
+>Kontrast</keyword>
+</keywordset>
+
+</bookinfo>
+
+<chapter id="introduction">
+<title
+>Uvod</title>
+
+<para
+>&kmyapplication; omogoča uporabniku, da preveri kontrastno razmerje med barvami in ugotovi, ali je rezultat primeren za ljudi s pomanjkljivostmi barvnega vida. Uporabniki lahko izbirajo barve na različne načine, na primer z ročnim vnosom šestnajstiških vrednosti ali z uporabo orodja za izbiro barv, da izberejo katero koli barvno vrednost na svojem zaslonu. </para>
+
+<para
+>Preverjanje kontrastnega razmerja s to aplikacijo je povezano z razliko v barvi med dvema predmetoma, ki omogoča njuno razlikovanje. Vrednost kontrasta 21 pomeni popoln kontrast (običajno črna na belem), vrednost 0 pa pomeni, da sta barvi enaki. Barve so preverjene glede na smernice za dostopnost spletne vsebine (<quote
+>WCAG</quote
+>). </para>
+
+</chapter>
+
+
+<chapter id="using-kapp">
+<title
+>Uporaba &kmyapplication;</title>
+
+
+<para>
+<screenshot>
+<screeninfo
+>Tukaj je posnetek zaslona &kmyapplication;</screeninfo>
+	<mediaobject>
+	  <imageobject>
+	    <imagedata fileref="main.png" format="PNG"/>
+	  </imageobject>
+	  <textobject>
+	    <phrase
+>Posnetek zaslona &kmyapplication;</phrase>
+	  </textobject>
+	</mediaobject>
+</screenshot>
+</para>
+
+<para
+>Ko odprete aplikacijo, se vam prikaže zaslon, podoben zgornjemu - to je glavni zaslon aplikacije &kmyapplication; in vsebuje večino njenih funkcij. Kot primer bo prikazana naključno izbrana barva besedila, barva ozadja in njuno kontrastno razmerje. </para>
+
+<sect1 id="kapp-color-select">
+<title
+>Izbira besedila in barv ozadja</title>
+<para
+>Obstaja pet glavnih načinov, na katere je mogoče izbrati barve za primerjavo. Ti so opisani spodaj. </para>
+
+<sect2 id="hex-values">
+<title
+>Vnesite šestnajstiške vrednosti</title>
+<para
+>Če poznate šestnajstiške vrednosti barv, ki jih želite preveriti, jih lahko vnesete neposredno. To storite tako, da kliknete šestnajstiško vrednost vzorčne barve, ki je trenutno na zaslonu, in vnesete želeno vrednost.</para>
+</sect2>
+
+<sect2 id="color-picker">
+<title
+>Izbirnik barv</title>
+<para
+>Če je na zaslonu trenutno prikazana barva - na primer iz vzorčne slike - lahko z orodjem za izbiro barv vnesete to barvo neposredno v aplikacijo. To storite tako, da kliknete ikono izbirnika barv desno od šestnajstiške vrednosti trenutno izbrane barve in kjer koli na zaslonu kliknete barvo, ki jo želite vzorčiti. Barva bo nato izbrana v aplikaciji.</para>
+</sect2>
+
+<sect2 id="hue">
+<title
+>Odtenek, nasičenost in svetlost</title>
+<para
+>Če želite spremeniti svojo trenutno izbiro, da vidite, ali nekatere spremembe vplivajo na kontrast, lahko to storite z uporabo drsnikov za odtenek, nasičenost in svetlost. Ti se nahajajo pod šestnajstiško vrednostjo trenutne izbire. Izbira barv se samodejno posodobi, ko spremenite te drsnike.</para>
+</sect2>
+
+<sect2 id="invert">
+<title
+>Obrni</title>
+<para
+>Gumb <guimenuitem
+>Obrni</guimenuitem
+> bo zamenjal dve trenutno izbrani barvi, pri čemer bo barva ozadja nastavljena kot barva besedila in obratno.</para>
+</sect2>
+
+<sect2 id="randomize">
+<title
+>Naključno določi</title>
+<para
+>Gumb <guimenuitem
+>Naključno določi</guimenuitem
+> bo dodelil naključne barve tako ozadju kot barvam besedila.</para>
+</sect2>
+</sect1>
+
+<sect1 id="result">
+<title
+>Rezultat kontrasta</title>
+<para
+>Kontrastno razmerje, ki izhaja iz vaše izbire, bo prikazano na vrhu zaslona, skupaj s kratko opombo, ki pojasnjuje, kako dobro je ta kontrast primeren za besedilo različnih velikosti. To besedilo se samodejno posodobi, ko se spremenijo barvne vrednosti. </para>
+</sect1>
+
+<sect1 id="favorite">
+<title
+>Priljubljene</title>
+<para
+>Aplikacija &kmyapplication; uporabniku omogoča shranjevanje najljubših barvnih kombinacij za prihodnjo uporabo. To storite tako, da pritisnete <guimenuitem
+>Označi kot priljubljeno</guimenuitem
+> na dnu zaslona. Do teh barvnih kombinacij lahko znova dostopate prek menijske postavke <guimenuitem
+>Priljubljene barve</guimenuitem
+>, kot je natančneje opisano v naslednjem poglavju. </para>
+</sect1>
+</chapter>
+
+<chapter id="menu">
+<title
+>Možnosti menija</title>
+
+<para
+>V tem poglavju so opisane vse funkcije aplikacije, ki so dostopne po kliku na ikono <guimenu
+>Meni</guimenu
+> v zgornjem levem kotu. </para>
+
+<sect1 id="contrast-checker">
+<title
+>Preverjevalnik kontrasta</title>
+<para
+>To je privzeti zaslon aplikacije, ki uporabniku omogoča izbiro barv in ogled njihovega kontrastnega razmerja. Funkcionalnost je opisana v prejšnjem poglavju. </para>
+</sect1>
+
+<sect1 id="fave-colors">
+<title
+>Najljubše barve</title>
+<para
+>Ta zaslon bo vseboval vse barvne kombinacije, shranjene kot "priljubljene" na zaslonu <guimenuitem
+>Preverjevalnik kontrasta</guimenuitem
+>. Barvne kombinacije lahko izbrišete s pritiskom na gumb <guimenuitem
+>Odstrani</guimenuitem
+>. </para>
+</sect1>
+
+<sect1 id="help">
+<title
+>Pomoč</title>
+<para
+>Ta zaslon vsebuje kratek povzetek teorije, ki stoji za to aplikacijo, z razlago, kako deluje kontrast in kako najbolje interpretirati kontrastno razmerje v skladu s standardom WCAG. </para>
+</sect1>
+
+<sect1 id="about">
+<title
+>O tem</title>
+<para
+>Ta zaslon vsebuje nekaj splošnih informacij v zvezi z aplikacijo, kot so avtorji in uporabljene knjižnice. Obstaja tudi gumb, ki uporabnikom omogoča, da vse napake, na katere bi lahko naleteli, predložijo razvijalcem. </para>
+</sect1>
+
+</chapter>
+
+<chapter id="credits">
+
+<title
+>Zasluge in licenca</title>
+
+<para
+>&kmyapplication; </para>
+<para
+>Avtorske pravice za program 2020-2022 Carl Schwan <email
+>carl@carlschwan.eu</email
+> </para>
+
+<para
+>Avtorske pravice dokumentacije &copy; 2022 Vlad Rakhmanin <email
+>vladimir.rakhmanin@ucdconnect.ie</email
+> </para
+>&underGPL; </chapter>
+
+&documentation.index;
+</book>
