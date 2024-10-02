@@ -1,12 +1,11 @@
 # Translation of kontrast to Norwegian Nynorsk
 #
-# Karl Ove Hufthammer <karl@huftis.org>, 2020, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: kontrast\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-09-18 00:36+0000\n"
-"PO-Revision-Date: 2022-10-30 10:10+0100\n"
+"PO-Revision-Date: 2024-09-27 20:36+0200\n"
 "Last-Translator: Karl Ove Hufthammer <karl@huftis.org>\n"
 "Language-Team: Norwegian Nynorsk <l10n-no@lister.huftis.org>\n"
 "Language: nn\n"
@@ -14,7 +13,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 22.08.2\n"
+"X-Generator: Lokalize 24.08.1\n"
 "X-Environment: kde\n"
 "X-Accelerator-Marker: &\n"
 "X-Text-Markup: kde4\n"
@@ -95,25 +94,25 @@ msgid "Your emails"
 msgstr "karl@huftis.org"
 
 #: qml/FavoritePage.qml:16 qml/Main.qml:39
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@title:menu"
 msgid "Favorite Colors"
 msgstr "Favorittfargar"
 
 #: qml/FavoritePage.qml:44
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@action:tooltip"
 msgid "Remove"
 msgstr "Fjern"
 
 #: qml/FavoritePage.qml:62
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@action:button"
 msgid "Text: %1"
 msgstr "Tekst: %1"
 
 #: qml/FavoritePage.qml:67
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@action:button"
 msgid "Background: %1"
 msgstr "Bakgrunn: %1"
@@ -122,34 +121,34 @@ msgstr "Bakgrunn: %1"
 #, kde-format
 msgctxt "@action:button"
 msgid "Apply"
-msgstr ""
+msgstr "Bruk"
 
 #: qml/FavoritePage.qml:104
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@info:inline"
 msgid "Background color copied to clipboard"
 msgstr "Bakgrunnsfarge kopiert til utklippstavla"
 
 #: qml/FavoritePage.qml:108
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@info:inline"
 msgid "Text color copied to clipboard"
 msgstr "Tekstfarge kopiert til utklippstavla"
 
 #: qml/FavoritePage.qml:115
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@info:inline"
 msgid "Color copied to clipboard"
 msgstr "Farge kopiert til utklippstavla"
 
 #: qml/HelpPage.qml:13 qml/Main.qml:45
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@title:menu"
 msgid "Help"
 msgstr "Hjelp"
 
 #: qml/HelpPage.qml:19
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@title:heading"
 msgid "Contrast"
 msgstr "Kontrast"
@@ -200,27 +199,27 @@ msgstr ""
 "standarden."
 
 #: qml/Main.qml:27
-#, fuzzy, kde-format
+#, kde-format
 msgid "Kontrast"
 msgstr "Kontrast"
 
 #: qml/Main.qml:33 qml/MainPage.qml:20
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@title:menu"
 msgid "Contrast Checker"
 msgstr "Kontrastsjekkar"
 
 #: qml/Main.qml:51
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@title:menu"
 msgid "About"
 msgstr "Om"
 
 #: qml/MainPage.qml:42
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@label"
 msgid "Contrast ratio: %1"
-msgstr "Kontrast: %1"
+msgstr "Kontrastforhold: %1"
 
 #: qml/MainPage.qml:50
 #, kde-format
@@ -262,55 +261,55 @@ msgstr ""
 "objekta i same synsfelt."
 
 #: qml/MainPage.qml:84
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@label"
 msgid "Text"
 msgstr "Tekst"
 
 #: qml/MainPage.qml:113 qml/MainPage.qml:193
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@label"
 msgid "Hue: %1°"
-msgstr "Kulør %1°"
+msgstr "Kulør: %1°"
 
 #: qml/MainPage.qml:127 qml/MainPage.qml:207
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@label"
 msgid "Saturation: %1"
-msgstr "Metting %1"
+msgstr "Metting: %1"
 
 #: qml/MainPage.qml:141 qml/MainPage.qml:221
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@label"
 msgid "Lightness: %1"
-msgstr "Lysstyrke %1"
+msgstr "Lysstyrke: %1"
 
 #: qml/MainPage.qml:165
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@label"
 msgid "Background"
 msgstr "Bakgrunn"
 
 #: qml/MainPage.qml:238
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@label"
 msgid "Font size: %1px"
-msgstr "Skriftstorleik %1 pikslar"
+msgstr "Skriftstorleik: %1 pikslar"
 
 #: qml/MainPage.qml:255
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@action:button"
 msgid "Invert"
-msgstr "Omvend"
+msgstr "Snu fargane"
 
 #: qml/MainPage.qml:261
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@action:button"
 msgid "Randomize"
 msgstr "Tilfeldig"
 
 #: qml/MainPage.qml:267
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@action:button"
 msgid "Mark as Favorite"
 msgstr "Merk som favoritt"
