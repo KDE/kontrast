@@ -48,7 +48,11 @@ public:
     explicit Kontrast(QObject *parent = nullptr);
     ~Kontrast() override = default;
 
-    enum Quality { Bad, Good, Perfect };
+    enum Quality {
+        Bad,
+        Good,
+        Perfect
+    };
 
     Q_ENUM(Quality)
 
