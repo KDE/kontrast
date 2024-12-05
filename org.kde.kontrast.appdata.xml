@@ -146,44 +146,9 @@ SPDX-License-Identifier: CC0-1.0
     <release version="24.02.0" date="2024-02-28"/>
     <release version="23.08.5" date="2024-02-15"/>
   </releases>
-  <developer_name>Carl Schwan</developer_name>
-  <developer_name xml:lang="ca">Carl Schwan</developer_name>
-  <developer_name xml:lang="ca-valencia">Carl Schwan</developer_name>
-  <developer_name xml:lang="cs">Carl Schwan</developer_name>
-  <developer_name xml:lang="da">Carl Schwan</developer_name>
-  <developer_name xml:lang="de">Carl Schwan</developer_name>
-  <developer_name xml:lang="el">Carl Schwan</developer_name>
-  <developer_name xml:lang="en-GB">Carl Schwan</developer_name>
-  <developer_name xml:lang="eo">Carl Schwan</developer_name>
-  <developer_name xml:lang="es">Carl Schwan</developer_name>
-  <developer_name xml:lang="eu">Carl Schwan</developer_name>
-  <developer_name xml:lang="fi">Carl Schwan</developer_name>
-  <developer_name xml:lang="fr">Carl Schwan</developer_name>
-  <developer_name xml:lang="gl">Carl Schwan</developer_name>
-  <developer_name xml:lang="he">קארל שוואן</developer_name>
-  <developer_name xml:lang="ia">Carl Schwan</developer_name>
-  <developer_name xml:lang="id">Carl Schwan</developer_name>
-  <developer_name xml:lang="it">Carl Schwan</developer_name>
-  <developer_name xml:lang="ja">Carl Schwan</developer_name>
-  <developer_name xml:lang="ka">Carl Schwan</developer_name>
-  <developer_name xml:lang="ko">Carl Schwan</developer_name>
-  <developer_name xml:lang="lv">Carl Schwan</developer_name>
-  <developer_name xml:lang="nl">Carl Schwan</developer_name>
-  <developer_name xml:lang="nn">Carl Schwan</developer_name>
-  <developer_name xml:lang="pa">ਕਾਰਲ ਸਚਵਾਨ</developer_name>
-  <developer_name xml:lang="pl">Carl Schwan</developer_name>
-  <developer_name xml:lang="pt">Carl Schwan</developer_name>
-  <developer_name xml:lang="pt-BR">Carl Schwan</developer_name>
-  <developer_name xml:lang="ro">Carl Schwan</developer_name>
-  <developer_name xml:lang="ru">Carl Schwan</developer_name>
-  <developer_name xml:lang="sk">Carl Schwan</developer_name>
-  <developer_name xml:lang="sl">Carl Schwan</developer_name>
-  <developer_name xml:lang="sv">Carl Schwan</developer_name>
-  <developer_name xml:lang="tr">Carl Schwan</developer_name>
-  <developer_name xml:lang="uk">Carl Schwan</developer_name>
-  <developer_name xml:lang="x-test">xxCarl Schwanxx</developer_name>
-  <developer_name xml:lang="zh-CN">Carl Schwan</developer_name>
-  <developer_name xml:lang="zh-TW">Carl Schwan</developer_name>
+  <developer id="kde.org">
+    <name translate="no">KDE</name>
+  </developer>
   <screenshots>
     <screenshot>
       <caption>Main view of Kontrast</caption>
@@ -223,47 +188,7 @@ SPDX-License-Identifier: CC0-1.0
       <caption xml:lang="x-test">xxMain view of Kontrastxx</caption>
       <caption xml:lang="zh-CN">Kontrast 主视图</caption>
       <caption xml:lang="zh-TW">Kontrast 的主頁面</caption>
-      <image type="source" width="1074" height="833">https://cdn.kde.org/screenshots/kontrast/kontrast.png</image>
-    </screenshot>
-    <screenshot type="default">
-      <caption>Main view of Kontrast on mobile</caption>
-      <caption xml:lang="ca">Vista principal del Kontrast al mòbil</caption>
-      <caption xml:lang="ca-valencia">Vista principal de Kontrast en el mòbil</caption>
-      <caption xml:lang="da">Kontrasts hovedvisning på mobile enheder</caption>
-      <caption xml:lang="de">Hauptansicht von Kontrast auf Mobilgeräten</caption>
-      <caption xml:lang="el">Κύρια προβολή του Kontrast σε κινητό</caption>
-      <caption xml:lang="en-GB">Main view of Kontrast on mobile</caption>
-      <caption xml:lang="eo">Ĉefa vido de Kontrast sur poŝtelefono</caption>
-      <caption xml:lang="es">Vista principal de Kontrast para móvil</caption>
-      <caption xml:lang="eu">Kontrast-en ikuspegi nagusia mugikorrean</caption>
-      <caption xml:lang="fi">Mobiili-Kontrastin päänäkymä</caption>
-      <caption xml:lang="fr">Affichage principal de Kontrast sur plate-forme mobile</caption>
-      <caption xml:lang="gl">Vista principal de Kontrast nun móbil.</caption>
-      <caption xml:lang="he">התצוגה הראשית של Kontrast במכשירים ניידים</caption>
-      <caption xml:lang="ia">Vista principal de Kontrast sur Mobile</caption>
-      <caption xml:lang="id">Tampilan utama Kontrast di ponsel</caption>
-      <caption xml:lang="it">Vista principale di Kontrast nei dispositivi mobili</caption>
-      <caption xml:lang="ja">携帯端末での Kontrast の外観</caption>
-      <caption xml:lang="ka">Kontrast-ის მთავარი ხედი მობილურზე</caption>
-      <caption xml:lang="ko">모바일 환경에서의 Kontrast 주 보기</caption>
-      <caption xml:lang="lv">„Kontrast“ pamatlogs tālrunī</caption>
-      <caption xml:lang="nl">Hoofdweergave van Kontrast op mobiel</caption>
-      <caption xml:lang="nn">Hovudvising i mobilversjon av Kontrast</caption>
-      <caption xml:lang="pa">ਮੋਬਾਈਲ ਉੱਤੇ ਕਨਟਰਾਸਟ ਦੀ ਮੁੱਖ ਝਲਕ</caption>
-      <caption xml:lang="pl">Główny widok Kontrastu na urządzeniach przenośnych</caption>
-      <caption xml:lang="pt">Janela principal do Kontrast no telemóvel</caption>
-      <caption xml:lang="pt-BR">Visão principal do Kontrast no celular</caption>
-      <caption xml:lang="ro">Vizualizarea principală a Kontrast pe mobil</caption>
-      <caption xml:lang="ru">Главное окно Kontrast на мобильном устройстве</caption>
-      <caption xml:lang="sk">Hlavný pohľad Kontrast na mobile</caption>
-      <caption xml:lang="sl">Glavni pogled kontrasta na mobilni napravi</caption>
-      <caption xml:lang="sv">Huvudvy i Kontrast på mobil</caption>
-      <caption xml:lang="tr">Taşınabilir aygıtlarda Kontrast ana görünümü</caption>
-      <caption xml:lang="uk">Головне вікно Kontrast на мобільному</caption>
-      <caption xml:lang="x-test">xxMain view of Kontrast on mobilexx</caption>
-      <caption xml:lang="zh-CN">移动设备上的 Kontrast 主视图</caption>
-      <caption xml:lang="zh-TW">Kontrast 在手機上的主頁面</caption>
-      <image type="source" width="535" height="833">https://cdn.kde.org/screenshots/kontrast/kontrat_mobile.png</image>
+      <image type="source">https://cdn.kde.org/screenshots/kontrast/kontrast.png</image>
     </screenshot>
   </screenshots>
   <content_rating type="oars-1.0"/>
