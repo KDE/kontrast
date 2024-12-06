@@ -47,43 +47,6 @@ SPDX-License-Identifier: CC0-1.0
   <name xml:lang="zh-CN">Kontrast</name>
   <name xml:lang="zh-TW">Kontrast 對比度檢查</name>
   <summary>Check color contrast</summary>
-  <summary xml:lang="ca">Un comprovador del contrast del color</summary>
-  <summary xml:lang="ca-valencia">Un comprovador del contrast del color</summary>
-  <summary xml:lang="da">Tjek af farvekontrast</summary>
-  <summary xml:lang="de">Eine Anwendung zur Kontrastüberprüfung von Farben</summary>
-  <summary xml:lang="el">Ένα πρόγραμμα ελέγχου της χρωματικής αντίθεσης</summary>
-  <summary xml:lang="en-GB">A Colour Contrast Checker</summary>
-  <summary xml:lang="eo">Kolorkontrasta Kontrolilo</summary>
-  <summary xml:lang="es">Verificador de contraste de color</summary>
-  <summary xml:lang="eu">Koloreen arteko kontratea egiaztatzeko tresna</summary>
-  <summary xml:lang="fi">Värikontrastin tarkistus</summary>
-  <summary xml:lang="fr">Un vérificateur de contraste de couleurs</summary>
-  <summary xml:lang="gl">Un comprobador de contraste de cor.</summary>
-  <summary xml:lang="he">בודק ניגודיות צבע</summary>
-  <summary xml:lang="hi">एक रंग कंट्रास्ट जांचक</summary>
-  <summary xml:lang="ia">Un Verificator de contrasto de color</summary>
-  <summary xml:lang="id">Sebuah Pemeriksa Kontras Warna</summary>
-  <summary xml:lang="it">Un controllo del contrasto</summary>
-  <summary xml:lang="ja">色のコントラストチェッカー</summary>
-  <summary xml:lang="ka">კონტრასტის შემოწმება</summary>
-  <summary xml:lang="ko">색 대비 검사기</summary>
-  <summary xml:lang="lv">Krāsu kontrasta pārbaudītājs</summary>
-  <summary xml:lang="nl">Een controleprogramma op contrast</summary>
-  <summary xml:lang="nn">Verktøy for å sjekka fargekontrast</summary>
-  <summary xml:lang="pa">ਰੰਗ ਕਨਟਰਾਸਟ ਜਾਂਚਕਾਰ</summary>
-  <summary xml:lang="pl">Sprawdzanie kontrastu barw</summary>
-  <summary xml:lang="pt">Um Módulo de Verificação de Contraste de Cores</summary>
-  <summary xml:lang="pt-BR">Um verificador de contraste de cores</summary>
-  <summary xml:lang="ro">Verifică contrastul culorilor</summary>
-  <summary xml:lang="ru">Проверка цветового контраста</summary>
-  <summary xml:lang="sk">Kontrolovač farebného kontrastu</summary>
-  <summary xml:lang="sl">Kontrolor kontrasta</summary>
-  <summary xml:lang="sv">Ett kontrollverktyg för färgkontrast</summary>
-  <summary xml:lang="tr">Bir Renk Karşıtlığı Denetleyicisi</summary>
-  <summary xml:lang="uk">Засіб для перевірки контрастності кольорів</summary>
-  <summary xml:lang="x-test">xxA Color Contrast Checkerxx</summary>
-  <summary xml:lang="zh-CN">颜色对比度检查工具</summary>
-  <summary xml:lang="zh-TW">一個用來檢查顏色對比度的工具</summary>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-3.0-or-later</project_license>
   <description>
