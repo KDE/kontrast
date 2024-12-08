@@ -50,13 +50,17 @@ SPDX-License-Identifier: CC0-1.0
   <summary xml:lang="ca">Comprova el contrast de color</summary>
   <summary xml:lang="ca-valencia">Comprova el contrast de color</summary>
   <summary xml:lang="es">Comprobar el contraste de colores</summary>
+  <summary xml:lang="eu">Egiaztatu kolore-kontrastea</summary>
   <summary xml:lang="gl">Comprobar o contraste de cores</summary>
   <summary xml:lang="he">בדיקת ניגוד צבע</summary>
   <summary xml:lang="ka">ფერის კონტრასტის შემოწმება</summary>
   <summary xml:lang="nl">Kleurcontrast controleren</summary>
+  <summary xml:lang="pl">Sprawdź kontrastu barwy</summary>
   <summary xml:lang="sl">Preveri barvni kontrast</summary>
+  <summary xml:lang="tr">Renk karşıtlığını denetle</summary>
   <summary xml:lang="uk">Перевірка контрастності кольорів</summary>
   <summary xml:lang="x-test">xxCheck color contrastxx</summary>
+  <summary xml:lang="zh-CN">检查颜色对比度</summary>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-3.0-or-later</project_license>
   <description>
