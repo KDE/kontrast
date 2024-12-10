@@ -185,7 +185,7 @@ SPDX-License-Identifier: CC0-1.0
   <developer_name xml:lang="zh-CN">Carl Schwan</developer_name>
   <developer_name xml:lang="zh-TW">Carl Schwan</developer_name>
   <screenshots>
-    <screenshot>
+    <screenshot type="default">
       <caption>Main view of Kontrast</caption>
       <caption xml:lang="ca">Vista principal del Kontrast</caption>
       <caption xml:lang="ca-valencia">Vista principal de Kontrast</caption>
