@@ -38,6 +38,7 @@ SPDX-License-Identifier: CC0-1.0
   <name xml:lang="pt-BR">Kontrast</name>
   <name xml:lang="ro">Kontrast</name>
   <name xml:lang="ru">Kontrast</name>
+  <name xml:lang="sa">विप्रकर्ष</name>
   <name xml:lang="sk">Kontrast</name>
   <name xml:lang="sl">Kontrast</name>
   <name xml:lang="sv">Kontrast</name>
@@ -54,9 +55,11 @@ SPDX-License-Identifier: CC0-1.0
   <summary xml:lang="fr">Vérifier le contraste des couleurs</summary>
   <summary xml:lang="gl">Comprobar o contraste de cores</summary>
   <summary xml:lang="he">בדיקת ניגוד צבע</summary>
+  <summary xml:lang="it">Controlla il contrasto dei colori</summary>
   <summary xml:lang="ka">ფერის კონტრასტის შემოწმება</summary>
   <summary xml:lang="nl">Kleurcontrast controleren</summary>
   <summary xml:lang="pl">Sprawdź kontrastu barwy</summary>
+  <summary xml:lang="sa">वर्णविपरीततां पश्यन्तु</summary>
   <summary xml:lang="sl">Preveri barvni kontrast</summary>
   <summary xml:lang="tr">Renk karşıtlığını denetle</summary>
   <summary xml:lang="uk">Перевірка контрастності кольорів</summary>
@@ -93,6 +96,7 @@ SPDX-License-Identifier: CC0-1.0
     <p xml:lang="pt-BR">O Kontrast é um verificador de contraste de cores que te diz se as combinações de cores que você usa são distintas o suficiente para serem legíveis e acessíveis.</p>
     <p xml:lang="ro">Kontrast e o unealtă de verificare a contrastului culorilor ce vă spune dacă combinațiile de culori sunt suficient de distincte pentru a fi citețe și accesibile.</p>
     <p xml:lang="ru">Kontrast — это программа для проверки цветового контраста, которая позволяет узнать, являются ли выбранные сочетания цветов достаточно хорошо читаемыми.</p>
+    <p xml:lang="sa">Kontrast एकः वर्णविपरीतपरीक्षकः अस्ति तथा च भवन्तं सूचयति यत् भवतः वर्णसंयोजनानि पठनीयानि सुलभानि च भवितुम् पर्याप्तं विशिष्टानि सन्ति वा।</p>
     <p xml:lang="sk">Kontrast je nástroj na kontrolu kontrastu a povie vám, či vaše farebné kombinácie sú dosť jedinečné, aby boli ľahko čitateľné a dostupné.</p>
     <p xml:lang="sl">Kontrast je kontrolnik barvnega kontrasta in vam pove, ali so vaše barvne kombinacije dovolj različne, da so berljive in dostopne.</p>
     <p xml:lang="sv">Kontrast är ett kontrollverktyg för färgkontrast och talar om för dig om dina färgkombinationer är distinkta nog för att vara läsbara och handikappvänliga.</p>
@@ -158,6 +162,7 @@ SPDX-License-Identifier: CC0-1.0
       <caption xml:lang="pt-BR">Visão principal do Kontrast</caption>
       <caption xml:lang="ro">Vizualizarea principală a Kontrast</caption>
       <caption xml:lang="ru">Главное окно Kontrast</caption>
+      <caption xml:lang="sa">कोन्ट्रास्ट् इत्यस्य मुख्यदृश्यम्</caption>
       <caption xml:lang="sk">Hlavný pohľad Kontrast</caption>
       <caption xml:lang="sl">Glavni pogled kontrasta</caption>
       <caption xml:lang="sv">Huvudvy i Kontrast</caption>
