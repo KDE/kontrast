@@ -41,115 +41,115 @@ msgstr "विप्रकर्ष"
 #, kde-format
 msgctxt "@title"
 msgid "A contrast checker application"
-msgstr ""
+msgstr "एकः विपरीततापरीक्षकः अनुप्रयोगः"
 
 #: main.cpp:47
 #, kde-format
 msgctxt "@info:credit"
 msgid "Carl Schwan"
-msgstr ""
+msgstr "कार्ल स्वान्"
 
 #: main.cpp:48
 #, kde-format
 msgctxt "@info:credit"
 msgid "Maintainer and creator"
-msgstr ""
+msgstr "परिपालकः सृष्टिकर्ता च"
 
 #: main.cpp:52
 #, kde-format
 msgctxt "@info:credit"
 msgid "Wikipedia"
-msgstr ""
+msgstr "विकिपीडिया"
 
 #: main.cpp:52
 #, kde-format
 msgctxt "@info:credit"
 msgid "Text on the main page CC-BY-SA-4.0"
-msgstr ""
+msgstr "मुख्यपृष्ठे पाठः CC-BY-SA-4.0"
 
 #: main.cpp:53
 #, kde-format
 msgctxt "@info:credit"
 msgid "Carson Black"
-msgstr ""
+msgstr "कार्सन ब्ल्याक्"
 
 #: main.cpp:53
 #, kde-format
 msgctxt "@info:credit"
 msgid "SQLite backend for favorite colors"
-msgstr ""
+msgstr "प्रियवर्णानां कृते SQLite पृष्ठभागः"
 
 #: main.cpp:54
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr ""
+msgstr "भवतः नामानि"
 
 #: main.cpp:54
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr ""
+msgstr "भवतः ईमेलपत्राणि"
 
 #: qml/FavoritePage.qml:16 qml/Main.qml:39
 #, kde-format
 msgctxt "@title:menu"
 msgid "Favorite Colors"
-msgstr ""
+msgstr "प्रिय रङ्ग"
 
 #: qml/FavoritePage.qml:44
 #, kde-format
 msgctxt "@action:tooltip"
 msgid "Remove"
-msgstr ""
+msgstr "अपाकरोति"
 
 #: qml/FavoritePage.qml:62
 #, kde-format
 msgctxt "@action:button"
 msgid "Text: %1"
-msgstr ""
+msgstr "पाठः %1"
 
 #: qml/FavoritePage.qml:67
 #, kde-format
 msgctxt "@action:button"
 msgid "Background: %1"
-msgstr ""
+msgstr "पृष्ठभूमिः %1"
 
 #: qml/FavoritePage.qml:74
 #, kde-format
 msgctxt "@action:button"
 msgid "Apply"
-msgstr ""
+msgstr "आचरतु"
 
 #: qml/FavoritePage.qml:104
 #, kde-format
 msgctxt "@info:inline"
 msgid "Background color copied to clipboard"
-msgstr ""
+msgstr "पृष्ठभूमिवर्णः क्लिपबोर्ड् प्रति प्रतिलिखितः"
 
 #: qml/FavoritePage.qml:108
 #, kde-format
 msgctxt "@info:inline"
 msgid "Text color copied to clipboard"
-msgstr ""
+msgstr "पाठवर्णः क्लिप्बोर्ड् प्रति प्रतिलिखितः"
 
 #: qml/FavoritePage.qml:115
 #, kde-format
 msgctxt "@info:inline"
 msgid "Color copied to clipboard"
-msgstr ""
+msgstr "क्लिप्बोर्ड् मध्ये प्रतिलिपितः वर्णः"
 
 #: qml/HelpPage.qml:13 qml/Main.qml:45
 #, kde-format
 msgctxt "@title:menu"
 msgid "Help"
-msgstr ""
+msgstr "साहाय्यम्‌"
 
 #: qml/HelpPage.qml:19
 #, kde-format
 msgctxt "@title:heading"
 msgid "Contrast"
-msgstr ""
+msgstr "विप्रकर्ष"
 
 #: qml/HelpPage.qml:24
 #, kde-format
@@ -200,19 +200,19 @@ msgstr "विप्रकर्ष"
 #, kde-format
 msgctxt "@title:menu"
 msgid "Contrast Checker"
-msgstr ""
+msgstr "विपरीतता परीक्षक"
 
 #: qml/Main.qml:51
 #, kde-format
 msgctxt "@title:menu"
 msgid "About"
-msgstr ""
+msgstr "विषये"
 
 #: qml/MainPage.qml:42
 #, kde-format
 msgctxt "@label"
 msgid "Contrast ratio: %1"
-msgstr ""
+msgstr "विपरीतता अनुपातः %1"
 
 #: qml/MainPage.qml:50
 #, kde-format
@@ -256,52 +256,52 @@ msgstr ""
 #, kde-format
 msgctxt "@label"
 msgid "Text"
-msgstr ""
+msgstr "पाठ"
 
 #: qml/MainPage.qml:113 qml/MainPage.qml:193
 #, kde-format
 msgctxt "@label"
 msgid "Hue: %1°"
-msgstr ""
+msgstr "ह्यू: %1°"
 
 #: qml/MainPage.qml:127 qml/MainPage.qml:207
 #, kde-format
 msgctxt "@label"
 msgid "Saturation: %1"
-msgstr ""
+msgstr "संतृप्ति: %1"
 
 #: qml/MainPage.qml:141 qml/MainPage.qml:221
 #, kde-format
 msgctxt "@label"
 msgid "Lightness: %1"
-msgstr ""
+msgstr "लघुता : %1"
 
 #: qml/MainPage.qml:165
 #, kde-format
 msgctxt "@label"
 msgid "Background"
-msgstr ""
+msgstr "पृष्ठभूमि"
 
 #: qml/MainPage.qml:238
 #, kde-format
 msgctxt "@label"
 msgid "Font size: %1px"
-msgstr ""
+msgstr "फ़ॉन्ट् आकारः %1px"
 
 #: qml/MainPage.qml:255
 #, kde-format
 msgctxt "@action:button"
 msgid "Invert"
-msgstr ""
+msgstr "विपर्ययम्"
 
 #: qml/MainPage.qml:261
 #, kde-format
 msgctxt "@action:button"
 msgid "Randomize"
-msgstr ""
+msgstr "यादृच्छिकं कुरुत"
 
 #: qml/MainPage.qml:267
 #, kde-format
 msgctxt "@action:button"
 msgid "Mark as Favorite"
-msgstr ""
+msgstr "प्रियं इति चिह्नं कुर्वन्तु"
