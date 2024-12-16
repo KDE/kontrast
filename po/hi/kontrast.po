@@ -1,4 +1,4 @@
-# Sanskrit translations for kontrast package.
+# Hindi translations for kontrast package.
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the kontrast package.
 # Kali <EMAIL@ADDRESS>, 2024.
@@ -8,149 +8,148 @@ msgstr ""
 "Project-Id-Version: kontrast\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-09-18 00:36+0000\n"
-"PO-Revision-Date: 2024-12-13 19:09+0530\n"
+"PO-Revision-Date: 2024-12-15 15:57+0530\n"
 "Last-Translator: Kali <EMAIL@ADDRESS>\n"
-"Language-Team: Sanskrit\n"
-"Language: sa\n"
+"Language-Team: Hindi <fedora-trans-hi@redhat.com>\n"
+"Language: hi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n>2);\n"
 
 #: kontrast.cpp:349
 #, kde-format
 msgid "Font size %1px is bad with the current contrast"
-msgstr "%1px फ़ॉन्ट् आकारः वर्तमानविपरीततायाः सह दुष्टः अस्ति"
+msgstr ""
 
 #: kontrast.cpp:352
 #, kde-format
 msgid "Font size %1px is good with the current contrast"
-msgstr "%1px फ़ॉन्ट् आकारः वर्तमानविपरीततायाः सह उत्तमः अस्ति"
+msgstr ""
 
 #: kontrast.cpp:355
 #, kde-format
 msgid "Font size %1px is perfect with the current contrast"
-msgstr "%1px फ़ॉन्ट् आकारः वर्तमानविपरीततायाः सह परिपूर्णः अस्ति"
+msgstr ""
 
 #: main.cpp:42
 #, kde-format
 msgctxt "@title"
 msgid "Kontrast"
-msgstr "विप्रकर्ष"
+msgstr ""
 
 #: main.cpp:44
 #, kde-format
 msgctxt "@title"
 msgid "A contrast checker application"
-msgstr "एकः विपरीततापरीक्षकः अनुप्रयोगः"
+msgstr ""
 
 #: main.cpp:47
 #, kde-format
 msgctxt "@info:credit"
 msgid "Carl Schwan"
-msgstr "कार्ल स्वान्"
+msgstr ""
 
 #: main.cpp:48
 #, kde-format
 msgctxt "@info:credit"
 msgid "Maintainer and creator"
-msgstr "परिपालकः सृष्टिकर्ता च"
+msgstr ""
 
 #: main.cpp:52
 #, kde-format
 msgctxt "@info:credit"
 msgid "Wikipedia"
-msgstr "विकिपीडिया"
+msgstr ""
 
 #: main.cpp:52
 #, kde-format
 msgctxt "@info:credit"
 msgid "Text on the main page CC-BY-SA-4.0"
-msgstr "मुख्यपृष्ठे पाठः CC-BY-SA-4.0"
+msgstr ""
 
 #: main.cpp:53
 #, kde-format
 msgctxt "@info:credit"
 msgid "Carson Black"
-msgstr "कार्सन ब्ल्याक्"
+msgstr ""
 
 #: main.cpp:53
 #, kde-format
 msgctxt "@info:credit"
 msgid "SQLite backend for favorite colors"
-msgstr "प्रियवर्णानां कृते SQLite पृष्ठभागः"
+msgstr ""
 
 #: main.cpp:54
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "भवतः नामानि"
+msgstr ""
 
 #: main.cpp:54
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "भवतः ईमेलपत्राणि"
+msgstr ""
 
 #: qml/FavoritePage.qml:16 qml/Main.qml:39
 #, kde-format
 msgctxt "@title:menu"
 msgid "Favorite Colors"
-msgstr "प्रिय रङ्ग"
+msgstr ""
 
 #: qml/FavoritePage.qml:44
 #, kde-format
 msgctxt "@action:tooltip"
 msgid "Remove"
-msgstr "अपाकरोति"
+msgstr ""
 
 #: qml/FavoritePage.qml:62
 #, kde-format
 msgctxt "@action:button"
 msgid "Text: %1"
-msgstr "पाठः %1"
+msgstr ""
 
 #: qml/FavoritePage.qml:67
 #, kde-format
 msgctxt "@action:button"
 msgid "Background: %1"
-msgstr "पृष्ठभूमिः %1"
+msgstr ""
 
 #: qml/FavoritePage.qml:74
 #, kde-format
 msgctxt "@action:button"
 msgid "Apply"
-msgstr "आचरतु"
+msgstr ""
 
 #: qml/FavoritePage.qml:104
 #, kde-format
 msgctxt "@info:inline"
 msgid "Background color copied to clipboard"
-msgstr "पृष्ठभूमिवर्णः क्लिपबोर्ड् प्रति प्रतिलिखितः"
+msgstr ""
 
 #: qml/FavoritePage.qml:108
 #, kde-format
 msgctxt "@info:inline"
 msgid "Text color copied to clipboard"
-msgstr "पाठवर्णः क्लिप्बोर्ड् प्रति प्रतिलिखितः"
+msgstr ""
 
 #: qml/FavoritePage.qml:115
 #, kde-format
 msgctxt "@info:inline"
 msgid "Color copied to clipboard"
-msgstr "क्लिप्बोर्ड् मध्ये प्रतिलिपितः वर्णः"
+msgstr ""
 
 #: qml/HelpPage.qml:13 qml/Main.qml:45
 #, kde-format
 msgctxt "@title:menu"
 msgid "Help"
-msgstr "साहाय्यम्‌"
+msgstr ""
 
 #: qml/HelpPage.qml:19
 #, kde-format
 msgctxt "@title:heading"
 msgid "Contrast"
-msgstr "विप्रकर्ष"
+msgstr ""
 
 #: qml/HelpPage.qml:24
 #, kde-format
@@ -160,8 +159,6 @@ msgid ""
 "determined by the difference in the color and brightness of the object and "
 "other objects within the same field of view."
 msgstr ""
-"विपरीतता इति द्वयोः पदार्थयोः वर्णभेदः यः तेषां भेदं कर्तुं शक्नोति । यथार्थलोकस्य दृग्प्रतीते "
-"समानदृष्टिक्षेत्रान्तर्गतस्य विषयादिवस्तूनाम् वर्णकान्तिभेदेन विपरीतता निर्धारिता भवति ।"
 
 #: qml/HelpPage.qml:29
 #, kde-format
@@ -169,8 +166,6 @@ msgid ""
 "A contrast value of 21 indicates a perfect contrast (usually black on "
 "white), and a value of 0 indicate that the two colors are the same."
 msgstr ""
-"२१ इत्यस्य विपरीतमूल्यं सम्यक् विपरीततां (प्रायः श्वेतस्य उपरि कृष्णं) सूचयति, ० इति मूल्यं च "
-"वर्णद्वयं समानं सूचयति ।"
 
 #: qml/HelpPage.qml:34
 #, kde-format
@@ -179,8 +174,6 @@ msgid ""
 "the WCAG AA standard and a contrast ratio of 7 or more is required to "
 "conform with the WCAG AAA standard."
 msgstr ""
-"सामान्यपाठस्य कृते WCAG AA मानकस्य अनुरूपं विपरीतता अनुपातः न्यूनातिन्यूनं 4.5 भवितुमर्हति "
-"तथा च WCAG AAA मानकस्य अनुरूपं 7 वा अधिकं विपरीतानुपातः आवश्यकः भवति"
 
 #: qml/HelpPage.qml:39
 #, kde-format
@@ -189,56 +182,54 @@ msgid ""
 "WCAG AA standard and a contrast ratio of 4.5 or more is required to conform "
 "with the WCAG AAA standard."
 msgstr ""
-"बृहत् पाठस्य कृते WCAG AA मानकस्य अनुरूपं विपरीतता अनुपातः न्यूनातिन्यूनं 3 भवितुमर्हति तथा च "
-"WCAG AAA मानकस्य अनुरूपं 4.5 वा अधिकं विपरीतानुपातः आवश्यकः भवति"
 
 #: qml/Main.qml:27
 #, kde-format
 msgid "Kontrast"
-msgstr "विप्रकर्ष"
+msgstr ""
 
 #: qml/Main.qml:33 qml/MainPage.qml:20
 #, kde-format
 msgctxt "@title:menu"
 msgid "Contrast Checker"
-msgstr "विपरीतता परीक्षक"
+msgstr ""
 
 #: qml/Main.qml:51
 #, kde-format
 msgctxt "@title:menu"
 msgid "About"
-msgstr "विषये"
+msgstr ""
 
 #: qml/MainPage.qml:42
 #, kde-format
 msgctxt "@label"
 msgid "Contrast ratio: %1"
-msgstr "विपरीतता अनुपातः %1"
+msgstr ""
 
 #: qml/MainPage.qml:50
 #, kde-format
 msgid "%1"
-msgstr "%1"
+msgstr ""
 
 #: qml/MainPage.qml:62
 #, kde-format
 msgid "Perfect for normal and large text"
-msgstr "सामान्यस्य बृहत्स्य च पाठस्य कृते परिपूर्णम्"
+msgstr ""
 
 #: qml/MainPage.qml:62
 #, kde-format
 msgid "Perfect for large text and good for normal text"
-msgstr "बृहत् पाठस्य कृते परिपूर्णं सामान्यपाठस्य कृते च उत्तमम्"
+msgstr ""
 
 #: qml/MainPage.qml:62
 #, kde-format
 msgid "Good for large text and bad for normal text"
-msgstr "बृहत्पाठस्य कृते उत्तमम् सामान्यपाठस्य कृते च दुष्टम्"
+msgstr ""
 
 #: qml/MainPage.qml:62
 #, kde-format
 msgid "Bad for large and normal text"
-msgstr "बृहत् सामान्यपाठस्य कृते दुष्टम्"
+msgstr ""
 
 #: qml/MainPage.qml:69
 #, kde-format
@@ -249,60 +240,57 @@ msgid ""
 "the color and brightness of the object and other objects within the same "
 "field of view."
 msgstr ""
-"विपरीतता इति प्रकाशस्य वर्णस्य वा भेदः यः वस्तुनः (अथवा तस्य प्रतिनिधित्वं प्रतिबिम्बे "
-"अथवा प्रदर्शने) भेद्यं करोति । यथार्थलोकस्य दृग्प्रतीते समानदृष्टिक्षेत्रान्तर्गतस्य "
-"विषयादिवस्तूनाम् वर्णकान्तिभेदेन विपरीतता निर्धारिता भवति ।"
 
 #: qml/MainPage.qml:84
 #, kde-format
 msgctxt "@label"
 msgid "Text"
-msgstr "पाठ"
+msgstr ""
 
 #: qml/MainPage.qml:113 qml/MainPage.qml:193
 #, kde-format
 msgctxt "@label"
 msgid "Hue: %1°"
-msgstr "ह्यू: %1°"
+msgstr ""
 
 #: qml/MainPage.qml:127 qml/MainPage.qml:207
 #, kde-format
 msgctxt "@label"
 msgid "Saturation: %1"
-msgstr "संतृप्ति: %1"
+msgstr ""
 
 #: qml/MainPage.qml:141 qml/MainPage.qml:221
 #, kde-format
 msgctxt "@label"
 msgid "Lightness: %1"
-msgstr "लघुता : %1"
+msgstr ""
 
 #: qml/MainPage.qml:165
 #, kde-format
 msgctxt "@label"
 msgid "Background"
-msgstr "पृष्ठभूमि"
+msgstr ""
 
 #: qml/MainPage.qml:238
 #, kde-format
 msgctxt "@label"
 msgid "Font size: %1px"
-msgstr "फ़ॉन्ट् आकारः %1px"
+msgstr ""
 
 #: qml/MainPage.qml:255
 #, kde-format
 msgctxt "@action:button"
 msgid "Invert"
-msgstr "विपर्ययम्"
+msgstr ""
 
 #: qml/MainPage.qml:261
 #, kde-format
 msgctxt "@action:button"
 msgid "Randomize"
-msgstr "यादृच्छिकं कुरुत"
+msgstr ""
 
 #: qml/MainPage.qml:267
 #, kde-format
 msgctxt "@action:button"
 msgid "Mark as Favorite"
-msgstr "प्रियं इति चिह्नं कुर्वन्तु"
+msgstr ""
