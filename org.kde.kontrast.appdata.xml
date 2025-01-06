@@ -62,6 +62,7 @@ SPDX-License-Identifier: CC0-1.0
   <summary xml:lang="it">Controlla il contrasto dei colori</summary>
   <summary xml:lang="ka">ფერის კონტრასტის შემოწმება</summary>
   <summary xml:lang="ko">색 대비 검사</summary>
+  <summary xml:lang="lv">Pārbaudiet krāsu kontrastu</summary>
   <summary xml:lang="nl">Kleurcontrast controleren</summary>
   <summary xml:lang="pl">Sprawdź kontrastu barwy</summary>
   <summary xml:lang="sa">वर्णविपरीततां पश्यन्तु</summary>
@@ -160,7 +161,7 @@ SPDX-License-Identifier: CC0-1.0
       <caption xml:lang="ja">Kontrast の外観</caption>
       <caption xml:lang="ka">Kontrast-ის მთავარი ხედი</caption>
       <caption xml:lang="ko">Kontrast 주 보기</caption>
-      <caption xml:lang="lv">„Kontrast“ pamatlogs</caption>
+      <caption xml:lang="lv">„Kontrast“ pamata skats</caption>
       <caption xml:lang="nl">Hoofdweergave van Kontrast</caption>
       <caption xml:lang="nn">Hovudvising i Kontrast</caption>
       <caption xml:lang="pa">ਕਨਟਰਾਸਟ ਦੀ ਮੁੱਖ ਝਲਕ</caption>
