@@ -1,12 +1,12 @@
-# Lemon73 <Lemonade.Flash.1164@gmail.com>, 2024.
+# Lemon73 <Lemonade.Flash.1164@gmail.com>, 2024, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: kontrast\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-09-18 00:36+0000\n"
-"PO-Revision-Date: 2024-03-01 14:48+0900\n"
+"PO-Revision-Date: 2025-01-27 21:36+0900\n"
 "Last-Translator: Lemon73 <Lemonade.Flash.1164@gmail.com>\n"
-"Language-Team: Japanese\n"
+"Language-Team: Japanese <kde-jp@kde.org>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Accelerator-Marker: &\n"
 "X-Text-Markup: kde4\n"
-"X-Generator: Lokalize 23.08.5\n"
+"X-Generator: Lokalize 24.12.1\n"
 
 #: kontrast.cpp:349
 #, kde-format
@@ -92,29 +92,25 @@ msgid "Your emails"
 msgstr "Lemonade.Flash.1164@gmail.com"
 
 #: qml/FavoritePage.qml:16 qml/Main.qml:39
-#, fuzzy, kde-format
-#| msgid "Favorite Colors"
+#, kde-format
 msgctxt "@title:menu"
 msgid "Favorite Colors"
 msgstr "お気に入りの色"
 
 #: qml/FavoritePage.qml:44
-#, fuzzy, kde-format
-#| msgid "Remove"
+#, kde-format
 msgctxt "@action:tooltip"
 msgid "Remove"
 msgstr "削除"
 
 #: qml/FavoritePage.qml:62
-#, fuzzy, kde-format
-#| msgid "Text: %1"
+#, kde-format
 msgctxt "@action:button"
 msgid "Text: %1"
 msgstr "文字: %1"
 
 #: qml/FavoritePage.qml:67
-#, fuzzy, kde-format
-#| msgid "Background: %1"
+#, kde-format
 msgctxt "@action:button"
 msgid "Background: %1"
 msgstr "背景: %1"
@@ -126,36 +122,31 @@ msgid "Apply"
 msgstr ""
 
 #: qml/FavoritePage.qml:104
-#, fuzzy, kde-format
-#| msgid "Background color copied to clipboard"
+#, kde-format
 msgctxt "@info:inline"
 msgid "Background color copied to clipboard"
 msgstr "背景色をクリップボードにコピーしました"
 
 #: qml/FavoritePage.qml:108
-#, fuzzy, kde-format
-#| msgid "Text color copied to clipboard"
+#, kde-format
 msgctxt "@info:inline"
 msgid "Text color copied to clipboard"
 msgstr "文字色をクリップボードにコピーしました"
 
 #: qml/FavoritePage.qml:115
-#, fuzzy, kde-format
-#| msgid "Color copied to clipboard"
+#, kde-format
 msgctxt "@info:inline"
 msgid "Color copied to clipboard"
 msgstr "色をクリップボードにコピーしました"
 
 #: qml/HelpPage.qml:13 qml/Main.qml:45
-#, fuzzy, kde-format
-#| msgid "Help"
+#, kde-format
 msgctxt "@title:menu"
 msgid "Help"
 msgstr "ヘルプ"
 
 #: qml/HelpPage.qml:19
-#, fuzzy, kde-format
-#| msgid "Contrast"
+#, kde-format
 msgctxt "@title:heading"
 msgid "Contrast"
 msgstr "コントラスト"
@@ -201,29 +192,24 @@ msgstr ""
 "た、WCAG 規格のレベル AAA で最低 4.5 のコントラスト比が必要です。"
 
 #: qml/Main.qml:27
-#, fuzzy, kde-format
-#| msgctxt "@title"
-#| msgid "Kontrast"
+#, kde-format
 msgid "Kontrast"
 msgstr "Kontrast"
 
 #: qml/Main.qml:33 qml/MainPage.qml:20
-#, fuzzy, kde-format
-#| msgid "Contrast Checker"
+#, kde-format
 msgctxt "@title:menu"
 msgid "Contrast Checker"
 msgstr "コントラストチェッカー"
 
 #: qml/Main.qml:51
-#, fuzzy, kde-format
-#| msgid "About"
+#, kde-format
 msgctxt "@title:menu"
 msgid "About"
 msgstr "これは何？"
 
 #: qml/MainPage.qml:42
-#, fuzzy, kde-format
-#| msgid "Contrast ratio: %1"
+#, kde-format
 msgctxt "@label"
 msgid "Contrast ratio: %1"
 msgstr "コントラスト比: %1"
@@ -267,70 +253,55 @@ msgstr ""
 "によって決定されます。"
 
 #: qml/MainPage.qml:84
-#, fuzzy, kde-format
-#| msgid "Text"
+#, kde-format
 msgctxt "@label"
 msgid "Text"
 msgstr "文字"
 
 #: qml/MainPage.qml:113 qml/MainPage.qml:193
-#, fuzzy, kde-format
-#| msgid "Hue %1°"
+#, kde-format
 msgctxt "@label"
 msgid "Hue: %1°"
-msgstr "色相 %1°"
+msgstr "色相: %1°"
 
 #: qml/MainPage.qml:127 qml/MainPage.qml:207
-#, fuzzy, kde-format
-#| msgid "Saturation %1"
+#, kde-format
 msgctxt "@label"
 msgid "Saturation: %1"
-msgstr "彩度 %1"
+msgstr "彩度: %1"
 
 #: qml/MainPage.qml:141 qml/MainPage.qml:221
-#, fuzzy, kde-format
-#| msgid "Lightness %1"
+#, kde-format
 msgctxt "@label"
 msgid "Lightness: %1"
-msgstr "明度 %1"
+msgstr "明度: %1"
 
 #: qml/MainPage.qml:165
-#, fuzzy, kde-format
-#| msgid "Background"
+#, kde-format
 msgctxt "@label"
 msgid "Background"
 msgstr "背景"
 
 #: qml/MainPage.qml:238
-#, fuzzy, kde-format
-#| msgid "Font Size %1px"
+#, kde-format
 msgctxt "@label"
 msgid "Font size: %1px"
-msgstr "フォントサイズ %1px"
+msgstr "フォントサイズ: %1px"
 
 #: qml/MainPage.qml:255
-#, fuzzy, kde-format
-#| msgid "Invert"
+#, kde-format
 msgctxt "@action:button"
 msgid "Invert"
 msgstr "入れ替える"
 
 #: qml/MainPage.qml:261
-#, fuzzy, kde-format
-#| msgid "Randomize"
+#, kde-format
 msgctxt "@action:button"
 msgid "Randomize"
 msgstr "ランダム"
 
 #: qml/MainPage.qml:267
-#, fuzzy, kde-format
-#| msgid "Mark as favorite"
+#, kde-format
 msgctxt "@action:button"
 msgid "Mark as Favorite"
-msgstr "お気に入りとしてマークする"
-
-#~ msgid "Favorite colors"
-#~ msgstr "お気に入りの色"
-
-#~ msgid "kontrast"
-#~ msgstr "kontrast"
+msgstr "お気に入りとしてマーク"
