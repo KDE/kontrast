@@ -10,6 +10,7 @@ Dependencies:
     'frameworks/kcoreaddons': '@latest-kf6'
     'libraries/kirigami-addons': '@latest-kf6'
     'libraries/futuresql': '@latest-kf6'
+    'third-party/qcoro': '@latest'
 
  - 'on': ['Linux', 'FreeBSD', 'Windows']
    'require':
