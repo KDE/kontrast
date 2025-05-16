@@ -3,6 +3,7 @@
 # SPDX-License-Identifier: CC0-1.0
 [Desktop Entry]
 Name=Kontrast
+Name[ar]=تباين
 Name[ast]=Kontrast
 Name[ca]=Kontrast
 Name[ca@valencia]=Kontrast
@@ -44,6 +45,7 @@ Name[x-test]=xxKontrastxx
 Name[zh_CN]=Kontrast
 Name[zh_TW]=Kontrast 對比度檢查
 Comment=Contrast Checker
+Comment[ar]=مدقق التباين
 Comment[ca]=Comprovador del contrast
 Comment[ca@valencia]=Comprovador del contrast
 Comment[da]=Tjek af kontrast
