@@ -1,0 +1,311 @@
+# Copyright (C) 2025 This file is copyright:
+# This file is distributed under the same license as the kontrast package.
+# SPDX-FileCopyrightText: 2025 Zayed Al-Saidi <zayed.alsaidi@gmail.com>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kontrast\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-09-18 00:36+0000\n"
+"PO-Revision-Date: 2025-05-15 18:35+0400\n"
+"Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
+"Language-Team: ar\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"X-Generator: Lokalize 23.08.5\n"
+
+#: kontrast.cpp:349
+#, kde-format
+msgid "Font size %1px is bad with the current contrast"
+msgstr "حجم الخط %1 بكسل سيئ مع التباين الحالي"
+
+#: kontrast.cpp:352
+#, kde-format
+msgid "Font size %1px is good with the current contrast"
+msgstr "حجم الخط %1 بكسل جيد مع التباين الحالي"
+
+#: kontrast.cpp:355
+#, kde-format
+msgid "Font size %1px is perfect with the current contrast"
+msgstr "حجم الخط %1 بكسل مثالي مع التباين الحالي"
+
+#: main.cpp:42
+#, kde-format
+msgctxt "@title"
+msgid "Kontrast"
+msgstr "تباين"
+
+#: main.cpp:44
+#, kde-format
+msgctxt "@title"
+msgid "A contrast checker application"
+msgstr "تطبيق مدقق التباين"
+
+#: main.cpp:47
+#, kde-format
+msgctxt "@info:credit"
+msgid "Carl Schwan"
+msgstr "كارل شوان"
+
+#: main.cpp:48
+#, kde-format
+msgctxt "@info:credit"
+msgid "Maintainer and creator"
+msgstr "الصائن والمنشئ"
+
+#: main.cpp:52
+#, kde-format
+msgctxt "@info:credit"
+msgid "Wikipedia"
+msgstr "ويكيبيديا"
+
+#: main.cpp:52
+#, kde-format
+msgctxt "@info:credit"
+msgid "Text on the main page CC-BY-SA-4.0"
+msgstr "النص على الصفحة الرئيسة CC-BY-SA-4.0"
+
+#: main.cpp:53
+#, kde-format
+msgctxt "@info:credit"
+msgid "Carson Black"
+msgstr "كارسون بلاك"
+
+#: main.cpp:53
+#, kde-format
+msgctxt "@info:credit"
+msgid "SQLite backend for favorite colors"
+msgstr "واجهة SQLite الخلفية للألوان المفضلة"
+
+#: main.cpp:54
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "زايد السعيدي"
+
+#: main.cpp:54
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "zayed.alsaidi@gmail.com"
+
+#: qml/FavoritePage.qml:16 qml/Main.qml:39
+#, kde-format
+msgctxt "@title:menu"
+msgid "Favorite Colors"
+msgstr "الألوان المفضلة"
+
+#: qml/FavoritePage.qml:44
+#, kde-format
+msgctxt "@action:tooltip"
+msgid "Remove"
+msgstr "أزل"
+
+#: qml/FavoritePage.qml:62
+#, kde-format
+msgctxt "@action:button"
+msgid "Text: %1"
+msgstr "النص: %1"
+
+#: qml/FavoritePage.qml:67
+#, kde-format
+msgctxt "@action:button"
+msgid "Background: %1"
+msgstr "الخلفيّة: %1"
+
+#: qml/FavoritePage.qml:74
+#, kde-format
+msgctxt "@action:button"
+msgid "Apply"
+msgstr "طبّق"
+
+#: qml/FavoritePage.qml:104
+#, kde-format
+msgctxt "@info:inline"
+msgid "Background color copied to clipboard"
+msgstr "نُسخ لون الخلفية إلى الحافظة"
+
+#: qml/FavoritePage.qml:108
+#, kde-format
+msgctxt "@info:inline"
+msgid "Text color copied to clipboard"
+msgstr "نُسخ لون النص إلى الحافظة"
+
+#: qml/FavoritePage.qml:115
+#, kde-format
+msgctxt "@info:inline"
+msgid "Color copied to clipboard"
+msgstr "نُسخ اللون إلى الحافظة"
+
+#: qml/HelpPage.qml:13 qml/Main.qml:45
+#, kde-format
+msgctxt "@title:menu"
+msgid "Help"
+msgstr "مساعدة"
+
+#: qml/HelpPage.qml:19
+#, kde-format
+msgctxt "@title:heading"
+msgid "Contrast"
+msgstr "التباين"
+
+#: qml/HelpPage.qml:24
+#, kde-format
+msgid ""
+"Contrast is the difference in color between two objects that allows them to "
+"be distinguished. In visual perception of the real world, contrast is "
+"determined by the difference in the color and brightness of the object and "
+"other objects within the same field of view."
+msgstr ""
+"التباين هو اختلاف اللون بين جسمين، مما يسمح بتمييزهما. في الإدراك البصري "
+"للعالم الحقيقي، يُحدَّد التباين باختلاف لون وسطوع الجسم عن الأجسام الأخرى في "
+"مجال الرؤية نفسه."
+
+#: qml/HelpPage.qml:29
+#, kde-format
+msgid ""
+"A contrast value of 21 indicates a perfect contrast (usually black on "
+"white), and a value of 0 indicate that the two colors are the same."
+msgstr ""
+"تشير قيمة التباين 21 إلى تباين مثالي (عادةً أسود على أبيض)، وتشير قيمة 0 إلى "
+"أن اللونين متماثلان."
+
+#: qml/HelpPage.qml:34
+#, kde-format
+msgid ""
+"For normal text, the contrast ratio should be at least of 4.5 to conform to "
+"the WCAG AA standard and a contrast ratio of 7 or more is required to "
+"conform with the WCAG AAA standard."
+msgstr ""
+"بالنسبة للنص العادي، يجب أن تكون نسبة التباين 4.5 على الأقل لتتوافق مع معيار "
+"WCAG AA، ويجب أن تكون نسبة التباين 7 أو أكثر لتتوافق مع معيار WCAG AAA."
+
+#: qml/HelpPage.qml:39
+#, kde-format
+msgid ""
+"For large text, the contrast ratio should be at least of 3 to conform to the "
+"WCAG AA standard and a contrast ratio of 4.5 or more is required to conform "
+"with the WCAG AAA standard."
+msgstr ""
+"بالنسبة للنصوص الكبيرة، يجب أن تكون نسبة التباين 3 على الأقل لتتوافق مع "
+"معيار WCAG AA، ويجب أن تكون نسبة التباين 4.5 أو أكثر لتتوافق مع معيار WCAG "
+"AAA."
+
+#: qml/Main.qml:27
+#, kde-format
+msgid "Kontrast"
+msgstr "تباين"
+
+#: qml/Main.qml:33 qml/MainPage.qml:20
+#, kde-format
+msgctxt "@title:menu"
+msgid "Contrast Checker"
+msgstr "مدقق التباين"
+
+#: qml/Main.qml:51
+#, kde-format
+msgctxt "@title:menu"
+msgid "About"
+msgstr "عن"
+
+#: qml/MainPage.qml:42
+#, kde-format
+msgctxt "@label"
+msgid "Contrast ratio: %1"
+msgstr "معدل التباين: %1"
+
+#: qml/MainPage.qml:50
+#, kde-format
+msgid "%1"
+msgstr "%1"
+
+#: qml/MainPage.qml:62
+#, kde-format
+msgid "Perfect for normal and large text"
+msgstr "مثالي للنصوص العادية والكبيرة"
+
+#: qml/MainPage.qml:62
+#, kde-format
+msgid "Perfect for large text and good for normal text"
+msgstr "مثالي للنصوص الكبيرة وجيد للنصوص العادية"
+
+#: qml/MainPage.qml:62
+#, kde-format
+msgid "Good for large text and bad for normal text"
+msgstr "جيد للنصوص الكبيرة وسيئ للنصوص العادية"
+
+#: qml/MainPage.qml:62
+#, kde-format
+msgid "Bad for large and normal text"
+msgstr "سيئ للنصوص الكبيرة والعادية"
+
+#: qml/MainPage.qml:69
+#, kde-format
+msgid ""
+"Contrast is the difference in luminance or color that makes an object (or "
+"its representation in an image or display) distinguishable. In visual "
+"perception of the real world, contrast is determined by the difference in "
+"the color and brightness of the object and other objects within the same "
+"field of view."
+msgstr ""
+"التباين هو الفرق في السطوع أو اللون الذي يُميّز الجسم (أو تمثيله في صورة أو "
+"عرض). في الإدراك البصري للعالم الحقيقي، يُحدَّد التباين باختلاف لون وسطوع الجسم "
+"والأجسام الأخرى ضمن مجال الرؤية نفسه."
+
+#: qml/MainPage.qml:84
+#, kde-format
+msgctxt "@label"
+msgid "Text"
+msgstr "النص"
+
+#: qml/MainPage.qml:113 qml/MainPage.qml:193
+#, kde-format
+msgctxt "@label"
+msgid "Hue: %1°"
+msgstr "التدرج: %1°"
+
+#: qml/MainPage.qml:127 qml/MainPage.qml:207
+#, kde-format
+msgctxt "@label"
+msgid "Saturation: %1"
+msgstr "التّشبّع: %1"
+
+#: qml/MainPage.qml:141 qml/MainPage.qml:221
+#, kde-format
+msgctxt "@label"
+msgid "Lightness: %1"
+msgstr "الخفة: %1"
+
+#: qml/MainPage.qml:165
+#, kde-format
+msgctxt "@label"
+msgid "Background"
+msgstr "الخلفيّة"
+
+#: qml/MainPage.qml:238
+#, kde-format
+msgctxt "@label"
+msgid "Font size: %1px"
+msgstr "حجم الخط: %1 بكسل"
+
+#: qml/MainPage.qml:255
+#, kde-format
+msgctxt "@action:button"
+msgid "Invert"
+msgstr "اعكس"
+
+#: qml/MainPage.qml:261
+#, kde-format
+msgctxt "@action:button"
+msgid "Randomize"
+msgstr "عشوائي"
+
+#: qml/MainPage.qml:267
+#, kde-format
+msgctxt "@action:button"
+msgid "Mark as Favorite"
+msgstr "فضّله"
