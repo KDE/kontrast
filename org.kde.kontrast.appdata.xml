@@ -7,6 +7,7 @@ SPDX-License-Identifier: CC0-1.0
 <component type="desktop-application">
   <id>org.kde.kontrast</id>
   <name>Kontrast</name>
+  <name xml:lang="ar">تباين</name>
   <name xml:lang="ast">Kontrast</name>
   <name xml:lang="ca">Kontrast</name>
   <name xml:lang="ca-valencia">Kontrast</name>
@@ -48,6 +49,7 @@ SPDX-License-Identifier: CC0-1.0
   <name xml:lang="zh-CN">Kontrast</name>
   <name xml:lang="zh-TW">Kontrast 對比度檢查</name>
   <summary>Check color contrast</summary>
+  <summary xml:lang="ar">تحقق من تباين الألوان</summary>
   <summary xml:lang="ca">Comprova el contrast de color</summary>
   <summary xml:lang="ca-valencia">Comprova el contrast de color</summary>
   <summary xml:lang="de">Farbkontrast überprüfen</summary>
@@ -80,6 +82,7 @@ SPDX-License-Identifier: CC0-1.0
   <project_license>GPL-3.0-or-later</project_license>
   <description>
     <p>Kontrast is a color contrast checker and tells you if your color combinations are distinct enough to be readable and accessible.</p>
+    <p xml:lang="ar">تباين هو أداة للتحقق من تباين الألوان ويخبرك ما إذا كانت مجموعات الألوان لديك مميزة بما يكفي لتكون قابلة للقراءة والوصول إليها.</p>
     <p xml:lang="ca">El Kontrast és un comprovador del contrast del color i indica si les vostres combinacions de color són prou distingibles per a ser llegibles i accessibles.</p>
     <p xml:lang="ca-valencia">Kontrast és un comprovador del contrast del color i indica si les vostres combinacions de color són prou distingibles per a ser llegibles i accessibles.</p>
     <p xml:lang="da">Kontrast er et program til at tjekke farvekontraster og fortæller dig om dine farvekombinationer er forskellige nok til at være læsbare og tilgængelige.</p>
@@ -153,6 +156,7 @@ SPDX-License-Identifier: CC0-1.0
   <screenshots>
     <screenshot type="default">
       <caption>Main view of Kontrast</caption>
+      <caption xml:lang="ar">النافذة الرئيسة لتباين</caption>
       <caption xml:lang="ca">Vista principal del Kontrast</caption>
       <caption xml:lang="ca-valencia">Vista principal de Kontrast</caption>
       <caption xml:lang="da">Kontrasts hovedvisning</caption>
