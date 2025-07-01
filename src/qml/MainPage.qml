@@ -78,6 +78,8 @@ Kirigami.ScrollablePage {
 
             ColumnLayout {
                 Layout.fillWidth: true
+                // 1:1 ratio of the two panels.
+                Layout.preferredWidth: 1
 
                 Text {
                     Layout.topMargin: Kirigami.Units.largeSpacing
@@ -159,6 +161,8 @@ Kirigami.ScrollablePage {
 
             ColumnLayout {
                 Layout.fillWidth: true
+                // 1:1 ratio of the two panels.
+                Layout.preferredWidth: 1
 
                 Text {
                     Layout.topMargin: Kirigami.Units.largeSpacing
