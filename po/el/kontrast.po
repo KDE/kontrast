@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kontrast\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-09-18 00:36+0000\n"
+"POT-Creation-Date: 2025-07-02 07:01+0000\n"
 "PO-Revision-Date: 2023-01-07 10:59+0200\n"
 "Last-Translator: Stelios <sstavra@gmail.com>\n"
 "Language-Team: Greek <kde-i18n-el@kde.org>\n"
@@ -259,55 +259,55 @@ msgstr ""
 "στο χρώμα και στη λαμπρότητα του αντικειμένου και των άλλων αντικειμένων "
 "μέσα στο ίδιο οπτικό πεδίο."
 
-#: qml/MainPage.qml:84
+#: qml/MainPage.qml:86
 #, kde-format
 msgctxt "@label"
 msgid "Text"
 msgstr "Κείμενο"
 
-#: qml/MainPage.qml:113 qml/MainPage.qml:193
+#: qml/MainPage.qml:115 qml/MainPage.qml:197
 #, kde-format
 msgctxt "@label"
 msgid "Hue: %1°"
 msgstr "Απόχρωση: %1"
 
-#: qml/MainPage.qml:127 qml/MainPage.qml:207
+#: qml/MainPage.qml:129 qml/MainPage.qml:211
 #, kde-format
 msgctxt "@label"
 msgid "Saturation: %1"
 msgstr "Κορεσμός: %1"
 
-#: qml/MainPage.qml:141 qml/MainPage.qml:221
+#: qml/MainPage.qml:143 qml/MainPage.qml:225
 #, kde-format
 msgctxt "@label"
 msgid "Lightness: %1"
 msgstr "Χρωματικό πλάτος: %1"
 
-#: qml/MainPage.qml:165
+#: qml/MainPage.qml:169
 #, kde-format
 msgctxt "@label"
 msgid "Background"
 msgstr "Φόντο"
 
-#: qml/MainPage.qml:238
+#: qml/MainPage.qml:242
 #, kde-format
 msgctxt "@label"
 msgid "Font size: %1px"
 msgstr "Μέγεθος γραμματοσειράς: %1px"
 
-#: qml/MainPage.qml:255
+#: qml/MainPage.qml:259
 #, kde-format
 msgctxt "@action:button"
 msgid "Invert"
 msgstr "Αντιστροφή"
 
-#: qml/MainPage.qml:261
+#: qml/MainPage.qml:265
 #, kde-format
 msgctxt "@action:button"
 msgid "Randomize"
 msgstr "Τυχαιοποίηση"
 
-#: qml/MainPage.qml:267
+#: qml/MainPage.qml:271
 #, kde-format
 msgctxt "@action:button"
 msgid "Mark as Favorite"

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kontrast\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-09-18 00:36+0000\n"
+"POT-Creation-Date: 2025-07-02 07:01+0000\n"
 "PO-Revision-Date: 2022-09-15 18:09+0100\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
@@ -271,63 +271,63 @@ msgstr ""
 "visual do mundo real, o contraste é determinado com base na diferença na cor "
 "e brilho do objecto face aos outros objectos no mesmo campo de visão."
 
-#: qml/MainPage.qml:84
+#: qml/MainPage.qml:86
 #, fuzzy, kde-format
 #| msgid "Text"
 msgctxt "@label"
 msgid "Text"
 msgstr "Texto"
 
-#: qml/MainPage.qml:113 qml/MainPage.qml:193
+#: qml/MainPage.qml:115 qml/MainPage.qml:197
 #, fuzzy, kde-format
 #| msgid "Hue %1°"
 msgctxt "@label"
 msgid "Hue: %1°"
 msgstr "Matiz %1°"
 
-#: qml/MainPage.qml:127 qml/MainPage.qml:207
+#: qml/MainPage.qml:129 qml/MainPage.qml:211
 #, fuzzy, kde-format
 #| msgid "Saturation %1"
 msgctxt "@label"
 msgid "Saturation: %1"
 msgstr "Saturação %1"
 
-#: qml/MainPage.qml:141 qml/MainPage.qml:221
+#: qml/MainPage.qml:143 qml/MainPage.qml:225
 #, fuzzy, kde-format
 #| msgid "Lightness %1"
 msgctxt "@label"
 msgid "Lightness: %1"
 msgstr "Luminosidade %1"
 
-#: qml/MainPage.qml:165
+#: qml/MainPage.qml:169
 #, fuzzy, kde-format
 #| msgid "Background"
 msgctxt "@label"
 msgid "Background"
 msgstr "Fundo"
 
-#: qml/MainPage.qml:238
+#: qml/MainPage.qml:242
 #, fuzzy, kde-format
 #| msgid "Font Size %1px"
 msgctxt "@label"
 msgid "Font size: %1px"
 msgstr "Tamanho do Texto %1px"
 
-#: qml/MainPage.qml:255
+#: qml/MainPage.qml:259
 #, fuzzy, kde-format
 #| msgid "Invert"
 msgctxt "@action:button"
 msgid "Invert"
 msgstr "Inverter"
 
-#: qml/MainPage.qml:261
+#: qml/MainPage.qml:265
 #, fuzzy, kde-format
 #| msgid "Randomize"
 msgctxt "@action:button"
 msgid "Randomize"
 msgstr "Aleatório"
 
-#: qml/MainPage.qml:267
+#: qml/MainPage.qml:271
 #, fuzzy, kde-format
 #| msgid "Mark as favorite"
 msgctxt "@action:button"

@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kontrast\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-09-18 00:36+0000\n"
+"POT-Creation-Date: 2025-07-02 07:01+0000\n"
 "PO-Revision-Date: 2023-12-05 17:30+0100\n"
 "Last-Translator: Roman Paholik <wizzardsk@gmail.com>\n"
 "Language-Team: Slovak <kde-sk@linux.sk>\n"
@@ -271,62 +271,62 @@ msgstr ""
 "vnímaní skutočného sveta je kontrast určený rozdielom vo farbe a jasu "
 "objektu a ostatných objektov v rovnakom zornom poli."
 
-#: qml/MainPage.qml:84
+#: qml/MainPage.qml:86
 #, fuzzy, kde-format
 #| msgid "Text"
 msgctxt "@label"
 msgid "Text"
 msgstr "Text"
 
-#: qml/MainPage.qml:113 qml/MainPage.qml:193
+#: qml/MainPage.qml:115 qml/MainPage.qml:197
 #, fuzzy, kde-format
 #| msgid "Hue %1°"
 msgctxt "@label"
 msgid "Hue: %1°"
 msgstr "Odtieň %1°"
 
-#: qml/MainPage.qml:127 qml/MainPage.qml:207
+#: qml/MainPage.qml:129 qml/MainPage.qml:211
 #, fuzzy, kde-format
 #| msgid "Saturation %1"
 msgctxt "@label"
 msgid "Saturation: %1"
 msgstr "Sýtosť %1"
 
-#: qml/MainPage.qml:141 qml/MainPage.qml:221
+#: qml/MainPage.qml:143 qml/MainPage.qml:225
 #, fuzzy, kde-format
 #| msgid "Lightness %1"
 msgctxt "@label"
 msgid "Lightness: %1"
 msgstr "Jas %1"
 
-#: qml/MainPage.qml:165
+#: qml/MainPage.qml:169
 #, fuzzy, kde-format
 #| msgid "Background"
 msgctxt "@label"
 msgid "Background"
 msgstr "Pozadie"
 
-#: qml/MainPage.qml:238
+#: qml/MainPage.qml:242
 #, kde-format
 msgctxt "@label"
 msgid "Font size: %1px"
 msgstr ""
 
-#: qml/MainPage.qml:255
+#: qml/MainPage.qml:259
 #, fuzzy, kde-format
 #| msgid "Invert"
 msgctxt "@action:button"
 msgid "Invert"
 msgstr "Invertovať"
 
-#: qml/MainPage.qml:261
+#: qml/MainPage.qml:265
 #, fuzzy, kde-format
 #| msgid "Randomize"
 msgctxt "@action:button"
 msgid "Randomize"
 msgstr "Náhodne"
 
-#: qml/MainPage.qml:267
+#: qml/MainPage.qml:271
 #, fuzzy, kde-format
 #| msgid "Mark as favorite"
 msgctxt "@action:button"

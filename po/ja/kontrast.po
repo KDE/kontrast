@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kontrast\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-09-18 00:36+0000\n"
+"POT-Creation-Date: 2025-07-02 07:01+0000\n"
 "PO-Revision-Date: 2025-01-27 21:36+0900\n"
 "Last-Translator: Lemon73 <Lemonade.Flash.1164@gmail.com>\n"
 "Language-Team: Japanese <kde-jp@kde.org>\n"
@@ -252,55 +252,55 @@ msgstr ""
 "きます。現実世界の視覚的認識は、物体や同じ視界内の異なる物体の色の違いや明度"
 "によって決定されます。"
 
-#: qml/MainPage.qml:84
+#: qml/MainPage.qml:86
 #, kde-format
 msgctxt "@label"
 msgid "Text"
 msgstr "文字"
 
-#: qml/MainPage.qml:113 qml/MainPage.qml:193
+#: qml/MainPage.qml:115 qml/MainPage.qml:197
 #, kde-format
 msgctxt "@label"
 msgid "Hue: %1°"
 msgstr "色相: %1°"
 
-#: qml/MainPage.qml:127 qml/MainPage.qml:207
+#: qml/MainPage.qml:129 qml/MainPage.qml:211
 #, kde-format
 msgctxt "@label"
 msgid "Saturation: %1"
 msgstr "彩度: %1"
 
-#: qml/MainPage.qml:141 qml/MainPage.qml:221
+#: qml/MainPage.qml:143 qml/MainPage.qml:225
 #, kde-format
 msgctxt "@label"
 msgid "Lightness: %1"
 msgstr "明度: %1"
 
-#: qml/MainPage.qml:165
+#: qml/MainPage.qml:169
 #, kde-format
 msgctxt "@label"
 msgid "Background"
 msgstr "背景"
 
-#: qml/MainPage.qml:238
+#: qml/MainPage.qml:242
 #, kde-format
 msgctxt "@label"
 msgid "Font size: %1px"
 msgstr "フォントサイズ: %1px"
 
-#: qml/MainPage.qml:255
+#: qml/MainPage.qml:259
 #, kde-format
 msgctxt "@action:button"
 msgid "Invert"
 msgstr "入れ替える"
 
-#: qml/MainPage.qml:261
+#: qml/MainPage.qml:265
 #, kde-format
 msgctxt "@action:button"
 msgid "Randomize"
 msgstr "ランダム"
 
-#: qml/MainPage.qml:267
+#: qml/MainPage.qml:271
 #, kde-format
 msgctxt "@action:button"
 msgid "Mark as Favorite"

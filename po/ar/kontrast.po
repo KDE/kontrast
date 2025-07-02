@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kontrast\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-09-18 00:36+0000\n"
+"POT-Creation-Date: 2025-07-02 07:01+0000\n"
 "PO-Revision-Date: 2025-05-15 18:35+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
@@ -256,55 +256,55 @@ msgstr ""
 "عرض). في الإدراك البصري للعالم الحقيقي، يُحدَّد التباين باختلاف لون وسطوع الجسم "
 "والأجسام الأخرى ضمن مجال الرؤية نفسه."
 
-#: qml/MainPage.qml:84
+#: qml/MainPage.qml:86
 #, kde-format
 msgctxt "@label"
 msgid "Text"
 msgstr "النص"
 
-#: qml/MainPage.qml:113 qml/MainPage.qml:193
+#: qml/MainPage.qml:115 qml/MainPage.qml:197
 #, kde-format
 msgctxt "@label"
 msgid "Hue: %1°"
 msgstr "التدرج: %1°"
 
-#: qml/MainPage.qml:127 qml/MainPage.qml:207
+#: qml/MainPage.qml:129 qml/MainPage.qml:211
 #, kde-format
 msgctxt "@label"
 msgid "Saturation: %1"
 msgstr "التّشبّع: %1"
 
-#: qml/MainPage.qml:141 qml/MainPage.qml:221
+#: qml/MainPage.qml:143 qml/MainPage.qml:225
 #, kde-format
 msgctxt "@label"
 msgid "Lightness: %1"
 msgstr "الخفة: %1"
 
-#: qml/MainPage.qml:165
+#: qml/MainPage.qml:169
 #, kde-format
 msgctxt "@label"
 msgid "Background"
 msgstr "الخلفيّة"
 
-#: qml/MainPage.qml:238
+#: qml/MainPage.qml:242
 #, kde-format
 msgctxt "@label"
 msgid "Font size: %1px"
 msgstr "حجم الخط: %1 بكسل"
 
-#: qml/MainPage.qml:255
+#: qml/MainPage.qml:259
 #, kde-format
 msgctxt "@action:button"
 msgid "Invert"
 msgstr "اعكس"
 
-#: qml/MainPage.qml:261
+#: qml/MainPage.qml:265
 #, kde-format
 msgctxt "@action:button"
 msgid "Randomize"
 msgstr "عشوائي"
 
-#: qml/MainPage.qml:267
+#: qml/MainPage.qml:271
 #, kde-format
 msgctxt "@action:button"
 msgid "Mark as Favorite"

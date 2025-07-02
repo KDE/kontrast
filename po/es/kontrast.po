@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kontrast\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-09-18 00:36+0000\n"
+"POT-Creation-Date: 2025-07-02 07:01+0000\n"
 "PO-Revision-Date: 2024-03-29 03:10+0100\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
@@ -262,55 +262,55 @@ msgstr ""
 "diferencia entre el color y el brillo del objeto con respecto a los de otros "
 "objetos que están en el mismo campo visual."
 
-#: qml/MainPage.qml:84
+#: qml/MainPage.qml:86
 #, kde-format
 msgctxt "@label"
 msgid "Text"
 msgstr "Texto"
 
-#: qml/MainPage.qml:113 qml/MainPage.qml:193
+#: qml/MainPage.qml:115 qml/MainPage.qml:197
 #, kde-format
 msgctxt "@label"
 msgid "Hue: %1°"
 msgstr "Tono: %1°"
 
-#: qml/MainPage.qml:127 qml/MainPage.qml:207
+#: qml/MainPage.qml:129 qml/MainPage.qml:211
 #, kde-format
 msgctxt "@label"
 msgid "Saturation: %1"
 msgstr "Saturación: %1"
 
-#: qml/MainPage.qml:141 qml/MainPage.qml:221
+#: qml/MainPage.qml:143 qml/MainPage.qml:225
 #, kde-format
 msgctxt "@label"
 msgid "Lightness: %1"
 msgstr "Luminosidad: %1"
 
-#: qml/MainPage.qml:165
+#: qml/MainPage.qml:169
 #, kde-format
 msgctxt "@label"
 msgid "Background"
 msgstr "Fondo"
 
-#: qml/MainPage.qml:238
+#: qml/MainPage.qml:242
 #, kde-format
 msgctxt "@label"
 msgid "Font size: %1px"
 msgstr "Tamaño del texto: %1 px"
 
-#: qml/MainPage.qml:255
+#: qml/MainPage.qml:259
 #, kde-format
 msgctxt "@action:button"
 msgid "Invert"
 msgstr "Invertir"
 
-#: qml/MainPage.qml:261
+#: qml/MainPage.qml:265
 #, kde-format
 msgctxt "@action:button"
 msgid "Randomize"
 msgstr "Aleatorio"
 
-#: qml/MainPage.qml:267
+#: qml/MainPage.qml:271
 #, kde-format
 msgctxt "@action:button"
 msgid "Mark as Favorite"
