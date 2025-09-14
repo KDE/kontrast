@@ -10,6 +10,7 @@
 #include <QColor>
 #include <QImage>
 #include <QObject>
+#include <qqmlregistration.h>
 
 /**
  * @brief Main class that expose all the value to the QML.
@@ -17,6 +18,8 @@
 class Kontrast : public QObject
 {
     Q_OBJECT
+    QML_ELEMENT
+    QML_SINGLETON
 
     Q_PROPERTY(QColor textColor READ textColor WRITE setTextColor NOTIFY textColorChanged)
 

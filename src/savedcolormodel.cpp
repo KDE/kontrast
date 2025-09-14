@@ -63,7 +63,12 @@ int SavedColorModel::rowCount(const QModelIndex &parent) const
 
 QHash<int, QByteArray> SavedColorModel::roleNames() const
 {
-    return {{ColorRoles::Id, "id"}, {ColorRoles::Name, "name"}, {ColorRoles::TextColor, "textColor"}, {ColorRoles::BackgroundColor, "backgroundColor"}};
+    return {
+        {ColorRoles::Id, "id"},
+        {ColorRoles::Name, "name"},
+        {ColorRoles::TextColor, "textColor"},
+        {ColorRoles::BackgroundColor, "backgroundColor"},
+    };
 }
 
 void SavedColorModel::addColor(const QString &name, const QColor &foreground, const QColor &background)

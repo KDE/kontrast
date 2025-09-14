@@ -5,16 +5,20 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-import QtQuick 2.1
-import org.kde.kirigami 2.11 as Kirigami
-import QtQuick.Controls 2.14 as QQC2
-import QtQuick.Window 2.14
-import QtQuick.Layouts 1.14
-import org.kde.kontrast.private 1.0
+pragma ComponentBehavior: Bound
+
+import QtQuick
+import QtQuick.Controls as QQC2
+import QtQuick.Window
+import QtQuick.Layouts
+import org.kde.kirigami as Kirigami
+import org.kde.kontrast
 
 Kirigami.ScrollablePage {
     id: mainPage
+
     property bool isMobile: Window.width <= Kirigami.Units.gridUnit * 30
+
     Kirigami.ColumnView.preventStealing: true
 
     title: i18nc("@title:menu", "Contrast Checker")
@@ -88,7 +92,7 @@ Kirigami.ScrollablePage {
                 }
 
                 QQC2.TextField {
-                    text: Kontrast.textColor
+                    text: Kontrast.textColor + ''
                     font.pointSize: 35
                     color: Kontrast.displayTextColor
                     background: Rectangle { color: Kontrast.backgroundColor }
@@ -171,7 +175,7 @@ Kirigami.ScrollablePage {
                 }
 
                 QQC2.TextField {
-                    text: Kontrast.backgroundColor
+                    text: Kontrast.backgroundColor + ''
                     font.pointSize: 35
                     color: Kontrast.displayTextColor
                     background: Rectangle { color: Kontrast.backgroundColor }

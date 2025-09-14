@@ -4,13 +4,12 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-import QtQuick 2.1
-import org.kde.kirigami 2.12 as Kirigami
-import QtQuick.Controls 2.14 as QQC2
-import QtQuick.Window 2.14
-import QtQuick.Layouts 1.14
-import org.kde.config as KConfig
+pragma ComponentBehavior: Bound
 
+import QtQuick
+import org.kde.kirigami as Kirigami
+import QtQuick.Window
+import org.kde.config as KConfig
 
 Kirigami.ApplicationWindow {
     id: root
@@ -34,6 +33,9 @@ Kirigami.ApplicationWindow {
                 icon.name: "go-home"
                 pagePool: mainPagePool
                 page: "MainPage.qml"
+                initialProperties: {
+                    return { contrastChecker };
+                }
             },
             Kirigami.PagePoolAction {
                 text: i18nc("@title:menu", "Favorite Colors")

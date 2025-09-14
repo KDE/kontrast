@@ -8,8 +8,7 @@
 #include <QColor>
 #include <QSqlDatabase>
 #include <QSqlTableModel>
-
-#include <memory>
+#include <qqmlregistration.h>
 
 class ThreadedDatabase;
 
@@ -28,6 +27,8 @@ struct ColorEntry {
 class SavedColorModel : public QAbstractListModel
 {
     Q_OBJECT
+    QML_NAMED_ELEMENT(ColorStore)
+    QML_SINGLETON
 
 public:
     enum ColorRoles {

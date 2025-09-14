@@ -8,7 +8,15 @@ add_executable(kontrast
     resources.qrc
 )
 
-ecm_add_qml_module(kontrast URI "org.kde.kontrast" VERSION 1.0)
+ecm_add_qml_module(kontrast
+    URI org.kde.kontrast
+    GENERATE_PLUGIN_SOURCE
+    OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/src/org/kde/kontrast
+    DEPENDENCIES
+        QtCore
+        QtQml
+        QtQuick
+)
 
 ecm_target_qml_sources(kontrast SOURCES
     qml/Main.qml

@@ -53,6 +53,8 @@ Kontrast::Kontrast(QObject *parent)
 #ifdef QT_DBUS_LIB
     qDBusRegisterMetaType<ColorRGB>();
 #endif
+
+    this->random();
 }
 
 QColor Kontrast::textColor() const
