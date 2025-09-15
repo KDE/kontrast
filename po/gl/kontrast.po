@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kontrast\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-07-02 07:01+0000\n"
+"POT-Creation-Date: 2025-09-15 00:38+0000\n"
 "PO-Revision-Date: 2024-03-29 10:56+0100\n"
 "Last-Translator: Adrián Chaves (Gallaecio) <adrian@chaves.io>\n"
 "Language-Team: Proxecto Trasno (proxecto@trasno.gal)\n"
@@ -17,17 +17,17 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Lokalize 24.02.1\n"
 
-#: kontrast.cpp:349
+#: kontrast.cpp:351
 #, kde-format
 msgid "Font size %1px is bad with the current contrast"
 msgstr "%1 px é un tamaño de tipo de letra malo para o contraste actual."
 
-#: kontrast.cpp:352
+#: kontrast.cpp:354
 #, kde-format
 msgid "Font size %1px is good with the current contrast"
 msgstr "%1 px é un tamaño de tipo de letra bo para o contraste actual."
 
-#: kontrast.cpp:355
+#: kontrast.cpp:357
 #, kde-format
 msgid "Font size %1px is perfect with the current contrast"
 msgstr "%1 px é un tamaño de tipo de letra perfecto para o contraste actual."
@@ -92,55 +92,55 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "adrian@chaves.gal"
 
-#: qml/FavoritePage.qml:16 qml/Main.qml:39
+#: qml/FavoritePage.qml:22 qml/Main.qml:41
 #, kde-format
 msgctxt "@title:menu"
 msgid "Favorite Colors"
 msgstr "Cores favoritas"
 
-#: qml/FavoritePage.qml:44
+#: qml/FavoritePage.qml:63
 #, kde-format
 msgctxt "@action:tooltip"
 msgid "Remove"
 msgstr "Retirar"
 
-#: qml/FavoritePage.qml:62
+#: qml/FavoritePage.qml:79
 #, kde-format
 msgctxt "@action:button"
 msgid "Text: %1"
 msgstr "Texto: %1"
 
-#: qml/FavoritePage.qml:67
+#: qml/FavoritePage.qml:84
 #, kde-format
 msgctxt "@action:button"
 msgid "Background: %1"
 msgstr "Fondo: %1"
 
-#: qml/FavoritePage.qml:74
+#: qml/FavoritePage.qml:91
 #, kde-format
 msgctxt "@action:button"
 msgid "Apply"
 msgstr "Aplicar"
 
-#: qml/FavoritePage.qml:104
+#: qml/FavoritePage.qml:121
 #, kde-format
 msgctxt "@info:inline"
 msgid "Background color copied to clipboard"
 msgstr "A cor de fondo copiouse no portapapeis."
 
-#: qml/FavoritePage.qml:108
+#: qml/FavoritePage.qml:125
 #, kde-format
 msgctxt "@info:inline"
 msgid "Text color copied to clipboard"
 msgstr "O texto copiouse no portapapeis."
 
-#: qml/FavoritePage.qml:115
+#: qml/FavoritePage.qml:132
 #, kde-format
 msgctxt "@info:inline"
 msgid "Color copied to clipboard"
 msgstr "A cor copiouse no portapapeis."
 
-#: qml/HelpPage.qml:13 qml/Main.qml:45
+#: qml/HelpPage.qml:13 qml/Main.qml:47
 #, kde-format
 msgctxt "@title:menu"
 msgid "Help"
@@ -196,55 +196,55 @@ msgstr ""
 "cumprir co estándar AA de WCAG, e para o AAA requírese unha taxa de "
 "contraste de 4,5 ou máis."
 
-#: qml/Main.qml:27
+#: qml/Main.qml:26
 #, kde-format
 msgid "Kontrast"
 msgstr "Kontrast"
 
-#: qml/Main.qml:33 qml/MainPage.qml:20
+#: qml/Main.qml:32 qml/MainPage.qml:24
 #, kde-format
 msgctxt "@title:menu"
 msgid "Contrast Checker"
 msgstr "Comprobador de contraste"
 
-#: qml/Main.qml:51
+#: qml/Main.qml:53
 #, kde-format
 msgctxt "@title:menu"
 msgid "About"
 msgstr "Sobre"
 
-#: qml/MainPage.qml:42
+#: qml/MainPage.qml:46
 #, kde-format
 msgctxt "@label"
 msgid "Contrast ratio: %1"
 msgstr "Taxa de contraste: %1"
 
-#: qml/MainPage.qml:50
+#: qml/MainPage.qml:54
 #, kde-format
 msgid "%1"
 msgstr "%1"
 
-#: qml/MainPage.qml:62
+#: qml/MainPage.qml:66
 #, kde-format
 msgid "Perfect for normal and large text"
 msgstr "Perfecto para texto normal e grande."
 
-#: qml/MainPage.qml:62
+#: qml/MainPage.qml:66
 #, kde-format
 msgid "Perfect for large text and good for normal text"
 msgstr "Perfecto para texto grande e bo para texto normal."
 
-#: qml/MainPage.qml:62
+#: qml/MainPage.qml:66
 #, kde-format
 msgid "Good for large text and bad for normal text"
 msgstr "Bo para texto grande e malo para texto normal."
 
-#: qml/MainPage.qml:62
+#: qml/MainPage.qml:66
 #, kde-format
 msgid "Bad for large and normal text"
 msgstr "Malo para texto grande e normal."
 
-#: qml/MainPage.qml:69
+#: qml/MainPage.qml:73
 #, kde-format
 msgid ""
 "Contrast is the difference in luminance or color that makes an object (or "
@@ -258,55 +258,55 @@ msgstr ""
 "visual da realidade, o contraste determínao a diferenza entre a cor e brillo "
 "dun obxecto e o do resto de obxectos no mesmo campo de visión."
 
-#: qml/MainPage.qml:86
+#: qml/MainPage.qml:90
 #, kde-format
 msgctxt "@label"
 msgid "Text"
 msgstr "Texto"
 
-#: qml/MainPage.qml:115 qml/MainPage.qml:197
+#: qml/MainPage.qml:119 qml/MainPage.qml:201
 #, kde-format
 msgctxt "@label"
 msgid "Hue: %1°"
 msgstr "Ton: %1°"
 
-#: qml/MainPage.qml:129 qml/MainPage.qml:211
+#: qml/MainPage.qml:133 qml/MainPage.qml:215
 #, kde-format
 msgctxt "@label"
 msgid "Saturation: %1"
 msgstr "Saturación: %1"
 
-#: qml/MainPage.qml:143 qml/MainPage.qml:225
+#: qml/MainPage.qml:147 qml/MainPage.qml:229
 #, kde-format
 msgctxt "@label"
 msgid "Lightness: %1"
 msgstr "Luminosidade: %1"
 
-#: qml/MainPage.qml:169
+#: qml/MainPage.qml:173
 #, kde-format
 msgctxt "@label"
 msgid "Background"
 msgstr "Fondo"
 
-#: qml/MainPage.qml:242
+#: qml/MainPage.qml:246
 #, kde-format
 msgctxt "@label"
 msgid "Font size: %1px"
 msgstr "Tamaño do tipo de letra: %1 px"
 
-#: qml/MainPage.qml:259
+#: qml/MainPage.qml:263
 #, kde-format
 msgctxt "@action:button"
 msgid "Invert"
 msgstr "Inverter"
 
-#: qml/MainPage.qml:265
+#: qml/MainPage.qml:269
 #, kde-format
 msgctxt "@action:button"
 msgid "Randomize"
 msgstr "Aleatorio"
 
-#: qml/MainPage.qml:271
+#: qml/MainPage.qml:275
 #, kde-format
 msgctxt "@action:button"
 msgid "Mark as Favorite"

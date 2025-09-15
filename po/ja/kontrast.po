@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kontrast\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-07-02 07:01+0000\n"
+"POT-Creation-Date: 2025-09-15 00:38+0000\n"
 "PO-Revision-Date: 2025-01-27 21:36+0900\n"
 "Last-Translator: Lemon73 <Lemonade.Flash.1164@gmail.com>\n"
 "Language-Team: Japanese <kde-jp@kde.org>\n"
@@ -16,17 +16,17 @@ msgstr ""
 "X-Text-Markup: kde4\n"
 "X-Generator: Lokalize 24.12.1\n"
 
-#: kontrast.cpp:349
+#: kontrast.cpp:351
 #, kde-format
 msgid "Font size %1px is bad with the current contrast"
 msgstr "フォントサイズ %1px は現在のコントラストで適していません"
 
-#: kontrast.cpp:352
+#: kontrast.cpp:354
 #, kde-format
 msgid "Font size %1px is good with the current contrast"
 msgstr "フォントサイズ %1px は現在のコントラストで適しています"
 
-#: kontrast.cpp:355
+#: kontrast.cpp:357
 #, kde-format
 msgid "Font size %1px is perfect with the current contrast"
 msgstr "フォントサイズ %1px は現在のコントラストでとても適しています"
@@ -91,55 +91,55 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "Lemonade.Flash.1164@gmail.com"
 
-#: qml/FavoritePage.qml:16 qml/Main.qml:39
+#: qml/FavoritePage.qml:22 qml/Main.qml:41
 #, kde-format
 msgctxt "@title:menu"
 msgid "Favorite Colors"
 msgstr "お気に入りの色"
 
-#: qml/FavoritePage.qml:44
+#: qml/FavoritePage.qml:63
 #, kde-format
 msgctxt "@action:tooltip"
 msgid "Remove"
 msgstr "削除"
 
-#: qml/FavoritePage.qml:62
+#: qml/FavoritePage.qml:79
 #, kde-format
 msgctxt "@action:button"
 msgid "Text: %1"
 msgstr "文字: %1"
 
-#: qml/FavoritePage.qml:67
+#: qml/FavoritePage.qml:84
 #, kde-format
 msgctxt "@action:button"
 msgid "Background: %1"
 msgstr "背景: %1"
 
-#: qml/FavoritePage.qml:74
+#: qml/FavoritePage.qml:91
 #, kde-format
 msgctxt "@action:button"
 msgid "Apply"
 msgstr ""
 
-#: qml/FavoritePage.qml:104
+#: qml/FavoritePage.qml:121
 #, kde-format
 msgctxt "@info:inline"
 msgid "Background color copied to clipboard"
 msgstr "背景色をクリップボードにコピーしました"
 
-#: qml/FavoritePage.qml:108
+#: qml/FavoritePage.qml:125
 #, kde-format
 msgctxt "@info:inline"
 msgid "Text color copied to clipboard"
 msgstr "文字色をクリップボードにコピーしました"
 
-#: qml/FavoritePage.qml:115
+#: qml/FavoritePage.qml:132
 #, kde-format
 msgctxt "@info:inline"
 msgid "Color copied to clipboard"
 msgstr "色をクリップボードにコピーしました"
 
-#: qml/HelpPage.qml:13 qml/Main.qml:45
+#: qml/HelpPage.qml:13 qml/Main.qml:47
 #, kde-format
 msgctxt "@title:menu"
 msgid "Help"
@@ -191,55 +191,55 @@ msgstr ""
 "大きい文字では、WCAG 規格のレベル AA で最低 3 のコントラスト比が必要です。ま"
 "た、WCAG 規格のレベル AAA で最低 4.5 のコントラスト比が必要です。"
 
-#: qml/Main.qml:27
+#: qml/Main.qml:26
 #, kde-format
 msgid "Kontrast"
 msgstr "Kontrast"
 
-#: qml/Main.qml:33 qml/MainPage.qml:20
+#: qml/Main.qml:32 qml/MainPage.qml:24
 #, kde-format
 msgctxt "@title:menu"
 msgid "Contrast Checker"
 msgstr "コントラストチェッカー"
 
-#: qml/Main.qml:51
+#: qml/Main.qml:53
 #, kde-format
 msgctxt "@title:menu"
 msgid "About"
 msgstr "これは何？"
 
-#: qml/MainPage.qml:42
+#: qml/MainPage.qml:46
 #, kde-format
 msgctxt "@label"
 msgid "Contrast ratio: %1"
 msgstr "コントラスト比: %1"
 
-#: qml/MainPage.qml:50
+#: qml/MainPage.qml:54
 #, kde-format
 msgid "%1"
 msgstr "%1"
 
-#: qml/MainPage.qml:62
+#: qml/MainPage.qml:66
 #, kde-format
 msgid "Perfect for normal and large text"
 msgstr "通常サイズと大きいサイズの文字にとても適しています"
 
-#: qml/MainPage.qml:62
+#: qml/MainPage.qml:66
 #, kde-format
 msgid "Perfect for large text and good for normal text"
 msgstr "大きいサイズの文字にとても適していて、普通サイズの文字にも適しています"
 
-#: qml/MainPage.qml:62
+#: qml/MainPage.qml:66
 #, kde-format
 msgid "Good for large text and bad for normal text"
 msgstr "大きいサイズの文字に適していますが、通常サイズの文字に適していません"
 
-#: qml/MainPage.qml:62
+#: qml/MainPage.qml:66
 #, kde-format
 msgid "Bad for large and normal text"
 msgstr "大きいサイズと通常サイズの文字に適していません"
 
-#: qml/MainPage.qml:69
+#: qml/MainPage.qml:73
 #, kde-format
 msgid ""
 "Contrast is the difference in luminance or color that makes an object (or "
@@ -252,55 +252,55 @@ msgstr ""
 "きます。現実世界の視覚的認識は、物体や同じ視界内の異なる物体の色の違いや明度"
 "によって決定されます。"
 
-#: qml/MainPage.qml:86
+#: qml/MainPage.qml:90
 #, kde-format
 msgctxt "@label"
 msgid "Text"
 msgstr "文字"
 
-#: qml/MainPage.qml:115 qml/MainPage.qml:197
+#: qml/MainPage.qml:119 qml/MainPage.qml:201
 #, kde-format
 msgctxt "@label"
 msgid "Hue: %1°"
 msgstr "色相: %1°"
 
-#: qml/MainPage.qml:129 qml/MainPage.qml:211
+#: qml/MainPage.qml:133 qml/MainPage.qml:215
 #, kde-format
 msgctxt "@label"
 msgid "Saturation: %1"
 msgstr "彩度: %1"
 
-#: qml/MainPage.qml:143 qml/MainPage.qml:225
+#: qml/MainPage.qml:147 qml/MainPage.qml:229
 #, kde-format
 msgctxt "@label"
 msgid "Lightness: %1"
 msgstr "明度: %1"
 
-#: qml/MainPage.qml:169
+#: qml/MainPage.qml:173
 #, kde-format
 msgctxt "@label"
 msgid "Background"
 msgstr "背景"
 
-#: qml/MainPage.qml:242
+#: qml/MainPage.qml:246
 #, kde-format
 msgctxt "@label"
 msgid "Font size: %1px"
 msgstr "フォントサイズ: %1px"
 
-#: qml/MainPage.qml:259
+#: qml/MainPage.qml:263
 #, kde-format
 msgctxt "@action:button"
 msgid "Invert"
 msgstr "入れ替える"
 
-#: qml/MainPage.qml:265
+#: qml/MainPage.qml:269
 #, kde-format
 msgctxt "@action:button"
 msgid "Randomize"
 msgstr "ランダム"
 
-#: qml/MainPage.qml:271
+#: qml/MainPage.qml:275
 #, kde-format
 msgctxt "@action:button"
 msgid "Mark as Favorite"

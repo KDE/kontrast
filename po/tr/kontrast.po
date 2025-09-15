@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kontrast\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-07-02 07:01+0000\n"
+"POT-Creation-Date: 2025-09-15 00:38+0000\n"
 "PO-Revision-Date: 2025-09-04 15:01+0300\n"
 "Last-Translator: Emir SARI <emir_sari@îcloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
@@ -17,17 +17,17 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Lokalize 25.08.0\n"
 
-#: kontrast.cpp:349
+#: kontrast.cpp:351
 #, kde-format
 msgid "Font size %1px is bad with the current contrast"
 msgstr "Geçerli karşıtlığa %1 piksellik yazıtipi puntosu pek uymadı."
 
-#: kontrast.cpp:352
+#: kontrast.cpp:354
 #, kde-format
 msgid "Font size %1px is good with the current contrast"
 msgstr "Geçerlik karşıtlıkla %1 piksellik yazıtipi puntosu iyi gidiyor."
 
-#: kontrast.cpp:355
+#: kontrast.cpp:357
 #, kde-format
 msgid "Font size %1px is perfect with the current contrast"
 msgstr "Geçerli karşıtlığa %1 piksellik yazıtipi puntosu tam uydu."
@@ -92,55 +92,55 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "emir_sari@icloud.com"
 
-#: qml/FavoritePage.qml:16 qml/Main.qml:39
+#: qml/FavoritePage.qml:22 qml/Main.qml:41
 #, kde-format
 msgctxt "@title:menu"
 msgid "Favorite Colors"
 msgstr "Sık Kullanılan Renkler"
 
-#: qml/FavoritePage.qml:44
+#: qml/FavoritePage.qml:63
 #, kde-format
 msgctxt "@action:tooltip"
 msgid "Remove"
 msgstr "Kaldır"
 
-#: qml/FavoritePage.qml:62
+#: qml/FavoritePage.qml:79
 #, kde-format
 msgctxt "@action:button"
 msgid "Text: %1"
 msgstr "Metin: %1"
 
-#: qml/FavoritePage.qml:67
+#: qml/FavoritePage.qml:84
 #, kde-format
 msgctxt "@action:button"
 msgid "Background: %1"
 msgstr "Arka plan: %1"
 
-#: qml/FavoritePage.qml:74
+#: qml/FavoritePage.qml:91
 #, kde-format
 msgctxt "@action:button"
 msgid "Apply"
 msgstr "Uygula"
 
-#: qml/FavoritePage.qml:104
+#: qml/FavoritePage.qml:121
 #, kde-format
 msgctxt "@info:inline"
 msgid "Background color copied to clipboard"
 msgstr "Arka plan rengi panoya kopyalandı"
 
-#: qml/FavoritePage.qml:108
+#: qml/FavoritePage.qml:125
 #, kde-format
 msgctxt "@info:inline"
 msgid "Text color copied to clipboard"
 msgstr "Metin rengi panoya kopyalandı"
 
-#: qml/FavoritePage.qml:115
+#: qml/FavoritePage.qml:132
 #, kde-format
 msgctxt "@info:inline"
 msgid "Color copied to clipboard"
 msgstr "Renk panoya kopyalandı"
 
-#: qml/HelpPage.qml:13 qml/Main.qml:45
+#: qml/HelpPage.qml:13 qml/Main.qml:47
 #, kde-format
 msgctxt "@title:menu"
 msgid "Help"
@@ -196,55 +196,55 @@ msgstr ""
 "az 3 olmalıdır ve WCAG AAA standartı içinse karşıtlık değeri en az 4,5 veya "
 "daha çok olmalıdır."
 
-#: qml/Main.qml:27
+#: qml/Main.qml:26
 #, kde-format
 msgid "Kontrast"
 msgstr "Kontrast"
 
-#: qml/Main.qml:33 qml/MainPage.qml:20
+#: qml/Main.qml:32 qml/MainPage.qml:24
 #, kde-format
 msgctxt "@title:menu"
 msgid "Contrast Checker"
 msgstr "Karşıtlık Denetimcisi"
 
-#: qml/Main.qml:51
+#: qml/Main.qml:53
 #, kde-format
 msgctxt "@title:menu"
 msgid "About"
 msgstr "Hakkında"
 
-#: qml/MainPage.qml:42
+#: qml/MainPage.qml:46
 #, kde-format
 msgctxt "@label"
 msgid "Contrast ratio: %1"
 msgstr "Karşıtlık oranı: %1"
 
-#: qml/MainPage.qml:50
+#: qml/MainPage.qml:54
 #, kde-format
 msgid "%1"
 msgstr "%1"
 
-#: qml/MainPage.qml:62
+#: qml/MainPage.qml:66
 #, kde-format
 msgid "Perfect for normal and large text"
 msgstr "Normal ve büyük metin için mükemmel"
 
-#: qml/MainPage.qml:62
+#: qml/MainPage.qml:66
 #, kde-format
 msgid "Perfect for large text and good for normal text"
 msgstr "Büyük metin için mükemmel ve normal metin için iyi"
 
-#: qml/MainPage.qml:62
+#: qml/MainPage.qml:66
 #, kde-format
 msgid "Good for large text and bad for normal text"
 msgstr "Büyük metin için iyi ve normal metin için kötü"
 
-#: qml/MainPage.qml:62
+#: qml/MainPage.qml:66
 #, kde-format
 msgid "Bad for large and normal text"
 msgstr "Büyük ve normal metin için kötü"
 
-#: qml/MainPage.qml:69
+#: qml/MainPage.qml:73
 #, kde-format
 msgid ""
 "Contrast is the difference in luminance or color that makes an object (or "
@@ -258,55 +258,55 @@ msgstr ""
 "görsel algılamasında, karşıtlık, nesnenin ve aynı görüş alanındaki diğer "
 "nesnelerin renk ve parlaklığındaki ayrım ile algılanır."
 
-#: qml/MainPage.qml:86
+#: qml/MainPage.qml:90
 #, kde-format
 msgctxt "@label"
 msgid "Text"
 msgstr "Metin"
 
-#: qml/MainPage.qml:115 qml/MainPage.qml:197
+#: qml/MainPage.qml:119 qml/MainPage.qml:201
 #, kde-format
 msgctxt "@label"
 msgid "Hue: %1°"
 msgstr "Renk tonu: %1°"
 
-#: qml/MainPage.qml:129 qml/MainPage.qml:211
+#: qml/MainPage.qml:133 qml/MainPage.qml:215
 #, kde-format
 msgctxt "@label"
 msgid "Saturation: %1"
 msgstr "Doygunluk: %1"
 
-#: qml/MainPage.qml:143 qml/MainPage.qml:225
+#: qml/MainPage.qml:147 qml/MainPage.qml:229
 #, kde-format
 msgctxt "@label"
 msgid "Lightness: %1"
 msgstr "Açıklık: %1"
 
-#: qml/MainPage.qml:169
+#: qml/MainPage.qml:173
 #, kde-format
 msgctxt "@label"
 msgid "Background"
 msgstr "Arka plan"
 
-#: qml/MainPage.qml:242
+#: qml/MainPage.qml:246
 #, kde-format
 msgctxt "@label"
 msgid "Font size: %1px"
 msgstr "Yazıtipi puntosu: %1 pks"
 
-#: qml/MainPage.qml:259
+#: qml/MainPage.qml:263
 #, kde-format
 msgctxt "@action:button"
 msgid "Invert"
 msgstr "Tersine Çevir"
 
-#: qml/MainPage.qml:265
+#: qml/MainPage.qml:269
 #, kde-format
 msgctxt "@action:button"
 msgid "Randomize"
 msgstr "Rastgeleleştir"
 
-#: qml/MainPage.qml:271
+#: qml/MainPage.qml:275
 #, kde-format
 msgctxt "@action:button"
 msgid "Mark as Favorite"

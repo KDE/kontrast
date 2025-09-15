@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kontrast\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-07-02 07:01+0000\n"
+"POT-Creation-Date: 2025-09-15 00:38+0000\n"
 "PO-Revision-Date: 2023-12-05 17:30+0100\n"
 "Last-Translator: Roman Paholik <wizzardsk@gmail.com>\n"
 "Language-Team: Slovak <kde-sk@linux.sk>\n"
@@ -16,17 +16,17 @@ msgstr ""
 "X-Generator: Lokalize 23.08.3\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 
-#: kontrast.cpp:349
+#: kontrast.cpp:351
 #, kde-format
 msgid "Font size %1px is bad with the current contrast"
 msgstr ""
 
-#: kontrast.cpp:352
+#: kontrast.cpp:354
 #, kde-format
 msgid "Font size %1px is good with the current contrast"
 msgstr ""
 
-#: kontrast.cpp:355
+#: kontrast.cpp:357
 #, kde-format
 msgid "Font size %1px is perfect with the current contrast"
 msgstr ""
@@ -91,62 +91,62 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "wizzardsk@gmail.com"
 
-#: qml/FavoritePage.qml:16 qml/Main.qml:39
+#: qml/FavoritePage.qml:22 qml/Main.qml:41
 #, fuzzy, kde-format
 #| msgid "Favorite Colors"
 msgctxt "@title:menu"
 msgid "Favorite Colors"
 msgstr "Obľúbené farby"
 
-#: qml/FavoritePage.qml:44
+#: qml/FavoritePage.qml:63
 #, fuzzy, kde-format
 #| msgid "Remove"
 msgctxt "@action:tooltip"
 msgid "Remove"
 msgstr "Odstrániť"
 
-#: qml/FavoritePage.qml:62
+#: qml/FavoritePage.qml:79
 #, fuzzy, kde-format
 #| msgid "Text: %1"
 msgctxt "@action:button"
 msgid "Text: %1"
 msgstr "Text: %1"
 
-#: qml/FavoritePage.qml:67
+#: qml/FavoritePage.qml:84
 #, fuzzy, kde-format
 #| msgid "Background: %1"
 msgctxt "@action:button"
 msgid "Background: %1"
 msgstr "Pozadie: %1"
 
-#: qml/FavoritePage.qml:74
+#: qml/FavoritePage.qml:91
 #, kde-format
 msgctxt "@action:button"
 msgid "Apply"
 msgstr ""
 
-#: qml/FavoritePage.qml:104
+#: qml/FavoritePage.qml:121
 #, fuzzy, kde-format
 #| msgid "Background color copied to clipboard"
 msgctxt "@info:inline"
 msgid "Background color copied to clipboard"
 msgstr "Farba pozadia bola skopírovaná do schránky"
 
-#: qml/FavoritePage.qml:108
+#: qml/FavoritePage.qml:125
 #, fuzzy, kde-format
 #| msgid "Text color copied to clipboard"
 msgctxt "@info:inline"
 msgid "Text color copied to clipboard"
 msgstr "Farba textu bola skopírovaná do schránky"
 
-#: qml/FavoritePage.qml:115
+#: qml/FavoritePage.qml:132
 #, fuzzy, kde-format
 #| msgid "Color copied to clipboard"
 msgctxt "@info:inline"
 msgid "Color copied to clipboard"
 msgstr "Farba skopírovaná do schránky"
 
-#: qml/HelpPage.qml:13 qml/Main.qml:45
+#: qml/HelpPage.qml:13 qml/Main.qml:47
 #, fuzzy, kde-format
 #| msgid "Help"
 msgctxt "@title:menu"
@@ -204,60 +204,60 @@ msgstr ""
 "zodpovedal štandardu WSGA AA a kontrastný pomer 4,5 alebo viac sa vyžaduje, "
 "aby vyhovoval štandardu WSGA AAA."
 
-#: qml/Main.qml:27
+#: qml/Main.qml:26
 #, fuzzy, kde-format
 #| msgctxt "@title"
 #| msgid "Kontrast"
 msgid "Kontrast"
 msgstr "Kontrast"
 
-#: qml/Main.qml:33 qml/MainPage.qml:20
+#: qml/Main.qml:32 qml/MainPage.qml:24
 #, fuzzy, kde-format
 #| msgid "Contrast Checker"
 msgctxt "@title:menu"
 msgid "Contrast Checker"
 msgstr "Kontrola kontrastu"
 
-#: qml/Main.qml:51
+#: qml/Main.qml:53
 #, fuzzy, kde-format
 #| msgid "About"
 msgctxt "@title:menu"
 msgid "About"
 msgstr "O aplikácii"
 
-#: qml/MainPage.qml:42
+#: qml/MainPage.qml:46
 #, fuzzy, kde-format
 #| msgid "Contrast ratio: %1"
 msgctxt "@label"
 msgid "Contrast ratio: %1"
 msgstr "Kontrastný pomer: %1"
 
-#: qml/MainPage.qml:50
+#: qml/MainPage.qml:54
 #, kde-format
 msgid "%1"
 msgstr "%1"
 
-#: qml/MainPage.qml:62
+#: qml/MainPage.qml:66
 #, kde-format
 msgid "Perfect for normal and large text"
 msgstr "Ideálne pre normálny a veľký text"
 
-#: qml/MainPage.qml:62
+#: qml/MainPage.qml:66
 #, kde-format
 msgid "Perfect for large text and good for normal text"
 msgstr "Ideálne pre veľký text a dobré pre normálny text"
 
-#: qml/MainPage.qml:62
+#: qml/MainPage.qml:66
 #, kde-format
 msgid "Good for large text and bad for normal text"
 msgstr "Dobré pre veľký text a zlé pre normálny text"
 
-#: qml/MainPage.qml:62
+#: qml/MainPage.qml:66
 #, kde-format
 msgid "Bad for large and normal text"
 msgstr "Zlé pre veľký a normálny text"
 
-#: qml/MainPage.qml:69
+#: qml/MainPage.qml:73
 #, kde-format
 msgid ""
 "Contrast is the difference in luminance or color that makes an object (or "
@@ -271,62 +271,62 @@ msgstr ""
 "vnímaní skutočného sveta je kontrast určený rozdielom vo farbe a jasu "
 "objektu a ostatných objektov v rovnakom zornom poli."
 
-#: qml/MainPage.qml:86
+#: qml/MainPage.qml:90
 #, fuzzy, kde-format
 #| msgid "Text"
 msgctxt "@label"
 msgid "Text"
 msgstr "Text"
 
-#: qml/MainPage.qml:115 qml/MainPage.qml:197
+#: qml/MainPage.qml:119 qml/MainPage.qml:201
 #, fuzzy, kde-format
 #| msgid "Hue %1°"
 msgctxt "@label"
 msgid "Hue: %1°"
 msgstr "Odtieň %1°"
 
-#: qml/MainPage.qml:129 qml/MainPage.qml:211
+#: qml/MainPage.qml:133 qml/MainPage.qml:215
 #, fuzzy, kde-format
 #| msgid "Saturation %1"
 msgctxt "@label"
 msgid "Saturation: %1"
 msgstr "Sýtosť %1"
 
-#: qml/MainPage.qml:143 qml/MainPage.qml:225
+#: qml/MainPage.qml:147 qml/MainPage.qml:229
 #, fuzzy, kde-format
 #| msgid "Lightness %1"
 msgctxt "@label"
 msgid "Lightness: %1"
 msgstr "Jas %1"
 
-#: qml/MainPage.qml:169
+#: qml/MainPage.qml:173
 #, fuzzy, kde-format
 #| msgid "Background"
 msgctxt "@label"
 msgid "Background"
 msgstr "Pozadie"
 
-#: qml/MainPage.qml:242
+#: qml/MainPage.qml:246
 #, kde-format
 msgctxt "@label"
 msgid "Font size: %1px"
 msgstr ""
 
-#: qml/MainPage.qml:259
+#: qml/MainPage.qml:263
 #, fuzzy, kde-format
 #| msgid "Invert"
 msgctxt "@action:button"
 msgid "Invert"
 msgstr "Invertovať"
 
-#: qml/MainPage.qml:265
+#: qml/MainPage.qml:269
 #, fuzzy, kde-format
 #| msgid "Randomize"
 msgctxt "@action:button"
 msgid "Randomize"
 msgstr "Náhodne"
 
-#: qml/MainPage.qml:271
+#: qml/MainPage.qml:275
 #, fuzzy, kde-format
 #| msgid "Mark as favorite"
 msgctxt "@action:button"
