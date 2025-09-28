@@ -17,6 +17,7 @@
 #ifndef Q_OS_ANDROID
 #include <KCrash>
 #endif
+#include <KLocalizedQmlContext>
 #include <QCommandLineParser>
 #include <QDir>
 #include <QIcon>
@@ -70,7 +71,7 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
 
     QQmlApplicationEngine engine;
 
-    engine.rootContext()->setContextObject(new KLocalizedContext(&engine));
+    engine.rootContext()->setContextObject(new KLocalizedQmlContext(&engine));
     engine.loadFromModule("org.kde.kontrast", "Main");
 
     if (engine.rootObjects().isEmpty()) {

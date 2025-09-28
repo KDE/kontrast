@@ -37,6 +37,7 @@ target_link_libraries(kontrast PRIVATE
     QCoro6::Core
     KF6::I18n
     KF6::CoreAddons
+    KF6::I18nQml
 )
 
 if (TARGET KF6::Crash)
