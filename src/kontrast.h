@@ -72,7 +72,7 @@ public:
     };
 
     QColor textColor() const;
-    void setTextColor(const QColor textColor);
+    void setTextColor(const QColor &textColor);
 
     int textHue() const;
     void setTextHue(int hue);
@@ -87,7 +87,7 @@ public:
     void setFontSize(int fontSize);
 
     QColor backgroundColor() const;
-    void setBackgroundColor(const QColor backgroundColor);
+    void setBackgroundColor(const QColor &backgroundColor);
 
     int backgroundHue() const;
     void setBackgroundHue(int hue);

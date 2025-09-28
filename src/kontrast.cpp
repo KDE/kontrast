@@ -62,7 +62,7 @@ QColor Kontrast::textColor() const
     return m_textColor;
 }
 
-void Kontrast::setTextColor(const QColor textColor)
+void Kontrast::setTextColor(const QColor &textColor)
 {
     if (textColor == m_textColor) {
         return;
@@ -141,7 +141,7 @@ QColor Kontrast::backgroundColor() const
     return m_backgroundColor;
 }
 
-void Kontrast::setBackgroundColor(const QColor backgroundColor)
+void Kontrast::setBackgroundColor(const QColor &backgroundColor)
 {
     if (backgroundColor == m_backgroundColor) {
         return;
