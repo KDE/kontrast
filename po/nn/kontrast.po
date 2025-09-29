@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kontrast\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-09-15 00:38+0000\n"
+"POT-Creation-Date: 2025-09-29 00:38+0000\n"
 "PO-Revision-Date: 2024-09-27 20:36+0200\n"
 "Last-Translator: Karl Ove Hufthammer <karl@huftis.org>\n"
 "Language-Team: Norwegian Nynorsk <l10n-no@lister.huftis.org>\n"
@@ -33,61 +33,61 @@ msgstr "Skriftstorleiken %1 pikslar er brukbar med gjeldande fargekontrast"
 msgid "Font size %1px is perfect with the current contrast"
 msgstr "Skriftstorleiken %1 pikslar er perfekt med gjeldande fargekontrast"
 
-#: main.cpp:42
+#: main.cpp:43
 #, kde-format
 msgctxt "@title"
 msgid "Kontrast"
 msgstr "Kontrast"
 
-#: main.cpp:44
+#: main.cpp:45
 #, kde-format
 msgctxt "@title"
 msgid "A contrast checker application"
 msgstr "Verktøy for å sjekka fargekontrast"
 
-#: main.cpp:47
+#: main.cpp:48
 #, kde-format
 msgctxt "@info:credit"
 msgid "Carl Schwan"
 msgstr "Carl Schwan"
 
-#: main.cpp:48
+#: main.cpp:49
 #, kde-format
 msgctxt "@info:credit"
 msgid "Maintainer and creator"
 msgstr "Utviklar og vedlikehaldar"
 
-#: main.cpp:52
+#: main.cpp:53
 #, kde-format
 msgctxt "@info:credit"
 msgid "Wikipedia"
 msgstr "Wikipedia"
 
-#: main.cpp:52
+#: main.cpp:53
 #, kde-format
 msgctxt "@info:credit"
 msgid "Text on the main page CC-BY-SA-4.0"
 msgstr "Tekst på hovudsida CC-BY-SA-4.0"
 
-#: main.cpp:53
+#: main.cpp:54
 #, kde-format
 msgctxt "@info:credit"
 msgid "Carson Black"
 msgstr "Carson Black"
 
-#: main.cpp:53
+#: main.cpp:54
 #, kde-format
 msgctxt "@info:credit"
 msgid "SQLite backend for favorite colors"
 msgstr "SQLite-motor for favorittfargar"
 
-#: main.cpp:54
+#: main.cpp:55
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Karl Ove Hufthammer"
 
-#: main.cpp:54
+#: main.cpp:55
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"

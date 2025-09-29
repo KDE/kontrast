@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kontrast\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-09-15 00:38+0000\n"
+"POT-Creation-Date: 2025-09-29 00:38+0000\n"
 "PO-Revision-Date: 2025-09-04 15:01+0300\n"
 "Last-Translator: Emir SARI <emir_sari@îcloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
@@ -32,61 +32,61 @@ msgstr "Geçerlik karşıtlıkla %1 piksellik yazıtipi puntosu iyi gidiyor."
 msgid "Font size %1px is perfect with the current contrast"
 msgstr "Geçerli karşıtlığa %1 piksellik yazıtipi puntosu tam uydu."
 
-#: main.cpp:42
+#: main.cpp:43
 #, kde-format
 msgctxt "@title"
 msgid "Kontrast"
 msgstr "Kontrast"
 
-#: main.cpp:44
+#: main.cpp:45
 #, kde-format
 msgctxt "@title"
 msgid "A contrast checker application"
 msgstr "Bir karşıtlık denetimcisi uygulaması"
 
-#: main.cpp:47
+#: main.cpp:48
 #, kde-format
 msgctxt "@info:credit"
 msgid "Carl Schwan"
 msgstr "Carl Schwan"
 
-#: main.cpp:48
+#: main.cpp:49
 #, kde-format
 msgctxt "@info:credit"
 msgid "Maintainer and creator"
 msgstr "Yaratan ve bakımcı"
 
-#: main.cpp:52
+#: main.cpp:53
 #, kde-format
 msgctxt "@info:credit"
 msgid "Wikipedia"
 msgstr "Vikipedi"
 
-#: main.cpp:52
+#: main.cpp:53
 #, kde-format
 msgctxt "@info:credit"
 msgid "Text on the main page CC-BY-SA-4.0"
 msgstr "Ana sayfadaki metin CC-BY-SA-4.0 ile lisanslanmıştır"
 
-#: main.cpp:53
+#: main.cpp:54
 #, kde-format
 msgctxt "@info:credit"
 msgid "Carson Black"
 msgstr "Carson Black"
 
-#: main.cpp:53
+#: main.cpp:54
 #, kde-format
 msgctxt "@info:credit"
 msgid "SQLite backend for favorite colors"
 msgstr "Sık kullanılan renkler için SQLite arka ucu"
 
-#: main.cpp:54
+#: main.cpp:55
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Emir SARI"
 
-#: main.cpp:54
+#: main.cpp:55
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
