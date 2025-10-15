@@ -60,7 +60,7 @@ endif()
 add_definitions(-DQT_NO_CAST_FROM_ASCII -DQT_NO_CAST_TO_ASCII -DQT_NO_URL_CAST_FROM_STRING)
 add_definitions(-DQT_USE_QSTRINGBUILDER)
 add_definitions(-DQT_NO_NARROWING_CONVERSIONS_IN_CONNECT)
-ecm_set_disabled_deprecation_versions(QT 6.9.0  KF 6.18.0)
+ecm_set_disabled_deprecation_versions(QT 6.9.0  KF 6.19.0)
 kde_enable_exceptions()
 
 add_subdirectory(src)
