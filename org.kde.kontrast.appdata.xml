@@ -127,7 +127,7 @@ SPDX-License-Identifier: CC0-1.0
   <project_group>KDE</project_group>
   <url type="homepage">https://kde.org/applications/en/kontrast</url>
   <url type="bugtracker">https://invent.kde.org/accessibility/kontrast/-/issues</url>
-  <url type="donation">https://liberapay.com/Carl/</url>
+  <url type="donation">https://kde.org/donate/</url>
   <releases>
     <release version="25.08.2" date="2025-10-09"/>
     <release version="25.08.1" date="2025-09-11"/>
