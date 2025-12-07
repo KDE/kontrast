@@ -1,0 +1,247 @@
+<?xml version="1.0" ?>
+<!DOCTYPE book PUBLIC "-//KDE//DTD DocBook XML V4.5-Based Variant V1.1//EN" "dtd/kdedbx45.dtd" [
+  <!ENTITY kmyapplication "<application
+>Kontrast</application
+>">
+  <!ENTITY i18n-translatable-entity "<application
+>Entidade traduzível</application
+>">
+  <!ENTITY % addindex "IGNORE">
+  <!ENTITY % Brazilian-Portuguese "INCLUDE">
+]>
+<!--
+SPDX-FileCopyrightText: 2022 Vlad Rakhmanin <vladimir.rakhmanin@ucdconnect.ie>
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
+<book id="kmyapplication" lang="&language;">
+
+<!-- This header contains all of the meta-information for the document such
+as Authors, publish date, the abstract, and Keywords -->
+
+<bookinfo>
+<title
+>Manual do &kmyapplication;</title>
+
+<authorgroup>
+<author
+><personname
+> <firstname
+>Carl</firstname
+> <surname
+>Schwan</surname
+> </personname
+> <email
+>carl@carlschwan.eu</email
+> </author>
+<othercredit role="translator"
+><firstname
+>Marcus</firstname
+><surname
+>Gama</surname
+><affiliation
+><address
+><email
+>marcus.gama@gmail.com</email
+></address
+></affiliation
+><contrib
+>Tradução</contrib
+></othercredit
+> 
+</authorgroup>
+
+<copyright>
+<year
+>2022</year>
+<holder
+>Carl Schwan</holder>
+</copyright>
+
+<date
+>08/09/2022</date>
+
+<releaseinfo
+>Versão 22.08.0</releaseinfo>
+
+<abstract>
+<para
+>O aplicativo &kmyapplication; é um verificador de contraste de cores que permite aos usuários verificar se suas combinações de cores são acessíveis para pessoas com deficiências na visão de cores. </para>
+</abstract>
+
+<keywordset>
+<keyword
+>KDE</keyword>
+<keyword
+>Acessibilidade</keyword>
+<keyword
+>Kontrast</keyword>
+</keywordset>
+
+</bookinfo>
+
+<chapter id="introduction">
+<title
+>Introdução</title>
+
+<para
+>O aplicativo permite que o usuário verifique a taxa de contraste entre as cores e determine se o resultado é adequado para pessoas com daltonismo. Os usuários podem selecionar cores de várias maneiras, por exemplo, inserindo os valores hexadecimais manualmente ou usando a ferramenta de seleção de cor para selecionar qualquer valor de cor na tela. </para>
+
+<para
+>A verificação da taxa de contraste por este aplicativo está relacionada à diferença de cor entre dois objetos que permite distingui-los. Um valor de contraste de 21 indica um contraste perfeito (geralmente preto sobre branco) e um valor de 0 indica que as duas cores são iguais. As cores são verificadas de acordo com as Diretrizes de Acessibilidade de Conteúdo Web (WCAG). </para>
+
+</chapter>
+
+
+<chapter id="using-kapp">
+<title
+>Usando o &kmyapplication;</title>
+
+
+<para>
+<screenshot>
+<screeninfo
+>Aqui está uma captura de tela do &kmyapplication;</screeninfo>
+	<mediaobject>
+	  <imageobject>
+	    <imagedata fileref="main.png" format="PNG"/>
+	  </imageobject>
+	  <textobject>
+	    <phrase
+>Captura de tela do &kmyapplication;</phrase>
+	  </textobject>
+	</mediaobject>
+</screenshot>
+</para>
+
+<para
+>Após abrir o aplicativo, você verá uma tela semelhante à acima - esta é a tela principal do &kmyapplication; e contém a maioria de seus recursos. Uma cor de texto, uma cor de fundo e a taxa de contraste selecionadas aleatoriamente serão exibidas como exemplo. A título de exemplo, serão exibidas uma cor de texto, uma cor de fundo e sua respectiva taxa de contraste. </para>
+
+<sect1 id="kapp-color-select">
+<title
+>Selecionando cores de texto e de fundo</title>
+<para
+>Existem cinco maneiras principais de selecionar cores para comparação. Elas estão descritas abaixo. </para>
+
+<sect2 id="hex-values">
+<title
+>Inserir valores hexadecimais</title>
+<para
+>Se você souber os valores hexadecimais das cores que deseja verificar, poderá inseri-los diretamente. Para isso, clique no valor hexadecimal da cor de amostra que está na tela e digite o valor desejado.</para>
+</sect2>
+
+<sect2 id="color-picker">
+<title
+>Seletor de cor</title>
+<para
+>Se houver uma cor que esteja atualmente na sua tela - por exemplo, de uma imagem de amostra - você poderá usar a ferramenta de seleção de cor para inserir essa cor diretamente no aplicativo. Para fazer isso, clique no ícone de seleção de cor à direita do valor hexadecimal da cor selecionada e clique na cor em qualquer lugar da tela onde você gostaria de amostrá-la. A cor será selecionada no aplicativo.</para>
+</sect2>
+
+<sect2 id="hue">
+<title
+>Matiz, saturação e luminosidade</title>
+<para
+>Se você quiser ajustar sua seleção atual para ver se certas alterações têm efeito no contraste, você pode fazer isso usando os controles deslizantes de matiz, saturação e luminosidade. Eles estão localizados abaixo do valor hexadecimal da seleção atual. A seleção de cor será atualizada automaticamente conforme você fizer alterações nesses controles deslizantes.</para>
+</sect2>
+
+<sect2 id="invert">
+<title
+>Inverter</title>
+<para
+>O botão <guimenuitem
+>Inverter</guimenuitem
+> irá trocar as duas cores atualmente selecionadas, definindo a cor de fundo como a cor do texto e vice-versa.</para>
+</sect2>
+
+<sect2 id="randomize">
+<title
+>Aleatório</title>
+<para
+>O botão <guimenuitem
+>Aleatório</guimenuitem
+> atribuirá cores aleatórias tanto ao fundo quanto às cores do texto.</para>
+</sect2>
+</sect1>
+
+<sect1 id="result">
+<title
+>Resultado do contraste</title>
+<para
+>A taxa de contraste resultante da sua seleção será exibida na parte superior da tela, juntamente com uma breve nota explicando o quão bem esse contraste é adequado para textos de tamanhos variados. Este texto será atualizado automaticamente conforme as alterações forem feitas nos valores de cor. </para>
+</sect1>
+
+<sect1 id="favorite">
+<title
+>Favoritos</title>
+<para
+>O aplicativo permite que o usuário salve combinações de cores favoritas para referência futura. Para isso, pressione o botão <guimenuitem
+>Marcar como favorito</guimenuitem
+> localizado na parte inferior da tela. Essas combinações de cores podem ser acessadas novamente através do item de menu <guimenuitem
+>Cores favoritas</guimenuitem
+>, conforme descrito com mais detalhes no próximo capítulo. </para>
+</sect1>
+</chapter>
+
+<chapter id="menu">
+<title
+>Opções do menu</title>
+
+<para
+>Este capítulo descreve todos os recursos do aplicativo acessíveis após clicar no ícone <guimenu
+>Menu</guimenu
+> no canto superior esquerdo. </para>
+
+<sect1 id="contrast-checker">
+<title
+>Verificador de contraste</title>
+<para
+>Esta é a tela padrão do aplicativo, que permite ao usuário selecionar cores e visualizar sua taxa de contraste. A funcionalidade é descrita no capítulo anterior. </para>
+</sect1>
+
+<sect1 id="fave-colors">
+<title
+>Cores favoritas</title>
+<para
+>Esta tela exibirá todas as combinações de cores salvas como "favoritas" na tela <guimenuitem
+>Verificador de contraste</guimenuitem
+>. As combinações de cores podem ser excluídas pressionando o botão <guimenuitem
+>Remover</guimenuitem
+>. </para>
+</sect1>
+
+<sect1 id="help">
+<title
+>Ajuda</title>
+<para
+>Esta tela contém um breve resumo da teoria por trás deste aplicativo, com uma explicação de como o contraste funciona e qual a melhor forma de interpretar a taxa de contraste de acordo com o padrão WCAG. </para>
+</sect1>
+
+<sect1 id="about">
+<title
+>Sobre</title>
+<para
+>Esta tela contém algumas informações gerais relacionadas ao aplicativo, como os autores e as bibliotecas utilizadas. Há também um botão que permite aos usuários enviar qualquer bug que encontrarem aos desenvolvedores. </para>
+</sect1>
+
+</chapter>
+
+<chapter id="credits">
+
+<title
+>Créditos e licença</title>
+
+<para
+>&kmyapplication; </para>
+<para
+>Direitos autorais do programa 2020-2022 Carl Schwan <email
+>carl@carlschwan.eu</email
+> </para>
+
+<para
+>Direitos autorais da documentação &copy; 2022 Vlad Rakhmanin <email
+>vladimir.rakhmanin@ucdconnect.ie</email
+> </para
+>&underGPL; </chapter>
+
+&documentation.index;
+</book>
