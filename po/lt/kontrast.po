@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: kontrast\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-17 14:38+0000\n"
-"PO-Revision-Date: 2020-09-19 01:58+0200\n"
+"PO-Revision-Date: 2026-01-15 20:50+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
 "Language: lt\n"
@@ -17,141 +17,142 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n%10>=2 && (n%100<10 || n"
 "%100>=20) ? 1 : n%10==0 || (n%100>10 && n%100<20) ? 2 : 3);\n"
+"X-Generator: Poedit 3.8\n"
 
 #: kontrast.cpp:351
 #, kde-format
 msgid "Font size %1px is bad with the current contrast"
-msgstr ""
+msgstr "%1 piks. šrifto dydis netinka naudoti su dabartiniu kontrastu"
 
 #: kontrast.cpp:354
 #, kde-format
 msgid "Font size %1px is good with the current contrast"
-msgstr ""
+msgstr "%1 piks. šrifto dydis gerai tinka naudoti su dabartiniu kontrastu"
 
 #: kontrast.cpp:357
 #, kde-format
 msgid "Font size %1px is perfect with the current contrast"
-msgstr ""
+msgstr "%1 piks. šrifto dydis tobulai tinka naudoti su dabartiniu kontrastu"
 
 #: main.cpp:43
 #, kde-format
 msgctxt "@title"
 msgid "Kontrast"
-msgstr ""
+msgstr "Kontrast"
 
 #: main.cpp:45
 #, kde-format
 msgctxt "@title"
 msgid "A contrast checker application"
-msgstr ""
+msgstr "Kontrasto tikrintuvės programa"
 
 #: main.cpp:48
 #, kde-format
 msgctxt "@info:credit"
 msgid "Carl Schwan"
-msgstr ""
+msgstr "Carl Schwan"
 
 #: main.cpp:49
 #, kde-format
 msgctxt "@info:credit"
 msgid "Maintainer and creator"
-msgstr ""
+msgstr "Prižiūrėtojas ir kūrėjas"
 
 #: main.cpp:53
 #, kde-format
 msgctxt "@info:credit"
 msgid "Wikipedia"
-msgstr ""
+msgstr "Vikipedija"
 
 #: main.cpp:53
 #, kde-format
 msgctxt "@info:credit"
 msgid "Text on the main page CC-BY-SA-4.0"
-msgstr ""
+msgstr "Tekstas pagrindiniame puslapyje CC-BY-SA-4.0"
 
 #: main.cpp:54
 #, kde-format
 msgctxt "@info:credit"
 msgid "Carson Black"
-msgstr ""
+msgstr "Carson Black"
 
 #: main.cpp:54
 #, kde-format
 msgctxt "@info:credit"
 msgid "SQLite backend for favorite colors"
-msgstr ""
+msgstr "Mėgstamų spalvų SQLite vidinė pusė"
 
 #: main.cpp:55
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr ""
+msgstr "Moo"
 
 #: main.cpp:55
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr ""
+msgstr "<>"
 
 #: qml/FavoritePage.qml:22 qml/Main.qml:41
 #, kde-format
 msgctxt "@title:menu"
 msgid "Favorite Colors"
-msgstr ""
+msgstr "Mėgstamos spalvos"
 
 #: qml/FavoritePage.qml:63
 #, kde-format
 msgctxt "@action:tooltip"
 msgid "Remove"
-msgstr ""
+msgstr "Šalinti"
 
 #: qml/FavoritePage.qml:79
 #, kde-format
 msgctxt "@action:button"
 msgid "Text: %1"
-msgstr ""
+msgstr "Tekstas: %1"
 
 #: qml/FavoritePage.qml:84
 #, kde-format
 msgctxt "@action:button"
 msgid "Background: %1"
-msgstr ""
+msgstr "Fonas: %1"
 
 #: qml/FavoritePage.qml:91
 #, kde-format
 msgctxt "@action:button"
 msgid "Apply"
-msgstr ""
+msgstr "Taikyti"
 
 #: qml/FavoritePage.qml:121
 #, kde-format
 msgctxt "@info:inline"
 msgid "Background color copied to clipboard"
-msgstr ""
+msgstr "Fono spalva nukopijuota į iškarpinę"
 
 #: qml/FavoritePage.qml:125
 #, kde-format
 msgctxt "@info:inline"
 msgid "Text color copied to clipboard"
-msgstr ""
+msgstr "Teksto spalva nukopijuota į iškarpinę"
 
 #: qml/FavoritePage.qml:132
 #, kde-format
 msgctxt "@info:inline"
 msgid "Color copied to clipboard"
-msgstr ""
+msgstr "Spalva nukopijuota į iškarpinę"
 
 #: qml/HelpPage.qml:13 qml/Main.qml:47
 #, kde-format
 msgctxt "@title:menu"
 msgid "Help"
-msgstr ""
+msgstr "Pagalba"
 
 #: qml/HelpPage.qml:19
 #, kde-format
 msgctxt "@title:heading"
 msgid "Contrast"
-msgstr ""
+msgstr "Kontrastas"
 
 #: qml/HelpPage.qml:24
 #, kde-format
@@ -161,6 +162,10 @@ msgid ""
 "determined by the difference in the color and brightness of the object and "
 "other objects within the same field of view."
 msgstr ""
+"Kontrastas yra spalvų skirtumas tarp dviejų objektų, kuris leidžia juos "
+"atskirti. Kalbant apie vaizdinį realaus pasaulio suvokimą, kontrastas yra "
+"nustatomas remiantis skirtumu tarp įvairių objektų spalvos ir šviesumo tame "
+"pačiame regėjimo lauke."
 
 #: qml/HelpPage.qml:29
 #, kde-format
@@ -168,6 +173,8 @@ msgid ""
 "A contrast value of 21 indicates a perfect contrast (usually black on "
 "white), and a value of 0 indicate that the two colors are the same."
 msgstr ""
+"Kontrasto reikšmė, lygi 21, nurodo tobulą kontrastą (įprastai juodu ant "
+"balto), o reikšmė, lygi 0, nurodo, jog dvi spalvos yra vienodos."
 
 #: qml/HelpPage.qml:34
 #, kde-format
@@ -176,6 +183,9 @@ msgid ""
 "the WCAG AA standard and a contrast ratio of 7 or more is required to "
 "conform with the WCAG AAA standard."
 msgstr ""
+"Įprasto teksto kontrasto santykis turėtų būti bent 4.5, kad atitiktų WCAG AA "
+"standartą, o kontrasto santykis, lygus 7 ar daugiau, yra būtinas, kad "
+"atitiktų WCAG AAA standartą."
 
 #: qml/HelpPage.qml:39
 #, kde-format
@@ -184,54 +194,57 @@ msgid ""
 "WCAG AA standard and a contrast ratio of 4.5 or more is required to conform "
 "with the WCAG AAA standard."
 msgstr ""
+"Didelio teksto kontrasto santykis turėtų būti bent 3, kad atitiktų WCAG AA "
+"standartą, o kontrasto santykis, lygus 4.5 ar daugiau, yra būtinas, kad "
+"atitiktų WCAG AAA standartą."
 
 #: qml/Main.qml:26
 #, kde-format
 msgid "Kontrast"
-msgstr ""
+msgstr "Kontrast"
 
 #: qml/Main.qml:32 qml/MainPage.qml:24
 #, kde-format
 msgctxt "@title:menu"
 msgid "Contrast Checker"
-msgstr ""
+msgstr "Kontrasto tikrintuvė"
 
 #: qml/Main.qml:53
 #, kde-format
 msgctxt "@title:menu"
 msgid "About"
-msgstr ""
+msgstr "Apie"
 
 #: qml/MainPage.qml:46
 #, kde-format
 msgctxt "@label"
 msgid "Contrast ratio: %1"
-msgstr ""
+msgstr "Kontrasto santykis: %1"
 
 #: qml/MainPage.qml:54
 #, kde-format
 msgid "%1"
-msgstr ""
+msgstr "%1"
 
 #: qml/MainPage.qml:66
 #, kde-format
 msgid "Perfect for normal and large text"
-msgstr ""
+msgstr "Tobulai tinka įprastam ir dideliam tekstui"
 
 #: qml/MainPage.qml:66
 #, kde-format
 msgid "Perfect for large text and good for normal text"
-msgstr ""
+msgstr "Tobulai tinka dideliam tekstui ir gerai tinka įprastam tekstui"
 
 #: qml/MainPage.qml:66
 #, kde-format
 msgid "Good for large text and bad for normal text"
-msgstr ""
+msgstr "Gerai tinka dideliam tekstui ir blogai tinka įprastam tekstui"
 
 #: qml/MainPage.qml:66
 #, kde-format
 msgid "Bad for large and normal text"
-msgstr ""
+msgstr "Blogai tinka dideliam ir įprastam tekstui"
 
 #: qml/MainPage.qml:73
 #, kde-format
@@ -242,57 +255,61 @@ msgid ""
 "the color and brightness of the object and other objects within the same "
 "field of view."
 msgstr ""
+"Kontrastas – tai skirtumas tarp skaisčio ar spalvos, kuris padaro objektą "
+"(ar jo atvaizdavimą paveiksle ar ekrane) atskiriamą. Kalbant apie vaizdinį "
+"realaus pasaulio suvokimą, kontrastas yra nustatomas remiantis skirtumu tarp "
+"įvairių objektų spalvos ir šviesumo tame pačiame regėjimo lauke."
 
 #: qml/MainPage.qml:90
 #, kde-format
 msgctxt "@label"
 msgid "Text"
-msgstr ""
+msgstr "Tekstas"
 
 #: qml/MainPage.qml:119 qml/MainPage.qml:201
 #, kde-format
 msgctxt "@label"
 msgid "Hue: %1°"
-msgstr ""
+msgstr "Atspalvis: %1°"
 
 #: qml/MainPage.qml:133 qml/MainPage.qml:215
 #, kde-format
 msgctxt "@label"
 msgid "Saturation: %1"
-msgstr ""
+msgstr "Grynis: %1"
 
 #: qml/MainPage.qml:147 qml/MainPage.qml:229
 #, kde-format
 msgctxt "@label"
 msgid "Lightness: %1"
-msgstr ""
+msgstr "Šviesumas: %1"
 
 #: qml/MainPage.qml:173
 #, kde-format
 msgctxt "@label"
 msgid "Background"
-msgstr ""
+msgstr "Fonas"
 
 #: qml/MainPage.qml:246
 #, kde-format
 msgctxt "@label"
 msgid "Font size: %1px"
-msgstr ""
+msgstr "Šrifto dydis: %1 piks."
 
 #: qml/MainPage.qml:263
 #, kde-format
 msgctxt "@action:button"
 msgid "Invert"
-msgstr ""
+msgstr "Invertuoti"
 
 #: qml/MainPage.qml:269
 #, kde-format
 msgctxt "@action:button"
 msgid "Randomize"
-msgstr ""
+msgstr "Atsitiktinė"
 
 #: qml/MainPage.qml:275
 #, kde-format
 msgctxt "@action:button"
 msgid "Mark as Favorite"
-msgstr ""
+msgstr "Žymėti kaip mėgstamą"
