@@ -30,6 +30,7 @@ SPDX-License-Identifier: CC0-1.0
   <name xml:lang="ja">Kontrast</name>
   <name xml:lang="ka">Kontrast</name>
   <name xml:lang="ko">Kontrast</name>
+  <name xml:lang="lt">Kontrast</name>
   <name xml:lang="lv">Kontrast</name>
   <name xml:lang="nl">Kontrast</name>
   <name xml:lang="nn">Kontrast</name>
@@ -65,6 +66,7 @@ SPDX-License-Identifier: CC0-1.0
   <summary xml:lang="ja">色のコントラストを調べる</summary>
   <summary xml:lang="ka">ფერის კონტრასტის შემოწმება</summary>
   <summary xml:lang="ko">색 대비 검사</summary>
+  <summary xml:lang="lt">Tikrinti spalvų kontrastą</summary>
   <summary xml:lang="lv">Pārbaudiet krāsu kontrastu</summary>
   <summary xml:lang="nl">Kleurcontrast controleren</summary>
   <summary xml:lang="nn">Kontroller fargekontrast</summary>
@@ -103,6 +105,7 @@ SPDX-License-Identifier: CC0-1.0
     <p xml:lang="ja">Kontrast は、明確に読みやすくアクセス可能な色の組み合わせかわかる色のコントラストチェッカーです。</p>
     <p xml:lang="ka">Kontrast ფერების კონტრასტს ამოწმებს და გეუბნებათ, არის თუ არა ფერების კომბინაცია ნორმალური კითხვისა და მუშაობისთვის.</p>
     <p xml:lang="ko">Kontrast는 색 대비 검사기입니다. 색 조합이 쉽게 읽을 수 있고 접근성 문제가 없는지 알려 줍니다.</p>
+    <p xml:lang="lt">Kontrast yra spalvų kontrasto tikrintuvė, kuri nurodo, ar jūsų spalvų kombinacijos yra pakankamai raiškios, kad būtų įskaitomos ir prieinamos.</p>
     <p xml:lang="lv">„Kontrast“ ir krāsu kontrasta pārbaudītājs, kas parāda, vai plānotā vai izmantotā krāsu kombinācija ir pietiekami salasāma.</p>
     <p xml:lang="nl">Kontrast is een controleprogramma op kleurcontrast en vertelt u of uw kleurencombinaties voldoende onderscheid maken om leesbaar en toegankelijk te zijn.</p>
     <p xml:lang="nn">Kontrast er eit verktøy for å vurdera kontrasten til tekst- og bakgrunnsfargar. Du får veta om dei er forskjellige nok til at teksten er lett å lesa.</p>
@@ -185,6 +188,7 @@ SPDX-License-Identifier: CC0-1.0
       <caption xml:lang="ja">Kontrast の外観</caption>
       <caption xml:lang="ka">Kontrast-ის მთავარი ხედი</caption>
       <caption xml:lang="ko">Kontrast 주 보기</caption>
+      <caption xml:lang="lt">Pagrindinis Kontrast rodinys</caption>
       <caption xml:lang="lv">„Kontrast“ pamata skats</caption>
       <caption xml:lang="nl">Hoofdweergave van Kontrast</caption>
       <caption xml:lang="nn">Hovudvising i Kontrast</caption>
