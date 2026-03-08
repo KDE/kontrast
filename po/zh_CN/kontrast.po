@@ -66,7 +66,7 @@ msgstr "维基百科"
 #, kde-format
 msgctxt "@info:credit"
 msgid "Text on the main page CC-BY-SA-4.0"
-msgstr "主页显示的文字 CC-BY-SA-4.0"
+msgstr "主页显示的文本 CC-BY-SA-4.0"
 
 #: main.cpp:54
 #, kde-format
