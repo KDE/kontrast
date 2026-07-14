@@ -26,8 +26,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/danvratil/qcoro/archive/refs/tags/v0.9.0.tar.gz",
-                    "sha256": "cfaf6b778450f06adac4ce5e353eb6eae213a3b62b8c8740520d58cf9fe3ec1a",
+                    "url": "https://github.com/danvratil/qcoro/archive/refs/tags/v0.13.0.tar.gz",
+                    "sha256": "4bff7513c5c8e301b66308df05795043b1792ed16381a484e5c990171b8ff19e",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 236236,
@@ -42,13 +42,13 @@
             "buildsystem": "cmake-ninja",
             "config-opts": [
                 "-DBUILD_TESTING=OFF",
-                "-DCMAKE_BUILD_TYPE=Release"
+                "-DBUILD_WITH_QT6=ON"
             ],
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/futuresql/futuresql-0.1.0.tar.xz",
-                    "sha256": "ecd354c26c48a67795b0004e701066f6176d25d39adda1b8a1bf9c07fa48ba6a",
+                    "url": "https://download.kde.org/stable/futuresql/futuresql-0.1.1.tar.xz",
+                    "sha256": "e44ed8d5a9618b3ca7ba2983ed9c5f7572e6e0a5b199f94868834b71ccbebd43",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 368957,
@@ -56,10 +56,6 @@
                         "url-template": "https://download.kde.org/stable/futuresql/futuresql-$version.tar.xz"
                     }
                 }
-            ],
-            "config-opts": [
-                "-DBUILD_TESTING=OFF",
-                "-DBUILD_WITH_QT6=ON"
             ]
         },
         {
