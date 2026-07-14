@@ -5,15 +5,24 @@
     "runtime-version": "6.11",
     "sdk": "org.kde.Sdk",
     "command": "kontrast",
-    "tags": ["nightly"],
+    "tags": [
+        "nightly"
+    ],
     "desktop-file-name-suffix": " (Nightly)",
-    "finish-args": ["--share=ipc", "--socket=fallback-x11", "--socket=wayland", "--device=dri" ],
-
+    "finish-args": [
+        "--share=ipc",
+        "--socket=fallback-x11",
+        "--socket=wayland",
+        "--device=dri"
+    ],
     "modules": [
         {
             "name": "qcoro",
             "buildsystem": "cmake-ninja",
-            "config-opts": ["-DBUILD_TESTING=OFF", "-DCMAKE_BUILD_TYPE=Release"],
+            "config-opts": [
+                "-DBUILD_TESTING=OFF",
+                "-DCMAKE_BUILD_TYPE=Release"
+            ],
             "sources": [
                 {
                     "type": "archive",
@@ -31,7 +40,10 @@
         {
             "name": "futuresql",
             "buildsystem": "cmake-ninja",
-            "config-opts": ["-DBUILD_TESTING=OFF", "-DCMAKE_BUILD_TYPE=Release"],
+            "config-opts": [
+                "-DBUILD_TESTING=OFF",
+                "-DCMAKE_BUILD_TYPE=Release"
+            ],
             "sources": [
                 {
                     "type": "archive",
@@ -55,7 +67,7 @@
             "config-opts": [
                 "-DBUILD_TESTING=OFF",
                 "-DCMAKE_BUILD_TYPE=Release",
-		"-DBUILD_WITH_QT6=ON"
+                "-DBUILD_WITH_QT6=ON"
             ],
             "buildsystem": "cmake-ninja",
             "sources": [
@@ -68,10 +80,20 @@
         },
         {
             "name": "kontrast",
-            "config-opts": [ "-DENABLE_TESTING=OFF" ],
+            "config-opts": [
+                "-DENABLE_TESTING=OFF"
+            ],
             "buildsystem": "cmake-ninja",
             "builddir": true,
-            "sources": [ { "type": "dir", "path": ".", "skip": [".git"] } ]
+            "sources": [
+                {
+                    "type": "dir",
+                    "path": ".",
+                    "skip": [
+                        ".git"
+                    ]
+                }
+            ]
         }
     ]
 }
