@@ -18,7 +18,13 @@
                 {
                     "type": "archive",
                     "url": "https://github.com/danvratil/qcoro/archive/refs/tags/v0.9.0.tar.gz",
-                    "sha256": "cfaf6b778450f06adac4ce5e353eb6eae213a3b62b8c8740520d58cf9fe3ec1a"
+                    "sha256": "cfaf6b778450f06adac4ce5e353eb6eae213a3b62b8c8740520d58cf9fe3ec1a",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 236236,
+                        "stable-only": true,
+                        "url-template": "https://github.com/danvratil/qcoro/archive/refs/tags/v$version.tar.gz"
+                    }
                 }
             ]
         },
@@ -30,7 +36,13 @@
                 {
                     "type": "archive",
                     "url": "https://download.kde.org/stable/futuresql/futuresql-0.1.0.tar.xz",
-                    "sha256": "ecd354c26c48a67795b0004e701066f6176d25d39adda1b8a1bf9c07fa48ba6a"
+                    "sha256": "ecd354c26c48a67795b0004e701066f6176d25d39adda1b8a1bf9c07fa48ba6a",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 368957,
+                        "stable-only": true,
+                        "url-template": "https://download.kde.org/stable/futuresql/futuresql-$version.tar.xz"
+                    }
                 }
             ],
             "config-opts": [
