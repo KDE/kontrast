@@ -8,7 +8,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED)
 
 # KDE Application Version, managed by release script
 set (RELEASE_SERVICE_VERSION_MAJOR "26")
-set (RELEASE_SERVICE_VERSION_MINOR "03")
+set (RELEASE_SERVICE_VERSION_MINOR "11")
 set (RELEASE_SERVICE_VERSION_MICRO "70")
 set (RELEASE_SERVICE_VERSION "${RELEASE_SERVICE_VERSION_MAJOR}.${RELEASE_SERVICE_VERSION_MINOR}.${RELEASE_SERVICE_VERSION_MICRO}")
 
@@ -23,7 +23,7 @@ include(FeatureSummary)
 find_package(ECM ${KF_MIN_VERSION} REQUIRED NO_MODULE)
 
 # where to look first for cmake modules, before ${CMAKE_ROOT}/Modules/ is checked
-set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} ${ECM_MODULE_PATH})
+set(CMAKE_MODULE_PATH ${ECM_MODULE_PATH})
 
 include(KDEInstallDirs)
 include(KDECMakeSettings)
@@ -60,7 +60,7 @@ endif()
 add_definitions(-DQT_NO_CAST_FROM_ASCII -DQT_NO_CAST_TO_ASCII -DQT_NO_URL_CAST_FROM_STRING)
 add_definitions(-DQT_USE_QSTRINGBUILDER)
 add_definitions(-DQT_NO_NARROWING_CONVERSIONS_IN_CONNECT)
-ecm_set_disabled_deprecation_versions(QT 6.9.0  KF 6.19.0)
+ecm_set_disabled_deprecation_versions(QT 6.11.0  KF 6.26.0)
 kde_enable_exceptions()
 
 add_subdirectory(src)
