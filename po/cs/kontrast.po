@@ -1,21 +1,22 @@
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the kontrast package.
 # SPDX-FileCopyrightText: 2020, 2021, 2023, 2024 Vit Pelcak <vit@pelcak.org>
+# SPDX-FileCopyrightText: 2026 Libor Filípek <libor.filipek@gmail.com>
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: kontrast\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-17 11:48+0000\n"
-"PO-Revision-Date: 2024-04-03 11:29+0200\n"
-"Last-Translator: Vit Pelcak <vit@pelcak.org>\n"
+"PO-Revision-Date: 2026-07-29 00:15+0200\n"
+"Last-Translator: Libor Filípek <libor.filipek@gmail.com>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Lokalize 24.02.1\n"
+"X-Generator: Lokalize 26.04.3\n"
 
 #: kontrast.cpp:351
 #, kde-format
@@ -42,7 +43,7 @@ msgstr "Kontrast"
 #, kde-format
 msgctxt "@title"
 msgid "A contrast checker application"
-msgstr ""
+msgstr "Aplikace pro kontrolu kontrastu"
 
 #: main.cpp:48
 #, kde-format
@@ -54,7 +55,7 @@ msgstr "Carl Schwan"
 #, kde-format
 msgctxt "@info:credit"
 msgid "Maintainer and creator"
-msgstr ""
+msgstr "Správce a autor"
 
 #: main.cpp:53
 #, kde-format
@@ -66,7 +67,7 @@ msgstr "Wikipedia"
 #, kde-format
 msgctxt "@info:credit"
 msgid "Text on the main page CC-BY-SA-4.0"
-msgstr ""
+msgstr "Text na hlavní stránce CC-BY-SA-4.0"
 
 #: main.cpp:54
 #, kde-format
@@ -78,19 +79,19 @@ msgstr "Carson Black"
 #, kde-format
 msgctxt "@info:credit"
 msgid "SQLite backend for favorite colors"
-msgstr ""
+msgstr "Podpůrná vrstva SQLite pro oblíbené barvy"
 
 #: main.cpp:55
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Vít Pelčák"
+msgstr "Vít Pelčák,Libor Filípek"
 
 #: main.cpp:55
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "vit@pelcak.org"
+msgstr "vit@pelcak.org,libor.filipek@gmail.com"
 
 #: qml/FavoritePage.qml:22 qml/Main.qml:41
 #, kde-format
@@ -160,6 +161,9 @@ msgid ""
 "determined by the difference in the color and brightness of the object and "
 "other objects within the same field of view."
 msgstr ""
+"Kontrast je rozdíl v barvě mezi dvěma objekty, díky kterému je lze od sebe "
+"odlišit. Při vizuálním vnímání reálného světa je kontrast dán rozdílem v "
+"barvě a jasu daného objektu a ostatních objektů v tomtéž zorném poli."
 
 #: qml/HelpPage.qml:29
 #, kde-format
@@ -167,6 +171,8 @@ msgid ""
 "A contrast value of 21 indicates a perfect contrast (usually black on "
 "white), and a value of 0 indicate that the two colors are the same."
 msgstr ""
+"Hodnota kontrastu 21 označuje dokonalý kontrast (obvykle černá na bílém "
+"pozadí), zatímco hodnota 0 znamená, že obě barvy jsou stejné."
 
 #: qml/HelpPage.qml:34
 #, kde-format
@@ -175,6 +181,9 @@ msgid ""
 "the WCAG AA standard and a contrast ratio of 7 or more is required to "
 "conform with the WCAG AAA standard."
 msgstr ""
+"U běžného textu by měl být kontrastní poměr alespoň 4.5, aby byl splněn "
+"standard WCAG AA, a pro splnění standardu WCAG AAA je vyžadován kontrastní "
+"poměr 7 nebo vyšší."
 
 #: qml/HelpPage.qml:39
 #, kde-format
@@ -183,6 +192,9 @@ msgid ""
 "WCAG AA standard and a contrast ratio of 4.5 or more is required to conform "
 "with the WCAG AAA standard."
 msgstr ""
+"U velkého textu by měl být kontrastní poměr alespoň 3, aby byl v souladu s "
+"normou WCAG AA, a pro splnění normy WCAG AAA je vyžadován kontrastní poměr "
+"4.5 nebo vyšší."
 
 #: qml/Main.qml:26
 #, kde-format
@@ -193,7 +205,7 @@ msgstr "Kontrast"
 #, kde-format
 msgctxt "@title:menu"
 msgid "Contrast Checker"
-msgstr ""
+msgstr "Ověřovač kontrastu"
 
 #: qml/Main.qml:53
 #, kde-format
@@ -215,22 +227,22 @@ msgstr "%1"
 #: qml/MainPage.qml:66
 #, kde-format
 msgid "Perfect for normal and large text"
-msgstr ""
+msgstr "Ideální pro normální i velký text"
 
 #: qml/MainPage.qml:66
 #, kde-format
 msgid "Perfect for large text and good for normal text"
-msgstr ""
+msgstr "Ideální pro velký text a vhodné pro běžný text"
 
 #: qml/MainPage.qml:66
 #, kde-format
 msgid "Good for large text and bad for normal text"
-msgstr ""
+msgstr "Vhodné pro velký text, nevhodné pro běžný text"
 
 #: qml/MainPage.qml:66
 #, kde-format
 msgid "Bad for large and normal text"
-msgstr ""
+msgstr "Nevhodné pro velký i normální text"
 
 #: qml/MainPage.qml:73
 #, kde-format
@@ -241,6 +253,10 @@ msgid ""
 "the color and brightness of the object and other objects within the same "
 "field of view."
 msgstr ""
+"Kontrast je rozdíl v jasu nebo barvě, díky kterému je objekt (nebo jeho "
+"zobrazení na obrázku či displeji) rozeznatelný. Při vizuálním vnímání "
+"reálného světa je kontrast určen rozdílem v barvě a jasu daného objektu a "
+"ostatních objektů v tomtéž zorném poli."
 
 #: qml/MainPage.qml:90
 #, kde-format
