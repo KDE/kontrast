@@ -1,5 +1,6 @@
 # Translation of kontrast to Norwegian Nynorsk
 #
+# Karl Ove Hufthammer <karl@huftis.org>, 2020, 2022, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: kontrast\n"
