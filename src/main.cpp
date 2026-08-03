@@ -19,6 +19,7 @@
 #endif
 #include <KLocalizedQmlContext>
 #include <QCommandLineParser>
+#include <QDebug>
 #include <QDir>
 #include <QIcon>
 #include <QQmlApplicationEngine>
@@ -27,6 +28,8 @@
 #include <QSqlError>
 #include <QStandardPaths>
 #include <QUrl>
+
+using namespace Qt::StringLiterals;
 
 const QString DRIVER(QStringLiteral("QSQLITE"));
 
@@ -39,11 +42,8 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
 #endif
     KLocalizedString::setApplicationDomain(QByteArrayLiteral("kontrast"));
 
-    KAboutData aboutData(QStringLiteral("kontrast"),
-                         i18nc("@title", "Kontrast"),
-                         QStringLiteral(KONTRAST_VERSION_STRING),
-                         i18nc("@title", "A contrast checker application"),
-                         KAboutLicense::GPL_V3);
+    auto aboutData = KAboutData::fromAppStreamId(u"org.kde.kontrast"_s);
+    aboutData.setVersion(KONTRAST_VERSION_STRING);
 
     aboutData.addAuthor(i18nc("@info:credit", "Carl Schwan"),
                         i18nc("@info:credit", "Maintainer and creator"),
