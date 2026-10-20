@@ -70,8 +70,7 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
     aboutData.processCommandLine(&parser);
 
     QQmlApplicationEngine engine;
-
-    engine.rootContext()->setContextObject(new KLocalizedQmlContext(&engine));
+    KLocalization::setupLocalizedContext(&engine);
     engine.loadFromModule("org.kde.kontrast", "Main");
 
     if (engine.rootObjects().isEmpty()) {
