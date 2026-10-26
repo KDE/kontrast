@@ -100,3 +100,4 @@ Icon=org.kde.kontrast
 Type=Application
 Terminal=false
 Categories=Graphics;Qt;KDE;
+X-DocPath=kontrast/index.html
