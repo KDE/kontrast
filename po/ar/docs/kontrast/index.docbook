@@ -1,0 +1,249 @@
+<?xml version="1.0" ?>
+<!DOCTYPE book PUBLIC "-//KDE//DTD DocBook XML V4.5-Based Variant V1.1//EN" "dtd/kdedbx45.dtd" [
+  <!ENTITY kmyapplication "<application
+>Kontrast</application
+>">
+  <!ENTITY i18n-translatable-entity "<application
+>كيان قابل للترجمة</application
+>">
+  <!ENTITY % addindex "IGNORE">
+  <!ENTITY % Arabic "INCLUDE">
+]>
+<!--
+SPDX-FileCopyrightText: 2022 Vlad Rakhmanin <vladimir.rakhmanin@ucdconnect.ie>
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
+<book id="kmyapplication" lang="&language;">
+
+<!-- This header contains all of the meta-information for the document such
+as Authors, publish date, the abstract, and Keywords -->
+
+<bookinfo>
+<title
+>دليل &kmyapplication;</title>
+
+<authorgroup>
+<author
+><personname
+> <firstname
+>Carl</firstname
+> <surname
+>Schwan</surname
+> </personname
+> <email
+>carl@carlschwan.eu</email
+> </author>
+<othercredit role="translator"
+><firstname
+>زايد</firstname
+><surname
+>السعيدي</surname
+><affiliation
+><address
+><email
+>zayed.alsaidi@gmail.com</email
+></address
+></affiliation
+><contrib
+>التّرجمة العربيّة</contrib
+></othercredit
+> 
+</authorgroup>
+
+<copyright>
+<year
+>2022</year>
+<holder
+>كارل شوان</holder>
+</copyright>
+
+<date
+>2022-09-08</date>
+
+<releaseinfo
+>الإصدارة 22.08.0</releaseinfo>
+
+<abstract>
+<para
+>&kmyapplication; هو مدقق تباين ألوان يسمح للمستخدمين بالتحقق من إمكانية الوصول إلى تركيبات الألوان الخاصة بهم للأشخاص الذين يعانون من نقص في رؤية الألوان. </para>
+</abstract>
+
+<keywordset>
+<keyword
+>كيدي</keyword>
+<keyword
+>الإتاحة</keyword>
+<keyword
+>تباين</keyword>
+</keywordset>
+
+</bookinfo>
+
+<chapter id="introduction">
+<title
+>مقدمة</title>
+
+<para
+>يسمح &kmyapplication; للمستخدم بفحص نسبة التباين بين الألوان وتحديد ما إذا كانت النتيجة مناسبة للأشخاص الذين يعانون من نقص في رؤية الألوان. يمكن للمستخدمين اختيار الألوان بعدة طرق، على سبيل المثال، بإدخال القيم السداسية عشرية يدويًا، أو باستخدام أداة انتقاء الألوان لاختيار أي قيمة لونية على شاشتهم. </para>
+
+<para
+>يتعلق فحص نسبة التباين بواسطة هذا التطبيق بالفرق في اللون بين كائنين يسمح بتمييزهما. تشير قيمة التباين 21 إلى تباين مثالي (عادةً أسود على أبيض) وتشير القيمة 0 إلى أن اللونين متماثلان. تُفحص الألوان وفقًا لإرشادات إمكانية الوصول إلى محتوى الويب (<quote
+>WCAG</quote
+>). </para>
+
+</chapter>
+
+
+<chapter id="using-kapp">
+<title
+>استخدام &kmyapplication;</title>
+
+
+<para>
+<screenshot>
+<screeninfo
+>إليك لقطة شاشة لـ &kmyapplication;</screeninfo>
+	<mediaobject>
+	  <imageobject>
+	    <imagedata fileref="main.png" format="PNG"/>
+	  </imageobject>
+	  <textobject>
+	    <phrase
+>لقطة شاشة لـ &kmyapplication;</phrase>
+	  </textobject>
+	</mediaobject>
+</screenshot>
+</para>
+
+<para
+>بعد فتح التطبيق، ستظهر لك شاشة مشابهة للشاشة أعلاه - هذه هي الشاشة الرئيسة لـ &kmyapplication; وتحتوي على معظم ميزاته. سيتم عرض لون نص ولون خلفية ونسبة التباين بينهما تم اختيارهم عشوائيًا كمثال. </para>
+
+<sect1 id="kapp-color-select">
+<title
+>اختيار ألوان النص والخلفية</title>
+<para
+>هناك خمس طرق رئيسة يمكن بها اختيار الألوان للمقارنة. هذه موضحة أدناه. </para>
+
+<sect2 id="hex-values">
+<title
+>إدخال القيم السداسية عشرية</title>
+<para
+>إذا كنت تعرف القيم السداسية عشرية للألوان التي ترغب في فحصها، فيمكنك إدخالها مباشرة. للقيام بذلك، انقر على القيمة السداسية عشرية للون النموذجي المعروض حاليًا على الشاشة واكتب القيمة المطلوبة.</para>
+</sect2>
+
+<sect2 id="color-picker">
+<title
+>منتق الألوان</title>
+<para
+>إذا كان هناك لون موجود حاليًا على شاشتك - على سبيل المثال، من صورة نموذجية - فيمكنك استخدام أداة انتقاء الألوان لإدخال هذا اللون مباشرة في التطبيق. للقيام بذلك، انقر على أيقونة منتقي الألوان الموجودة على يمين القيمة السداسية عشرية للون المحدد حاليًا، وانقر على اللون في أي مكان على الشاشة ترغب في أخذ عينة منه. سيتم بعد ذلك تحديد اللون في التطبيق.</para>
+</sect2>
+
+<sect2 id="hue">
+<title
+>درجة اللون والتشبع والإضاءة</title>
+<para
+>إذا كنت ترغب في تعديل اختيارك الحالي لمعرفة ما إذا كانت تغييرات معينة تؤثر على التباين، فيمكنك القيام بذلك باستخدام أشرطة التمرير الخاصة بدرجة اللون والتشبع والإضاءة. توجد هذه أسفل القيمة السداسية عشرية للاختيار الحالي. سيتم تحديث اختيار اللون تلقائيًا عند إجراء تغييرات على أشرطة التمرير هذه.</para>
+</sect2>
+
+<sect2 id="invert">
+<title
+>اعكس</title>
+<para
+>سيقوم زر <guimenuitem
+>عكس</guimenuitem
+> بتبديل اللونين المحددين حاليًا، مع تعيين لون الخلفية كلون نص والعكس صحيح.</para>
+</sect2>
+
+<sect2 id="randomize">
+<title
+>عشوائي</title>
+<para
+>سيقوم زر <guimenuitem
+>عشوائي</guimenuitem
+> بتعيين ألوان عشوائية لكل من لوني الخلفية والنص.</para>
+</sect2>
+</sect1>
+
+<sect1 id="result">
+<title
+>نتيجة التباين</title>
+<para
+>سيتم عرض نسبة التباين الناتجة عن اختيارك في أعلى الشاشة، مع ملاحظة قصيرة تشرح مدى ملاءمة هذا التباين للنصوص ذات الأحجام المختلفة. سيتم تحديث هذا النص تلقائيًا عند إجراء تغييرات على قيم الألوان. </para>
+</sect1>
+
+<sect1 id="favorite">
+<title
+>المفضّلة</title>
+<para
+>يسمح &kmyapplication; للمستخدم بحفظ تركيبات الألوان المفضلة للرجوع إليها مستقبلًا. للقيام بذلك، اضغط على <guimenuitem
+>وضع علامة كمفضل</guimenuitem
+> الموجود في أسفل الشاشة. يمكن الوصول إلى تركيبات الألوان هذه مرة أخرى من خلال عنصر القائمة <guimenuitem
+>الألوان المفضلة</guimenuitem
+>، كما هو موصوف بمزيد من التفصيل في الفصل التالي. </para>
+</sect1>
+</chapter>
+
+<chapter id="menu">
+<title
+>خيارات القائمة</title>
+
+<para
+>يصف هذا الفصل جميع ميزات التطبيق التي يمكن الوصول إليها بعد النقر على أيقونة <guimenu
+>القائمة</guimenu
+> في الزاوية العلوية اليسرى. </para>
+
+<sect1 id="contrast-checker">
+<title
+>مدقق التباين</title>
+<para
+>هذه هي الشاشة المبدئية للتطبيق، وتسمح للمستخدم باختيار الألوان وعرض نسبة التباين بينها. تم وصف الوظيفة في الفصل السابق. </para>
+</sect1>
+
+<sect1 id="fave-colors">
+<title
+>الألوان المفضلة</title>
+<para
+>ستحتوي هذه الشاشة على جميع تركيبات الألوان المحفوظة كـ "مفضلة" في شاشة <guimenuitem
+>مدقق التباين</guimenuitem
+>. يمكن حذف تركيبات الألوان بالضغط على زر <guimenuitem
+>إزالة</guimenuitem
+>. </para>
+</sect1>
+
+<sect1 id="help">
+<title
+>مساعدة</title>
+<para
+>تحتوي هذه الشاشة على ملخص موجز للنظرية وراء هذا التطبيق، مع شرح لكيفية عمل التباين وكيفية تفسير نسبة التباين على أفضل وجه بما يتوافق مع معيار WCAG. </para>
+</sect1>
+
+<sect1 id="about">
+<title
+>عن</title>
+<para
+>تحتوي هذه الشاشة على بعض المعلومات العامة المتعلقة بالتطبيق، مثل المؤلفين والمكتبات المستخدمة. يوجد أيضًا زر يسمح للمستخدمين بإرسال أي خطأ قد يواجهونه إلى المطورين. </para>
+</sect1>
+
+</chapter>
+
+<chapter id="credits">
+
+<title
+>الحقوق والترخيص</title>
+
+<para
+>&kmyapplication; </para>
+<para
+>حقوق نشر البرنامج 2020-2022 كارل شوان <email
+>carl@carlschwan.eu</email
+> </para>
+
+<para
+>حقوق نشر التوثيق &copy; 2022 فلاد رخمانين <email
+>vladimir.rakhmanin@ucdconnect.ie</email
+> </para
+>&underGPL; </chapter>
+
+&documentation.index;
+</book>
