@@ -1,16 +1,16 @@
 # Translation of kontrast.po to Catalan
-# Copyright (C) 2020-2024 This_file_is_part_of_KDE
+# Copyright (C) 2020-2026 This_file_is_part_of_KDE
 # This file is distributed under the license LGPL version 2.1 or
 # version 3 or later versions approved by the membership of KDE e.V.
 #
 # SPDX-FileCopyrightText: 2020 Antoni Bella Pérez <antonibella5@yahoo.com>
-# SPDX-FileCopyrightText: 2020-2024 Josep M. Ferrer <txemaq@gmail.com>
+# SPDX-FileCopyrightText: 2020-2024, 2026 Josep M. Ferrer <txemaq@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: kontrast\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-17 11:48+0000\n"
-"PO-Revision-Date: 2024-03-29 12:46+0100\n"
+"PO-Revision-Date: 2026-11-20 16:42+0100\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 24.02.1\n"
+"X-Generator: Lokalize 25.04.0\n"
 
 #: kontrast.cpp:351
 #, kde-format
@@ -164,7 +164,7 @@ msgid ""
 "other objects within the same field of view."
 msgstr ""
 "El contrast és la diferència al color entre dos objectes que els permet "
-"distingir. En la percepció visual del món real, el contrast està determinat "
+"distingir. En la percepció visual del món real, el contrast és determinat "
 "per la diferència en el color i la brillantor de l'objecte i altres objectes "
 "dins del mateix camp de visió."
 
@@ -258,7 +258,7 @@ msgid ""
 msgstr ""
 "El contrast és la diferència en la luminància o color que fa que un objecte "
 "(o la seva representació en una imatge o pantalla) sigui distingible. En la "
-"percepció visual del món real, el contrast està determinat per la diferència "
+"percepció visual del món real, el contrast és determinat per la diferència "
 "en el color i la brillantor de l'objecte i altres objectes dins del mateix "
 "camp de visió."
 
